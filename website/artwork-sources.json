@@ -932,6 +932,13 @@
     "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
   },
   {
+    "slug": "near-dark-theatrical-poster",
+    "page": "https://www.impawards.com/1987/near_dark.html",
+    "local": "assets/near-dark-poster.jpg",
+    "credit": "Near Dark (1987) theatrical poster artwork, reproduced for film identification; copyright remains with the poster’s rights holders.",
+    "image_source": "https://www.impawards.com/1987/posters/near_dark_ver2_xlg.jpg"
+  },
+  {
     "slug": "the-stepfather",
     "page": "https://en.wikipedia.org/wiki/The_Stepfather",
     "local": "assets/the-stepfather.svg",

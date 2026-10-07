@@ -942,6 +942,13 @@ The eight movie-inspired environments in `theme-packs/art/halloween-scenes-one.p
 - Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
 - Reference: https://en.wikipedia.org/wiki/Near_Dark
 
+### near-dark-theatrical-poster
+
+- Local file: `assets/near-dark-poster.jpg`
+- Credit: Near Dark (1987) theatrical poster artwork, reproduced for film identification; copyright remains with the poster’s rights holders.
+- Reference: https://www.impawards.com/1987/near_dark.html
+- Image source: https://www.impawards.com/1987/posters/near_dark_ver2_xlg.jpg
+
 ### the-stepfather
 
 - Local file: `assets/the-stepfather.svg`
