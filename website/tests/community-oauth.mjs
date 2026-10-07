@@ -64,5 +64,14 @@ assert.equal(r.status,401);
 r=await community(callback(),env);
 assert.equal(r.status,401);
 
+// Signing in from the main page returns there and reuses the Lounge account.
+r=await community(new Request(origin+'/api/auth/google?adult=1&return=store'),env);
+const storeState=new URL(r.headers.get('location')).searchParams.get('state');
+const storeCookie=r.headers.get('set-cookie').split(';')[0];
+r=await community(new Request(origin+'/api/auth/callback?'+new URLSearchParams({state:storeState,code:'fixture-code'}),{headers:{Cookie:storeCookie}}),env);
+const storeDestination=new URL(r.headers.get('location'));
+assert.equal(storeDestination.pathname,'/');
+assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM members').first()).n,1);
+
 console.log('PASS: verified Google OAuth now uses the registered Pages callback and a one-time handoff to create a 90-day session on the custom domain; PKCE, age attestation, private identity, handoff replay and OAuth-state replay checks passed. Live Google sign-in not exercised by this test.');
 db.close();
