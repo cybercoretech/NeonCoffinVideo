@@ -11,6 +11,10 @@
 .header{display:flex;align-items:center;position:sticky;top:0;z-index:50;gap:24px;min-height:76px;background:#0b1015ed;backdrop-filter:blur(16px);border-bottom:1px solid #65e6ed38;box-shadow:0 8px 22px #08060c35}
 .header .brand{min-width:0}
 .header .brand img{width:56px;height:52px}
+.header .brand--logo{width:200px;flex-shrink:1}
+.header .brand .header-logo{width:100%;height:auto;object-fit:contain}
+@media(max-width:760px){.header:has(.brand--logo){display:grid;grid-template-columns:minmax(0,1fr) auto}.header .brand--logo{width:clamp(110px,34vw,180px);max-width:100%;margin-right:0}.header:has(.brand--logo) .header-actions{margin-left:0}}
+@media(max-width:380px){.header:has(.brand--logo){grid-template-columns:1fr}.header .brand--logo{width:160px}.header:has(.brand--logo) .header-actions{justify-self:end}}
 .header-actions{display:flex;align-items:center;margin-left:auto;gap:9px}
 :is(.header,.lounge-header) .primary-navigation{position:absolute;top:calc(100% + 10px);right:5%;display:grid;grid-template-columns:1fr 1fr;gap:4px;width:min(480px,calc(100vw - 28px));max-height:calc(100dvh - 112px);overflow:auto;margin:0;padding:14px;background:linear-gradient(145deg,#0b1015 0%,#0b1015 75%);border:1px solid #65e6ed42;box-shadow:0 20px 60px #000b,0 0 28px #65e6ed19;scrollbar-color:#65e6ed42 #65e6ed42}
 :is(.header,.lounge-header) .primary-navigation[hidden]{display:none}
