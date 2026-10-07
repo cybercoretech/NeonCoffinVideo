@@ -3,9 +3,13 @@ const db=previewDatabase(':memory:'),origin='https://neoncoffinvideo.pages.dev',
 const hash=async s=>Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s))).toString('hex');const session='a'.repeat(64),id='test-member';
 await db.prepare('INSERT INTO members(id,google_sub,handle,created) VALUES(?,?,?,?)').bind(id,'test-google-sub','TestCreature',Math.floor(Date.now()/1000)).run();await db.prepare('INSERT INTO sessions VALUES(?,?,?)').bind(await hash(session),id,Math.floor(Date.now()/1000)+600).run();
 const req=(path,body,auth=true,from=origin)=>new Request(origin+'/api/'+path,{method:body?'POST':'GET',headers:{...(auth?{Cookie:'__Host_ncv_session='+session}:{}),...(body?{Origin:from,'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})});
-let r=await community(req('community/me'),env);assert.equal((await r.json()).member.handle,'TestCreature');
+let r=await community(req('community/me'),env);let current=await r.json();assert.equal(current.member.handle,'TestCreature');assert.equal(current.ageConfirmed,false);
 r=await community(req('community/topics',{title:'A classic?',body:'My first movie discussion',category:'movie-talk'},false),env);assert.equal(r.status,401);
 r=await community(req('community/topics',{title:'A classic?',body:'My first movie discussion',category:'movie-talk'},true,'https://evil.example'),env);assert.equal(r.status,403);
+r=await community(req('community/topics',{title:'A classic?',body:'My first movie discussion',category:'movie-talk'}),env);assert.equal(r.status,403);assert.match((await r.json()).error,/18 or older/);
+r=await community(req('community/age-attest',{}),env);assert.equal(r.status,200);
+r=await community(req('community/me'),env);assert.equal((await r.json()).ageConfirmed,true);
+await db.prepare('DELETE FROM write_limits WHERE member=?').bind(id).run();
 r=await community(req('community/topics',{title:'A classic?',body:'My first movie discussion',category:'movie-talk'}),env);assert.equal(r.status,201);const topic=(await r.json()).id;
 r=await community(req('community/posts',{topic,body:'A spoiler reply',spoiler:true}),env);assert.equal(r.status,201);
 r=await community(req('community/thread?id='+topic),env);const d=await r.json();assert.equal(d.posts.length,2);assert.equal(d.posts.find(p=>p.body==='A spoiler reply').spoiler,1);

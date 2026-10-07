@@ -11,7 +11,7 @@ Six discussion rooms, title search and pagination, topic creation, replies, spoi
 
 The live-session estimate stores only a hash of a random tab-scoped token and a 90-second expiry in D1. The client refreshes it every 30 seconds while visible. No member identity or IP address is written to the presence table. The displayed number is active browser sessions, not a verified count of people.
 
-Google login uses a server-side authorization-code flow with PKCE, one-use browser-bound state, a verified Google userinfo response, and hashed server sessions in HttpOnly Secure SameSite cookies. Google access tokens are not persisted, and Google email/name are not stored in community tables or exposed in profiles. New members receive a pseudonymous handle which they can change. Database writes require authentication and the configured origin, with bounded input and per-member rate limits.
+Google login uses a server-side authorization-code flow with PKCE, one-use browser-bound state, a verified Google userinfo response, and hashed server sessions in HttpOnly Secure SameSite cookies. Google access tokens are not persisted, and Google email/name are not stored in community tables or exposed in profiles. New members receive a pseudonymous handle which they can change. Members must self-confirm that they are at least 18 before OAuth sign-in; existing sessions are asked once as well. Only the confirmation timestamp is stored—no date of birth or ID. This is a self-attestation, not robust age verification. Database writes require authentication and the configured origin, with bounded input and per-member rate limits.
 
 ## Google setup — still required
 
