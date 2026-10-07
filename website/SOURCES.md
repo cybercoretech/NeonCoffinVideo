@@ -912,6 +912,306 @@ The eight movie-inspired environments in `theme-packs/art/halloween-scenes-one.p
 - Reference: https://www.themoviedb.org/movie/13550-the-changeling/images/posters
 - Image source: https://image.tmdb.org/t/p/original/dk44PjzlcNWHILD3WfS7AXLxcjr.jpg
 
+### i-spit-on-your-grave
+
+- Local file: `assets/i-spit-on-your-grave.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/I_Spit_on_Your_Grave
+
+### henry-portrait-of-a-serial-killer
+
+- Local file: `assets/henry-portrait-of-a-serial-killer.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Henry:_Portrait_of_a_Serial_Killer
+
+### satans-blood
+
+- Local file: `assets/satans-blood.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Satan’s_Blood
+
+### slaughter-high
+
+- Local file: `assets/slaughter-high.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Slaughter_High
+
+### near-dark
+
+- Local file: `assets/near-dark.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Near_Dark
+
+### the-stepfather
+
+- Local file: `assets/the-stepfather.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/The_Stepfather
+
+### alligator
+
+- Local file: `assets/alligator.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Alligator
+
+### possession
+
+- Local file: `assets/possession.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Possession
+
+### wolfen
+
+- Local file: `assets/wolfen.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Wolfen
+
+### dead-of-winter
+
+- Local file: `assets/dead-of-winter.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Dead_of_Winter
+
+### the-hidden
+
+- Local file: `assets/the-hidden.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/The_Hidden
+
+### phenomena
+
+- Local file: `assets/phenomena.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Phenomena
+
+### bloody-birthday
+
+- Local file: `assets/bloody-birthday.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Bloody_Birthday
+
+### bad-taste
+
+- Local file: `assets/bad-taste.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Bad_Taste
+
+### q-the-winged-serpent
+
+- Local file: `assets/q-the-winged-serpent.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Q:_The_Winged_Serpent
+
+### dead-and-buried
+
+- Local file: `assets/dead-and-buried.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Dead_&_Buried
+
+### nightmare-on-elm-street-2
+
+- Local file: `assets/nightmare-on-elm-street-2.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_2:_Freddy’s_Revenge
+
+### nightmare-on-elm-street-3
+
+- Local file: `assets/nightmare-on-elm-street-3.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_3:_Dream_Warriors
+
+### nightmare-on-elm-street-4
+
+- Local file: `assets/nightmare-on-elm-street-4.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_4:_The_Dream_Master
+
+### nightmare-on-elm-street-5
+
+- Local file: `assets/nightmare-on-elm-street-5.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_5:_The_Dream_Child
+
+### cats-eye
+
+- Local file: `assets/cats-eye.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Cat’s_Eye
+
+### lady-in-white
+
+- Local file: `assets/lady-in-white.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Lady_in_White
+
+### psycho-ii
+
+- Local file: `assets/psycho-ii.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Psycho_II
+
+### the-hitcher
+
+- Local file: `assets/the-hitcher.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/The_Hitcher
+
+### cannibal-holocaust
+
+- Local file: `assets/cannibal-holocaust.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Cannibal_Holocaust
+
+### pulse-1988
+
+- Local file: `assets/pulse-1988.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Pulse
+
+### dark-night-of-the-scarecrow
+
+- Local file: `assets/dark-night-of-the-scarecrow.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Dark_Night_of_the_Scarecrow
+
+### swamp-thing
+
+- Local file: `assets/swamp-thing.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Swamp_Thing
+
+### cujo
+
+- Local file: `assets/cujo.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Cujo
+
+### dolls-1987
+
+- Local file: `assets/dolls-1987.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Dolls
+
+### april-fools-day
+
+- Local file: `assets/april-fools-day.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/April_Fool’s_Day
+
+### waxwork
+
+- Local file: `assets/waxwork.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Waxwork
+
+### lifeforce
+
+- Local file: `assets/lifeforce.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Lifeforce
+
+### maniac-cop
+
+- Local file: `assets/maniac-cop.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Maniac_Cop
+
+### puppet-master-2
+
+- Local file: `assets/puppet-master-2.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Puppet_Master_II
+
+### puppet-master-3-toulons-revenge
+
+- Local file: `assets/puppet-master-3-toulons-revenge.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Puppet_Master_III:_Toulon’s_Revenge
+
+### puppet-master-4
+
+- Local file: `assets/puppet-master-4.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Puppet_Master_4
+
+### puppet-master-5-the-final-chapter
+
+- Local file: `assets/puppet-master-5-the-final-chapter.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Puppet_Master_5:_The_Final_Chapter
+
+### curse-of-the-puppet-master
+
+- Local file: `assets/curse-of-the-puppet-master.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Curse_of_the_Puppet_Master
+
+### retro-puppet-master
+
+- Local file: `assets/retro-puppet-master.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Retro_Puppet_Master
+
+### the-silence-of-the-lambs
+
+- Local file: `assets/the-silence-of-the-lambs.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs
+
+### jacobs-ladder
+
+- Local file: `assets/jacobs-ladder.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Jacob’s_Ladder
+
+### candyman
+
+- Local file: `assets/candyman.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Candyman
+
+### scream
+
+- Local file: `assets/scream.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Scream
+
+### dead-alive
+
+- Local file: `assets/dead-alive.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Dead_Alive
+
+### the-frighteners
+
+- Local file: `assets/the-frighteners.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/The_Frighteners
+
+### cronos
+
+- Local file: `assets/cronos.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Cronos
+
+### mimic
+
+- Local file: `assets/mimic.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Mimic
+
+### ringu
+
+- Local file: `assets/ringu.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/Ringu
+
+### the-faculty
+
+- Local file: `assets/the-faculty.svg`
+- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Reference: https://en.wikipedia.org/wiki/The_Faculty
+
 ## Film and trailer frames
 
 - The Little Shop of Horrors (1960) — Original film/trailer frame. Local file: `assets/little-shop-still.png`. Source: https://upload.wikimedia.org/wikipedia/commons/c/c1/Jonathan_Haze_as_Seymour_Krelboyne.png

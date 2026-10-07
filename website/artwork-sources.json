@@ -900,5 +900,305 @@
     "local": "assets/the-changeling.jpg",
     "page": "https://www.themoviedb.org/movie/13550-the-changeling/images/posters",
     "image_source": "https://image.tmdb.org/t/p/original/dk44PjzlcNWHILD3WfS7AXLxcjr.jpg"
+  },
+  {
+    "slug": "i-spit-on-your-grave",
+    "page": "https://en.wikipedia.org/wiki/I_Spit_on_Your_Grave",
+    "local": "assets/i-spit-on-your-grave.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "henry-portrait-of-a-serial-killer",
+    "page": "https://en.wikipedia.org/wiki/Henry:_Portrait_of_a_Serial_Killer",
+    "local": "assets/henry-portrait-of-a-serial-killer.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "satans-blood",
+    "page": "https://en.wikipedia.org/wiki/Satan’s_Blood",
+    "local": "assets/satans-blood.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "slaughter-high",
+    "page": "https://en.wikipedia.org/wiki/Slaughter_High",
+    "local": "assets/slaughter-high.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "near-dark",
+    "page": "https://en.wikipedia.org/wiki/Near_Dark",
+    "local": "assets/near-dark.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "the-stepfather",
+    "page": "https://en.wikipedia.org/wiki/The_Stepfather",
+    "local": "assets/the-stepfather.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "alligator",
+    "page": "https://en.wikipedia.org/wiki/Alligator",
+    "local": "assets/alligator.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "possession",
+    "page": "https://en.wikipedia.org/wiki/Possession",
+    "local": "assets/possession.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "wolfen",
+    "page": "https://en.wikipedia.org/wiki/Wolfen",
+    "local": "assets/wolfen.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "dead-of-winter",
+    "page": "https://en.wikipedia.org/wiki/Dead_of_Winter",
+    "local": "assets/dead-of-winter.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "the-hidden",
+    "page": "https://en.wikipedia.org/wiki/The_Hidden",
+    "local": "assets/the-hidden.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "phenomena",
+    "page": "https://en.wikipedia.org/wiki/Phenomena",
+    "local": "assets/phenomena.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "bloody-birthday",
+    "page": "https://en.wikipedia.org/wiki/Bloody_Birthday",
+    "local": "assets/bloody-birthday.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "bad-taste",
+    "page": "https://en.wikipedia.org/wiki/Bad_Taste",
+    "local": "assets/bad-taste.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "q-the-winged-serpent",
+    "page": "https://en.wikipedia.org/wiki/Q:_The_Winged_Serpent",
+    "local": "assets/q-the-winged-serpent.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "dead-and-buried",
+    "page": "https://en.wikipedia.org/wiki/Dead_&_Buried",
+    "local": "assets/dead-and-buried.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "nightmare-on-elm-street-2",
+    "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_2:_Freddy’s_Revenge",
+    "local": "assets/nightmare-on-elm-street-2.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "nightmare-on-elm-street-3",
+    "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_3:_Dream_Warriors",
+    "local": "assets/nightmare-on-elm-street-3.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "nightmare-on-elm-street-4",
+    "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_4:_The_Dream_Master",
+    "local": "assets/nightmare-on-elm-street-4.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "nightmare-on-elm-street-5",
+    "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_5:_The_Dream_Child",
+    "local": "assets/nightmare-on-elm-street-5.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "cats-eye",
+    "page": "https://en.wikipedia.org/wiki/Cat’s_Eye",
+    "local": "assets/cats-eye.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "lady-in-white",
+    "page": "https://en.wikipedia.org/wiki/Lady_in_White",
+    "local": "assets/lady-in-white.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "psycho-ii",
+    "page": "https://en.wikipedia.org/wiki/Psycho_II",
+    "local": "assets/psycho-ii.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "the-hitcher",
+    "page": "https://en.wikipedia.org/wiki/The_Hitcher",
+    "local": "assets/the-hitcher.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "cannibal-holocaust",
+    "page": "https://en.wikipedia.org/wiki/Cannibal_Holocaust",
+    "local": "assets/cannibal-holocaust.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "pulse-1988",
+    "page": "https://en.wikipedia.org/wiki/Pulse",
+    "local": "assets/pulse-1988.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "dark-night-of-the-scarecrow",
+    "page": "https://en.wikipedia.org/wiki/Dark_Night_of_the_Scarecrow",
+    "local": "assets/dark-night-of-the-scarecrow.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "swamp-thing",
+    "page": "https://en.wikipedia.org/wiki/Swamp_Thing",
+    "local": "assets/swamp-thing.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "cujo",
+    "page": "https://en.wikipedia.org/wiki/Cujo",
+    "local": "assets/cujo.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "dolls-1987",
+    "page": "https://en.wikipedia.org/wiki/Dolls",
+    "local": "assets/dolls-1987.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "april-fools-day",
+    "page": "https://en.wikipedia.org/wiki/April_Fool’s_Day",
+    "local": "assets/april-fools-day.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "waxwork",
+    "page": "https://en.wikipedia.org/wiki/Waxwork",
+    "local": "assets/waxwork.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "lifeforce",
+    "page": "https://en.wikipedia.org/wiki/Lifeforce",
+    "local": "assets/lifeforce.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "maniac-cop",
+    "page": "https://en.wikipedia.org/wiki/Maniac_Cop",
+    "local": "assets/maniac-cop.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "puppet-master-2",
+    "page": "https://en.wikipedia.org/wiki/Puppet_Master_II",
+    "local": "assets/puppet-master-2.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "puppet-master-3-toulons-revenge",
+    "page": "https://en.wikipedia.org/wiki/Puppet_Master_III:_Toulon’s_Revenge",
+    "local": "assets/puppet-master-3-toulons-revenge.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "puppet-master-4",
+    "page": "https://en.wikipedia.org/wiki/Puppet_Master_4",
+    "local": "assets/puppet-master-4.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "puppet-master-5-the-final-chapter",
+    "page": "https://en.wikipedia.org/wiki/Puppet_Master_5:_The_Final_Chapter",
+    "local": "assets/puppet-master-5-the-final-chapter.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "curse-of-the-puppet-master",
+    "page": "https://en.wikipedia.org/wiki/Curse_of_the_Puppet_Master",
+    "local": "assets/curse-of-the-puppet-master.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "retro-puppet-master",
+    "page": "https://en.wikipedia.org/wiki/Retro_Puppet_Master",
+    "local": "assets/retro-puppet-master.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "the-silence-of-the-lambs",
+    "page": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs",
+    "local": "assets/the-silence-of-the-lambs.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "jacobs-ladder",
+    "page": "https://en.wikipedia.org/wiki/Jacob’s_Ladder",
+    "local": "assets/jacobs-ladder.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "candyman",
+    "page": "https://en.wikipedia.org/wiki/Candyman",
+    "local": "assets/candyman.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "scream",
+    "page": "https://en.wikipedia.org/wiki/Scream",
+    "local": "assets/scream.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "dead-alive",
+    "page": "https://en.wikipedia.org/wiki/Dead_Alive",
+    "local": "assets/dead-alive.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "the-frighteners",
+    "page": "https://en.wikipedia.org/wiki/The_Frighteners",
+    "local": "assets/the-frighteners.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "cronos",
+    "page": "https://en.wikipedia.org/wiki/Cronos",
+    "local": "assets/cronos.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "mimic",
+    "page": "https://en.wikipedia.org/wiki/Mimic",
+    "local": "assets/mimic.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "ringu",
+    "page": "https://en.wikipedia.org/wiki/Ringu",
+    "local": "assets/ringu.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "the-faculty",
+    "page": "https://en.wikipedia.org/wiki/The_Faculty",
+    "local": "assets/the-faculty.svg",
+    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
   }
 ]

@@ -6,13 +6,13 @@ const root={querySelector:s=>s==='#statsNote'?note:elements[s.match(/"(\w+)"/)[1
 let totals={views:114,members:1,discussions:5,posts:12,reviews:0}, fail=false;
 const methods=[];
 const request=async(url,opts)=>{methods.push(opts.method);return Response.json(fail?{}:totals,{status:fail?503:200})};
-const counter=startStatsCounter({filmCount:145,root,request});
+const counter=startStatsCounter({filmCount:195,root,request});
 try {
  await counter.ready;
- assert.deepEqual(Object.values(elements).map(e=>e.textContent),['114','145','1','5','12','0']);
+ assert.deepEqual(Object.values(elements).map(e=>e.textContent),['114','195','1','5','12','0']);
  assert.equal(note.dataset.state,'ready');
  totals.views=115; totals.posts=13; await counter.refresh(); assert.equal(elements.views.textContent,'115'); assert.equal(elements.posts.textContent,'13');
- fail=true; await counter.refresh(); assert.equal(elements.views.textContent,'—'); assert.equal(elements.films.textContent,'145'); assert.equal(note.dataset.state,'unavailable');
+ fail=true; await counter.refresh(); assert.equal(elements.views.textContent,'—'); assert.equal(elements.films.textContent,'195'); assert.equal(note.dataset.state,'unavailable');
  fail=false; await counter.refresh(); assert.equal(elements.views.textContent,'115');
  totals.views='bad'; await counter.refresh(); assert.equal(elements.views.textContent,'—');
  assert.deepEqual(methods,['POST','GET','GET','GET','GET']);
