@@ -1,0 +1,51 @@
+/* Rental-store labels and horror-comic ink, shared by the storefront and Lounge. */
+:root{--rental-paper:#eee9d8;--rental-ink:#080d12;--rental-print:#b6b8ab}
+:root[data-theme-motion=on] [data-ncv-pointer]:hover{background-image:none}
+.lounge-hero-actions>button:not(.neon-button){border:2px solid var(--rental-ink);border-radius:0;outline:1px solid var(--rental-paper);outline-offset:0;background:var(--rental-paper);color:var(--rental-ink);box-shadow:3px 3px 0 #000;font:18px/1.1 'Bebas Neue',sans-serif;letter-spacing:.8px}
+.lounge-account-nav button:not(.google-button){font:18px/1.1 'Bebas Neue',sans-serif;letter-spacing:.6px}
+:is(.header,.lounge-header){backdrop-filter:none;background:#080d12;border-bottom:2px solid var(--green);box-shadow:0 4px 0 #000}
+.issue-strip{background:#0b1015;border-bottom:1px dashed #eee9d838}
+.issue-motto{color:var(--rental-paper)}
+.issue-brand{border:1px solid #eee9d866;background:#080d12;box-shadow:2px 2px 0 #000}
+:is(.menu-toggle,.search-button,.tv-launch,.shelf-button,.site-membership-button,:where(.lounge-account-nav) button,.button,.neon-button,:where(.genre-footer-buttons) a,:where(.ctp-bottom-actions) button){border-radius:0;border:2px solid var(--rental-paper);background:#0b1015;color:var(--rental-paper);box-shadow:3px 3px 0 #000;transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease}
+:is(.menu-toggle,.search-button,.tv-launch,.shelf-button,.site-membership-button,:where(.lounge-account-nav) button,.button,.neon-button,:where(.genre-footer-buttons) a,:where(.ctp-bottom-actions) button):hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #000;border-color:var(--cyan)}
+:is(.menu-toggle,.search-button,.tv-launch,.shelf-button,.site-membership-button,:where(.lounge-account-nav) button,.button,.neon-button,:where(.genre-footer-buttons) a,:where(.ctp-bottom-actions) button):active{transform:translate(2px,2px);box-shadow:1px 1px 0 #000}
+:is(.menu-toggle,.site-membership-button,.tv-launch,.button,.neon-button,.genre-footer-buttons a){font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:.8px;font-weight:400;line-height:1.1}
+.menu-toggle{color:var(--rental-ink);background:var(--green);border-color:var(--rental-ink);outline:1px solid var(--green);outline-offset:0}
+.menu-toggle:hover,.menu-toggle[aria-expanded=true]{color:var(--rental-ink);background:var(--green);border-color:var(--rental-ink);box-shadow:4px 4px 0 #000}
+.menu-toggle svg,.menu-toggle .menu-reel{color:var(--rental-ink);stroke:var(--rental-ink)}
+.search-button{border-color:#eee9d877;background:#10171c}
+.search-button kbd{border-radius:0;background:var(--rental-paper);color:var(--rental-ink);border:0}
+.tv-launch{border-color:var(--cyan);color:var(--cyan);background:#080d12}
+.shelf-button b{border-radius:0;background:var(--rental-paper);color:var(--rental-ink)}
+.site-membership-button{border-color:var(--pink);color:var(--rental-paper)}
+:is(.button.green,.neon-button,.ctp-bottom-actions .ctp-view){border:2px solid var(--rental-ink);background:var(--green);color:var(--rental-ink);outline:1px solid var(--green);outline-offset:0}
+.button.pink{border:2px solid var(--rental-ink);background:var(--pink);color:var(--rental-ink)}
+.button.outline{background:var(--rental-paper);color:var(--rental-ink);border-color:var(--rental-ink);outline:1px solid var(--rental-paper);outline-offset:0}
+:is(.header,.lounge-header) .primary-navigation{padding:13px;background-color:#0b1015;background-image:radial-gradient(#eee9d80a .8px,transparent .8px);background-size:4px 4px;border:3px solid var(--rental-ink);outline:2px solid var(--cyan);box-shadow:7px 7px 0 #000;scrollbar-color:var(--green) #080d12}
+.menu-heading{align-items:center;min-height:43px;margin:-13px -13px 10px;padding:10px 13px;background:var(--green);color:var(--rental-ink);border-bottom:3px solid #000;font:24px/1.1 'Creepster',sans-serif;letter-spacing:.5px}
+.menu-heading small{color:#25323b;font:8px 'JetBrains Mono',monospace;letter-spacing:.6px}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button){min-height:61px;padding:9px;border:1px solid #eee9d842;border-radius:0;background:#080d12;color:var(--rental-paper);box-shadow:2px 2px 0 #000;transition:transform .12s ease,border-color .12s ease,background .12s ease}
+.primary-navigation>:is(a,button) span{font:20px/1.05 'Bebas Neue',sans-serif;letter-spacing:.55px;color:var(--rental-paper)}
+.primary-navigation>:is(a,button) small{color:#c2c5bb;font:8px/1.5 'JetBrains Mono',monospace}
+.primary-navigation>:is(a,button) svg{stroke:var(--cyan);stroke-width:1.8}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button):hover,:is(.header,.lounge-header) .primary-navigation>:is(a,button):focus-visible{background:#18242c;border-color:var(--green);transform:translate(-1px,-1px);color:var(--rental-paper)}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button).menu-shop{background:var(--green);border:2px solid var(--rental-ink);box-shadow:2px 2px 0 #000}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button).menu-shop span,:is(.header,.lounge-header) .primary-navigation>:is(a,button).menu-shop svg{color:var(--rental-ink);stroke:var(--rental-ink);font-size:20px}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button).menu-shop small{color:#172018}
+.menu-footer{border-top:1px dashed #eee9d855;margin-top:8px;color:var(--rental-paper)}
+.menu-utility{border-top-color:#eee9d842!important}
+:is(.filters button,.archive-toolbar select,.rotation-pick,.feature-links a,.feature-links button,.feature-controls button,:where(#categoryList) button,.profile-tabs button,.rail-prompt button,.post-tools button,.membership-ready nav a,.membership-ready nav button,.membership-tabs button){border-radius:0;border:1px solid #eee9d877;box-shadow:2px 2px 0 #000;background:#0b1015;color:var(--rental-paper)}
+:is(.filters button,.feature-controls button,.post-tools button){font-family:'JetBrains Mono',monospace}
+.filters .active,#categoryList button[aria-pressed=true]{background:var(--green);color:var(--rental-ink);border-color:var(--rental-ink)}
+#categoryList span{color:var(--cyan)}
+#categoryList button[aria-pressed=true] span{color:var(--rental-ink)}
+.rail-prompt button,.profile-tabs button{font:18px/1.2 'Bebas Neue',sans-serif;letter-spacing:.6px}
+.genre-footer-buttons a:hover{background:var(--rental-paper);color:var(--rental-ink)}
+[data-halloween-theme] .button.outline{background:var(--rental-paper);color:var(--rental-ink);border-color:var(--rental-ink)}
+[data-halloween-theme] :is(.button.green,.neon-button){background:var(--green);color:var(--rental-ink);border:2px solid var(--rental-ink)}
+[data-halloween-theme] .filters .active{background:var(--green);color:var(--rental-ink);border-color:var(--rental-ink)}
+[data-halloween-theme] .button:hover{box-shadow:4px 4px 0 #000;border-color:var(--cyan)}
+@media(max-width:760px){.menu-toggle{font-size:14px}.site-membership-button{font-size:15px}.tv-launch{font-size:0}.header .site-membership-button{font-size:0}.primary-navigation>:is(a,button) span{font-size:19px}.menu-heading{font-size:20px}.menu-heading small{font-size:7px}}
+@media(max-width:430px){.menu-toggle{font-size:0}.menu-toggle span{display:none}}
+@media(prefers-reduced-motion:reduce){:is(.menu-toggle,.search-button,.tv-launch,.shelf-button,.site-membership-button,:where(.lounge-account-nav) button,.button,.neon-button,:where(.genre-footer-buttons) a,:where(.ctp-bottom-actions) button){transition:none}}
