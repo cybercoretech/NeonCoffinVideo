@@ -1,7 +1,9 @@
 :root{scroll-padding-top:112px}
-.issue-strip{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:11px 5%;min-height:54px;background:linear-gradient(100deg,#0b1015 0%,#0b1015 55%,#0b1015 100%);border-bottom:1px solid #65e6ed3b}
-.issue-motto{font:700 15px/1 'Bebas Neue',sans-serif;letter-spacing:2.3px;color:var(--pink);text-shadow:0 0 16px #ff47a650;transition:text-shadow .2s ease,letter-spacing .2s ease}
-.issue-motto:hover{letter-spacing:2.8px;text-shadow:0 0 8px #ff47a6,0 0 22px #ff47a6a0}
+.issue-strip{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:7px 4%;min-height:40px;background:#0b1015;border-bottom:1px solid #65e6ed3b}
+.issue-motto{display:inline-flex;align-items:center;gap:9px;font:500 10px/1.5 'JetBrains Mono',monospace;letter-spacing:1.2px;color:#bac5cf;text-shadow:none;transition:color .2s ease}
+.issue-motto:before{content:'';width:3px;height:12px;flex-shrink:0;background:linear-gradient(var(--pink) 0 50%,var(--green) 50%);border-radius:1px}
+.issue-motto:hover{color:var(--green);letter-spacing:1.2px;text-shadow:none}
+@media(max-width:1450px) and (min-width:761px){.issue-strip{padding-inline:3%}}
 .issue-brand{display:flex;align-items:center;gap:10px;padding:7px 11px;border:1px solid #bbff5730;background:#0b0a10a8;color:#ddd1e0;font:9px 'JetBrains Mono',monospace;letter-spacing:1.1px;transition:border-color .2s,box-shadow .2s}
 .issue-brand:hover{border-color:#bbff5780;box-shadow:0 0 16px #bbff5718}
 .issue-brand strong{font-weight:700;color:#f7eff8;letter-spacing:1.35px}
@@ -13,6 +15,10 @@
 .header .brand img{width:56px;height:52px}
 .header .brand--logo{width:200px;flex-shrink:1}
 .header .brand .header-logo{width:100%;height:auto;object-fit:contain}
+.lounge-header .lounge-brand--logo{flex-direction:column;align-items:flex-start;gap:5px;width:200px;max-width:100%;min-width:0;flex-shrink:0}
+.lounge-header .lounge-brand .lounge-header-logo{display:block;width:100%;height:auto;object-fit:contain}
+.lounge-header .lounge-brand--logo small{margin:0 0 0 3px;font:8px/1.5 'JetBrains Mono',monospace;letter-spacing:2px;color:var(--green)}
+@media(max-width:760px){.lounge-header .lounge-brand--logo{width:170px}.lounge-header .lounge-brand--logo small{font-size:7px;letter-spacing:1.4px}}
 @media(max-width:760px){.header:has(.brand--logo){display:grid;grid-template-columns:minmax(0,1fr) auto}.header .brand--logo{width:clamp(110px,34vw,180px);max-width:100%;margin-right:0}.header:has(.brand--logo) .header-actions{margin-left:0}}
 @media(max-width:380px){.header:has(.brand--logo){grid-template-columns:1fr}.header .brand--logo{width:160px}.header:has(.brand--logo) .header-actions{justify-self:end}}
 .header-actions{display:flex;align-items:center;margin-left:auto;gap:9px}
@@ -38,7 +44,7 @@
 .menu-toggle .menu-reel{stroke:var(--green);stroke-width:1.6}
 @media(max-width:760px){
  .issue-strip{gap:7px;padding:8px 4%;min-height:49px}
- .issue-motto{font-size:12px;letter-spacing:1.4px}
+ .issue-motto{font-size:8px;letter-spacing:.7px}
  .issue-brand{gap:5px;padding:6px;font-size:7px;letter-spacing:.35px}
  .issue-brand strong{font-size:0;letter-spacing:0}
  .issue-brand strong:after{content:'NCV';font-size:8px;letter-spacing:1px}

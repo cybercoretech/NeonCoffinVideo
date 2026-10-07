@@ -3,8 +3,6 @@
 .ncv-reading-progress>span{display:block;height:100%;transform:scaleX(var(--ncv-progress,0));transform-origin:left;background:linear-gradient(90deg,var(--green) 0%,var(--green) 65%,var(--cyan) 84%,var(--pink));box-shadow:0 0 6px color-mix(in srgb,var(--green) 45%,transparent)}
 :is(.brand>.brand-name,.lounge-brand>span){text-shadow:0 0 7px color-mix(in srgb,var(--pink) 28%,transparent)}
 :is(.hero-content,.lounge-hero-copy) h1 em{color:var(--pink);text-shadow:0 0 9px color-mix(in srgb,var(--pink) 20%,transparent)}
-.issue-motto{font-weight:700;font-size:17px;letter-spacing:2px;text-shadow:0 0 6px color-mix(in srgb,var(--pink) 30%,transparent)}
-.issue-motto:hover{letter-spacing:2px;text-shadow:0 0 9px color-mix(in srgb,var(--pink) 55%,transparent)}
 .issue-brand strong{color:var(--green)}
 :is(.header,.lounge-header){border-bottom-color:color-mix(in srgb,var(--green) 30%,#65e6ed42)}
 .header:after{background:linear-gradient(90deg,transparent,var(--green) 18%,var(--green) 45%,var(--cyan) 72%,var(--pink) 91%,transparent);box-shadow:0 0 7px color-mix(in srgb,var(--green) 20%,transparent)}
@@ -32,7 +30,7 @@
 :root[data-theme-motion=off] .tonight-feature:before,:root[data-theme-motion=off] .feature-art:before{animation:none;opacity:0}
 @keyframes ncv-frame-sweep{to{--ncv-frame-angle:360deg}}
 @keyframes ncv-tape-shimmer{0%,65%{opacity:0;transform:translateY(-110%)}70%{opacity:.65}85%{opacity:.65}90%,100%{opacity:0;transform:translateY(110%)}}
-@media(max-width:760px){.issue-motto{font-size:13px;letter-spacing:1.4px}.issue-motto:hover{letter-spacing:1.4px}.lounge-header>.lounge-brand{min-width:0}.lounge-brand>span{font-size:22px}.lounge-header .lounge-account-nav{font-size:11px}.lounge-header .lounge-account-nav button{padding:10px 12px}}
+@media(max-width:760px){.lounge-header>.lounge-brand{min-width:0}.lounge-brand>span{font-size:22px}.lounge-header .lounge-account-nav{font-size:11px}.lounge-header .lounge-account-nav button{padding:10px 12px}}
 @media(prefers-reduced-motion:reduce){.tonight-feature:before,.feature-art:before{animation:none!important;opacity:0}:root{scroll-behavior:auto}:root [data-ncv-pointer]:hover{background-image:none}.issue-motto{transition:none}}
 
 /* Neutral surfaces and neon accents: no maroon framing. */
