@@ -2,6 +2,8 @@
 
 Original graphics created for Neon Coffin Video include the storefront, coffin-cassette emblem, Trioxin barrel, television cabinet, OPEN sign, and atmospheric SVG illustrations. Some original graphics were generated with AI and prepared for the site and merchandise. Original graphics are distinct from the film posters and photographs credited below.
 
+The transparent coffin-and-wordmark logo in `assets/branding/neon-coffin-video-logo.png` was generated with AI using the existing original coffin-cassette emblem as a reference. The website uses its lossless WebP version. Reusable copies are kept in the merchandise pack's `branding/` folder.
+
 Film posters, photographs, and film/trailer frames belong to their respective rights holders. These references document provenance, not a blanket license for reuse. Photo/artwork attribution is linked in each film profile and collected here.
 
 ## Halloween Collection original artwork

@@ -3,6 +3,7 @@
   "name": "Neon Coffin Video",
   "email": "info@neoncoffinvideo.site",
   "emblem": "assets/emblem.png",
+  "logo": {"src": "assets/branding/neon-coffin-video-logo.webp", "width": 2067, "height": 761},
   "tagline": "YOUR AFTER-HOURS HORROR HANGOUT",
   "signoff": "PLEASE REWIND YOUR NIGHTMARES.",
   "supportHeading": "KEEP THE LATE SHOW RUNNING.",
