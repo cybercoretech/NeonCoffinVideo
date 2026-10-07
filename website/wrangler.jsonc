@@ -11,6 +11,7 @@
     }
   ],
   "vars": {
-    "SITE_ORIGIN": "https://neoncoffinvideo.site"
+    "SITE_ORIGIN": "https://neoncoffinvideo.site",
+    "GOOGLE_CALLBACK_ORIGIN": "https://neoncoffinvideo.pages.dev"
   }
 }

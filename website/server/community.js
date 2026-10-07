@@ -17,7 +17,7 @@ const publicMember=m=>({id:m.id,handle:m.handle,bio:m.bio,favorite:m.favorite,cr
 async function rate(db,id){const w=Math.floor(now()/60);const r=await db.prepare('INSERT INTO write_limits(member,window,count) VALUES(?,?,1) ON CONFLICT(member) DO UPDATE SET count=CASE WHEN window=excluded.window THEN count+1 ELSE 1 END,window=excluded.window RETURNING count').bind(id,w).first();if(r.count>10)fail('Slow down a little—try again in a minute.',429)}
 async function stats(db){const s=await db.prepare('SELECT (SELECT COALESCE(SUM(views),0) FROM site_daily_views) AS views,(SELECT COUNT(*) FROM members) AS members,(SELECT COUNT(*) FROM topics) AS discussions,(SELECT COUNT(*) FROM posts WHERE hidden=0) AS posts,((SELECT COUNT(*) FROM reviews)+(SELECT COUNT(*) FROM trioxin_ballots)) AS reviews').first();return {views:Number(s.views),members:Number(s.members),discussions:Number(s.discussions),posts:Number(s.posts),reviews:Number(s.reviews)}}
 export async function community(request,env){
- const u=new URL(request.url),path=u.pathname,db=env.COMMUNITY_DB,siteOrigin=env.SITE_ORIGIN||'https://neoncoffinvideo.site',allowedOrigins=new Set([siteOrigin,'https://neoncoffinvideo.site','https://neoncoffinvideo.pages.dev']),origin=allowedOrigins.has(u.origin)?u.origin:siteOrigin,trustedOrigin=request.headers.get('origin')===u.origin&&allowedOrigins.has(u.origin);
+ const u=new URL(request.url),path=u.pathname,db=env.COMMUNITY_DB,siteOrigin=env.SITE_ORIGIN||'https://neoncoffinvideo.site',callbackOrigin=env.GOOGLE_CALLBACK_ORIGIN||'https://neoncoffinvideo.pages.dev',allowedOrigins=new Set([siteOrigin,callbackOrigin,'https://neoncoffinvideo.site','https://neoncoffinvideo.pages.dev']),trustedOrigin=request.headers.get('origin')===u.origin&&allowedOrigins.has(u.origin);
  const ready=!!(db&&env.GOOGLE_CLIENT_ID&&env.GOOGLE_CLIENT_SECRET);
  try{
  if(path==='/api/community/config')return reply({ready,categories,googleConfigured:ready});
@@ -27,10 +27,11 @@ export async function community(request,env){
  if(path==='/api/auth/google'){
   if(request.method!=='GET')fail('Method not allowed.',405);if(!ready)fail('Google sign-in is waiting for its connection. You can browse the lounge meanwhile.',503);
   if(u.searchParams.get('adult')!=='1')fail('Confirm that you are 18 or older to continue.',403);
+  if(u.origin!==callbackOrigin)return new Response(null,{status:302,headers:{Location:callbackOrigin+'/api/auth/google?adult=1','Cache-Control':'no-store'}});
   await rate(db,'oauth:'+await hash(request.headers.get('cf-connecting-ip')||'local'));
   const state=token(),browser=token(),verifier=token();const challenge=btoa(String.fromCharCode(...new Uint8Array(await crypto.subtle.digest('SHA-256',enc.encode(verifier))))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
   await db.batch([db.prepare('DELETE FROM oauth_states WHERE expires<?').bind(now()),db.prepare('INSERT INTO oauth_states(state,browser,verifier,expires,age_attested) VALUES(?,?,?,?,1)').bind(await hash(state),await hash(browser),verifier,now()+600)]);
-  const google=new URL('https://accounts.google.com/o/oauth2/v2/auth');google.search=new URLSearchParams({client_id:env.GOOGLE_CLIENT_ID,redirect_uri:origin+'/api/auth/callback',response_type:'code',scope:'openid email',state,code_challenge:challenge,code_challenge_method:'S256',prompt:'select_account'});
+  const google=new URL('https://accounts.google.com/o/oauth2/v2/auth');google.search=new URLSearchParams({client_id:env.GOOGLE_CLIENT_ID,redirect_uri:callbackOrigin+'/api/auth/callback',response_type:'code',scope:'openid email',state,code_challenge:challenge,code_challenge_method:'S256',prompt:'select_account'});
   return new Response(null,{status:302,headers:{Location:google.href,'Set-Cookie':cookie('__Host_ncv_oauth',browser,600),'Cache-Control':'no-store'}});
  }
  if(path==='/api/auth/callback'){
@@ -38,12 +39,18 @@ export async function community(request,env){
   if(!ready||!state||state.length!==64||!browser)fail('Sign-in expired. Please try again.',401);
   const saved=await db.prepare('DELETE FROM oauth_states WHERE state=? AND browser=? AND expires>? RETURNING verifier,age_attested').bind(await hash(state),await hash(browser),now()).first();
   if(!saved)fail('Sign-in expired or already used. Please try again.',401);if(saved.age_attested!==1)fail('Confirm that you are 18 or older to continue.',403);const code=u.searchParams.get('code');if(!code||code.length>2048)fail('Google sign-in was cancelled.',401);
-  const response=await fetch('https://oauth2.googleapis.com/token',{method:'POST',body:new URLSearchParams({code,client_id:env.GOOGLE_CLIENT_ID,client_secret:env.GOOGLE_CLIENT_SECRET,redirect_uri:origin+'/api/auth/callback',grant_type:'authorization_code',code_verifier:saved.verifier}),signal:AbortSignal.timeout(12000)});
+  const response=await fetch('https://oauth2.googleapis.com/token',{method:'POST',body:new URLSearchParams({code,client_id:env.GOOGLE_CLIENT_ID,client_secret:env.GOOGLE_CLIENT_SECRET,redirect_uri:callbackOrigin+'/api/auth/callback',grant_type:'authorization_code',code_verifier:saved.verifier}),signal:AbortSignal.timeout(12000)});
   if(!response.ok)fail('Google could not complete sign-in. Please try again.',401);const auth=await response.json();if(!auth.access_token)fail('Google could not complete sign-in.',401);
   const info=await fetch('https://openidconnect.googleapis.com/v1/userinfo',{headers:{Authorization:'Bearer '+auth.access_token},signal:AbortSignal.timeout(12000)});if(!info.ok)fail('Google could not verify your account.',401);const user=await info.json();if(typeof user.sub!=='string'||!user.email_verified)fail('Use a verified Google account.',401);
-  const id=crypto.randomUUID(),confirmed=now();await db.prepare('INSERT INTO members(id,google_sub,handle,created,age_confirmed_at) VALUES(?,?,?,?,?) ON CONFLICT(google_sub) DO UPDATE SET age_confirmed_at=excluded.age_confirmed_at').bind(id,user.sub,'NightCreature_'+id.slice(0,8),confirmed,confirmed).run();const m=await db.prepare('SELECT id FROM members WHERE google_sub=?').bind(user.sub).first();const session=token();
-  await db.batch([db.prepare('DELETE FROM sessions WHERE expires<?').bind(now()),db.prepare('INSERT INTO sessions VALUES(?,?,?)').bind(await hash(session),m.id,now()+SESSION_TTL)]);
-  const headers=new Headers({Location:origin+'/community?oauth=complete#profile','Cache-Control':'no-store','Referrer-Policy':'no-referrer'});headers.append('Set-Cookie',cookie('__Host_ncv_session',session,SESSION_TTL));headers.append('Set-Cookie',cookie('__Host_ncv_oauth','',0));return new Response(null,{status:302,headers});
+  const id=crypto.randomUUID(),confirmed=now();await db.prepare('INSERT INTO members(id,google_sub,handle,created,age_confirmed_at) VALUES(?,?,?,?,?) ON CONFLICT(google_sub) DO UPDATE SET age_confirmed_at=excluded.age_confirmed_at').bind(id,user.sub,'NightCreature_'+id.slice(0,8),confirmed,confirmed).run();const m=await db.prepare('SELECT id FROM members WHERE google_sub=?').bind(user.sub).first();
+  const ticket=token();await db.batch([db.prepare('DELETE FROM sessions WHERE expires<?').bind(now()),db.prepare('DELETE FROM oauth_handoffs WHERE expires<?').bind(now()),db.prepare('INSERT INTO oauth_handoffs(ticket_hash,member,expires) VALUES(?,?,?)').bind(await hash(ticket),m.id,now()+120)]);
+  const headers=new Headers({Location:siteOrigin+'/community?oauth=complete#claim/'+ticket,'Cache-Control':'no-store','Referrer-Policy':'no-referrer'});headers.append('Set-Cookie',cookie('__Host_ncv_oauth','',0));return new Response(null,{status:302,headers});
+ }
+ if(path==='/api/auth/claim'&&request.method==='POST'){
+  if(!trustedOrigin||u.origin!==siteOrigin)fail('Request origin rejected.',403);
+  const body=await boundedJSON(request);if(typeof body.ticket!=='string'||!/^[a-f0-9]{64}$/.test(body.ticket))fail('Sign-in handoff expired. Please sign in again.',401);
+  const handoff=await db.prepare('DELETE FROM oauth_handoffs WHERE ticket_hash=? AND expires>? RETURNING member').bind(await hash(body.ticket),now()).first();if(!handoff)fail('Sign-in handoff expired or already used. Please sign in again.',401);
+  const session=token(),expires=now()+SESSION_TTL;await db.prepare('INSERT INTO sessions VALUES(?,?,?)').bind(await hash(session),handoff.member,expires).run();return new Response(JSON.stringify({ok:true}),{headers:{'Content-Type':'application/json','Cache-Control':'no-store','Set-Cookie':cookie('__Host_ncv_session',session,SESSION_TTL)}});
  }
  const me=await member(request,db),admin=!!(me&&env.ADMIN_GOOGLE_SUB&&me.google_sub===env.ADMIN_GOOGLE_SUB);
  if(path==='/api/community/presence'&&request.method==='POST'){
