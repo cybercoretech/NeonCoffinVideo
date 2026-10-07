@@ -1,0 +1,162 @@
+<style id="ncv-horror-theme">
+/* Neon Coffin Video / verified against the live Fourthwall theme, Oct 6 2026. */
+@font-face{font-family:NCVDisplay;src:url('https://neoncoffinvideo.site/assets/fonts/horror-0.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:NCVBody;src:url('https://neoncoffinvideo.site/assets/fonts/font-0.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:NCVBody;src:url('https://neoncoffinvideo.site/assets/fonts/font-2.ttf') format('truetype');font-weight:600 900;font-display:swap}
+@font-face{font-family:NCVMono;src:url('https://neoncoffinvideo.site/assets/fonts/font-3.ttf') format('truetype');font-weight:400;font-display:swap}
+body.ncv-store{
+ --ncv-pink:#ff47a6;--ncv-green:#bbff57;--ncv-ink:#09080d;--ncv-paper:#f6eef6;
+ --font-family-base:NCVBody,sans-serif;--font-family-heading:NCVDisplay,sans-serif;--font-weight-heading:400;
+ --color-background:var(--ncv-ink);--color-background-rgb:9,8,13;
+ --color-primary:var(--ncv-pink);--color-primary-rgb:255,71,166;
+ --color-on-background:var(--ncv-paper);--color-on-background-rgb:246,238,246;
+ --color-on-primary:var(--ncv-ink);--color-on-primary-rgb:9,8,13;
+ --primary-btn-bg:var(--ncv-pink);--primary-btn-text:var(--ncv-ink);--primary-btn-border-color:var(--ncv-pink);
+ --secondary-btn-bg:transparent;--secondary-btn-text:var(--ncv-green);--secondary-btn-border-color:var(--ncv-green);
+ --primary-button-border-radius:2px;--secondary-button-border-radius:2px;
+ --color-product-image-background:#100d17;--color-product-image-background-rgb:16,13,23;
+ background:radial-gradient(ellipse at 5% 20%,#ff47a611,transparent 40%),radial-gradient(ellipse at 100% 65%,#bbff5707,transparent 36%),#09080d;
+ color:var(--ncv-paper);font-family:NCVBody,sans-serif;
+}
+.ncv-store .page{background:transparent}
+.ncv-store .header{background:#0c0911;border-bottom:1px solid #ff47a64d;box-shadow:0 6px 28px #0005;position:sticky;top:0;z-index:30}
+.ncv-store .header>.wrapper{max-width:1500px;margin-inline:auto}
+.ncv-store .header__grid{min-height:96px}
+.ncv-store .header__logo-image{width:320px!important;max-width:100%;height:auto;max-height:100px;object-fit:contain}
+.ncv-store .header__logo{max-width:320px}
+.ncv-store .header__link{font-family:NCVMono,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#e1d5e5}
+.ncv-store .header__link:hover,.ncv-store .header__icon:hover{color:var(--ncv-green)}
+.ncv-store .header__icon{color:var(--ncv-pink)}
+.ncv-store .header__dropdown,.ncv-store .footer__dropdown,.ncv-store .mobile-menu{background:#120d1a;color:var(--ncv-paper)}
+.ncv-store .header__dropdown-link:hover,.ncv-store .footer__dropdown-link:hover,.ncv-store .mobile-menu__link:hover{color:var(--ncv-green)}
+.ncv-store :focus-visible{outline:2px solid var(--ncv-green);outline-offset:5px}
+.ncv-store .button--primary,.ncv-store .button--secondary{
+ font-family:NCVBody,sans-serif;font-weight:600;font-size:13px;letter-spacing:.05em;text-transform:uppercase;
+ min-height:50px;border:1px solid var(--ncv-pink);box-shadow:0 0 22px #ff47a618;
+ transition:background-color .18s,color .18s,border-color .18s,box-shadow .18s;
+}
+.ncv-store .button--secondary{border-color:var(--ncv-green);box-shadow:none}
+.ncv-store .button--primary:hover{opacity:1;background:var(--ncv-green);border-color:var(--ncv-green);color:#09080d;box-shadow:0 0 22px #bbff5733}
+.ncv-store .button--secondary:hover{opacity:1;background:#bbff5712;color:var(--ncv-green);box-shadow:0 0 18px #bbff5722}
+.ncv-store .button:disabled{box-shadow:none;border-color:#ffffff14;background:#ffffff0a;color:#ffffff60}
+.ncv-nightstrip{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:11px max(24px,calc((100vw - 1370px)/2));border-bottom:1px solid #ffffff0d;background:#100b16;color:#b8aabe;font:10px/1.4 NCVMono,monospace;letter-spacing:.16em;text-transform:uppercase}
+.ncv-nightstrip strong{color:var(--ncv-green);font-weight:400;display:flex;align-items:center;gap:9px}
+.ncv-nightstrip i{width:6px;height:6px;border-radius:50%;background:var(--ncv-green);box-shadow:0 0 9px #bbff5780;flex:none}
+.ncv-store .ncv-hero{padding:30px 24px 0!important}
+.ncv-store .ncv-hero>.container.wrapper{position:relative;isolation:isolate;max-width:1370px;padding:0;background:#0b0812;border:1px solid #ff47a67a;border-top:3px solid var(--ncv-pink);border-bottom:3px solid var(--ncv-green);box-shadow:0 0 45px #ff47a60c,0 22px 70px #0005;overflow:hidden}
+.ncv-hero .image-section__image-container{display:block;position:relative}
+.ncv-hero .image-section__image{width:100%;height:auto;display:block}
+.ncv-hero .image-section__image-container>a::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#09060fea 0%,#09060fbe 25%,#09060f42 46%,transparent 61%),linear-gradient(0deg,#09060f55,transparent 30%)}
+.ncv-hero-topline{position:absolute;z-index:3;inset:0 0 auto;display:flex;justify-content:space-between;gap:20px;padding:15px 25px;color:#ddcde3;background:linear-gradient(#0b0812e6,#0b081285,transparent);font:9px/1.4 NCVMono,monospace;letter-spacing:.14em;text-transform:uppercase;pointer-events:none}
+.ncv-hero-topline span:last-child{color:var(--ncv-green)}
+.ncv-hero-copy{position:absolute;z-index:3;left:clamp(25px,4vw,60px);top:50%;transform:translateY(-46%);width:min(39%,490px)}
+.ncv-eyebrow{font:10px/1.6 NCVMono,monospace;letter-spacing:.17em;text-transform:uppercase;color:var(--ncv-green);margin:0 0 16px}
+.ncv-hero-copy h2{font:clamp(56px,6.7vw,98px)/.94 NCVDisplay,sans-serif;letter-spacing:.005em;color:#f6eef6;margin:0 0 21px;text-transform:uppercase}
+.ncv-hero-copy h2 span{display:block;color:var(--ncv-pink)}
+.ncv-hero-copy p:not(.ncv-eyebrow){font:15px/1.7 NCVBody,sans-serif;color:#d2bfd7;max-width:340px;margin:0 0 24px}
+.ncv-hero-copy .button{font-size:11px;padding:0 22px}
+.ncv-hero-copy .ncv-rewind{display:flex;align-items:center;gap:12px;color:#d5b8d0;font:9px/1.5 NCVMono,monospace;letter-spacing:.1em;margin-top:20px}
+.ncv-rewind svg{width:26px;height:18px;flex:none;color:var(--ncv-pink)}
+.ncv-store .ncv-release{padding:76px 24px 80px!important}
+.ncv-release .collection>.wrapper{max-width:1190px;margin-inline:auto;padding:0}
+.ncv-release-row{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,7vw,110px);align-items:center}
+.ncv-release .ncv-release-row>.col-grid{display:grid;grid-template-columns:minmax(0,1fr)!important;gap:24px;max-width:460px;width:100%;margin:0;justify-self:end}
+.ncv-collection-intro h2{font:clamp(56px,5.7vw,86px)/.96 NCVDisplay,sans-serif;letter-spacing:.005em;margin:0 0 23px;color:var(--ncv-paper)}
+.ncv-collection-intro h2 span{color:var(--ncv-pink);display:block}
+.ncv-collection-intro>p:not(.ncv-eyebrow){max-width:450px;color:#bba9c6;font:16px/1.8 NCVBody,sans-serif;margin:0 0 26px}
+.ncv-placement-list{display:grid;gap:0;padding:0;margin:0 0 29px;max-width:460px;list-style:none;border-top:1px solid #ff47a632}
+.ncv-placement-list li{display:flex;align-items:center;gap:18px;padding:14px 0;border-bottom:1px solid #ff47a632;color:#dfcfe5;font-size:13px}
+.ncv-placement-list b{font:10px NCVMono,monospace;color:var(--ncv-green);font-weight:400}
+.ncv-collection-intro>p.ncv-note{font:10px/1.8 NCVMono,monospace;color:#aa94b4;text-transform:uppercase;letter-spacing:.09em}
+.ncv-store .featured-collection .product-tile{background:#100b17;border:1px solid #ff47a656;padding:12px 12px 0;box-shadow:7px 7px 0 #bbff5712,0 24px 45px #0005;transition:border-color .2s,box-shadow .2s}
+.ncv-store .featured-collection .product-tile:hover{border-color:var(--ncv-pink);box-shadow:7px 7px 0 #bbff5727,0 0 30px #ff47a618}
+.ncv-store .featured-collection .tile{display:block;color:var(--ncv-paper);text-decoration:none}
+.ncv-store .featured-collection .tile__image{overflow:hidden;background:#100d17}
+.ncv-store .featured-collection .tile__description{padding:23px 15px 12px;text-align:left}
+.ncv-store .featured-collection .tile__heading{font:29px/1.08 NCVDisplay,sans-serif;letter-spacing:.02em;color:var(--ncv-paper);margin-bottom:10px}
+.ncv-store .featured-collection .tile__prices{font:16px NCVMono,monospace;color:var(--ncv-green)}
+.ncv-tile-cta{display:flex;align-items:center;justify-content:space-between;margin:0 15px;padding:17px 0 20px;border-top:1px solid #ff47a633;font:10px NCVMono,monospace;letter-spacing:.1em;color:var(--ncv-pink)}
+.ncv-store .product--padding{padding-top:40px}
+.ncv-store .product-info__title{font:clamp(40px,4vw,58px)/1.03 NCVDisplay,sans-serif;letter-spacing:.01em;color:var(--ncv-paper)}
+.ncv-store .product-info__price{font-family:NCVMono,monospace;color:var(--ncv-green)}
+.ncv-store .product-info__description{color:#cbb8d6;font:15px/1.8 NCVBody,sans-serif}
+.ncv-store .product-info{top:190px}
+.ncv-store .product-option__name{font-family:NCVMono,monospace;font-size:12px}
+.ncv-store .radio-button__label{border-color:#ff47a642;background:#120d1a;color:var(--ncv-paper);font-family:NCVBody,sans-serif}
+.ncv-store .radio-button__input:checked+.radio-button__label{border-color:var(--ncv-green);background:#bbff5715;color:var(--ncv-green)}
+.ncv-store .gallery-stacked__item{border:1px solid #ff47a636;background:#100d17}
+.ncv-store .accordion{border-color:#ff47a62b}
+.ncv-store .footer{padding-top:44px!important;border-top:1px solid #ff47a656;background:linear-gradient(180deg,#170d1f,#0b0810);text-align:center}
+.ncv-footer-brand{max-width:960px;margin:0 auto 32px;padding:0 24px 35px;border-bottom:1px solid #ff47a626}
+.ncv-footer-brand h2{font:clamp(37px,5vw,62px)/1.05 NCVDisplay,sans-serif;letter-spacing:.03em;color:var(--ncv-paper);margin:0 0 13px}
+.ncv-footer-brand h2 span{color:var(--ncv-pink)}
+.ncv-footer-brand p{color:#af98ba;font:10px/1.8 NCVMono,monospace;letter-spacing:.12em;margin:0 0 23px;text-transform:uppercase}
+.ncv-footer-brand>a{color:var(--ncv-green);font:11px/1.6 NCVMono,monospace;text-decoration:none;border-bottom:1px solid #bbff5750;padding-bottom:6px}
+.ncv-footer-brand>a:hover{color:var(--ncv-paper)}
+.ncv-store .footer__menu-link,.ncv-store .footer__copy,.ncv-store .footer__powered-by{font-family:NCVBody,sans-serif;font-size:12px;color:#ac96b7}
+.ncv-store .footer__menu-link:hover{color:var(--ncv-green)}
+@media(min-width:1600px){.ncv-hero-copy h2{font-size:104px}}
+@media(max-width:1050px){.ncv-hero-copy h2{font-size:70px}.ncv-hero-copy p:not(.ncv-eyebrow){font-size:13px;margin-bottom:16px}.ncv-hero-copy .ncv-rewind{margin-top:13px}.ncv-hero-copy .ncv-eyebrow{font-size:8px;margin-bottom:12px}}
+@media(max-width:1050px){
+ .ncv-store .header__grid{min-height:78px}.ncv-store .header__logo-image{width:245px!important;max-height:76px}.ncv-store .header__logo{max-width:245px}
+ .ncv-nightstrip{justify-content:center;padding:10px 16px;font-size:9px;letter-spacing:.09em}.ncv-nightstrip>span{display:none}
+ .ncv-store .ncv-hero{padding:18px 16px 0!important}.ncv-hero .image-section__image-container>a::after{background:linear-gradient(0deg,#09060f45,transparent 35%)}
+ .ncv-hero-topline{position:relative;background:#160d1e;padding:11px 14px;font-size:8px;letter-spacing:.08em;gap:8px;order:-1}
+ .ncv-hero>.container.wrapper{display:flex;flex-direction:column}
+ .ncv-hero-copy{position:relative;left:auto;top:auto;transform:none;width:auto;padding:28px 25px 32px;background:radial-gradient(ellipse at 100% 0,#ff47a619,transparent 75%),#100b17}
+ .ncv-hero-copy h2{font-size:68px;margin-bottom:17px}.ncv-hero-copy p:not(.ncv-eyebrow){font-size:15px;margin-bottom:22px;max-width:100%}
+ .ncv-hero-copy .ncv-eyebrow{font-size:9px;margin-bottom:14px}.ncv-hero-copy .button{width:100%;font-size:12px}.ncv-hero-copy .ncv-rewind{font-size:9px;margin-top:20px}
+ .ncv-store .ncv-release{padding:48px 24px 50px!important}.ncv-release-row{grid-template-columns:minmax(0,1fr);gap:30px}.ncv-collection-intro h2{font-size:62px}
+ .ncv-release .ncv-release-row>.col-grid{justify-self:center;max-width:450px}.ncv-collection-intro>p:not(.ncv-eyebrow){font-size:15px}
+ .ncv-store .header__link{font-size:10px}.ncv-store .product--padding{padding-top:22px}.ncv-footer-brand h2{font-size:43px}
+}
+@media(max-width:390px){.ncv-hero-copy h2{font-size:58px}.ncv-hero-copy{padding-inline:20px}.ncv-hero-topline{font-size:7px}.ncv-collection-intro h2{font-size:54px}}
+@media(max-width:350px){.ncv-store .header__logo-image{width:205px!important}.ncv-store .header__logo{max-width:205px}}
+@media(prefers-reduced-motion:reduce){.ncv-store *{scroll-behavior:auto!important;transition:none!important}}
+
+</style>
+<script>
+/* Adds presentation to verified native Fourthwall sections; retains their commerce controls. */
+(() => {
+ 'use strict';
+ const productPath='/products/neon-coffin-video-storefront-tee';
+ const artSection='[data-section-id="fw-section-image-aa989e76-e858-4508-a153-3beb857d022b"]';
+ function element(tag,className,html){const node=document.createElement(tag);node.className=className;node.innerHTML=html;return node;}
+ function apply(){
+  if(!document.querySelector('.header__logo')||!document.querySelector('.page__main'))return;
+  document.body.classList.add('ncv-store');
+  const header=document.querySelector('header.header');
+  if(header&&!document.querySelector('.ncv-nightstrip')){
+   header.after(element('div','ncv-nightstrip','<strong><i aria-hidden="true"></i> BAD MOVIES. GREAT NIGHTS.</strong><span>IN THE SPIRIT OF 1986</span>'));
+  }
+  const hero=document.querySelector(artSection),frame=hero?.querySelector('.container.wrapper');
+  if(hero&&frame){
+   hero.classList.add('ncv-hero');
+   const artLink=hero.querySelector('a.image-section__image-container');
+   if(artLink&&artLink.getAttribute('href')==='https://neoncoffinvideo.site/assets/storefront.png'){
+    artLink.setAttribute('href',productPath);artLink.setAttribute('aria-label','Shop the Neon Coffin Video Storefront Tee');
+   }
+   const art=hero.querySelector('img.image-section__image');
+   if(art){if(!art.alt)art.alt='The neon-lit Neon Coffin Video store beside a moonlit drive-in, reflected in rain-soaked pavement';art.loading='eager';art.fetchPriority='high';}
+   if(!frame.querySelector('.ncv-hero-topline'))frame.prepend(element('div','ncv-hero-topline','<span>THE MIDNIGHT VIDEO STORE</span><span>OFFICIAL MERCH</span>'));
+   if(!frame.querySelector('.ncv-hero-copy'))frame.append(element('div','ncv-hero-copy',
+    '<p class="ncv-eyebrow">NEON COFFIN VIDEO / AFTER DARK</p><h2>OPEN AFTER DARK.<span>WEAR THE NIGHT.</span></h2><p>The video-store glow. The midnight monsters. Your next favorite horror tee.</p><a class="button button--primary" href="'+productPath+'">SHOP THE STOREFRONT TEE <span aria-hidden="true">&nbsp;↗</span></a><div class="ncv-rewind"><svg viewBox="0 0 26 18" fill="none" aria-hidden="true"><rect x="1" y="1" width="24" height="16" rx="2" stroke="currentColor"/><circle cx="7" cy="8" r="3" stroke="currentColor"/><circle cx="19" cy="8" r="3" stroke="currentColor"/><path d="M8 14h10M10 8h6" stroke="currentColor"/></svg><span>PLEASE REWIND YOUR NIGHTMARES.</span></div>'));
+  }
+  const release=document.querySelector('.featured-collection[data-section-id="fw-section-featured-collection-0"]');
+  const row=release?.querySelector('.collection>.wrapper');
+  if(release&&row&&release.querySelector('a.tile[href="'+productPath+'"]')){
+   release.classList.add('ncv-release');row.classList.add('ncv-release-row');
+   if(!row.querySelector('.ncv-collection-intro'))row.prepend(element('div','ncv-collection-intro',
+    '<p class="ncv-eyebrow">THE MERCH SHELF / STOREFRONT TEE</p><h2>BRING THE GLOW.<span>KEEP THE NIGHT.</span></h2><p>Our neon-lit horror shop, built for the shirt: the moonlit marquee, the monsters in the windows, and the rain-soaked glow.</p><ul class="ncv-placement-list"><li><b>01</b> Storefront artwork on the front</li><li><b>02</b> Coffin-cassette sleeve detail</li><li><b>03</b> Neon Coffin Video back-neck detail</li></ul><p class="ncv-note">MADE TO ORDER / CHOOSE YOUR SIZE ON THE PRODUCT PAGE</p>'));
+   const tile=release.querySelector('a.tile[href="'+productPath+'"]');
+   if(tile&&!tile.querySelector('.ncv-tile-cta'))tile.append(element('span','ncv-tile-cta','<span>VIEW THE TEE / SELECT YOUR SIZE</span><span aria-hidden="true">↗</span>'));
+   for(const image of release.querySelectorAll('img.tile__item'))if(!image.alt)image.alt=image.classList.contains('tile__item--1')?'Neon Coffin Video Storefront Tee, front garment mockup':'Neon Coffin Video Storefront Tee, alternate garment mockup';
+  }
+  const footer=document.querySelector('footer.footer');
+  if(footer&&!footer.querySelector('.ncv-footer-brand'))footer.prepend(element('div','ncv-footer-brand',
+   '<h2>BAD MOVIES.<span> GREAT NIGHTS.</span></h2><p>FROM THE VIDEO STORE TO YOUR CLOSET.</p><a href="https://neoncoffinvideo.site/">BACK TO THE VIDEO STORE <span aria-hidden="true">↗</span></a>'));
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',apply,{once:true});else apply();
+})();
+
+</script>

@@ -1,0 +1,17 @@
+.crypt-stats{position:relative;width:min(920px,100%);margin:24px 0 20px;padding:13px 16px 10px;overflow:hidden;border:1px solid #ff47a65c;background:linear-gradient(105deg,#100b19ed,#16101edb 58%,#09141bdc);box-shadow:inset 0 0 28px #ff47a60c,0 8px 28px #0005;backdrop-filter:blur(10px)}
+.crypt-stats:after{position:absolute;top:0;bottom:0;left:-40%;width:22%;content:"";pointer-events:none;background:linear-gradient(90deg,transparent,#ff47a60d,transparent);transform:skewX(-18deg);animation:counterSweep 9s ease-in-out infinite}
+.stats-header{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:15px;padding-bottom:8px;border-bottom:1px solid #b7ff5730;font:9px 'JetBrains Mono',monospace;letter-spacing:1.5px;color:var(--green)}
+.stats-header>span{display:flex;align-items:center;gap:9px}
+.stats-header i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green);animation:counterPulse 2.4s ease-in-out infinite}
+.stats-header small{font:8px 'JetBrains Mono',monospace;color:#b7a9c1;letter-spacing:1px}
+.stats-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;padding-top:10px}
+.stat-readout{min-width:0;padding:6px 9px 5px;border-left:1px solid #ff47a635;background:linear-gradient(110deg,#ffffff05,transparent)}
+.stat-readout strong{display:block;overflow:hidden;color:#f9f1ff;font:30px/.95 'Bebas Neue',sans-serif;text-overflow:ellipsis;text-shadow:0 0 15px #ff47a653;white-space:nowrap}
+.stat-readout:nth-child(2n) strong{color:var(--green);text-shadow:0 0 15px #bbff5745}
+.stat-readout span{display:block;margin-top:5px;overflow:hidden;color:#c1b4ca;font:8px 'JetBrains Mono',monospace;letter-spacing:.8px;text-overflow:ellipsis;white-space:nowrap}
+.stats-note{position:relative;z-index:1;margin:8px 0 0;color:#90849a;font:8px 'JetBrains Mono',monospace;letter-spacing:.75px}
+@keyframes counterSweep{0%,62%,100%{left:-40%;opacity:0}68%{opacity:1}88%{left:120%;opacity:0}}
+@keyframes counterPulse{0%,100%{opacity:.65;box-shadow:0 0 5px var(--green)}50%{opacity:1;box-shadow:0 0 14px var(--green)}}
+@media(max-width:900px){.crypt-stats{width:min(700px,100%)}.stats-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.crypt-stats{margin:20px 0 14px;padding:11px 10px 8px}.stats-header{font-size:8px}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}.stat-readout{padding:7px 7px 5px}.stat-readout strong{font-size:27px}.stat-readout span{font-size:7px}.stats-note{font-size:7px}}
+@media(prefers-reduced-motion:reduce){.crypt-stats:after,.stats-header i{animation:none}}

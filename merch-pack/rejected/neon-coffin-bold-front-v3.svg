@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4500" height="5400" viewBox="0 0 4500 5400">
+ <defs>
+  <linearGradient id="hot" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#ff78c1"/><stop offset="1" stop-color="#f51d86"/></linearGradient>
+ </defs>
+ <g fill="none" stroke-linejoin="round">
+  <path d="M690 1010h470m2180 0h470M690 3720h470m2180 0h470" stroke="#baff39" stroke-width="22"/>
+  <path d="m590 1010 52-52 52 52-52 52zM3806 1010l52-52 52 52-52 52z" fill="#baff39" stroke="none"/>
+  <path d="M1250 4780h2000" stroke="#ff39a0" stroke-width="14"/>
+ </g>
+ <text x="2250" y="760" text-anchor="middle" fill="#baff39" font-family="Nimbus Sans Narrow, sans-serif" font-weight="bold" font-size="106" letter-spacing="34">NIGHT VIDEO STORE  •  EST. 1986</text>
+ <text x="2250" y="3260" text-anchor="middle" fill="#09090d" font-family="Nimbus Sans Narrow, sans-serif" font-weight="bold" font-size="570" letter-spacing="4" transform="translate(2250 0) scale(1.18 1) translate(-2250 0)">NEON COFFIN</text>
+ <text x="2250" y="3200" text-anchor="middle" fill="url(#hot)" stroke="#fff2dd" stroke-width="13" paint-order="stroke fill" font-family="Nimbus Sans Narrow, sans-serif" font-weight="bold" font-size="570" letter-spacing="4" transform="translate(2250 0) scale(1.18 1) translate(-2250 0)">NEON COFFIN</text>
+ <text x="2250" y="3740" text-anchor="middle" fill="#baff39" stroke="#101017" stroke-width="30" paint-order="stroke fill" font-family="Nimbus Sans Narrow, sans-serif" font-weight="bold" font-size="330" letter-spacing="80">VIDEO</text>
+ <text x="2250" y="4140" text-anchor="middle" fill="#fff2dd" font-family="Nimbus Sans Narrow, sans-serif" font-weight="bold" font-size="135" letter-spacing="25">BAD MOVIES  •  GREAT NIGHTS</text>
+ <text x="2250" y="4680" text-anchor="middle" fill="#f8e9d7" font-family="Nimbus Sans Narrow, sans-serif" font-weight="bold" font-size="145" letter-spacing="30">OPEN AFTER DARK</text>
+</svg>

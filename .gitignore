@@ -1,0 +1,10 @@
+**/node_modules/
+**/.wrangler/
+**/dist/
+**/.env*
+**/.dev.vars*
+**/*.sqlite*
+**/*client_secret*.json
+**/google-client.json
+**/__pycache__/
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  "name": "neoncoffinvideo",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2026-10-03",
+  "d1_databases": [
+    {
+      "binding": "COMMUNITY_DB",
+      "database_name": "neon-coffin-community",
+      "database_id": "7c9e882b-a2ba-482f-9c06-13421d7b1772",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "SITE_ORIGIN": "https://neoncoffinvideo.site"
+  }
+}

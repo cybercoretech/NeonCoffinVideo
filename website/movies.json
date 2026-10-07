@@ -1,0 +1,812 @@
+[
+  {
+    "id": "re-animator",
+    "title": "Re-Animator",
+    "year": 1985,
+    "poster": "assets/re-animator.png"
+  },
+  {
+    "id": "night-of-the-creeps",
+    "title": "Night of the Creeps",
+    "year": 1986,
+    "poster": "assets/night-of-the-creeps.jpg"
+  },
+  {
+    "id": "return-living-dead",
+    "title": "The Return of the Living Dead",
+    "year": 1985,
+    "poster": "assets/return-living-dead.jpg"
+  },
+  {
+    "id": "killer-klowns",
+    "title": "Killer Klowns from Outer Space",
+    "year": 1988,
+    "poster": "assets/killer-klowns.jpg"
+  },
+  {
+    "id": "chopping-mall",
+    "title": "Chopping Mall",
+    "year": 1986,
+    "poster": "assets/chopping-mall.jpg"
+  },
+  {
+    "id": "videodrome",
+    "title": "Videodrome",
+    "year": 1983,
+    "poster": "assets/videodrome.jpg"
+  },
+  {
+    "id": "the-fly",
+    "title": "The Fly",
+    "year": 1986,
+    "poster": "assets/the-fly.jpg"
+  },
+  {
+    "id": "piranha",
+    "title": "Piranha",
+    "year": 1978,
+    "poster": "assets/piranha.jpg"
+  },
+  {
+    "id": "little-shop",
+    "title": "The Little Shop of Horrors",
+    "year": 1960,
+    "poster": "assets/little-shop.jpg"
+  },
+  {
+    "id": "the-thing",
+    "title": "The Thing",
+    "year": 1982,
+    "poster": "assets/the-thing.png"
+  },
+  {
+    "id": "alien",
+    "title": "Alien",
+    "year": 1979,
+    "poster": "assets/alien.jpg"
+  },
+  {
+    "id": "aliens",
+    "title": "Aliens",
+    "year": 1986,
+    "poster": "assets/aliens.jpg"
+  },
+  {
+    "id": "predator",
+    "title": "Predator",
+    "year": 1987,
+    "poster": "assets/predator.jpg"
+  },
+  {
+    "id": "they-live",
+    "title": "They Live",
+    "year": 1988,
+    "poster": "assets/they-live.jpg"
+  },
+  {
+    "id": "terminator",
+    "title": "The Terminator",
+    "year": 1984,
+    "poster": "assets/terminator.png"
+  },
+  {
+    "id": "robocop",
+    "title": "RoboCop",
+    "year": 1987,
+    "poster": "assets/robocop.jpg"
+  },
+  {
+    "id": "blade-runner",
+    "title": "Blade Runner",
+    "year": 1982,
+    "poster": "assets/blade-runner.png"
+  },
+  {
+    "id": "pet-sematary",
+    "title": "Pet Sematary",
+    "year": 1989,
+    "poster": "assets/pet-sematary.jpg"
+  },
+  {
+    "id": "night-comet",
+    "title": "Night of the Comet",
+    "year": 1984,
+    "poster": "assets/night-comet.jpg"
+  },
+  {
+    "id": "galaxy-terror",
+    "title": "Galaxy of Terror",
+    "year": 1981,
+    "poster": "assets/galaxy-terror.jpg"
+  },
+  {
+    "id": "house-usher",
+    "title": "House of Usher",
+    "year": 1960,
+    "poster": "assets/house-usher.jpg"
+  },
+  {
+    "id": "pit-pendulum",
+    "title": "The Pit and the Pendulum",
+    "year": 1961,
+    "poster": "assets/pit-pendulum.jpg"
+  },
+  {
+    "id": "the-blob",
+    "title": "The Blob",
+    "year": 1988,
+    "poster": "assets/the-blob.jpg"
+  },
+  {
+    "id": "critters",
+    "title": "Critters",
+    "year": 1986,
+    "poster": "assets/critters.jpg"
+  },
+  {
+    "id": "gremlins",
+    "title": "Gremlins",
+    "year": 1984,
+    "poster": "assets/gremlins.jpg"
+  },
+  {
+    "id": "tremors",
+    "title": "Tremors",
+    "year": 1990,
+    "poster": "assets/tremors.jpg"
+  },
+  {
+    "id": "pumpkinhead",
+    "title": "Pumpkinhead",
+    "year": 1988,
+    "poster": "assets/pumpkinhead.jpg"
+  },
+  {
+    "id": "the-howling",
+    "title": "The Howling",
+    "year": 1981,
+    "poster": "assets/the-howling.jpg"
+  },
+  {
+    "id": "american-werewolf",
+    "title": "An American Werewolf in London",
+    "year": 1981,
+    "poster": "assets/american-werewolf.jpg"
+  },
+  {
+    "id": "from-beyond",
+    "title": "From Beyond",
+    "year": 1986,
+    "poster": "assets/from-beyond.jpg"
+  },
+  {
+    "id": "night-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "poster": "assets/night-living-dead.jpg"
+  },
+  {
+    "id": "scanners",
+    "title": "Scanners",
+    "year": 1981,
+    "poster": "assets/scanners.jpg"
+  },
+  {
+    "id": "the-brood",
+    "title": "The Brood",
+    "year": 1979,
+    "poster": "assets/the-brood.jpg"
+  },
+  {
+    "id": "dead-zone",
+    "title": "The Dead Zone",
+    "year": 1983,
+    "poster": "assets/dead-zone.jpg"
+  },
+  {
+    "id": "society",
+    "title": "Society",
+    "year": 1989,
+    "poster": "assets/society.jpg"
+  },
+  {
+    "id": "basket-case",
+    "title": "Basket Case",
+    "year": 1982,
+    "poster": "assets/basket-case.jpg"
+  },
+  {
+    "id": "brain-damage",
+    "title": "Brain Damage",
+    "year": 1988,
+    "poster": "assets/brain-damage.jpg"
+  },
+  {
+    "id": "frankenhooker",
+    "title": "Frankenhooker",
+    "year": 1990,
+    "poster": "assets/frankenhooker.jpg"
+  },
+  {
+    "id": "evil-dead",
+    "title": "The Evil Dead",
+    "year": 1981,
+    "poster": "assets/evil-dead.jpg"
+  },
+  {
+    "id": "evil-dead-ii",
+    "title": "Evil Dead II",
+    "year": 1987,
+    "poster": "assets/evil-dead-ii.jpg"
+  },
+  {
+    "id": "army-of-darkness",
+    "title": "Army of Darkness",
+    "year": 1992,
+    "poster": "assets/army-of-darkness.jpg"
+  },
+  {
+    "id": "hellraiser",
+    "title": "Hellraiser",
+    "year": 1987,
+    "poster": "assets/hellraiser.jpg"
+  },
+  {
+    "id": "phantasm",
+    "title": "Phantasm",
+    "year": 1979,
+    "poster": "assets/phantasm.jpg"
+  },
+  {
+    "id": "the-fog",
+    "title": "The Fog",
+    "year": 1980,
+    "poster": "assets/the-fog.jpg"
+  },
+  {
+    "id": "prince-of-darkness",
+    "title": "Prince of Darkness",
+    "year": 1987,
+    "poster": "assets/prince-of-darkness.jpg"
+  },
+  {
+    "id": "halloween",
+    "title": "Halloween",
+    "year": 1978,
+    "poster": "assets/halloween.jpg"
+  },
+  {
+    "id": "friday-13th",
+    "title": "Friday the 13th",
+    "year": 1980,
+    "poster": "assets/friday-13th.jpg"
+  },
+  {
+    "id": "nightmare-elm",
+    "title": "A Nightmare on Elm Street",
+    "year": 1984,
+    "poster": "assets/nightmare-elm.jpg"
+  },
+  {
+    "id": "texas-chainsaw",
+    "title": "The Texas Chain Saw Massacre",
+    "year": 1974,
+    "poster": "assets/texas-chainsaw.jpg"
+  },
+  {
+    "id": "sleepaway-camp",
+    "title": "Sleepaway Camp",
+    "year": 1983,
+    "poster": "assets/sleepaway-camp.jpg"
+  },
+  {
+    "id": "my-bloody-valentine",
+    "title": "My Bloody Valentine",
+    "year": 1981,
+    "poster": "assets/my-bloody-valentine.jpg"
+  },
+  {
+    "id": "poltergeist",
+    "title": "Poltergeist",
+    "year": 1982,
+    "poster": "assets/poltergeist.png"
+  },
+  {
+    "id": "the-shining",
+    "title": "The Shining",
+    "year": 1980,
+    "poster": "assets/the-shining.jpg"
+  },
+  {
+    "id": "fright-night",
+    "title": "Fright Night",
+    "year": 1985,
+    "poster": "assets/fright-night.jpg"
+  },
+  {
+    "id": "lost-boys",
+    "title": "The Lost Boys",
+    "year": 1987,
+    "poster": "assets/lost-boys.jpg"
+  },
+  {
+    "id": "night-demons",
+    "title": "Night of the Demons",
+    "year": 1988,
+    "poster": "assets/night-demons.jpg"
+  },
+  {
+    "id": "dawn-dead",
+    "title": "Dawn of the Dead",
+    "year": 1978,
+    "poster": "assets/dawn-dead.jpg"
+  },
+  {
+    "id": "day-dead",
+    "title": "Day of the Dead",
+    "year": 1985,
+    "poster": "assets/day-dead.jpg"
+  },
+  {
+    "id": "maximum-overdrive",
+    "title": "Maximum Overdrive",
+    "year": 1986,
+    "poster": "assets/maximum-overdrive.jpg"
+  },
+  {
+    "id": "the-stuff",
+    "title": "The Stuff",
+    "year": 1985,
+    "poster": "assets/the-stuff.jpg"
+  },
+  {
+    "id": "house",
+    "title": "House",
+    "year": 1985,
+    "poster": "assets/house.jpg"
+  },
+  {
+    "id": "elvira-mistress",
+    "title": "Elvira: Mistress of the Dark",
+    "year": 1988,
+    "poster": "assets/elvira-mistress.jpg"
+  },
+  {
+    "id": "reanimator-bride",
+    "title": "Bride of Re-Animator",
+    "year": 1990,
+    "poster": "assets/reanimator-bride.jpg"
+  },
+  {
+    "id": "humanoids",
+    "title": "Humanoids from the Deep",
+    "year": 1980,
+    "poster": "assets/humanoids.jpg"
+  },
+  {
+    "id": "forbidden-world",
+    "title": "Forbidden World",
+    "year": 1982,
+    "poster": "assets/forbidden-world.jpg"
+  },
+  {
+    "id": "death-race",
+    "title": "Death Race 2000",
+    "year": 1975,
+    "poster": "assets/death-race.jpg"
+  },
+  {
+    "id": "event-horizon",
+    "title": "Event Horizon",
+    "year": 1997,
+    "poster": "assets/event-horizon.jpg"
+  },
+  {
+    "id": "in-mouth-madness",
+    "title": "In the Mouth of Madness",
+    "year": 1994,
+    "poster": "assets/in-mouth-madness.jpg"
+  },
+  {
+    "id": "hardware",
+    "title": "Hardware",
+    "year": 1990,
+    "poster": "assets/hardware.jpg"
+  },
+  {
+    "id": "exorcist",
+    "title": "The Exorcist",
+    "year": 1973,
+    "poster": "assets/exorcist.jpg"
+  },
+  {
+    "id": "carrie",
+    "title": "Carrie",
+    "year": 1976,
+    "poster": "assets/carrie.jpg"
+  },
+  {
+    "id": "childs-play",
+    "title": "Child’s Play",
+    "year": 1988,
+    "poster": "assets/childs-play.jpg"
+  },
+  {
+    "id": "christine",
+    "title": "Christine",
+    "year": 1983,
+    "poster": "assets/christine.jpg"
+  },
+  {
+    "id": "creepshow",
+    "title": "Creepshow",
+    "year": 1982,
+    "poster": "assets/creepshow.jpg"
+  },
+  {
+    "id": "monster-squad",
+    "title": "The Monster Squad",
+    "year": 1987,
+    "poster": "assets/monster-squad.jpg"
+  },
+  {
+    "id": "the-gate",
+    "title": "The Gate",
+    "year": 1987,
+    "poster": "assets/the-gate.jpg"
+  },
+  {
+    "id": "motel-hell",
+    "title": "Motel Hell",
+    "year": 1980,
+    "poster": "assets/motel-hell.jpg"
+  },
+  {
+    "id": "toxic-avenger",
+    "title": "The Toxic Avenger",
+    "year": 1984,
+    "poster": "assets/toxic-avenger.jpg"
+  },
+  {
+    "id": "halloween-ii",
+    "title": "Halloween II",
+    "year": 1981,
+    "poster": "assets/halloween-ii.jpg"
+  },
+  {
+    "id": "halloween-iii",
+    "title": "Halloween III: Season of the Witch",
+    "year": 1982,
+    "poster": "assets/halloween-iii.jpg"
+  },
+  {
+    "id": "trick-or-treat",
+    "title": "Trick or Treat",
+    "year": 1986,
+    "poster": "assets/trick-or-treat.png"
+  },
+  {
+    "id": "trick-r-treat",
+    "title": "Trick ’r Treat",
+    "year": 2007,
+    "poster": "assets/trick-r-treat.jpg"
+  },
+  {
+    "id": "halloween-iv",
+    "title": "Halloween 4: The Return of Michael Myers",
+    "year": 1988,
+    "poster": "assets/halloween-iv.jpg"
+  },
+  {
+    "id": "halloween-v",
+    "title": "Halloween 5: The Revenge of Michael Myers",
+    "year": 1989,
+    "poster": "assets/halloween-v.jpg"
+  },
+  {
+    "id": "return-living-dead-ii",
+    "title": "Return of the Living Dead Part II",
+    "year": 1988,
+    "poster": "assets/return-living-dead-ii.jpg"
+  },
+  {
+    "id": "return-living-dead-3",
+    "title": "Return of the Living Dead 3",
+    "year": 1993,
+    "poster": "assets/return-living-dead-3.jpg"
+  },
+  {
+    "id": "return-living-dead-necropolis",
+    "title": "Return of the Living Dead: Necropolis",
+    "year": 2005,
+    "poster": "assets/return-living-dead-necropolis.jpg"
+  },
+  {
+    "id": "return-living-dead-rave",
+    "title": "Return of the Living Dead: Rave to the Grave",
+    "year": 2005,
+    "poster": "assets/return-living-dead-rave.jpg"
+  },
+  {
+    "id": "sleepaway-camp-ii",
+    "title": "Sleepaway Camp II: Unhappy Campers",
+    "year": 1988,
+    "poster": "assets/sleepaway-camp-ii.jpg"
+  },
+  {
+    "id": "sleepaway-camp-iii",
+    "title": "Sleepaway Camp III: Teenage Wasteland",
+    "year": 1989,
+    "poster": "assets/sleepaway-camp-iii.jpg"
+  },
+  {
+    "id": "slumber-party-massacre",
+    "title": "The Slumber Party Massacre",
+    "year": 1982,
+    "poster": "assets/slumber-party-massacre.jpg"
+  },
+  {
+    "id": "slumber-party-massacre-ii",
+    "title": "Slumber Party Massacre II",
+    "year": 1987,
+    "poster": "assets/slumber-party-massacre-ii.jpg"
+  },
+  {
+    "id": "slumber-party-massacre-iii",
+    "title": "Slumber Party Massacre III",
+    "year": 1990,
+    "poster": "assets/slumber-party-massacre-iii.webp"
+  },
+  {
+    "id": "the-burning",
+    "title": "The Burning",
+    "year": 1981,
+    "poster": "assets/the-burning.jpg"
+  },
+  {
+    "id": "black-christmas",
+    "title": "Black Christmas",
+    "year": 1974,
+    "poster": "assets/black-christmas.jpg"
+  },
+  {
+    "id": "pieces",
+    "title": "Pieces",
+    "year": 1982,
+    "poster": "assets/pieces.jpg"
+  },
+  {
+    "id": "prom-night",
+    "title": "Prom Night",
+    "year": 1980,
+    "poster": "assets/prom-night.jpg"
+  },
+  {
+    "id": "intruder",
+    "title": "Intruder",
+    "year": 1989,
+    "poster": "assets/intruder.jpg"
+  },
+  {
+    "id": "the-prowler",
+    "title": "The Prowler",
+    "year": 1981,
+    "poster": "assets/the-prowler.jpg"
+  },
+  {
+    "id": "hell-night",
+    "title": "Hell Night",
+    "year": 1981,
+    "poster": "assets/hell-night.jpg"
+  },
+  {
+    "id": "dead-heat",
+    "title": "Dead Heat",
+    "year": 1988,
+    "poster": "assets/dead-heat.jpg"
+  },
+  {
+    "id": "street-trash",
+    "title": "Street Trash",
+    "year": 1987,
+    "poster": "assets/street-trash.jpg"
+  },
+  {
+    "id": "evil-spawn",
+    "title": "Evil Spawn",
+    "year": 1987,
+    "poster": "assets/evil-spawn.jpg"
+  },
+  {
+    "id": "vamp",
+    "title": "Vamp",
+    "year": 1986,
+    "poster": "assets/vamp.jpg"
+  },
+  {
+    "id": "spookies",
+    "title": "Spookies",
+    "year": 1986,
+    "poster": "assets/spookies.jpg"
+  },
+  {
+    "id": "terrorvision",
+    "title": "TerrorVision",
+    "year": 1986,
+    "poster": "assets/terrorvision.jpg"
+  },
+  {
+    "id": "rock-n-roll-nightmare",
+    "title": "Rock n Roll Nightmare",
+    "year": 1987,
+    "poster": "assets/rock-n-roll-nightmare.jpg"
+  },
+  {
+    "id": "necropolis-1986",
+    "title": "Necropolis",
+    "year": 1986,
+    "poster": "assets/necropolis-1986.jpg"
+  },
+  {
+    "id": "blood-rage",
+    "title": "Blood Rage",
+    "year": 1987,
+    "poster": "assets/blood-rage.jpg"
+  },
+  {
+    "id": "the-dungeonmaster",
+    "title": "The Dungeonmaster",
+    "year": 1984,
+    "poster": "assets/the-dungeonmaster.jpg"
+  },
+  {
+    "id": "demon-wind",
+    "title": "Demon Wind",
+    "year": 1990,
+    "poster": "assets/demon-wind.jpg"
+  },
+  {
+    "id": "sorority-house-massacre-ii",
+    "title": "Sorority House Massacre II",
+    "year": 1990,
+    "poster": "assets/sorority-house-massacre-ii.jpg"
+  },
+  {
+    "id": "blood-hook",
+    "title": "Blood Hook",
+    "year": 1986,
+    "poster": "assets/blood-hook.jpg"
+  },
+  {
+    "id": "doom-asylum",
+    "title": "Doom Asylum",
+    "year": 1987,
+    "poster": "assets/doom-asylum.jpg"
+  },
+  {
+    "id": "class-nuke-em-high",
+    "title": "Class of Nuke ’Em High",
+    "year": 1986,
+    "poster": "assets/class-nuke-em-high.jpg"
+  },
+  {
+    "id": "surf-nazis-must-die",
+    "title": "Surf Nazis Must Die",
+    "year": 1987,
+    "poster": "assets/surf-nazis-must-die.jpg"
+  },
+  {
+    "id": "redneck-zombies",
+    "title": "Redneck Zombies",
+    "year": 1987,
+    "poster": "assets/redneck-zombies.jpg"
+  },
+  {
+    "id": "nightbreed",
+    "title": "Nightbreed",
+    "year": 1990,
+    "poster": "assets/nightbreed.jpg"
+  },
+  {
+    "id": "children-of-the-corn",
+    "title": "Children of the Corn",
+    "year": 1984,
+    "poster": "assets/children-of-the-corn.jpg"
+  },
+  {
+    "id": "silver-bullet",
+    "title": "Silver Bullet",
+    "year": 1985,
+    "poster": "assets/silver-bullet.jpg"
+  },
+  {
+    "id": "deadly-spawn",
+    "title": "The Deadly Spawn",
+    "year": 1983,
+    "poster": "assets/deadly-spawn.jpg"
+  },
+  {
+    "id": "blood-diner",
+    "title": "Blood Diner",
+    "year": 1987,
+    "poster": "assets/blood-diner.jpg"
+  },
+  {
+    "id": "the-video-dead",
+    "title": "The Video Dead",
+    "year": 1987,
+    "poster": "assets/the-video-dead.jpg"
+  },
+  {
+    "id": "evilspeak",
+    "title": "Evilspeak",
+    "year": 1981,
+    "poster": "assets/evilspeak.jpg"
+  },
+  {
+    "id": "the-mutilator",
+    "title": "The Mutilator",
+    "year": 1984,
+    "poster": "assets/the-mutilator.jpg"
+  },
+  {
+    "id": "chud",
+    "title": "C.H.U.D.",
+    "year": 1984,
+    "poster": "assets/chud.jpg"
+  },
+  {
+    "id": "puppet-master",
+    "title": "Puppet Master",
+    "year": 1989,
+    "poster": "assets/puppet-master.jpg"
+  },
+  {
+    "id": "invaders-from-mars-1986",
+    "title": "Invaders from Mars",
+    "year": 1986,
+    "poster": "assets/invaders-from-mars-1986.jpg"
+  },
+  {
+    "id": "something-wicked-this-way-comes",
+    "title": "Something Wicked This Way Comes",
+    "year": 1983,
+    "poster": "assets/something-wicked-this-way-comes.jpg"
+  },
+  {
+    "id": "terror-train",
+    "title": "Terror Train",
+    "year": 1980,
+    "poster": "assets/terror-train.jpg"
+  },
+  {
+    "id": "the-funhouse",
+    "title": "The Funhouse",
+    "year": 1981,
+    "poster": "assets/the-funhouse.jpg"
+  },
+  {
+    "id": "deadly-friend",
+    "title": "Deadly Friend",
+    "year": 1986,
+    "poster": "assets/deadly-friend.jpg"
+  },
+  {
+    "id": "cat-people-1982",
+    "title": "Cat People",
+    "year": 1982,
+    "poster": "assets/cat-people-1982.jpg"
+  },
+  {
+    "id": "the-entity",
+    "title": "The Entity",
+    "year": 1982,
+    "poster": "assets/the-entity.jpg"
+  },
+  {
+    "id": "the-changeling",
+    "title": "The Changeling",
+    "year": 1980,
+    "poster": "assets/the-changeling.jpg"
+  }
+]

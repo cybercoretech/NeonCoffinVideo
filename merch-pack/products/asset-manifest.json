@@ -1,0 +1,68 @@
+[
+  {
+    "file": "hoodie/neon-coffin-hoodie-front-pink-marquee.png",
+    "source": "storefront/neon-coffin-video-header-pink.png",
+    "pixels": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "dpi_metadata": null,
+    "source_unchanged": true,
+    "sha256": "c358ab5a5d2022c9db86b8de5c87b3724133faaf7a78eae3c2091a5d3d2257d1"
+  },
+  {
+    "file": "hoodie/neon-coffin-hoodie-back-storefront.png",
+    "source": "print/png/neon-coffin-storefront-front-7.5x9in-4500x5400-600dpi.png",
+    "pixels": [
+      4500,
+      5400
+    ],
+    "mode": "RGBA",
+    "dpi_metadata": [
+      599.9988,
+      599.9988
+    ],
+    "source_unchanged": true,
+    "sha256": "015afa0b6d1b34ea34ad0a5bc0741906e6e8146eb8158114e4cdec908a3754eb"
+  },
+  {
+    "file": "hoodie/neon-coffin-hoodie-sleeve-coffin.png",
+    "source": "print/png/coffin-cassette-sleeve-2.5x2.28in-1500x1370-600dpi.png",
+    "pixels": [
+      1500,
+      1370
+    ],
+    "mode": "RGBA",
+    "dpi_metadata": [
+      599.9988,
+      599.9988
+    ],
+    "source_unchanged": true,
+    "sha256": "de1379166d2c9c3a1e122ef94b307b609ece155e0fb1581dd848fc986179a12d"
+  },
+  {
+    "file": "stickers/neon-coffin-cassette-die-cut.png",
+    "source": "source/coffin-cassette-emblem-original.png",
+    "pixels": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "dpi_metadata": null,
+    "source_unchanged": true,
+    "sha256": "e0d6bea2e1e9ac1be3743125266f9391a031af0ddc446dac169bacacdb74d802"
+  },
+  {
+    "file": "stickers/neon-coffin-storefront-rectangle.png",
+    "source": "source/storefront-reference-only.png",
+    "pixels": [
+      1672,
+      940
+    ],
+    "mode": "RGB",
+    "dpi_metadata": null,
+    "source_unchanged": true,
+    "sha256": "1b986fe0ea60ece1b1c2992fb12ff337dfac0430f33ac598b69bac509f7bf692"
+  }
+]

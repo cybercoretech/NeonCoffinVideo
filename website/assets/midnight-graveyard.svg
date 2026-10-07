@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs><radialGradient id="moon"><stop stop-color="#a1bcc6" stop-opacity=".45"/><stop offset=".35" stop-color="#667695" stop-opacity=".18"/><stop offset="1" stop-color="#182030" stop-opacity="0"/></radialGradient><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#0e0917"/><stop offset=".6" stop-color="#171326"/><stop offset="1" stop-color="#101518"/></linearGradient><linearGradient id="screen" x2="0" y2="1"><stop stop-color="#8b427a" stop-opacity=".5"/><stop offset="1" stop-color="#2a1634"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<path fill="url(#sky)" d="M0 0h1600v1000H0z"/><ellipse cx="1220" cy="235" rx="330" ry="290" fill="url(#moon)"/><circle cx="1220" cy="235" r="67" fill="#b7c0cc" opacity=".12"/><path d="M1173 207q40-22 88 9m-71 40q26-17 59-3" fill="none" stroke="#1d1a2b" stroke-width="12" opacity=".3"/>
+<g fill="#08090e"><path d="M0 590q130-60 250 0t290-10t310 20t380-5t370-10v415H0z"/>
+<!-- Crooked cemetery markers and a mausoleum -->
+<path d="M60 872l-12-106q3-45 38-45q38-1 43 40l10 109zm150 37l13-130q2-29 30-28q28 3 27 32l-7 131zm113-3l-8-79h-29v-24h28l-3-41h27l4 41h26v25h-25l7 73zm965 2l-9-99q-1-38 29-40q40-5 44 36l12 105zm133 16l6-88q3-37 33-35q32 4 32 37l-2 91z"/>
+<path d="M80 692v-133l78-53l73 58v128zm-18-133l95-69l94 70z"/>
+<!-- Skeletal roadside trees -->
+<path d="M0 940l37-358l-29-123l19-110l10 91l18 54l12-126l-37-96l-7-113l30 105l36 58l33-113l53-70l-35 84l-10 113l57-68l85-22l-68 41l-70 105l-16 112l41 79l61-50l72-8l-55 29l-60 66l-52-37l-8 162l20 205zm1600 0l-69-252l-5-116l-77-83l-60-24l83 6l45 48l-26-176l-48-82l-88-64l99 43l58 83l23-106l-16-108l41 104l-10 106l44-57l78-45l-66 68l-48 92l-3 160l39-44l68-11l-55 32l-36 68l43 283z"/>
+<!-- Distant drive-in screen -->
+<path d="M945 535h230v130H945zm12 129h12v72h-12zm192 0h12v69h-12z"/>
+</g><path d="M958 548h204v103H958z" fill="url(#screen)"/><path d="M1040 567l35 60l-8 21h-26l-13-22z" fill="#10121b"/>
+<path d="M920 743h260" stroke="#bc427f" opacity=".15" stroke-width="5" filter="url(#glow)"/>
+<!-- VHS-era roadside warning sign -->
+<g transform="translate(1400 625) rotate(9)"><path d="M-5 48h9v110h-9" fill="#15121c"/><path d="M-53-3H52v63H-53z" fill="#1b1424" stroke="#75513c"/><text x="0" y="22" text-anchor="middle" font-family="monospace" font-size="12" fill="#c07f71" opacity=".5">LAST EXIT</text><text x="0" y="43" text-anchor="middle" font-family="monospace" font-size="11" fill="#bdb682" opacity=".45">DRIVE-IN →</text></g>
+<!-- A distant figure, deliberately half swallowed by the dark -->
+<g fill="#08090d"><ellipse cx="704" cy="710" rx="14" ry="18"/><path d="M687 729q19-9 33 0l15 72l-11 8l-11-43l4 111h-13l-5-67l-6 67h-13l8-111l-13 39l-9-7z"/></g>
+<path d="M0 930q210-70 480-15t500-20t620 30v75H0z" fill="#05070b"/>
+</svg>

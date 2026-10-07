@@ -1,0 +1,220 @@
+[
+  {
+    "file": "neon-coffin-cassette-die-cut-3in-tall-600x900-300ppi.png",
+    "pixels": [
+      600,
+      900
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        28,
+        6,
+        572,
+        894
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "e21d692c87aa2c2fe4e8558bc80804f301e3b3518a9e6033e4758c47a8746b93"
+  },
+  {
+    "file": "neon-coffin-cassette-die-cut-4in-tall-800x1200-300ppi.png",
+    "pixels": [
+      800,
+      1200
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        37,
+        8,
+        763,
+        1192
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "87ce3d1f5b65731b58a46fa9eafa4233ee9695b4ea950038384229a8eaea12dd"
+  },
+  {
+    "file": "neon-coffin-marquee-die-cut-4in-wide-1200x484-300ppi.png",
+    "pixels": [
+      1200,
+      484
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        4,
+        8,
+        1197,
+        476
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "8217a200af5786014b8a8944c912c3ce87f0ae28e98070a0b717bf372068adb6"
+  },
+  {
+    "file": "neon-coffin-storefront-vinyl-decal-4in-wide-1200x675-300ppi.png",
+    "pixels": [
+      1200,
+      675
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        0,
+        0,
+        1200,
+        675
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "ac81f5affc5cca9d04f2d38808ad8baeb36b010179218d12e92ef8b3b136a119"
+  },
+  {
+    "file": "neon-coffin-marquee-vinyl-decal-4in-wide-1200x484-300ppi.png",
+    "pixels": [
+      1200,
+      484
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        4,
+        8,
+        1197,
+        476
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "125f986a3eb86004e924ee71002847eb3dc8c67e0b63d8bfcb85f42d6d8c3050"
+  },
+  {
+    "file": "neon-coffin-cassette-holographic-3in-tall-600x900-300ppi.png",
+    "pixels": [
+      600,
+      900
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        36,
+        6,
+        564,
+        894
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "8a7993c3c7b82a9699c16c055dc59d4c18188a6fa86dd01c32cfb0aa5a47ab1f"
+  },
+  {
+    "file": "neon-coffin-cassette-holographic-4in-tall-800x1200-300ppi.png",
+    "pixels": [
+      800,
+      1200
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 1,
+    "shape_bounds": [
+      [
+        48,
+        8,
+        752,
+        1192
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": null,
+    "sha256": "5a5ffa861aecfa49be7d8e1be05b7fbe8e17258dfd23efbef86dcef2032e9fd5"
+  },
+  {
+    "file": "neon-coffin-collector-sheet-5.83x8.27in-1749x2481-300ppi.png",
+    "pixels": [
+      1749,
+      2481
+    ],
+    "mode": "RGBA",
+    "ppi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "icc_profile_description": "Artifex Software sRGB ICC Profile",
+    "connected_shapes": 4,
+    "shape_bounds": [
+      [
+        105,
+        110,
+        1646,
+        716
+      ],
+      [
+        106,
+        881,
+        668,
+        1799
+      ],
+      [
+        850,
+        1010,
+        1649,
+        1459
+      ],
+      [
+        100,
+        1950,
+        1649,
+        2414
+      ]
+    ],
+    "interior_transparent_holes": 0,
+    "minimum_sheet_clearance_pixels": 151.0,
+    "sha256": "e720dac135d6903993a3d9482a52e18db4f57cca4c3581b18fea3251e74fdebe"
+  }
+]

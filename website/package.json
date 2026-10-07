@@ -1,0 +1,14 @@
+{
+  "name": "neon-coffin-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node preview.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node tests/stats-counter.mjs && node tests/community-server.mjs && node tests/community-oauth.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0",
+    "esbuild": "0.28.1"
+  }
+}

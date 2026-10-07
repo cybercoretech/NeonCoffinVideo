@@ -1,0 +1,355 @@
+{
+  "pages": [
+    {
+      "title": "Neon Coffin Video",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "bodyWidth": 1425,
+      "applied": true,
+      "hero": true,
+      "heroBox": {
+        "x": 86.09375,
+        "y": 337.2749938964844,
+        "width": 490,
+        "height": 578.75
+      },
+      "logo": {
+        "x": 32,
+        "y": 24,
+        "width": 320,
+        "height": 100
+      },
+      "fontLoaded": true,
+      "buttons": [
+        "product-preview.html"
+      ],
+      "price": "$29.98",
+      "images": [
+        {
+          "class": "header__logo-image header__logo-image--md",
+          "loaded": true
+        },
+        {
+          "class": "image-section__image",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--1",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--2",
+          "loaded": true
+        }
+      ],
+      "mainChildren": [
+        "DIV:",
+        "MAIN:page__main",
+        "DIV:page__footer"
+      ],
+      "mode": "desktop"
+    },
+    {
+      "title": "Neon Coffin Video",
+      "width": 820,
+      "scrollWidth": 805,
+      "bodyWidth": 805,
+      "applied": true,
+      "hero": true,
+      "heroBox": {
+        "x": 17,
+        "y": 646.1875,
+        "width": 771,
+        "height": 368.703125
+      },
+      "logo": {
+        "x": 32,
+        "y": 24,
+        "width": 245,
+        "height": 76
+      },
+      "fontLoaded": true,
+      "buttons": [
+        "product-preview.html"
+      ],
+      "price": "$29.98",
+      "images": [
+        {
+          "class": "header__logo-image header__logo-image--md",
+          "loaded": true
+        },
+        {
+          "class": "image-section__image",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--1",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--2",
+          "loaded": true
+        }
+      ],
+      "mainChildren": [
+        "DIV:",
+        "MAIN:page__main",
+        "DIV:page__footer"
+      ],
+      "mode": "tablet"
+    },
+    {
+      "title": "Neon Coffin Video",
+      "width": 390,
+      "scrollWidth": 375,
+      "bodyWidth": 375,
+      "applied": true,
+      "hero": true,
+      "heroBox": {
+        "x": 17,
+        "y": 357.078125,
+        "width": 341,
+        "height": 429.9375
+      },
+      "logo": {
+        "x": 58.875,
+        "y": 1,
+        "width": 245,
+        "height": 76
+      },
+      "fontLoaded": true,
+      "buttons": [
+        "product-preview.html"
+      ],
+      "price": "$29.98",
+      "images": [
+        {
+          "class": "header__logo-image header__logo-image--md",
+          "loaded": true
+        },
+        {
+          "class": "image-section__image",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--1",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--2",
+          "loaded": true
+        }
+      ],
+      "mainChildren": [
+        "DIV:",
+        "MAIN:page__main",
+        "DIV:page__footer"
+      ],
+      "mode": "mobile"
+    },
+    {
+      "title": "Neon Coffin Video",
+      "width": 320,
+      "scrollWidth": 305,
+      "bodyWidth": 305,
+      "applied": true,
+      "hero": true,
+      "heroBox": {
+        "x": 17,
+        "y": 317.71875,
+        "width": 271,
+        "height": 509.953125
+      },
+      "logo": {
+        "x": 50.125,
+        "y": 4.875,
+        "width": 204.75,
+        "height": 68.25
+      },
+      "fontLoaded": true,
+      "buttons": [
+        "product-preview.html"
+      ],
+      "price": "$29.98",
+      "images": [
+        {
+          "class": "header__logo-image header__logo-image--md",
+          "loaded": true
+        },
+        {
+          "class": "image-section__image",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--1",
+          "loaded": true
+        },
+        {
+          "class": "tile__item tile__item--2",
+          "loaded": true
+        }
+      ],
+      "mainChildren": [
+        "DIV:",
+        "MAIN:page__main",
+        "DIV:page__footer"
+      ],
+      "mode": "small-mobile"
+    },
+    {
+      "title": "Neon Coffin Video Storefront Tee | Neon Coffin Video",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "bodyWidth": 1425,
+      "applied": true,
+      "hero": false,
+      "logo": {
+        "x": 32,
+        "y": 24,
+        "width": 320,
+        "height": 100
+      },
+      "fontLoaded": true,
+      "buttons": [],
+      "price": "$29.98",
+      "images": [
+        {
+          "class": "header__logo-image header__logo-image--md",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        }
+      ],
+      "mainChildren": [
+        "DIV:",
+        "MAIN:page__main",
+        "DIV:page__footer"
+      ],
+      "mode": "product"
+    },
+    {
+      "title": "Neon Coffin Video Storefront Tee | Neon Coffin Video",
+      "width": 390,
+      "scrollWidth": 375,
+      "bodyWidth": 375,
+      "applied": true,
+      "hero": false,
+      "logo": {
+        "x": 58.875,
+        "y": 1,
+        "width": 245,
+        "height": 76
+      },
+      "fontLoaded": true,
+      "buttons": [],
+      "price": "$29.98",
+      "images": [
+        {
+          "class": "header__logo-image header__logo-image--md",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": true
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        },
+        {
+          "class": "gallery-stacked__image",
+          "loaded": false
+        }
+      ],
+      "mainChildren": [
+        "DIV:",
+        "MAIN:page__main",
+        "DIV:page__footer"
+      ],
+      "mode": "product-mobile"
+    }
+  ],
+  "errors": []
+}

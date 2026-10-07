@@ -1,0 +1,66 @@
+[
+  {
+    "file": "neon-coffin-cassette-die-cut-3in-tall-600x900-300ppi.png",
+    "width": 600,
+    "height": 900,
+    "ppi": 300,
+    "product": "Die-Cut Stickers",
+    "placement": "3-inch boundary; portrait artwork"
+  },
+  {
+    "file": "neon-coffin-cassette-die-cut-4in-tall-800x1200-300ppi.png",
+    "width": 800,
+    "height": 1200,
+    "ppi": 300,
+    "product": "Die-Cut Stickers",
+    "placement": "4-inch boundary; portrait artwork"
+  },
+  {
+    "file": "neon-coffin-marquee-die-cut-4in-wide-1200x484-300ppi.png",
+    "width": 1200,
+    "height": 484,
+    "ppi": 300,
+    "product": "Die-Cut Stickers",
+    "placement": "4-inch boundary; landscape artwork"
+  },
+  {
+    "file": "neon-coffin-storefront-vinyl-decal-4in-wide-1200x675-300ppi.png",
+    "width": 1200,
+    "height": 675,
+    "ppi": 300,
+    "product": "Kiss-Cut Vinyl Decals",
+    "placement": "3 x 4 inch boundary rotated to landscape; graphic 4 x 2.25 inches"
+  },
+  {
+    "file": "neon-coffin-marquee-vinyl-decal-4in-wide-1200x484-300ppi.png",
+    "width": 1200,
+    "height": 484,
+    "ppi": 300,
+    "product": "Kiss-Cut Vinyl Decals",
+    "placement": "3 x 4 inch boundary rotated to landscape; preserve aspect ratio"
+  },
+  {
+    "file": "neon-coffin-cassette-holographic-3in-tall-600x900-300ppi.png",
+    "width": 600,
+    "height": 900,
+    "ppi": 300,
+    "product": "Kiss-Cut Holographic Sticker Sheet",
+    "placement": "3 x 3 inch boundary; one tall coffin"
+  },
+  {
+    "file": "neon-coffin-cassette-holographic-4in-tall-800x1200-300ppi.png",
+    "width": 800,
+    "height": 1200,
+    "ppi": 300,
+    "product": "Kiss-Cut Holographic Sticker Sheet",
+    "placement": "4 x 4 inch boundary; one tall coffin"
+  },
+  {
+    "file": "neon-coffin-collector-sheet-5.83x8.27in-1749x2481-300ppi.png",
+    "width": 1749,
+    "height": 2481,
+    "ppi": 300,
+    "product": "Kiss Cut Sticker Sheet with Custom Background",
+    "placement": "5.83 x 8.27 inch sheet; four separate sticker islands; transparent gaps"
+  }
+]

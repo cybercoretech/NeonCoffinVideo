@@ -1,0 +1,8 @@
+.community-preview.sqlite*
+.dev.vars*
+.env*
+node_modules/
+.wrangler/
+*client_secret*.json
+google-client.json
+dist/

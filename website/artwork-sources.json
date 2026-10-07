@@ -1,0 +1,904 @@
+[
+  {
+    "slug": "re-animator",
+    "page": "https://en.wikipedia.org/wiki/Re-Animator",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6e/Reanimator_poster.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "local": "assets/re-animator.png"
+  },
+  {
+    "slug": "killer-klowns",
+    "page": "https://en.wikipedia.org/wiki/Killer_Klowns_from_Outer_Space",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7e/Killer_Klowns_from_Outer_Space_%281988%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "local": "assets/killer-klowns.jpg"
+  },
+  {
+    "slug": "videodrome",
+    "page": "https://en.wikipedia.org/wiki/Videodrome",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/0f/Videodromeposter.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "local": "assets/videodrome.jpg"
+  },
+  {
+    "slug": "the-fly",
+    "page": "https://en.wikipedia.org/wiki/The_Fly_(1986_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/aa/Fly_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "local": "assets/the-fly.jpg"
+  },
+  {
+    "slug": "chopping-mall",
+    "page": "https://en.wikipedia.org/wiki/Chopping_Mall",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/9c/Choppingmall.jpg",
+    "local": "assets/chopping-mall.jpg"
+  },
+  {
+    "slug": "night-of-the-creeps",
+    "page": "https://hiwaytheater.org/films/night-of-the-creeps",
+    "image_source": "https://www.renewtheaters.org/webimg/night-of-the-creeps-poster.jpg",
+    "local": "assets/night-of-the-creeps.jpg"
+  },
+  {
+    "slug": "piranha",
+    "page": "https://en.wikipedia.org/wiki/Piranha_(1978_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/50/PiranhaPosterA.jpg",
+    "local": "assets/piranha.jpg"
+  },
+  {
+    "slug": "little-shop",
+    "page": "https://en.wikipedia.org/wiki/The_Little_Shop_of_Horrors",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/1/1c/The_Little_Shop_of_Horrors_%281960%29_-_Half-Sheet_poster.webp",
+    "local": "assets/little-shop.jpg"
+  },
+  {
+    "slug": "return-living-dead",
+    "page": "https://en.wikipedia.org/wiki/The_Return_of_the_Living_Dead",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Return_of_the_Living_Dead_%28film%29.jpg",
+    "local": "assets/return-living-dead.jpg"
+  },
+  {
+    "slug": "the-thing",
+    "page": "https://en.wikipedia.org/wiki/The_Thing_(1982_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Thing_%281982_film%29.png",
+    "local": "assets/the-thing.png"
+  },
+  {
+    "slug": "alien",
+    "page": "https://en.wikipedia.org/wiki/Alien_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
+    "local": "assets/alien.jpg"
+  },
+  {
+    "slug": "aliens",
+    "page": "https://en.wikipedia.org/wiki/Aliens_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/fb/Aliens_poster.jpg",
+    "local": "assets/aliens.jpg"
+  },
+  {
+    "slug": "predator",
+    "page": "https://en.wikipedia.org/wiki/Predator_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/95/Predator_Movie.jpg",
+    "local": "assets/predator.jpg"
+  },
+  {
+    "slug": "they-live",
+    "page": "https://en.wikipedia.org/wiki/They_Live",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/3d/1988They_Live_poster300.jpg",
+    "local": "assets/they-live.jpg"
+  },
+  {
+    "slug": "terminator",
+    "page": "https://en.wikipedia.org/wiki/The_Terminator",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6d/The_Terminator.png",
+    "local": "assets/terminator.png"
+  },
+  {
+    "slug": "robocop",
+    "page": "https://en.wikipedia.org/wiki/RoboCop",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/16/RoboCop_%281987%29_theatrical_poster.jpg",
+    "local": "assets/robocop.jpg"
+  },
+  {
+    "slug": "blade-runner",
+    "page": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png",
+    "local": "assets/blade-runner.png"
+  },
+  {
+    "slug": "pet-sematary",
+    "page": "https://en.wikipedia.org/wiki/Pet_Sematary_(1989_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/75/Pet_sematary_poster.jpg",
+    "local": "assets/pet-sematary.jpg"
+  },
+  {
+    "slug": "night-comet",
+    "page": "https://en.wikipedia.org/wiki/Night_of_the_Comet",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/ff/NightoftheCometPoster.jpg",
+    "local": "assets/night-comet.jpg"
+  },
+  {
+    "slug": "galaxy-terror",
+    "page": "https://en.wikipedia.org/wiki/Galaxy_of_Terror",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/b/b6/Galaxy_of_terror.jpg",
+    "local": "assets/galaxy-terror.jpg"
+  },
+  {
+    "slug": "house-usher",
+    "page": "https://en.wikipedia.org/wiki/House_of_Usher_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/8/89/House_of_Usher_%281960%29_-_Poster.jpg",
+    "local": "assets/house-usher.jpg"
+  },
+  {
+    "slug": "pit-pendulum",
+    "page": "https://en.wikipedia.org/wiki/The_Pit_and_the_Pendulum_(1961_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Pit_and_the_Pendulum_%281961_film%29_poster.jpg",
+    "local": "assets/pit-pendulum.jpg"
+  },
+  {
+    "slug": "the-blob",
+    "page": "https://en.wikipedia.org/wiki/The_Blob_(1988_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e0/The_Blob_%281988%29_theatrical_poster.jpg",
+    "local": "assets/the-blob.jpg"
+  },
+  {
+    "slug": "critters",
+    "page": "https://en.wikipedia.org/wiki/Critters_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/2d/Crittersposter.jpg",
+    "local": "assets/critters.jpg"
+  },
+  {
+    "slug": "gremlins",
+    "page": "https://en.wikipedia.org/wiki/Gremlins",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/3d/Gremlins1.jpg",
+    "local": "assets/gremlins.jpg"
+  },
+  {
+    "slug": "tremors",
+    "page": "https://en.wikipedia.org/wiki/Tremors_(1990_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f1/Tremors_official_theatrical_poster.jpg",
+    "local": "assets/tremors.jpg"
+  },
+  {
+    "slug": "pumpkinhead",
+    "page": "https://en.wikipedia.org/wiki/Pumpkinhead_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/80/Pumpkinhead.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/pumpkinhead.jpg"
+  },
+  {
+    "slug": "the-howling",
+    "page": "https://en.wikipedia.org/wiki/The_Howling_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Howling_%281981_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/the-howling.jpg"
+  },
+  {
+    "slug": "american-werewolf",
+    "page": "https://en.wikipedia.org/wiki/An_American_Werewolf_in_London",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e5/An_American_Werewolf_in_London_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/american-werewolf.jpg"
+  },
+  {
+    "slug": "from-beyond",
+    "page": "https://en.wikipedia.org/wiki/From_Beyond_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f2/Frombeyondposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/from-beyond.jpg"
+  },
+  {
+    "slug": "night-living-dead",
+    "page": "https://en.wikipedia.org/wiki/Night_of_the_Living_Dead",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/91/Night_of_the_Living_Dead_%281968%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/night-living-dead.jpg"
+  },
+  {
+    "slug": "scanners",
+    "page": "https://en.wikipedia.org/wiki/Scanners",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a1/Scanners_%28movie_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/scanners.jpg"
+  },
+  {
+    "slug": "the-brood",
+    "page": "https://en.wikipedia.org/wiki/The_Brood",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f0/Thebrood.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/the-brood.jpg"
+  },
+  {
+    "slug": "dead-zone",
+    "page": "https://en.wikipedia.org/wiki/The_Dead_Zone_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Dead_Zone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/dead-zone.jpg"
+  },
+  {
+    "slug": "society",
+    "page": "https://en.wikipedia.org/wiki/Society_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/aa/SocietyPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/society.jpg"
+  },
+  {
+    "slug": "basket-case",
+    "page": "https://en.wikipedia.org/wiki/Basket_Case_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/1d/Basketcaseposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/basket-case.jpg"
+  },
+  {
+    "slug": "brain-damage",
+    "page": "https://en.wikipedia.org/wiki/Brain_Damage_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/c6/Brain_Damage_%281988%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/brain-damage.jpg"
+  },
+  {
+    "slug": "frankenhooker",
+    "page": "https://en.wikipedia.org/wiki/Frankenhooker",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/23/Frankenhooker.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/frankenhooker.jpg"
+  },
+  {
+    "slug": "evil-dead",
+    "page": "https://en.wikipedia.org/wiki/The_Evil_Dead",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7d/Evil_dead_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/evil-dead.jpg"
+  },
+  {
+    "slug": "evil-dead-ii",
+    "page": "https://en.wikipedia.org/wiki/Evil_Dead_II",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6d/Evil_Dead_II_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/evil-dead-ii.jpg"
+  },
+  {
+    "slug": "army-of-darkness",
+    "page": "https://en.wikipedia.org/wiki/Army_of_Darkness",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/46/Army_of_Darkness_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/army-of-darkness.jpg"
+  },
+  {
+    "slug": "hellraiser",
+    "page": "https://en.wikipedia.org/wiki/Hellraiser",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/40/Hellraiser-UK-Quad-poster.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/hellraiser.jpg"
+  },
+  {
+    "slug": "phantasm",
+    "page": "https://en.wikipedia.org/wiki/Phantasm_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Phantasm.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/phantasm.jpg"
+  },
+  {
+    "slug": "the-fog",
+    "page": "https://en.wikipedia.org/wiki/The_Fog",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/aa/TheFog.1980TheatricalPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/the-fog.jpg"
+  },
+  {
+    "slug": "prince-of-darkness",
+    "page": "https://en.wikipedia.org/wiki/Prince_of_Darkness_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e9/Prince_of_darkness.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/prince-of-darkness.jpg"
+  },
+  {
+    "slug": "halloween",
+    "page": "https://en.wikipedia.org/wiki/Halloween_(1978_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/af/Halloween_%281978%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/halloween.jpg"
+  },
+  {
+    "slug": "friday-13th",
+    "page": "https://en.wikipedia.org/wiki/Friday_the_13th_(1980_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/2c/Friday_the_13th_%281980%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/friday-13th.jpg"
+  },
+  {
+    "slug": "nightmare-elm",
+    "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/fa/A_Nightmare_on_Elm_Street_%281984%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/nightmare-elm.jpg"
+  },
+  {
+    "slug": "texas-chainsaw",
+    "page": "https://en.wikipedia.org/wiki/The_Texas_Chain_Saw_Massacre",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Texas_Chain_Saw_Massacre_%281974%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/texas-chainsaw.jpg"
+  },
+  {
+    "slug": "sleepaway-camp",
+    "page": "https://en.wikipedia.org/wiki/Sleepaway_Camp",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f1/SleepawayCampposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/sleepaway-camp.jpg"
+  },
+  {
+    "slug": "my-bloody-valentine",
+    "page": "https://en.wikipedia.org/wiki/My_Bloody_Valentine_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7b/My_bloody_valentineposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/my-bloody-valentine.jpg"
+  },
+  {
+    "slug": "poltergeist",
+    "page": "https://en.wikipedia.org/wiki/Poltergeist_(1982_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e4/Poltergeist_%281982%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/poltergeist.png"
+  },
+  {
+    "slug": "the-shining",
+    "page": "https://en.wikipedia.org/wiki/The_Shining_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/the-shining.jpg"
+  },
+  {
+    "slug": "fright-night",
+    "page": "https://en.wikipedia.org/wiki/Fright_Night",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e2/Fright_night_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/fright-night.jpg"
+  },
+  {
+    "slug": "lost-boys",
+    "page": "https://en.wikipedia.org/wiki/The_Lost_Boys",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/b/b6/Lost_boys.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/lost-boys.jpg"
+  },
+  {
+    "slug": "night-demons",
+    "page": "https://en.wikipedia.org/wiki/Night_of_the_Demons_(1988_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/ac/Night_of_the_Demons_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/night-demons.jpg"
+  },
+  {
+    "slug": "dawn-dead",
+    "page": "https://en.wikipedia.org/wiki/Dawn_of_the_Dead_(1978_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/63/Dawn_of_the_dead.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/dawn-dead.jpg"
+  },
+  {
+    "slug": "day-dead",
+    "page": "https://en.wikipedia.org/wiki/Day_of_the_Dead_(1985_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7e/Day_of_the_Dead_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/day-dead.jpg"
+  },
+  {
+    "slug": "maximum-overdrive",
+    "page": "https://en.wikipedia.org/wiki/Maximum_Overdrive",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/27/MaximumOverdrivePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/maximum-overdrive.jpg"
+  },
+  {
+    "slug": "the-stuff",
+    "page": "https://en.wikipedia.org/wiki/The_Stuff",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/60/The-Stuff-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/the-stuff.jpg"
+  },
+  {
+    "slug": "house",
+    "page": "https://en.wikipedia.org/wiki/House_(1985_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/49/Housefilmposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/house.jpg"
+  },
+  {
+    "slug": "elvira-mistress",
+    "page": "https://en.wikipedia.org/wiki/Elvira:_Mistress_of_the_Dark_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/4f/Elviramistressofthedarkposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/elvira-mistress.jpg"
+  },
+  {
+    "slug": "reanimator-bride",
+    "page": "https://en.wikipedia.org/wiki/Bride_of_Re-Animator",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/63/Bride_of_Re-Animator.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/reanimator-bride.jpg"
+  },
+  {
+    "slug": "humanoids",
+    "page": "https://en.wikipedia.org/wiki/Humanoids_from_the_Deep",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f8/Humanoids_from_the_deep.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/humanoids.jpg"
+  },
+  {
+    "slug": "forbidden-world",
+    "page": "https://en.wikipedia.org/wiki/Forbidden_World",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/97/Forbidden_world.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/forbidden-world.jpg"
+  },
+  {
+    "slug": "death-race",
+    "page": "https://en.wikipedia.org/wiki/Death_Race_2000",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/40/Deathrace2000poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/death-race.jpg"
+  },
+  {
+    "slug": "event-horizon",
+    "page": "https://en.wikipedia.org/wiki/Event_Horizon_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/event-horizon.jpg"
+  },
+  {
+    "slug": "in-mouth-madness",
+    "page": "https://en.wikipedia.org/wiki/In_the_Mouth_of_Madness",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/92/Mouthmadnessposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/in-mouth-madness.jpg"
+  },
+  {
+    "slug": "hardware",
+    "page": "https://en.wikipedia.org/wiki/Hardware_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d0/Hardwareposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/hardware.jpg"
+  },
+  {
+    "slug": "exorcist",
+    "page": "https://en.wikipedia.org/wiki/The_Exorcist",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7b/Exorcist_ver2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/exorcist.jpg"
+  },
+  {
+    "slug": "carrie",
+    "page": "https://en.wikipedia.org/wiki/Carrie_(1976_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d7/Carrieposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/carrie.jpg"
+  },
+  {
+    "slug": "childs-play",
+    "page": "https://en.wikipedia.org/wiki/Child's_Play_(1988_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/3d/Childs_Play.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/childs-play.jpg"
+  },
+  {
+    "slug": "christine",
+    "page": "https://en.wikipedia.org/wiki/Christine_(1983_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/5a/ChristinePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/christine.jpg"
+  },
+  {
+    "slug": "creepshow",
+    "page": "https://en.wikipedia.org/wiki/Creepshow",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/25/CreepshowPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/creepshow.jpg"
+  },
+  {
+    "slug": "monster-squad",
+    "page": "https://en.wikipedia.org/wiki/The_Monster_Squad",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f6/Monstersquadposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/monster-squad.jpg"
+  },
+  {
+    "slug": "the-gate",
+    "page": "https://en.wikipedia.org/wiki/The_Gate_(1987_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/47/The_gate_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/the-gate.jpg"
+  },
+  {
+    "slug": "motel-hell",
+    "page": "https://en.wikipedia.org/wiki/Motel_Hell",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6b/POSTER_-_MOTEL_HELL.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "local": "assets/motel-hell.jpg"
+  },
+  {
+    "slug": "toxic-avenger",
+    "page": "https://independentpicturehouse.org/movies/the-toxic-avenger/",
+    "image_source": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/202/2024/04/27210104/toxic_avenger_xxlg.jpeg",
+    "local": "assets/toxic-avenger.jpg",
+    "credit": "The Toxic Avenger (1984) theatrical poster; source page linked."
+  },
+  {
+    "slug": "halloween-ii",
+    "page": "https://en.wikipedia.org/wiki/Halloween_II_(1981_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/1b/Halloween_II_%281981%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local": "assets/halloween-ii.jpg"
+  },
+  {
+    "slug": "halloween-iii",
+    "page": "https://en.wikipedia.org/wiki/Halloween_III%3A_Season_of_the_Witch",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/78/Halloween_III_Season_of_the_Witch_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local": "assets/halloween-iii.jpg"
+  },
+  {
+    "slug": "trick-or-treat",
+    "page": "https://en.wikipedia.org/wiki/Trick_or_Treat_(1986_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/45/Trick_or_Treat_%281986_film%29_Poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local": "assets/trick-or-treat.png"
+  },
+  {
+    "slug": "trick-r-treat",
+    "page": "https://en.wikipedia.org/wiki/Trick_'r_Treat",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/dc/Trick_r_treat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local": "assets/trick-r-treat.jpg"
+  },
+  {
+    "slug": "halloween-iv",
+    "page": "https://en.wikipedia.org/wiki/Halloween_4%3A_The_Return_of_Michael_Myers",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/c2/Halloween4poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local": "assets/halloween-iv.jpg"
+  },
+  {
+    "slug": "halloween-v",
+    "page": "https://en.wikipedia.org/wiki/Halloween_5%3A_The_Revenge_of_Michael_Myers",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/01/Halloween5poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local": "assets/halloween-v.jpg"
+  },
+  {
+    "slug": "return-living-dead-ii",
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead_Part_II",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/94/TheReturnOfTheLivingDead2.jpg",
+    "local": "assets/return-living-dead-ii.jpg"
+  },
+  {
+    "slug": "return-living-dead-3",
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead_3",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d3/Return-of-the-living-dead-3-film-poster.jpg",
+    "local": "assets/return-living-dead-3.jpg"
+  },
+  {
+    "slug": "return-living-dead-necropolis",
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead%3A_Necropolis",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/12/ReturnOfTheLivingDeadNecropolisDVDCover.jpg",
+    "local": "assets/return-living-dead-necropolis.jpg"
+  },
+  {
+    "slug": "return-living-dead-rave",
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead%3A_Rave_to_the_Grave",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/33/TheReturnOfTheLivingDead5.jpg",
+    "local": "assets/return-living-dead-rave.jpg"
+  },
+  {
+    "slug": "sleepaway-camp-ii",
+    "page": "https://www.imdb.com/pt/title/tt0096118/mediaviewer/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BMTk3ZjM5MDAtZGVmNS00NDgyLTk3Y2QtMzEwOWM2NzNkYzIyXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "local": "assets/sleepaway-camp-ii.jpg",
+    "credit": "Sleepaway Camp II: Unhappy Campers (1988) theatrical poster; source page linked."
+  },
+  {
+    "slug": "sleepaway-camp-iii",
+    "page": "https://scopophiliamovieblog.com/2023/10/23/sleepaway-camp-iii-teenage-wasteland-1989/",
+    "image_source": "https://scopophiliamovieblog.com/wp-content/uploads/2023/10/sleepaway3.jpg",
+    "local": "assets/sleepaway-camp-iii.jpg",
+    "credit": "Sleepaway Camp III: Teenage Wasteland (1989) theatrical poster; source page linked."
+  },
+  {
+    "slug": "slumber-party-massacre",
+    "page": "https://www.themoviedb.org/movie/27475-the-slumber-party-massacre/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/aMjJZDRxugmv3fNJBMCfgfff4PN.jpg",
+    "local": "assets/slumber-party-massacre.jpg",
+    "credit": "The Slumber Party Massacre (1982) theatrical poster; source page linked."
+  },
+  {
+    "slug": "slumber-party-massacre-ii",
+    "page": "https://nitehawkcinema.com/williamsburg/movies/slumber-party-massacre-ii/",
+    "image_source": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/3/2022/05/17153039/slumber-party-massacre-2-poster.jpg",
+    "local": "assets/slumber-party-massacre-ii.jpg",
+    "credit": "Slumber Party Massacre II (1987) theatrical poster; source page linked."
+  },
+  {
+    "slug": "slumber-party-massacre-iii",
+    "page": "https://www.cinematerial.com/movies/slumber-party-massacre-iii-i100639/p/iujf9646",
+    "image_source": "https://media-cache.cinematerial.com/p/500x/iujf9646/slumber-party-massacre-iii-movie-poster.jpg?v=1725685123",
+    "local": "assets/slumber-party-massacre-iii.webp",
+    "credit": "Slumber Party Massacre III (1990) theatrical poster; source page linked."
+  },
+  {
+    "slug": "the-burning",
+    "page": "https://ourculturemag.com/2017/07/18/review-burning-1981/",
+    "image_source": "https://ourculturemag.com/wp-content/uploads/2017/07/burning_poster_01.jpg",
+    "local": "assets/the-burning.jpg",
+    "credit": "The Burning (1981) theatrical poster; source page linked."
+  },
+  {
+    "slug": "black-christmas",
+    "page": "https://www.imdb.com/title/tt0071222/",
+    "local": "assets/black-christmas.jpg",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BYmM3NWMwOWYtZWMwZS00OWE2LWE3NjEtZjZiZjU3NmU1MzY1XkEyXkFqcGc%40._V1_.jpg"
+  },
+  {
+    "slug": "pieces",
+    "page": "https://schlockmania.com/blog/pieces",
+    "image_source": "https://images.squarespace-cdn.com/content/v1/6359b21937dd3e5b9cc94612/1666832522314-GBL79LZHWC8I14DQHNRO/Pieces-pos.jpg",
+    "local": "assets/pieces.jpg",
+    "credit": "Pieces (1982) theatrical poster; source page linked."
+  },
+  {
+    "slug": "prom-night",
+    "page": "https://www.originalfilmart.com/es-ar/products/prom-night-1980",
+    "image_source": "https://www.originalfilmart.com/cdn/shop/products/prom_night_1980_original_film_art_600x.jpg?v=1601128863",
+    "local": "assets/prom-night.jpg",
+    "credit": "Prom Night (1980) theatrical poster; source page linked."
+  },
+  {
+    "slug": "intruder",
+    "page": "https://www.themoviedb.org/movie/31150-intruder/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/6fBOp5g5ifM54NUTx5qwhe9vAxt.jpg",
+    "local": "assets/intruder.jpg",
+    "credit": "Intruder (1989) theatrical poster; source page linked."
+  },
+  {
+    "slug": "the-prowler",
+    "page": "https://www.themoviedb.org/movie/44247-the-prowler/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/sDwxR4mv57RG4uNsYhvLPrja8TB.jpg",
+    "local": "assets/the-prowler.jpg",
+    "credit": "The Prowler (1981) theatrical poster; source page linked."
+  },
+  {
+    "slug": "hell-night",
+    "page": "https://www.imdb.com/title/tt0082511/mediaviewer/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BM2UyOGI4NmQtNzZiYy00ODkyLTg3ZmMtODUzNzhiZjMxYWUyXkEyXkFqcGc%40._V1_FMjpg_UY672_.jpg",
+    "local": "assets/hell-night.jpg",
+    "credit": "Hell Night (1981) theatrical poster; source page linked."
+  },
+  {
+    "slug": "dead-heat",
+    "page": "https://www.imdb.com/title/tt0094961/",
+    "local": "assets/dead-heat.jpg",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BN2M5Zjg5NjUtNDhkYy00OGYwLThhMjYtMjA2YjQ5NmFjMDE3XkEyXkFqcGc%40._V1_.jpg"
+  },
+  {
+    "slug": "street-trash",
+    "page": "https://www.filmstarts.de/kritiken/2589.html",
+    "local": "assets/street-trash.jpg",
+    "image_source": "https://de.web.img3.acsta.net/medias/nmedia/18/92/80/38/20218517.jpg"
+  },
+  {
+    "slug": "evil-spawn",
+    "page": "https://www.imdb.com/title/tt0092992/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BMTUzNDQxMzkzOV5BMl5BanBnXkFtZTcwOTE4MjEzMQ%40%40._V1_FMjpg_UX1000_.jpg",
+    "local": "assets/evil-spawn.jpg",
+    "credit": "Evil Spawn (1987) theatrical poster; source page linked."
+  },
+  {
+    "slug": "vamp",
+    "page": "https://www.imdb.com/title/tt0092147/",
+    "local": "assets/vamp.jpg",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BNmE1YjljZDEtZjg0Ny00MGQ4LTk1MDUtYTgzYTVjZTZjZTgyXkEyXkFqcGc%40._V1_.jpg"
+  },
+  {
+    "slug": "spookies",
+    "page": "https://www.filmaffinity.com/es/film362847.html",
+    "image_source": "https://pics.filmaffinity.com/Spookies-342495401-large.jpg",
+    "local": "assets/spookies.jpg",
+    "credit": "Spookies (1986) theatrical poster; source page linked."
+  },
+  {
+    "slug": "terrorvision",
+    "page": "https://www.imdb.com/title/tt0092074/",
+    "local": "assets/terrorvision.jpg",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BZjcyMGIyYWYtYTBmOS00MjQ2LWJjMWYtZWRmZDM5MzJlOWM2XkEyXkFqcGc%40._V1_.jpg"
+  },
+  {
+    "slug": "rock-n-roll-nightmare",
+    "page": "https://www.themoviedb.org/movie/36762-rock-n-roll-nightmare",
+    "local": "assets/rock-n-roll-nightmare.jpg",
+    "image_source": "https://image.tmdb.org/t/p/w500/uR5B3T9lGW0ISM5xJ1esb5L9N7U.jpg"
+  },
+  {
+    "slug": "necropolis-1986",
+    "page": "https://www.ebay.com/itm/376711773092",
+    "image_source": "https://i.ebayimg.com/images/g/SXEAAOSwhD9jwopl/s-l1600.jpg",
+    "local": "assets/necropolis-1986.jpg",
+    "credit": "Necropolis (1986) theatrical poster; source page linked."
+  },
+  {
+    "slug": "blood-rage",
+    "page": "https://www.imdb.com/title/tt0085253/",
+    "local": "assets/blood-rage.jpg",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BOTA1MDBkMDgtZTEyMy00ZGQ3LWEzYjEtOGFjMWVhNTFiNDVjXkEyXkFqcGc%40._V1_.jpg"
+  },
+  {
+    "slug": "the-dungeonmaster",
+    "page": "https://www.themoviedb.org/movie/27244-the-dungeonmaster/images/posters",
+    "local": "assets/the-dungeonmaster.jpg",
+    "image_source": "https://image.tmdb.org/t/p/original/qi7tOEmkC3EnEhOCTH5KyQ0s56D.jpg"
+  },
+  {
+    "slug": "demon-wind",
+    "page": "https://www.themoviedb.org/movie/58899-demon-wind/images/posters",
+    "local": "assets/demon-wind.jpg",
+    "image_source": "https://image.tmdb.org/t/p/original/4qdscW38xwujb1uU1zKEF21KOk4.jpg"
+  },
+  {
+    "slug": "sorority-house-massacre-ii",
+    "page": "https://www.redbubble.com/i/art-print/Sorority-House-Massacre-II-Original-Poster-Art-1990-VHSGasm-Video-HORROR-MERCH-BEST-SELLING-Limited-Edition-Perfect-Gift-For-You-And-Friends-by-kelseydebbie/121775583.1G4ZT",
+    "local": "assets/sorority-house-massacre-ii.jpg",
+    "image_source": "https://ih1.redbubble.net/image.4050629649.5583/aps%2C504x498%2Cmedium%2Ctransparent-pad%2C600x600%2Cf8f8f8.jpg"
+  },
+  {
+    "slug": "blood-hook",
+    "page": "https://www.rottentomatoes.com/m/blood_hook",
+    "image_source": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak%3D/v3/t/assets/p48540_p_v8_aa.jpg",
+    "local": "assets/blood-hook.jpg",
+    "credit": "Blood Hook (1986) theatrical poster; source page linked."
+  },
+  {
+    "slug": "doom-asylum",
+    "page": "https://www.imdb.com/title/tt0092910/",
+    "local": "assets/doom-asylum.jpg",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BOGEyYjVjMTYtMjIzOS00ODE1LTkyMWMtZGI3YWFhMGU5MmY3XkEyXkFqcGc%40._V1_.jpg"
+  },
+  {
+    "slug": "class-nuke-em-high",
+    "page": "https://www.25thframe.co.uk/movies/class-of-nuke-em-high/cast-and-crew",
+    "image_source": "https://www.25thframe.co.uk/film-images/class-of-nuke-em-high.jpg",
+    "local": "assets/class-nuke-em-high.jpg",
+    "credit": "Class of Nuke 'Em High (1986) theatrical poster; source page linked."
+  },
+  {
+    "slug": "surf-nazis-must-die",
+    "page": "https://www.rottentomatoes.com/m/surf_nazis_must_die",
+    "image_source": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak%3D/v3/t/assets/p10027_p_v8_aa.jpg",
+    "local": "assets/surf-nazis-must-die.jpg",
+    "credit": "Surf Nazis Must Die (1987) theatrical poster; source page linked."
+  },
+  {
+    "slug": "redneck-zombies",
+    "page": "https://www.imdb.com/title/tt0093833/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BYjFkODRiZDctMmE5Zi00MjE0LWEyNDgtZWUyYjg5MjFjZWQ1XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "local": "assets/redneck-zombies.jpg",
+    "credit": "Redneck Zombies (1987) theatrical poster; source page linked."
+  },
+  {
+    "slug": "nightbreed",
+    "page": "https://www.themoviedb.org/movie/20481-nightbreed/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/7lZHfBdmj14IturP05nLI9xQyn4.jpg",
+    "local": "assets/nightbreed.jpg",
+    "credit": "Nightbreed (1990) theatrical poster; source page linked."
+  },
+  {
+    "slug": "children-of-the-corn",
+    "page": "https://www.originalfilmart.com/products/children-of-the-corn-1984",
+    "image_source": "https://cdn.shopify.com/s/files/1/1416/8662/products/children_of_the_corn_1984_original_film_art_spo_2000x.jpg?v=1562538449",
+    "local": "assets/children-of-the-corn.jpg",
+    "credit": "Children of the Corn (1984) theatrical poster; source page linked."
+  },
+  {
+    "slug": "silver-bullet",
+    "page": "https://www.themoviedb.org/movie/17898-silver-bullet/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/AcFFMJBdGltUUG6gQXUsbUuUp9p.jpg",
+    "local": "assets/silver-bullet.jpg",
+    "credit": "Silver Bullet (1985) theatrical poster; source page linked."
+  },
+  {
+    "slug": "suspiria",
+    "page": "https://www.truemythmedia.com/true-myth-media/reviews/suspiria1977",
+    "image_source": "https://images.squarespace-cdn.com/content/v1/5a7dcf69d7bdce185884a6b5/1535649497194-MZ8YY7YMYAIIAGC6XC5Y/hmm-suspiria.jpg",
+    "local": "assets/suspiria.jpg",
+    "credit": "Suspiria (1977) theatrical poster; source page linked."
+  },
+  {
+    "slug": "deep-red",
+    "page": "https://filmartgallery.com/products/deep-red-profondo-rosso-2",
+    "image_source": "https://filmartgallery.com/cdn/shop/files/Deep-Red-Profondo-Rosso-Vintage-Movie-Poster-Original.jpg?v=1771939685&width=1200",
+    "local": "assets/deep-red.jpg",
+    "credit": "Deep Red / Profondo Rosso (1975) theatrical poster; source page linked."
+  },
+  {
+    "slug": "inferno",
+    "page": "https://posteritati.com/poster/55507/inferno-1980-italian-due-fogli-poster",
+    "image_source": "https://cdn.posteritati.com/posters/000/000/065/372/inferno-md-web.jpg",
+    "local": "assets/inferno.jpg",
+    "credit": "Inferno (1980) theatrical poster; source page linked."
+  },
+  {
+    "slug": "tenebrae",
+    "page": "https://posteritati.com/poster/55480/tenebrae-1982-italian-due-fogli-poster",
+    "image_source": "https://cdn.posteritati.com/posters/000/000/065/214/tenebre-md-web.jpg",
+    "local": "assets/tenebrae.jpg",
+    "credit": "Tenebrae (1982) theatrical poster; source page linked."
+  },
+  {
+    "slug": "opera",
+    "page": "https://www.themoviedb.org/movie/20115-opera/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/1Kh1DNS6suo6qPDGCYvIfXdhJvT.jpg",
+    "local": "assets/opera.jpg",
+    "credit": "Opera (1987) theatrical poster; source page linked."
+  },
+  {
+    "slug": "zombi-2",
+    "page": "https://www.varietydistribution.it/en/catalogue/zombi-2/",
+    "image_source": "https://www.varietydistribution.it/wp-content/uploads/2018/02/ZOMBI-2.-Locandina-566x800.png",
+    "local": "assets/zombi-2.png",
+    "credit": "Zombie / Zombi 2 (1979) theatrical poster; source page linked."
+  },
+  {
+    "slug": "city-of-the-living-dead",
+    "page": "https://stulovesfilm.com/movies-of-time-long-gone/city-of-the-living-dead-1980/",
+    "image_source": "https://stulovesfilm.com/wp-content/uploads/2013/06/81b6c-city20of20the20living20dead-poster20320by20silverfox.jpg?w=1000",
+    "local": "assets/city-of-the-living-dead.jpg",
+    "credit": "City of the Living Dead (1980) theatrical poster; source page linked."
+  },
+  {
+    "slug": "the-beyond",
+    "page": "https://www.etsy.com/listing/1502739635/the-beyond-original-vintage-movie-poster",
+    "image_source": "https://i.etsystatic.com/19463182/r/il/ff6737/5045507765/il_fullxfull.5045507765_im1s.jpg",
+    "local": "assets/the-beyond.jpg",
+    "credit": "The Beyond (1981) theatrical poster; source page linked."
+  },
+  {
+    "slug": "house-by-the-cemetery",
+    "page": "https://www.simondwyer.com/house-by-the-cemetery-original-movie-poster-uk-quad-40x30-10205.html",
+    "image_source": "https://www.simondwyer.com/files/house-by-the-cemetery-10205.jpg",
+    "local": "assets/house-by-the-cemetery.jpg",
+    "credit": "The House by the Cemetery (1981) theatrical poster; source page linked."
+  },
+  {
+    "slug": "new-york-ripper",
+    "page": "https://www.filmaffinity.com/us/movieimage.php?imageId=467869555",
+    "image_source": "https://pics.filmaffinity.com/The_New_York_Ripper-467869555-large.jpg",
+    "local": "assets/new-york-ripper.jpg",
+    "credit": "The New York Ripper (1982) theatrical poster; source page linked."
+  },
+  {
+    "slug": "deadly-spawn",
+    "local": "assets/deadly-spawn.jpg",
+    "page": "https://www.themoviedb.org/movie/40059-the-deadly-spawn/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/uhlqeX7c2Kc6dFb12tVMtTDn4ew.jpg"
+  },
+  {
+    "slug": "blood-diner",
+    "local": "assets/blood-diner.jpg",
+    "page": "https://www.impawards.com/1987/blood_diner_xxlg.html",
+    "image_source": "https://www.impawards.com/1987/posters/blood_diner_xxlg.jpg"
+  },
+  {
+    "slug": "the-video-dead",
+    "local": "assets/the-video-dead.jpg",
+    "page": "https://www.posterazzi.com/the-video-dead-movie-poster-print-27-x-40-item-moveb06190/",
+    "image_source": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/380922/4065483/apiigd2nl__21540.1625669463.jpg?c=2"
+  },
+  {
+    "slug": "evilspeak",
+    "local": "assets/evilspeak.jpg",
+    "page": "https://www.filmaffinity.com/es/film563803.html",
+    "image_source": "https://pics.filmaffinity.com/evilspeak-455723601-large.jpg"
+  },
+  {
+    "slug": "the-mutilator",
+    "local": "assets/the-mutilator.jpg",
+    "page": "https://www.walmart.com/ip/47116009",
+    "image_source": "https://i5.walmartimages.com/seo/The-Mutilator-Movie-Poster-11-x-17_4eba866b-b929-45f8-a848-08cf569d2e0f.5b41570310b83747f868cb22c611d6a4.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768"
+  },
+  {
+    "slug": "chud",
+    "local": "assets/chud.jpg",
+    "page": "https://www.impawards.com/1984/chud.html",
+    "image_source": "https://www.impawards.com/1984/posters/chud.jpg"
+  },
+  {
+    "slug": "puppet-master",
+    "local": "assets/puppet-master.jpg",
+    "page": "https://www.rottentomatoes.com/m/puppet_master",
+    "image_source": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak%3D/v3/t/assets/p11785_p_v8_ab.jpg"
+  },
+  {
+    "slug": "invaders-from-mars-1986",
+    "local": "assets/invaders-from-mars-1986.jpg",
+    "page": "https://www.imdb.com/title/tt0091276/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BOWY3YTU2NzItNDczZS00NmE5LWFkMWYtYmE3YjNjMjEyZjM4XkEyXkFqcGc%40._V1_UY1200_CR80%2C0%2C630%2C1200_AL_.jpg"
+  },
+  {
+    "slug": "something-wicked-this-way-comes",
+    "local": "assets/something-wicked-this-way-comes.jpg",
+    "page": "https://www.impawards.com/1983/something_wicked_this_way_comes.html",
+    "image_source": "https://www.impawards.com/1983/posters/something_wicked_this_way_comes_xlg.jpg"
+  },
+  {
+    "slug": "terror-train",
+    "local": "assets/terror-train.jpg",
+    "page": "https://www.impawards.com/1980/terror_train_ver1_xlg.html",
+    "image_source": "https://www.impawards.com/1980/posters/terror_train_ver1_xlg.jpg"
+  },
+  {
+    "slug": "the-funhouse",
+    "local": "assets/the-funhouse.jpg",
+    "page": "https://posteritati.com/poster/10930/the-funhouse-original-1981-us-one-sheet-movie-poster",
+    "image_source": "https://cdn.posteritati.com/posters/000/000/066/239/the-funhouse-md-web.jpg"
+  },
+  {
+    "slug": "deadly-friend",
+    "local": "assets/deadly-friend.jpg",
+    "page": "https://theridiculosityreview.blogspot.com/2017/10/deadly-friend-1986.html",
+    "image_source": "https://2.bp.blogspot.com/-n0MaUJrvKhI/WdLuqQsWT7I/AAAAAAAAazk/9gwpudda8lsEwZju56JDJGI4LcJOTHZ5QCLcBGAs/s1600/p9579_p_v8_aa.jpg"
+  },
+  {
+    "slug": "cat-people-1982",
+    "local": "assets/cat-people-1982.jpg",
+    "page": "https://www.imdb.com/title/tt0083722/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BNzZjYjgzMGUtZmUwZi00NjQxLTg4NTgtMTYzYTg0ZTY5YmJiXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "slug": "the-entity",
+    "local": "assets/the-entity.jpg",
+    "page": "https://www.rottentomatoes.com/m/entity",
+    "image_source": "https://flxt.tmsimg.com/assets/p6940_p_v8_aa.jpg"
+  },
+  {
+    "slug": "the-changeling",
+    "local": "assets/the-changeling.jpg",
+    "page": "https://www.themoviedb.org/movie/13550-the-changeling/images/posters",
+    "image_source": "https://image.tmdb.org/t/p/original/dk44PjzlcNWHILD3WfS7AXLxcjr.jpg"
+  }
+]

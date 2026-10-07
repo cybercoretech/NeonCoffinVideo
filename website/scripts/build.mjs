@@ -1,0 +1,14 @@
+import {cp, mkdir, readdir, rm} from 'node:fs/promises';
+import {build} from 'esbuild';
+await import('./build-footer.mjs');
+await import('./build-sources.mjs');
+const root = new URL('../', import.meta.url), dist = new URL('dist/', root);
+// Only generated output is replaced. Use an explicit public-file allowlist.
+await rm(dist, {recursive: true, force: true});
+await mkdir(dist, {recursive: true});
+const publicFiles = ['index.html','community.html','404.html','fonts.css','styles.css','community.css','stats.css','night-effects.css','app.js','stats-counter.js','community.js','catalogue.js','italian-horror.js','curator-data.js','vhs-culture.js','imdb-search.js','after-dark.js','night-effects.js','artwork-sources.json','still-sources.json','catalogue-extra.json','movies.json','SOURCES.md','robots.txt','_routes.json','assets'];
+for (const file of publicFiles) await cp(new URL(file, root), new URL(file, dist), {recursive: true});
+await mkdir(new URL('shared/', dist));
+await cp(new URL('shared/genre-footer.css', root), new URL('shared/genre-footer.css', dist));
+await build({entryPoints:[new URL('_worker.js',root).pathname], outfile:new URL('_worker.js',dist).pathname,bundle:true,format:'esm',platform:'browser',target:'es2022'});
+console.log('Built public website in dist/; private source, credentials, and local databases excluded.');
