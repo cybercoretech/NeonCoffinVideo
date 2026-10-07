@@ -44,6 +44,15 @@ export async function community(request,env){
   const headers=new Headers({Location:origin+'/community.html#profile','Cache-Control':'no-store','Referrer-Policy':'no-referrer'});headers.append('Set-Cookie',cookie('__Host_ncv_session',session,864000));headers.append('Set-Cookie',cookie('__Host_ncv_oauth','',0));return new Response(null,{status:302,headers});
  }
  const me=await member(request,db),admin=!!(me&&env.ADMIN_GOOGLE_SUB&&me.google_sub===env.ADMIN_GOOGLE_SUB);
+ if(path==='/api/community/presence'&&request.method==='POST'){
+  if(!trustedOrigin)fail('Request origin rejected.',403);
+  const body=await boundedJSON(request);if(typeof body.token!=='string'||!/^[a-f0-9]{64}$/.test(body.token))fail('Invalid presence token.');
+  const timestamp=now(),visitorHash=await hash(body.token);
+  await db.prepare('DELETE FROM lounge_presence WHERE expires<=?').bind(timestamp).run();
+  await db.prepare('INSERT INTO lounge_presence(visitor_hash,expires) VALUES(?,?) ON CONFLICT(visitor_hash) DO UPDATE SET expires=excluded.expires').bind(visitorHash,timestamp+90).run();
+  const active=await db.prepare('SELECT COUNT(*) AS count FROM lounge_presence WHERE expires>?').bind(timestamp).first();
+  return reply({count:Number(active.count),windowSeconds:90});
+ }
  if(path==='/api/community/reports'&&request.method==='GET'){if(!admin)fail('Moderator access required.',403);const reports=await db.prepare('SELECT r.id,r.reason,r.post,r.created,p.topic,p.body,m.handle FROM reports r JOIN posts p ON p.id=r.post JOIN members m ON m.id=r.author ORDER BY r.created DESC LIMIT 50').all();return reply({reports:reports.results})}
  if(path==='/api/community/me'&&request.method==='GET')return reply({member:me?publicMember(me):null,admin,ready});
  if(path==='/api/community/topics'&&request.method==='GET'){const cat=u.searchParams.get('category')||'',q=(u.searchParams.get('q')||'').slice(0,80);const offset=Math.min(Number(u.searchParams.get('offset'))||0,10000);if(offset<0)fail('Invalid page.');const data=await db.prepare('SELECT t.*,m.handle,(SELECT count(*) FROM posts p WHERE p.topic=t.id AND p.hidden=0) AS replies FROM topics t JOIN members m ON m.id=t.author WHERE (?=\'\' OR category=?) AND title LIKE ? ORDER BY created DESC LIMIT 21 OFFSET ?').bind(cat,cat,'%'+q+'%',offset).all();return reply({topics:data.results.slice(0,20),more:data.results.length>20})}
@@ -63,5 +72,5 @@ export async function community(request,env){
  if(path==='/api/community/report'){const post=await db.prepare('SELECT id FROM posts WHERE id=?').bind(body.post).first();if(!post)fail('Post not found.',404);await db.prepare('INSERT INTO reports VALUES(?,?,?,?,?)').bind(crypto.randomUUID(),me.id,body.post,text(body.reason,5,500),now()).run();return reply({ok:true})}
  if(path==='/api/community/moderate'){if(!admin)fail('Moderator access required.',403);await db.prepare('UPDATE posts SET hidden=? WHERE id=?').bind(body.hidden?1:0,body.post).run();return reply({ok:true})}
  fail('Not found.',404);
- }catch(error){return reply({error:error.status?error.message:'The lounge could not complete that request. Please try again.'},error.status||503)}
+ }catch(error){if(path==='/api/community/profile'&&String(error?.message||'').includes('UNIQUE constraint failed: members.handle'))return reply({error:'That handle is already in use. Choose another one.'},409);return reply({error:error.status?error.message:'The lounge could not complete that request. Please try again.'},error.status||503)}
 }

@@ -7,7 +7,9 @@ This is a custom forum integrated with the Neon Coffin site, not an installed Di
 
 ## Built
 
-Six discussion rooms, title search and pagination, topic creation, replies, spoiler disclosure, public member profiles with editable handle/bio/favorite movie, public 1–5-skull reviews, private account shelves with browser-shelf import and removal, sign-out, post reporting, moderator report desk and post hiding. Reviews for a movie can be updated by publishing again or deleted by their author. Movie dossiers link into the lounge. No fake members, reviews or activity were seeded.
+Six discussion rooms, title search and pagination, topic creation, replies, spoiler disclosure, public member profiles with editable handle/bio/favorite movie, public 1–5-skull reviews, private account shelves with browser-shelf import and removal, sign-out, post reporting, moderator report desk and post hiding. Reviews for a movie can be updated by publishing again or deleted by their author. Movie dossiers link into the lounge. The sidebar shows recent real discussions, an anonymous live-session estimate, and explicitly labeled fictional house mascots plus a rotating Night Clerk prompt; it does not create fake member accounts, posts, reviews, or online identities.
+
+The live-session estimate stores only a hash of a random tab-scoped token and a 90-second expiry in D1. The client refreshes it every 30 seconds while visible. No member identity or IP address is written to the presence table. The displayed number is active browser sessions, not a verified count of people.
 
 Google login uses a server-side authorization-code flow with PKCE, one-use browser-bound state, a verified Google userinfo response, and hashed server sessions in HttpOnly Secure SameSite cookies. Google access tokens are not persisted, and Google email/name are not stored in community tables or exposed in profiles. New members receive a pseudonymous handle which they can change. Database writes require authentication and the configured origin, with bounded input and per-member rate limits.
 
@@ -24,7 +26,7 @@ To give the owner moderation access, set the Pages secret `ADMIN_GOOGLE_SUB` to 
 
 ## Deployment
 
-`wrangler.jsonc` binds `COMMUNITY_DB` to the existing `neon-coffin-community` database and sets SITE_ORIGIN to the custom domain. The Worker validates page-view and forum writes against the custom domain and the Pages fallback. Schema initialization is in migrations/0001-community.sql. Do not upload migrations, private OAuth files or the preview SQLite file as site assets.
+`wrangler.jsonc` binds `COMMUNITY_DB` to the existing `neon-coffin-community` database and sets SITE_ORIGIN to the custom domain. The Worker validates page-view and forum writes against the custom domain and the Pages fallback. Database schema is versioned in `migrations/`; the anonymous lounge presence table is in `0004-lounge-presence.sql`. Do not upload migrations, private OAuth files or the preview SQLite file as site assets.
 
 Bundle `_worker.js` with esbuild into the clean upload folder, copy static assets there, then deploy from this project directory so Wrangler uses the binding configuration. The distribution ZIP contains the bundled worker. Dashboard uploads need the D1 binding configured separately; the ZIP cannot create database bindings or secrets.
 
