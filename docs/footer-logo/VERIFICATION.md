@@ -20,3 +20,9 @@ Live site: https://neoncoffinvideo.site/
 Published matching artwork in the top-left storefront header beneath THE MONTHLY MIDNIGHT FILE. Website commit `62e8810`, deployment `dbb9eccd`. Header and footer reference the identical logo file. Desktop logo is 200px wide; the mobile layout fits logo and buttons in one row at 390px, using two rows below 380px.
 
 Local and live Chromium checks passed at 1440, 900, 768, 390, 360, and 320px: logo loads, no horizontal overflow, no overlap with header controls, menu opens, and artwork matches the footer source. The existing navigation browser check passed on both pages, including Help/Theme Packs, keyboard/focus, theme changes, effects preferences, and reading progress. Live desktop/phone screenshots attached.
+
+## Lounge and publication label refinement
+
+Website commit `032fc80`, Pages deployment `a313d841`: the Lounge top bar now uses the matching artwork with THE MIDNIGHT LOUNGE beneath it. THE MONTHLY MIDNIGHT FILE on the storefront is a compact monospace publication label with a small pink/green accent, aligned with the logo; oversized pink typography and glow overrides were removed.
+
+Local and production checks passed on the storefront at 1440/900/768/390/360/320px and Lounge at 1440/900/768/390px, confirming loaded matching artwork, no horizontal overflow, and functioning menu. Storefront logo/control separation also passed. Updated live screenshots attached.
