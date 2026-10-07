@@ -1,0 +1,18 @@
+(()=>{
+ const $=s=>document.querySelector(s),dialog=$('#membershipDialog'),trigger=$('#memberPortal'),form=$('#siteMembershipForm');
+ if(!dialog||!trigger||!form)return;
+ let mode='register',member=null;
+ let status=$('#membershipStatus');const extra=$('#membershipExtraFields'),submit=$('#membershipSubmit');
+ async function api(path,body){const response=await fetch('/api/'+path,{method:body?'POST':'GET',credentials:'same-origin',cache:'no-store',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});const data=await response.json();if(!response.ok)throw new Error(data.error||'The membership counter is unavailable.');return data}
+ function setMode(next){mode=next;const registering=mode==='register';document.querySelectorAll('[data-membership-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.membershipMode===mode)));extra.hidden=!registering;form.elements.handle.required=registering;form.elements.displayName.required=false;form.elements.password.autocomplete=registering?'new-password':'current-password';submit.textContent=registering?'Create my membership':'Sign in';status.textContent=''}
+ function showSignedIn(){const panel=$('#membershipSignedIn');panel.hidden=!member;status=member?$('#membershipStatusSigned'):$('#membershipStatus');if(member){$('#membershipIdentity').textContent='SIGNED IN AS @'+member.handle;$('#memberPortalLabel').textContent='@'+member.handle;trigger.setAttribute('aria-label','Membership for @'+member.handle)}else{$('#memberPortalLabel').textContent='Membership';trigger.setAttribute('aria-label','Open site membership')}$('#membershipGuest').hidden=!!member}
+ async function refresh(){try{member=(await api('community/me')).member;showSignedIn()}catch{member=null;showSignedIn()}}
+ trigger.addEventListener('click',async()=>{await refresh();dialog.showModal()});
+ document.querySelectorAll('[data-membership-mode]').forEach(button=>button.addEventListener('click',()=>setMode(button.dataset.membershipMode)));
+ form.addEventListener('submit',async event=>{event.preventDefault();if(!$('#membershipAge').checked){status.textContent='Confirm that you are at least 18 years old to continue.';return}submit.disabled=true;status.textContent='Checking your membership…';const data=Object.fromEntries(new FormData(form));data.ageConfirmed=true;try{member=(await api(mode==='register'?'auth/email/register':'auth/email/login',data)).member||null;await refresh();status.textContent='Your membership is ready.';form.reset();setMode('register')}catch(error){status.textContent=error.message}finally{submit.disabled=false}});
+ $('#membershipGoogle').addEventListener('click',()=>{if(!$('#membershipAge').checked){status.textContent='Confirm that you are at least 18 years old to continue.';return}location.href='https://neoncoffinvideo.pages.dev/api/auth/google?adult=1&return=store'});
+ $('#membershipLogout').addEventListener('click',async()=>{try{await api('auth/logout',{});member=null;showSignedIn();status.textContent='You are signed out.'}catch(error){status.textContent=error.message}});
+ const claim=location.hash.match(/^#claim\/([a-f0-9]{64})$/);
+ const start=async()=>{if(claim){status.textContent='Finishing Google sign-in…';try{await api('auth/claim',{ticket:claim[1]});history.replaceState(null,'','/?oauth=complete#membership');await refresh();dialog.showModal();status.textContent='Your Google membership is ready. Finish your profile in the Lounge.'}catch(error){history.replaceState(null,'','/');status.textContent=error.message;dialog.showModal()}}else await refresh()};
+ setMode('register');start();
+})();
