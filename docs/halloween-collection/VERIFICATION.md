@@ -1,7 +1,7 @@
 # Halloween Collection — 2026-10-06
 
 Production: https://neoncoffinvideo.site/
-Deployment: https://5abddd51.neoncoffinvideo.pages.dev
+Deployment: https://1d6df40c.neoncoffinvideo.pages.dev
 
 Eight original movie-inspired scene treatments, Cybercore palette adapter, illustrated theme dialog, original reset, persisted preference, URL sharing, atmospheric effects controls and reduced-motion handling. Available on homepage and lounge. Default visitors retain the original Neon Coffin theme; scene atlases load only when needed.
 
@@ -18,3 +18,5 @@ Passed locally and against production:
 Also passed: npm test (counter, community, OAuth mock suite), npm run build, existing footer/film-credit browser regression. All white/muted/primary accent palette pairs on base and panel backgrounds exceed 4.5:1; this is a palette check, not a full accessibility audit. Screenshots in this directory record local design review; production ran the same theme browser checks.
 
 Original art and pack source: website/theme-packs/. Artwork provenance: website/SOURCES.md. Nothing changed in the other network sites or Fourthwall store.
+
+Revision: theme selection now retains the original NCV storefront artwork as a richly tinted site backdrop, with stronger theme-colored light and haze. The film-inspired hero scenes remain layered separately. Updated production deployment: https://1d6df40c.neoncoffinvideo.pages.dev

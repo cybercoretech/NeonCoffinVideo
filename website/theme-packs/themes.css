@@ -18,9 +18,9 @@
 [data-halloween-theme] .hero h1{color:var(--white);text-shadow:0 2px 20px var(--bg)}
 [data-halloween-theme] .hero h1 em{color:var(--pink);text-shadow:0 0 32px color-mix(in srgb,var(--pink) 23%,transparent)}
 [data-halloween-theme] .hero-corner,[data-halloween-theme] .storefront-weather,[data-halloween-theme] .storefront-reflection,[data-halloween-theme] #neonParticles{display:none}
-[data-halloween-theme] .midnight-backdrop,[data-halloween-theme] .lounge-backdrop{background:radial-gradient(ellipse at 85% 20%,color-mix(in srgb,var(--pink) 9%,transparent),transparent 55%),linear-gradient(var(--bg),var(--theme-soft))}
-[data-halloween-theme] .midnight-backdrop:after{background:repeating-linear-gradient(115deg,transparent 0 70px,color-mix(in srgb,var(--line) 7%,transparent) 72px,transparent 73px)}
-[data-halloween-theme] .graveyard-fog{background:radial-gradient(ellipse at 20% 45%,color-mix(in srgb,var(--cyan) 15%,transparent),transparent 48%),radial-gradient(ellipse at 75% 60%,color-mix(in srgb,var(--pink) 12%,transparent),transparent 50%)}
+[data-halloween-theme] .midnight-backdrop,[data-halloween-theme] .lounge-backdrop{background:linear-gradient(180deg,color-mix(in srgb,var(--bg) 52%,transparent),color-mix(in srgb,var(--bg) 68%,transparent)),url('../assets/storefront.png') center 58%/cover no-repeat}
+[data-halloween-theme] .midnight-backdrop:after{background:radial-gradient(ellipse at 13% 18%,color-mix(in srgb,var(--pink) 23%,transparent),transparent 48%),radial-gradient(ellipse at 88% 72%,color-mix(in srgb,var(--cyan) 19%,transparent),transparent 48%),linear-gradient(90deg,var(--bg) 0%,transparent 36%,transparent 64%,var(--bg) 100%);mix-blend-mode:screen;opacity:.72}
+[data-halloween-theme] .graveyard-fog{opacity:.8;background:radial-gradient(ellipse at 20% 45%,color-mix(in srgb,var(--cyan) 32%,transparent),transparent 48%),radial-gradient(ellipse at 75% 60%,color-mix(in srgb,var(--pink) 28%,transparent),transparent 50%),radial-gradient(ellipse at 48% 72%,color-mix(in srgb,var(--purple) 25%,transparent),transparent 54%)}
 [data-halloween-theme] .button.green,[data-halloween-theme] .neon-button{background:var(--green);color:var(--bg);border-color:var(--green)}
 [data-halloween-theme] .button.pink{background:var(--pink);color:var(--bg);border-color:var(--pink)}
 [data-halloween-theme] .button.outline,[data-halloween-theme] .filters button,[data-halloween-theme] .crypt-category,[data-halloween-theme] .rotation-pick,[data-halloween-theme] #shelves .film-card{background:var(--panel);color:var(--white);border-color:var(--line)}
