@@ -4,7 +4,7 @@
 .stats-header>span{display:flex;align-items:center;gap:9px}
 .stats-header i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green);animation:counterPulse 2.4s ease-in-out infinite}
 .stats-header small{font:8px 'JetBrains Mono',monospace;color:#b7a9c1;letter-spacing:1px}
-.stats-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;padding-top:10px}
+.stats-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;padding-top:10px}
 .stat-readout{min-width:0;padding:6px 9px 5px;border-left:1px solid #ff47a635;background:linear-gradient(110deg,#ffffff05,transparent)}
 .stat-readout strong{display:block;overflow:hidden;color:#f9f1ff;font:30px/.95 'Bebas Neue',sans-serif;text-overflow:ellipsis;text-shadow:0 0 15px #ff47a653;white-space:nowrap}
 .stat-readout:nth-child(2n) strong{color:var(--green);text-shadow:0 0 15px #bbff5745}

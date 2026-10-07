@@ -24,7 +24,7 @@ r=await community(req('community/trioxin-ballot',{picks:['return-living-dead-ii'
 r=await community(req('community/trioxin-ballot',undefined,false),env);ballot=await r.json();assert.equal(ballot.totalVotes,1);assert.deepEqual(ballot.myPicks,[]);assert.equal(ballot.choices.find(x=>x.id==='return-living-dead').votes,0);assert.equal(ballot.choices.find(x=>x.id==='return-living-dead-ii').votes,1);
 r=await community(req('community/trioxin-ballot',{picks:['not-a-movie'],review:'This should never be saved.'},false),env);assert.equal(r.status,401);
 r=await community(req('community/trioxin-ballot',{picks:['return-living-dead','return-living-dead'],review:'Duplicate choices are rejected.'}),env);assert.equal(r.status,400);
-r=await community(req('community/stats'),env);let stats=await r.json();assert.equal(stats.views,0);assert.equal(stats.members,1);assert.equal(stats.discussions,1);assert.equal(stats.reviews,2);
+r=await community(req('community/stats'),env);let stats=await r.json();assert.equal(stats.views,0);assert.equal(stats.members,1);assert.equal(stats.discussions,1);assert.equal(stats.posts,2);assert.equal(stats.reviews,2);
 r=await community(req('community/stats',{}),env);assert.equal(r.status,201);
 r=await community(req('community/stats',{}),env);assert.equal(r.status,201);
 r=await community(req('community/stats',{},true,'https://evil.example'),env);assert.equal(r.status,403);

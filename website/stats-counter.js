@@ -3,7 +3,7 @@ export function startStatsCounter({filmCount, root = document, request = fetch, 
   const note = root.querySelector('#statsNote');
   if (!note) return;
   const format = new Intl.NumberFormat();
-  const keys = ['views', 'members', 'discussions', 'reviews'];
+  const keys = ['views', 'members', 'discussions', 'posts', 'reviews'];
   const render = (key, value) => {
     const el = root.querySelector(`[data-stat="${key}"]`);
     if (el) el.textContent = Number.isSafeInteger(value) && value >= 0 ? format.format(value) : '—';
@@ -23,7 +23,7 @@ export function startStatsCounter({filmCount, root = document, request = fetch, 
       const stats = await response.json();
       if (!keys.every(key => Number.isSafeInteger(stats[key]) && stats[key] >= 0)) throw new Error('Invalid totals');
       keys.forEach(key => render(key, stats[key]));
-      note.textContent = 'COUNTS UPDATED / ONE ANONYMOUS COUNT PER HOMEPAGE LOAD / NO VISITOR IDENTITY OR IP SAVED BY THIS COUNTER';
+      note.textContent = 'DATABASE COUNTS REFRESH EVERY 60 SECONDS / ONE ANONYMOUS VIEW PER HOMEPAGE LOAD / NO VISITOR PROFILE';
       note.dataset.state = 'ready';
     } catch {
       keys.forEach(key => render(key, null));
