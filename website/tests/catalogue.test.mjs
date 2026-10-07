@@ -27,7 +27,7 @@ for (const film of records) {
   titles.add(key);
   if (film.art) await access(path.join(root, 'assets', `${film.id}.${film.art}`));
 }
-for (const title of ['I Spit on Your Grave','Henry: Portrait of a Serial Killer','Satan’s Blood','Near Dark','Possession','The Hidden','Phenomena','A Nightmare on Elm Street 5: The Dream Child','Puppet Master II','Retro Puppet Master','The Silence of the Lambs','Ringu','The Faculty']) {
+for (const title of ['I Spit on Your Grave','Henry: Portrait of a Serial Killer','Satan’s Blood','Near Dark','Possession','The Hidden','Phenomena','A Nightmare on Elm Street 5: The Dream Child','Puppet Master II','Retro Puppet Master','The Silence of the Lambs','Ringu','The Faculty','Zombie']) {
   assert.ok(records.some(f => f.title === title), `requested title is in the public catalogue: ${title}`);
 }
 console.log('PASS: 195 unique public catalogue films, complete artwork paths, and requested titles.');

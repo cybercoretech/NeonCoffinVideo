@@ -756,6 +756,12 @@
     "poster": "assets/chud.jpg"
   },
   {
+    "id": "zombi-2",
+    "title": "Zombie (Zombi 2)",
+    "year": 1979,
+    "poster": "assets/zombi-2.png"
+  },
+  {
     "id": "puppet-master",
     "title": "Puppet Master",
     "year": 1989,
@@ -837,7 +843,8 @@
   {
     "id": "near-dark",
     "title": "Near Dark",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/near-dark.svg"
   },
   {
     "id": "the-stepfather",
