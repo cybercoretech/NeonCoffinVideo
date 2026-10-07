@@ -1,7 +1,7 @@
 {
   "id": "cybercore-halloween",
   "name": "Halloween Collection",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "palette_schema": "CYBERGRID",
   "author": "Cybercore Tech",
   "default": "original",
@@ -14,24 +14,23 @@
       "description": "Porch lights. Bare branches. Something across the street.",
       "effect": "leaves",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-one.png",
-        "column": 0,
-        "row": 0,
-        "width": 1774,
-        "height": 887
+        "src": "/theme-packs/art/halloween-wallpaper.webp",
+        "width": 1536,
+        "height": 1024,
+        "preview": "/theme-packs/art/halloween-preview.webp"
       },
       "palette": {
-        "bg": "080e19",
-        "panel": "131d2a",
-        "hot_pink": "ffad66",
-        "acid_green": "d6dcff",
-        "cyan": "8cbce8",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "ff9845",
+        "acid_green": "bbff57",
+        "cyan": "62d8ff",
         "purple": "ae96da",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "b8c5d7",
-        "line": "3c526b"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -42,24 +41,23 @@
       "description": "Phosphor green. A midnight broadcast you should turn off.",
       "effect": "broadcast",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-one.png",
-        "column": 1,
-        "row": 0,
-        "width": 1774,
-        "height": 887
+        "src": "/theme-packs/art/halloween-iii-wallpaper.webp",
+        "width": 1536,
+        "height": 1024,
+        "preview": "/theme-packs/art/halloween-iii-preview.webp"
       },
       "palette": {
-        "bg": "07120f",
-        "panel": "10251d",
-        "hot_pink": "84efa3",
-        "acid_green": "ffbe74",
-        "cyan": "8fe3d0",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "55ffc2",
+        "acid_green": "bbff57",
+        "cyan": "35e8ff",
         "purple": "bfb0fa",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "abcbbc",
-        "line": "375e4c"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -70,24 +68,23 @@
       "description": "Candlelit pumpkins. Autumn leaves. Remember the rules.",
       "effect": "leaves",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-one.png",
-        "column": 0,
-        "row": 1,
-        "width": 1774,
-        "height": 887
+        "src": "/theme-packs/art/trick-r-treat-wallpaper.webp",
+        "width": 1536,
+        "height": 1024,
+        "preview": "/theme-packs/art/trick-r-treat-preview.webp"
       },
       "palette": {
-        "bg": "160d09",
-        "panel": "2b1b12",
-        "hot_pink": "ffbb69",
-        "acid_green": "ffe0a4",
-        "cyan": "d7c595",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "ff9c42",
+        "acid_green": "bbff57",
+        "cyan": "65e6ed",
         "purple": "d9abea",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "d5bb9f",
-        "line": "705139"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -98,24 +95,23 @@
       "description": "Violet shadows, cracked plaster, and a party past curfew.",
       "effect": "candle",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-one.png",
-        "column": 1,
-        "row": 1,
-        "width": 1774,
-        "height": 887
+        "src": "/theme-packs/art/night-of-the-demons-wallpaper.webp",
+        "width": 1536,
+        "height": 1024,
+        "preview": "/theme-packs/art/night-of-the-demons-preview.webp"
       },
       "palette": {
-        "bg": "100b1b",
-        "panel": "21172f",
-        "hot_pink": "caacff",
-        "acid_green": "ff829a",
-        "cyan": "b2c4ff",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "b26bff",
+        "acid_green": "bbff57",
+        "cyan": "6bddff",
         "purple": "d4b3ff",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "c8bad6",
-        "line": "5f4775"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -126,24 +122,23 @@
       "description": "Old spellbooks. Cauldron green. One very long night.",
       "effect": "embers",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-two.png",
-        "column": 0,
-        "row": 0,
+        "src": "/theme-packs/art/hocus-pocus-wallpaper.webp",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "preview": "/theme-packs/art/hocus-pocus-preview.webp"
       },
       "palette": {
-        "bg": "120b20",
-        "panel": "23162f",
-        "hot_pink": "d2a9ff",
-        "acid_green": "c4ef84",
-        "cyan": "ffd389",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "be73ff",
+        "acid_green": "bbff57",
+        "cyan": "53ffd2",
         "purple": "c7a5f8",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "cfc0de",
-        "line": "655079"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -154,24 +149,23 @@
       "description": "Cold silver fog through an iron gate. Listen for hoofbeats.",
       "effect": "fog",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-two.png",
-        "column": 1,
-        "row": 0,
+        "src": "/theme-packs/art/sleepy-hollow-wallpaper.webp",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "preview": "/theme-packs/art/sleepy-hollow-preview.webp"
       },
       "palette": {
-        "bg": "0b1319",
-        "panel": "17232b",
-        "hot_pink": "b4d8e2",
-        "acid_green": "e7c28d",
-        "cyan": "a7c8dc",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "65dfff",
+        "acid_green": "bbff57",
+        "cyan": "78b8ff",
         "purple": "bac4e6",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "b9c9cf",
-        "line": "425d6a"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -182,24 +176,23 @@
       "description": "Rust-red timber. Bare bulbs. The attraction closes behind you.",
       "effect": "dust",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-two.png",
-        "column": 0,
-        "row": 1,
+        "src": "/theme-packs/art/haunt-wallpaper.webp",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "preview": "/theme-packs/art/haunt-preview.webp"
       },
       "palette": {
-        "bg": "180c0d",
-        "panel": "2a1919",
-        "hot_pink": "ff9990",
-        "acid_green": "eac8a0",
-        "cyan": "c8b8a6",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "ff47a6",
+        "acid_green": "bbff57",
+        "cyan": "65e6ed",
         "purple": "d4adc4",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "d4bdb4",
-        "line": "75504b"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     },
     {
@@ -210,24 +203,23 @@
       "description": "Electric violet. Toxic neon. The midway never closes.",
       "effect": "midway",
       "art": {
-        "src": "/theme-packs/art/halloween-scenes-two.png",
-        "column": 1,
-        "row": 1,
+        "src": "/theme-packs/art/hell-fest-wallpaper.webp",
         "width": 1536,
-        "height": 1024
+        "height": 1024,
+        "preview": "/theme-packs/art/hell-fest-preview.webp"
       },
       "palette": {
-        "bg": "0c0b1b",
-        "panel": "19182d",
-        "hot_pink": "e4a2ff",
-        "acid_green": "a9f186",
-        "cyan": "82eaf0",
+        "bg": "080d12",
+        "panel": "101920",
+        "hot_pink": "ff47a6",
+        "acid_green": "bbff57",
+        "cyan": "35e8ff",
         "purple": "c7a0ff",
         "orange": "ffbe85",
         "red": "ff949b",
-        "white": "f6f0e8",
-        "muted": "c9bddb",
-        "line": "514876"
+        "white": "f5f5f7",
+        "muted": "bac5cf",
+        "line": "31464f"
       }
     }
   ]

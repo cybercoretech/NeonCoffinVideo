@@ -6,10 +6,9 @@
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const paletteDots = theme => ['hot_pink','acid_green','cyan','purple'].map(key=>`<i style="--swatch:#${theme.palette[key]}" aria-hidden="true"></i>`).join('');
-  // SVG viewBox crops each quadrant at render time; the original artwork is preserved.
+  // Each theme has a dedicated full-resolution wallpaper, not an atlas crop.
   function scene(theme, className) {
-    const {width,height,column,row,src} = theme.art;
-    return `<svg class="${className}" viewBox="0 0 ${width/2} ${height/2}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><image href="${src}" width="${width}" height="${height}" x="${-column*width/2}" y="${-row*height/2}"/></svg>`;
+    return `<img class="${className}" src="${className==='ctp-scene' ? theme.art.preview : theme.art.src}" alt="" aria-hidden="true" decoding="async" width="${theme.art.width}" height="${theme.art.height}">`;
   }
   const triggers = [...document.querySelectorAll('[data-open-themes]')];
   let opener;
@@ -24,11 +23,12 @@
   document.body.append(dialog);
   const sceneHost = document.createElement('div');
   sceneHost.className = 'halloween-scene-host';sceneHost.setAttribute('aria-hidden','true');
-  (document.querySelector('.hero-bg') || document.querySelector('.lounge-hero'))?.append(sceneHost);
+  // Lounge wallpaper is permanent; only the storefront gets theme scenery.
+  document.querySelector('.hero-bg')?.append(sceneHost);
   const effects = document.createElement('div');
   effects.className = 'halloween-atmosphere';effects.setAttribute('aria-hidden','true');
-  effects.innerHTML = '<div class="halloween-haze"></div>'+Array.from({length:12},(_,i)=>`<i style="--n:${i};--delay:-${i*2.7}s;--duration:${16+i%5*4}s;--left:${i*8.3}%"></i>`).join('');
-  (document.querySelector('.hero') || document.querySelector('.lounge-hero'))?.append(effects);
+  effects.innerHTML = Array.from({length:12},(_,i)=>`<i style="--n:${i};--delay:-${i*2.7}s;--duration:${16+i%5*4}s;--left:${i*8.3}%"></i>`).join('');
+  document.querySelector('.hero')?.append(effects);
   let effectsOn = true;
   try { effectsOn = localStorage.getItem('cybercore-effects:neoncoffinvideo') !== 'off'; } catch {}
   const motion = dialog.querySelector('#ctpMotion');
@@ -68,7 +68,7 @@
   function choose(id) {
     if(!engine.apply(id))return;
     const url=new URL(location.href);
-    if(id==='original')url.searchParams.delete('theme');else url.searchParams.set('theme',id);
+    url.searchParams.delete('theme');
     history.replaceState(null,'',url);
     setStatus((engine.pack.themes.find(t=>t.id===id)?.name || 'Original Neon Coffin')+' applied.');
   }
@@ -87,7 +87,7 @@
   });
   document.addEventListener('visibilitychange',()=>{root.dataset.themePageHidden=String(document.hidden);});
   window.addEventListener('cybercore:themechange',sync);
-  // A theme supplied in a shared URL becomes this visitor's selection.
-  if(new URLSearchParams(location.search).has('theme'))engine.apply(root.dataset.cybercoreTheme);
+  const suggestion=engine.pack.themes.find(theme=>theme.id===engine.requestedTheme);
+  if(suggestion && suggestion.id!==root.dataset.cybercoreTheme)setStatus('Shared link: '+suggestion.name+'. Choose its card to apply it; your current theme is unchanged.');
   sync();
 })();

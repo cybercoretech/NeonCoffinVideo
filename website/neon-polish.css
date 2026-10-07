@@ -2,11 +2,11 @@
 .ncv-reading-progress{position:fixed;inset:0 0 auto;height:2px;z-index:90;pointer-events:none;background:#0a0910}
 .ncv-reading-progress>span{display:block;height:100%;transform:scaleX(var(--ncv-progress,0));transform-origin:left;background:linear-gradient(90deg,var(--green) 0%,var(--green) 65%,var(--cyan) 84%,var(--pink));box-shadow:0 0 6px color-mix(in srgb,var(--green) 45%,transparent)}
 :is(.brand>.brand-name,.lounge-brand>span){text-shadow:0 0 7px color-mix(in srgb,var(--pink) 28%,transparent)}
-:is(.hero-content,.lounge-hero-copy) h1 em{color:var(--pink);text-shadow:1px 1px 0 color-mix(in srgb,var(--pink) 28%,#090810),0 0 9px color-mix(in srgb,var(--pink) 20%,transparent)}
+:is(.hero-content,.lounge-hero-copy) h1 em{color:var(--pink);text-shadow:0 0 9px color-mix(in srgb,var(--pink) 20%,transparent)}
 .issue-motto{font-weight:700;font-size:17px;letter-spacing:2px;text-shadow:0 0 6px color-mix(in srgb,var(--pink) 30%,transparent)}
 .issue-motto:hover{letter-spacing:2px;text-shadow:0 0 9px color-mix(in srgb,var(--pink) 55%,transparent)}
 .issue-brand strong{color:var(--green)}
-:is(.header,.lounge-header){border-bottom-color:color-mix(in srgb,var(--green) 30%,#342538)}
+:is(.header,.lounge-header){border-bottom-color:color-mix(in srgb,var(--green) 30%,#65e6ed42)}
 .header:after{background:linear-gradient(90deg,transparent,var(--green) 18%,var(--green) 45%,var(--cyan) 72%,var(--pink) 91%,transparent);box-shadow:0 0 7px color-mix(in srgb,var(--green) 20%,transparent)}
 .lounge-header{z-index:50;position:sticky;top:0}
 :is(.section-top,.vhs-culture-top,.rotation-heading) .eyebrow{color:var(--green);text-shadow:none}
@@ -20,12 +20,12 @@
 .feature-progress span{background:linear-gradient(90deg,var(--green),var(--cyan),var(--pink))}
 .feature-copy h2{color:var(--green);text-shadow:0 0 8px color-mix(in srgb,var(--green) 12%,transparent)}
 .menu-toggle svg{color:var(--green)}
-:is(.header,.lounge-header) .primary-navigation{border-color:color-mix(in srgb,var(--green) 35%,#403047);box-shadow:0 20px 60px #000b,0 0 18px color-mix(in srgb,var(--green) 8%,transparent)}
+:is(.header,.lounge-header) .primary-navigation{border-color:color-mix(in srgb,var(--green) 35%,#65e6ed42);box-shadow:0 20px 60px #000b,0 0 18px color-mix(in srgb,var(--green) 8%,transparent)}
 :is(.header,.lounge-header) .primary-navigation>:is(a,button):focus-visible{outline:2px solid var(--green);outline-offset:-2px}
 :root[data-theme-motion=on] [data-ncv-pointer]:hover{background-image:radial-gradient(130px circle at var(--ncv-pointer-x,50%) var(--ncv-pointer-y,50%),color-mix(in srgb,var(--green) 12%,transparent),transparent 75%)}
 /* The thin frame stays outside the image and text. No full-screen flicker. */
 @property --ncv-frame-angle{syntax:'<angle>';initial-value:0deg;inherits:false}
-.tonight-feature{isolation:isolate;border-color:color-mix(in srgb,var(--green) 35%,#43304b)}
+.tonight-feature{isolation:isolate;border-color:color-mix(in srgb,var(--green) 35%,#65e6ed42)}
 .tonight-feature:before{content:'';position:absolute;inset:0;padding:1px;pointer-events:none;z-index:3;background:conic-gradient(from var(--ncv-frame-angle),transparent 0 62%,var(--green) 72%,var(--cyan) 77%,var(--pink) 82%,transparent 90%);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;opacity:.65;animation:ncv-frame-sweep 16s linear infinite;animation-play-state:paused}
 .feature-art:before{content:'';position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(transparent 35%,#65e6ed09 48%,#ffffff0b 50%,transparent 57%),repeating-linear-gradient(0deg,transparent 0 3px,#0000000a 3px 4px);opacity:0;transform:translateY(-110%);animation:ncv-tape-shimmer 12s ease-in-out infinite;animation-play-state:paused}
 :root[data-theme-motion=on][data-ncv-page-visible=true] .tonight-feature[data-fx-visible=true]:before,:root[data-theme-motion=on][data-ncv-page-visible=true] .tonight-feature[data-fx-visible=true] .feature-art:before{animation-play-state:running}
@@ -34,3 +34,21 @@
 @keyframes ncv-tape-shimmer{0%,65%{opacity:0;transform:translateY(-110%)}70%{opacity:.65}85%{opacity:.65}90%,100%{opacity:0;transform:translateY(110%)}}
 @media(max-width:760px){.issue-motto{font-size:13px;letter-spacing:1.4px}.issue-motto:hover{letter-spacing:1.4px}.lounge-header>.lounge-brand{min-width:0}.lounge-brand>span{font-size:22px}.lounge-header .lounge-account-nav{font-size:11px}.lounge-header .lounge-account-nav button{padding:10px 12px}}
 @media(prefers-reduced-motion:reduce){.tonight-feature:before,.feature-art:before{animation:none!important;opacity:0}:root{scroll-behavior:auto}:root [data-ncv-pointer]:hover{background-image:none}.issue-motto{transition:none}}
+
+/* Neutral surfaces and neon accents: no maroon framing. */
+:root{--bg:#080d12;--panel:#101920;--line:#31464f}
+body{background-color:var(--bg)}
+.lounge-backdrop{background:linear-gradient(90deg,#090810b8 0%,#0908108c 48%,#0908106f 100%),linear-gradient(#09081048,#0908109c),url('assets/midnight-forest.webp') center/cover!important}
+.lounge-hero{background:transparent}
+:is(.header,.lounge-header){background:#0b1015f5}
+:is(.header,.lounge-header) .primary-navigation{background:linear-gradient(145deg,#121b21,#080d12);border-color:color-mix(in srgb,var(--cyan) 55%,transparent)}
+:is(.crypt-stats,.rail-card,.tonight-feature,.profile-card,.empty-lounge){border-color:color-mix(in srgb,var(--cyan) 45%,transparent)}
+.rail-card,.tonight-feature{background:linear-gradient(145deg,#111a21eb,#080d12f5)}
+:is(.genre-footer,[data-halloween-theme] .genre-footer){--footer-bg:#080d12;background:linear-gradient(115deg,#bbff5708,#080d12 60%);border-top-color:var(--green)}
+.genre-footer-buttons a{border-color:var(--cyan);background:#101920}
+:is(.ncv-help-panel,.cybercore-theme-panel,.membership-dialog){background:#080d12;border-color:var(--cyan)}
+:is(.ncv-help-heading,.ctp-heading,.membership-content){background:linear-gradient(135deg,#111a21,#080d12)}
+[data-halloween-theme] .graveyard-fog{display:none}
+:is(.midnight-backdrop,[data-halloween-theme] .midnight-backdrop){background:linear-gradient(145deg,#080d12,#070c10)}
+:is(.midnight-backdrop,[data-halloween-theme] .midnight-backdrop):after{background:none;opacity:0}
+.graveyard-fog{display:none}

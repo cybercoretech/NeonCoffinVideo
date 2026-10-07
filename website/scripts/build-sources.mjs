@@ -10,7 +10,7 @@ Film posters, photographs, and film/trailer frames belong to their respective ri
 
 ## Halloween Collection original artwork
 
-The eight movie-inspired environments in \`theme-packs/art/halloween-scenes-one.png\` and \`theme-packs/art/halloween-scenes-two.png\` were generated with AI for Cybercore Theme Packs. They are original atmospheric illustrations, not film frames or official promotional artwork. Movie names identify inspiration; this collection is independently created.
+The eight movie-inspired full-frame wallpapers in \`theme-packs/art/*-wallpaper.webp\` were generated with AI for Cybercore Theme Packs. Each is a dedicated native-resolution scene, losslessly converted to WebP without enlargement. The previous two scene atlases are retained as historical source assets and are no longer displayed. They are original atmospheric illustrations, not film frames or official promotional artwork. Movie names identify inspiration; this collection is independently created.
 
 ## Film artwork
 

@@ -6,11 +6,17 @@
   const root = document.documentElement;
   const storageKey = 'cybercore-theme:neoncoffinvideo';
   const map = {bg:'--bg',white:'--white',acid_green:'--green',hot_pink:'--pink',purple:'--purple',cyan:'--cyan',orange:'--amber',panel:'--panel',line:'--line',muted:'--muted'};
-  let saved;
-  try { saved = localStorage.getItem(storageKey); } catch { /* Private browsers can still use themes. */ }
+  const sessionKey = storageKey + ':tab';
+  let saved, tabChoice;
+  try { saved = localStorage.getItem(storageKey); } catch { /* Storage is optional. */ }
+  try { tabChoice = sessionStorage.getItem(sessionKey); } catch { /* Storage is optional. */ }
   const requested = new URLSearchParams(location.search).get('theme');
   const valid = id => id === 'original' || pack.themes.some(theme => theme.id === id);
-  const initial = valid(requested) ? requested : valid(saved) ? saved : 'original';
+  // URLs suggest a theme; they never override an explicitly chosen appearance.
+  // Pin this tab across reloads and main-site/Lounge navigation. Other tabs may
+  // save their own preference, but cannot switch this tab's active theme.
+  const initial = valid(tabChoice) ? tabChoice : valid(saved) ? saved : 'original';
+  try { sessionStorage.setItem(sessionKey, initial); } catch {}
   function apply(id, persist = true) {
     const theme = pack.themes.find(theme => theme.id === id);
     if (id !== 'original' && !theme) return false;
@@ -27,16 +33,15 @@
       Object.values(map).concat('--acid','--orange').forEach(token => root.style.removeProperty(token));
     }
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = theme ? '#' + theme.palette.bg : '#100d17';
+    if (meta) meta.content = theme ? '#' + theme.palette.bg : '#080d12';
     if (persist) {
-      try { localStorage.setItem(storageKey, id); } catch { /* Session-only selection is still applied. */ }
+      try { localStorage.setItem(storageKey, id); } catch {}
+      try { sessionStorage.setItem(sessionKey, id); } catch {}
     }
     window.dispatchEvent(new CustomEvent('cybercore:themechange', {detail:{id, theme:theme || null}}));
     return true;
   }
-  window.CybercoreThemes = {apply, pack, storageKey};
+  window.CybercoreThemes = {apply, pack, storageKey, requestedTheme: valid(requested) ? requested : null};
   apply(initial, false);
-  window.addEventListener('storage', event => {
-    if (event.key === storageKey && valid(event.newValue || 'original')) apply(event.newValue || 'original', false);
-  });
+  // Deliberately do not subscribe to cross-tab storage updates.
 })();

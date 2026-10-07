@@ -1,29 +1,29 @@
-.site-membership-button{display:flex;align-items:center;gap:8px;min-height:44px;padding:9px 12px;border:1px solid #67445f;border-radius:3px;background:linear-gradient(110deg,#ff47a615,#1e1727);color:#f3eaf4;font-size:11px;font-weight:600;white-space:nowrap;transition:border-color .2s,box-shadow .2s}
-.site-membership-button:hover{border-color:var(--pink);box-shadow:0 0 15px #ff47a624}
+.site-membership-button{display:flex;align-items:center;gap:8px;min-height:44px;padding:9px 12px;border:1px solid #65e6ed42;border-radius:3px;background:linear-gradient(110deg,#bbff5715,#18242c);color:#f3eaf4;font-size:11px;font-weight:600;white-space:nowrap;transition:border-color .2s,box-shadow .2s}
+.site-membership-button:hover{border-color:var(--pink);box-shadow:0 0 15px #65e6ed24}
 .site-membership-button svg{width:20px;height:20px;fill:none;stroke:var(--green);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-.membership-dialog{width:min(560px,calc(100vw - 28px));max-height:min(88dvh,780px);overflow:auto;padding:0;border:1px solid #78455f;background:linear-gradient(150deg,#1b1221,#100d17 68%);color:#f5edf6;box-shadow:0 24px 90px #000c,0 0 35px #ff47a61d}
+.membership-dialog{width:min(560px,calc(100vw - 28px));max-height:min(88dvh,780px);overflow:auto;padding:0;border:1px solid #65e6ed42;background:linear-gradient(150deg,#0b1015,#0b1015 68%);color:#f5edf6;box-shadow:0 24px 90px #000c,0 0 35px #65e6ed1d}
 .membership-dialog::backdrop{background:#08060ccc;backdrop-filter:blur(5px)}
-.membership-dialog .dialog-bar{position:sticky;top:0;z-index:2;background:#160f1cf2}
+.membership-dialog .dialog-bar{position:sticky;top:0;z-index:2;background:#0b1015f2}
 .membership-content{padding:25px 30px 30px}
 .membership-content>.eyebrow{color:var(--green);font:9px 'JetBrains Mono',monospace;letter-spacing:1.7px}
 .membership-content h2{margin:12px 0;font:42px/.95 'Bebas Neue',sans-serif}
 .membership-content h2 em{color:var(--pink);font-style:normal}
 .membership-lead{max-width:440px;color:#bdb1c3;font-size:13px;line-height:1.7}
-.membership-google{display:flex;width:100%;align-items:center;justify-content:center;gap:11px;margin:18px 0 16px;padding:13px;border:1px solid #8a6884;border-radius:3px;background:#211828;color:#fff;font-weight:600;cursor:pointer}
+.membership-google{display:flex;width:100%;align-items:center;justify-content:center;gap:11px;margin:18px 0 16px;padding:13px;border:1px solid #65e6ed42;border-radius:3px;background:#18242c;color:#fff;font-weight:600;cursor:pointer}
 .membership-google svg{width:19px;height:19px}
 .membership-divider{display:flex;align-items:center;gap:12px;margin:16px 0;color:#918697;font:9px 'JetBrains Mono',monospace;letter-spacing:1px}
 .membership-divider:before,.membership-divider:after{content:'';height:1px;flex:1;background:#ffffff25}
 .membership-tabs{display:flex;gap:8px;margin:18px 0 14px}
-.membership-tabs button{flex:1;padding:10px;border:1px solid #49344f;background:#1b1421;color:#c9bdce;font-size:12px;cursor:pointer}
+.membership-tabs button{flex:1;padding:10px;border:1px solid #65e6ed42;background:#0b1015;color:#c9bdce;font-size:12px;cursor:pointer}
 .membership-tabs button[aria-pressed=true]{border-color:var(--green);color:var(--green);background:#bbff5710}
 .membership-form{display:grid;gap:13px}
 .membership-form label{display:grid;gap:6px;color:#cfc4d3;font-size:11px}
-.membership-form input{width:100%;padding:12px;border:1px solid #59435e;border-radius:2px;background:#0e0b13;color:#fff}
+.membership-form input{width:100%;padding:12px;border:1px solid #65e6ed42;border-radius:2px;background:#0b1015;color:#fff}
 .membership-form input::placeholder{color:#776d7d}
 .membership-extra-fields{display:grid;gap:13px}
 .membership-age{display:flex!important;grid-template-columns:auto 1fr;align-items:start;gap:9px!important;margin:3px 0;color:#c7bbcc;font-size:11px!important;line-height:1.5}
 .membership-age input{width:17px;height:17px;margin:0;accent-color:var(--green)}
-.membership-submit{width:100%;padding:13px;border:1px solid var(--green);border-radius:2px;background:var(--green);color:#16121a;font-weight:700;cursor:pointer}
+.membership-submit{width:100%;padding:13px;border:1px solid var(--green);border-radius:2px;background:var(--green);color:#0b1015;font-weight:700;cursor:pointer}
 .membership-submit:disabled,.membership-google:disabled{opacity:.55;cursor:wait}
 .membership-status{min-height:20px;margin:3px 0 0;color:var(--cyan);font-size:11px;line-height:1.55}
 .membership-note{margin:12px 0 0;color:#897e8f;font-size:10px;line-height:1.6}
@@ -31,5 +31,5 @@
 .membership-ready strong{color:var(--green);font:18px 'Bebas Neue',sans-serif;letter-spacing:.5px}
 .membership-ready p{margin:8px 0;color:#d4c9d7;font-size:13px}
 .membership-ready nav{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}
-.membership-ready nav a,.membership-ready nav button{padding:9px 11px;border:1px solid #6b4b69;background:#21172a;color:#f4eaf4;font-size:11px;cursor:pointer}
+.membership-ready nav a,.membership-ready nav button{padding:9px 11px;border:1px solid #65e6ed42;background:#18242c;color:#f4eaf4;font-size:11px;cursor:pointer}
 @media(max-width:760px){.site-membership-button{min-width:39px;justify-content:center;padding:8px;font-size:0}.site-membership-button svg{width:20px;height:20px}.membership-content{padding:21px 20px 24px}.membership-content h2{font-size:36px}}
