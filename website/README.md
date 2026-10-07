@@ -5,6 +5,7 @@ Production: https://neoncoffinvideo.site/ (Cloudflare Pages `neoncoffinvideo`, b
 - Homepage counter reads real D1 totals; one anonymous view per homepage load, read-only refresh every minute while visible. Views are page loads, not unique visitors. Curated tapes come from the actual 145-film catalogue. Members, discussions, reviews and ballots are database totals. No visitor IDs or IP addresses are stored by the custom counter; Cloudflare infrastructure logging is separate.
 - Shared responsive genre footer installed on the homepage and lounge: site email, After/Cut and LastActionReel, merch, source credits, PayPal and Buy Me a Coffee. See `shared/README.md` for reuse.
 - Film image sources are linked in each film profile and recorded in `SOURCES.md`.
+- Midnight Lounge movie picker contains 188 titles for discussions and reviews, including the requested horror and sci-fi additions and all seven *Puppet Master* films released in the 1980s and 1990s. Entries without sourced poster artwork use a typographic shelf card in member profiles.
 - `npm ci`, `npm test`, `npm run build`. The deployable directory is `dist/`; it excludes development files and databases.
 - `npm run dev` starts the local D1-compatible preview on port 8794. Optional browser test: provide Playwright and run `node tests/footer-browser.cjs`; `BROWSER_PATH` selects a browser executable.
 - See `LAUNCH.md` for deployment and `COMMUNITY.md` for authentication configuration. Browser/API tests with mocked Google responses do not verify a live sign-in.

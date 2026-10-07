@@ -808,5 +808,270 @@
     "title": "The Changeling",
     "year": 1980,
     "poster": "assets/the-changeling.jpg"
+  },
+  {
+    "id": "i-spit-on-your-grave",
+    "title": "I Spit on Your Grave",
+    "year": 1978
+  },
+  {
+    "id": "henry-portrait-of-a-serial-killer",
+    "title": "Henry: Portrait of a Serial Killer",
+    "year": 1986
+  },
+  {
+    "id": "satans-blood",
+    "title": "Satan’s Blood",
+    "year": 1978
+  },
+  {
+    "id": "the-beyond",
+    "title": "The Beyond",
+    "year": 1981
+  },
+  {
+    "id": "slaughter-high",
+    "title": "Slaughter High",
+    "year": 1986
+  },
+  {
+    "id": "near-dark",
+    "title": "Near Dark",
+    "year": 1987
+  },
+  {
+    "id": "the-stepfather",
+    "title": "The Stepfather",
+    "year": 1987
+  },
+  {
+    "id": "alligator",
+    "title": "Alligator",
+    "year": 1980
+  },
+  {
+    "id": "possession",
+    "title": "Possession",
+    "year": 1981
+  },
+  {
+    "id": "tenebrae",
+    "title": "Tenebrae",
+    "year": 1982
+  },
+  {
+    "id": "wolfen",
+    "title": "Wolfen",
+    "year": 1981
+  },
+  {
+    "id": "dead-of-winter",
+    "title": "Dead of Winter",
+    "year": 1987
+  },
+  {
+    "id": "the-hidden",
+    "title": "The Hidden",
+    "year": 1987
+  },
+  {
+    "id": "phenomena",
+    "title": "Phenomena",
+    "year": 1985
+  },
+  {
+    "id": "bloody-birthday",
+    "title": "Bloody Birthday",
+    "year": 1981
+  },
+  {
+    "id": "bad-taste",
+    "title": "Bad Taste",
+    "year": 1987
+  },
+  {
+    "id": "q-the-winged-serpent",
+    "title": "Q: The Winged Serpent",
+    "year": 1982
+  },
+  {
+    "id": "dead-and-buried",
+    "title": "Dead & Buried",
+    "year": 1981
+  },
+  {
+    "id": "nightmare-on-elm-street-2",
+    "title": "A Nightmare on Elm Street 2: Freddy’s Revenge",
+    "year": 1985
+  },
+  {
+    "id": "nightmare-on-elm-street-3",
+    "title": "A Nightmare on Elm Street 3: Dream Warriors",
+    "year": 1987
+  },
+  {
+    "id": "nightmare-on-elm-street-4",
+    "title": "A Nightmare on Elm Street 4: The Dream Master",
+    "year": 1988
+  },
+  {
+    "id": "nightmare-on-elm-street-5",
+    "title": "A Nightmare on Elm Street 5: The Dream Child",
+    "year": 1989
+  },
+  {
+    "id": "cats-eye",
+    "title": "Cat’s Eye",
+    "year": 1985
+  },
+  {
+    "id": "lady-in-white",
+    "title": "Lady in White",
+    "year": 1988
+  },
+  {
+    "id": "psycho-ii",
+    "title": "Psycho II",
+    "year": 1983
+  },
+  {
+    "id": "the-hitcher",
+    "title": "The Hitcher",
+    "year": 1986
+  },
+  {
+    "id": "cannibal-holocaust",
+    "title": "Cannibal Holocaust",
+    "year": 1980
+  },
+  {
+    "id": "inferno-1980",
+    "title": "Inferno",
+    "year": 1980
+  },
+  {
+    "id": "pulse-1988",
+    "title": "Pulse",
+    "year": 1988
+  },
+  {
+    "id": "dark-night-of-the-scarecrow",
+    "title": "Dark Night of the Scarecrow",
+    "year": 1981
+  },
+  {
+    "id": "swamp-thing",
+    "title": "Swamp Thing",
+    "year": 1982
+  },
+  {
+    "id": "cujo",
+    "title": "Cujo",
+    "year": 1983
+  },
+  {
+    "id": "dolls-1987",
+    "title": "Dolls",
+    "year": 1987
+  },
+  {
+    "id": "april-fools-day",
+    "title": "April Fool’s Day",
+    "year": 1986
+  },
+  {
+    "id": "waxwork",
+    "title": "Waxwork",
+    "year": 1988
+  },
+  {
+    "id": "lifeforce",
+    "title": "Lifeforce",
+    "year": 1985
+  },
+  {
+    "id": "maniac-cop",
+    "title": "Maniac Cop",
+    "year": 1988
+  },
+  {
+    "id": "puppet-master-2",
+    "title": "Puppet Master II",
+    "year": 1990
+  },
+  {
+    "id": "puppet-master-3-toulons-revenge",
+    "title": "Puppet Master III: Toulon’s Revenge",
+    "year": 1991
+  },
+  {
+    "id": "puppet-master-4",
+    "title": "Puppet Master 4",
+    "year": 1993
+  },
+  {
+    "id": "puppet-master-5-the-final-chapter",
+    "title": "Puppet Master 5: The Final Chapter",
+    "year": 1994
+  },
+  {
+    "id": "curse-of-the-puppet-master",
+    "title": "Curse of the Puppet Master",
+    "year": 1998
+  },
+  {
+    "id": "retro-puppet-master",
+    "title": "Retro Puppet Master",
+    "year": 1999
+  },
+  {
+    "id": "the-silence-of-the-lambs",
+    "title": "The Silence of the Lambs",
+    "year": 1991
+  },
+  {
+    "id": "jacobs-ladder",
+    "title": "Jacob’s Ladder",
+    "year": 1990
+  },
+  {
+    "id": "candyman",
+    "title": "Candyman",
+    "year": 1992
+  },
+  {
+    "id": "scream",
+    "title": "Scream",
+    "year": 1996
+  },
+  {
+    "id": "dead-alive",
+    "title": "Dead Alive",
+    "year": 1992
+  },
+  {
+    "id": "the-frighteners",
+    "title": "The Frighteners",
+    "year": 1996
+  },
+  {
+    "id": "cronos",
+    "title": "Cronos",
+    "year": 1993
+  },
+  {
+    "id": "mimic",
+    "title": "Mimic",
+    "year": 1997
+  },
+  {
+    "id": "ringu",
+    "title": "Ringu",
+    "year": 1998
+  },
+  {
+    "id": "the-faculty",
+    "title": "The Faculty",
+    "year": 1998
   }
 ]
