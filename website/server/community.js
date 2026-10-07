@@ -2,6 +2,7 @@ const categories=['the-counter','movie-talk','trioxin-245','haddonfield','double
 const trioxinTopic='a1111111-1111-4111-8111-111111111102';
 const trioxinFilms=[['return-living-dead','The Return of the Living Dead',1985],['return-living-dead-ii','Return of the Living Dead Part II',1988],['return-living-dead-3','Return of the Living Dead 3',1993],['return-living-dead-necropolis','Return of the Living Dead: Necropolis',2005],['return-living-dead-rave','Return of the Living Dead: Rave to the Grave',2005]];
 const enc=new TextEncoder(),now=()=>Math.floor(Date.now()/1000);
+const SESSION_TTL=90*24*60*60;
 const hex=a=>[...new Uint8Array(a)].map(b=>b.toString(16).padStart(2,'0')).join('');
 const hash=async s=>hex(await crypto.subtle.digest('SHA-256',enc.encode(s)));
 const token=()=>hex(crypto.getRandomValues(new Uint8Array(32)));
@@ -41,8 +42,8 @@ export async function community(request,env){
   if(!response.ok)fail('Google could not complete sign-in. Please try again.',401);const auth=await response.json();if(!auth.access_token)fail('Google could not complete sign-in.',401);
   const info=await fetch('https://openidconnect.googleapis.com/v1/userinfo',{headers:{Authorization:'Bearer '+auth.access_token},signal:AbortSignal.timeout(12000)});if(!info.ok)fail('Google could not verify your account.',401);const user=await info.json();if(typeof user.sub!=='string'||!user.email_verified)fail('Use a verified Google account.',401);
   const id=crypto.randomUUID(),confirmed=now();await db.prepare('INSERT INTO members(id,google_sub,handle,created,age_confirmed_at) VALUES(?,?,?,?,?) ON CONFLICT(google_sub) DO UPDATE SET age_confirmed_at=excluded.age_confirmed_at').bind(id,user.sub,'NightCreature_'+id.slice(0,8),confirmed,confirmed).run();const m=await db.prepare('SELECT id FROM members WHERE google_sub=?').bind(user.sub).first();const session=token();
-  await db.batch([db.prepare('DELETE FROM sessions WHERE expires<?').bind(now()),db.prepare('INSERT INTO sessions VALUES(?,?,?)').bind(await hash(session),m.id,now()+864000)]);
-  const headers=new Headers({Location:origin+'/community.html#profile','Cache-Control':'no-store','Referrer-Policy':'no-referrer'});headers.append('Set-Cookie',cookie('__Host_ncv_session',session,864000));headers.append('Set-Cookie',cookie('__Host_ncv_oauth','',0));return new Response(null,{status:302,headers});
+  await db.batch([db.prepare('DELETE FROM sessions WHERE expires<?').bind(now()),db.prepare('INSERT INTO sessions VALUES(?,?,?)').bind(await hash(session),m.id,now()+SESSION_TTL)]);
+  const headers=new Headers({Location:origin+'/community.html#profile','Cache-Control':'no-store','Referrer-Policy':'no-referrer'});headers.append('Set-Cookie',cookie('__Host_ncv_session',session,SESSION_TTL));headers.append('Set-Cookie',cookie('__Host_ncv_oauth','',0));return new Response(null,{status:302,headers});
  }
  const me=await member(request,db),admin=!!(me&&env.ADMIN_GOOGLE_SUB&&me.google_sub===env.ADMIN_GOOGLE_SUB);
  if(path==='/api/community/presence'&&request.method==='POST'){

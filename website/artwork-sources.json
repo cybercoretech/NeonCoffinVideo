@@ -1200,5 +1200,11 @@
     "page": "https://en.wikipedia.org/wiki/The_Faculty",
     "local": "assets/the-faculty.svg",
     "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+  },
+  {
+    "slug": "midnight-forest",
+    "page": "Original Neon Coffin Video community background",
+    "local": "assets/midnight-forest.webp",
+    "credit": "Original AI-generated atmospheric forest illustration created for The Midnight Lounge; not a film still or official film artwork."
   }
 ]

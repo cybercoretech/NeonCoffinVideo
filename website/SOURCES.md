@@ -1212,6 +1212,12 @@ The eight movie-inspired environments in `theme-packs/art/halloween-scenes-one.p
 - Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
 - Reference: https://en.wikipedia.org/wiki/The_Faculty
 
+### midnight-forest
+
+- Local file: `assets/midnight-forest.webp`
+- Credit: Original AI-generated atmospheric forest illustration created for The Midnight Lounge; not a film still or official film artwork.
+- Reference: Original Neon Coffin Video community background
+
 ## Film and trailer frames
 
 - The Little Shop of Horrors (1960) — Original film/trailer frame. Local file: `assets/little-shop-still.png`. Source: https://upload.wikimedia.org/wikipedia/commons/c/c1/Jonathan_Haze_as_Seymour_Krelboyne.png

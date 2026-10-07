@@ -6,7 +6,7 @@
  let me=null,admin=false,ready=false,ageConfirmed=false,ageGateMode="login",category='',offset=0,searchTimer,requestId=0,movies=[],currentThread=null,threadOffset=0;
  const room=id=>rooms.find(r=>r[0]===id)?.[1]||'Movie talk';
  const toast=msg=>{const t=$('#loungeToast');t.textContent=msg;t.hidden=false;clearTimeout(t.timer);t.timer=setTimeout(()=>t.hidden=true,4500)};
- async function api(path,body,method='POST'){const r=await fetch('/api/'+path,body===undefined?{}:{method,headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw new Error(d.error||'The lounge is temporarily unavailable.');return d}
+ async function api(path,body,method='POST'){const options=body===undefined?{cache:'no-store'}:{method,cache:'no-store',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)};const r=await fetch('/api/'+path,options);const d=await r.json();if(!r.ok)throw new Error(d.error||'The lounge is temporarily unavailable.');return d}
  const date=n=>new Date(n*1000).toLocaleDateString([],{month:'short',day:'numeric',year:'numeric'});
  function openAgeGate(mode="login"){ageGateMode=mode;$("#ageGateStatus").textContent="";$("#ageConfirm").checked=false;$("#ageContinue").textContent=mode==="existing"?"Confirm and enter the lounge":"Continue with Google ↗";if(!$("#ageGate").open)$("#ageGate").showModal()}
  function signed(){if(me&&!ageConfirmed){openAgeGate("existing");return false}if(me)return true;toast(ready?"Continue with Google to join the conversation.":"Google sign-in is not connected yet. The lounge is ready to browse.");return false}
