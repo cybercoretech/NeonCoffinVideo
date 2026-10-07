@@ -8,6 +8,10 @@ Original graphics created for Neon Coffin Video include the storefront, coffin-c
 
 Film posters, photographs, and film/trailer frames belong to their respective rights holders. These references document provenance, not a blanket license for reuse. Photo/artwork attribution is linked in each film profile and collected here.
 
+## Halloween Collection original artwork
+
+The eight movie-inspired environments in \`theme-packs/art/halloween-scenes-one.png\` and \`theme-packs/art/halloween-scenes-two.png\` were generated with AI for Cybercore Theme Packs. They are original atmospheric illustrations, not film frames or official promotional artwork. Movie names identify inspiration; this collection is independently created.
+
 ## Film artwork
 
 `;
