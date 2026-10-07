@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node preview.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node tests/catalogue.test.mjs && node tests/stats-counter.mjs && node tests/community-server.mjs && node tests/community-oauth.mjs"
+    "test": "node tests/catalogue.test.mjs && node tests/stats-counter.mjs && node tests/community-server.mjs && node tests/community-oauth.mjs && node tests/community-ui.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.147.0",
