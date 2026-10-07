@@ -51,9 +51,10 @@ export async function community(request,env){
   const body=await boundedJSON(request);if(typeof body.token!=='string'||!/^[a-f0-9]{64}$/.test(body.token))fail('Invalid presence token.');
   const timestamp=now(),visitorHash=await hash(body.token);
   await db.prepare('DELETE FROM lounge_presence WHERE expires<=?').bind(timestamp).run();
-  await db.prepare('INSERT INTO lounge_presence(visitor_hash,expires) VALUES(?,?) ON CONFLICT(visitor_hash) DO UPDATE SET expires=excluded.expires').bind(visitorHash,timestamp+90).run();
+  await db.prepare('INSERT INTO lounge_presence(visitor_hash,expires,member) VALUES(?,?,?) ON CONFLICT(visitor_hash) DO UPDATE SET expires=excluded.expires,member=excluded.member').bind(visitorHash,timestamp+90,me?.id||null).run();
   const active=await db.prepare('SELECT COUNT(*) AS count FROM lounge_presence WHERE expires>?').bind(timestamp).first();
-  return reply({count:Number(active.count),windowSeconds:90});
+  const online=await db.prepare('SELECT DISTINCT m.id,m.handle,m.google_sub FROM lounge_presence p JOIN members m ON m.id=p.member WHERE p.expires>? ORDER BY m.handle COLLATE NOCASE LIMIT 12').bind(timestamp).all();
+  return reply({count:Number(active.count),members:online.results.map(m=>({handle:m.handle,role:env.ADMIN_GOOGLE_SUB&&m.google_sub===env.ADMIN_GOOGLE_SUB?'Admin':'Member'})),windowSeconds:90});
  }
  if(path==='/api/community/reports'&&request.method==='GET'){if(!admin)fail('Moderator access required.',403);const reports=await db.prepare('SELECT r.id,r.reason,r.post,r.created,p.topic,p.body,m.handle FROM reports r JOIN posts p ON p.id=r.post JOIN members m ON m.id=r.author ORDER BY r.created DESC LIMIT 50').all();return reply({reports:reports.results})}
  if(path==='/api/community/me'&&request.method==='GET')return reply({member:me?publicMember(me):null,admin,ready,ageConfirmed:!!me?.age_confirmed_at});
