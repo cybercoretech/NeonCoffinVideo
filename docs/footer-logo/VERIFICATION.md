@@ -14,3 +14,9 @@ Verification:
 - Live desktop and phone screenshots inspected and saved here.
 
 Live site: https://neoncoffinvideo.site/
+
+## Matching storefront header
+
+Published matching artwork in the top-left storefront header beneath THE MONTHLY MIDNIGHT FILE. Website commit `62e8810`, deployment `dbb9eccd`. Header and footer reference the identical logo file. Desktop logo is 200px wide; the mobile layout fits logo and buttons in one row at 390px, using two rows below 380px.
+
+Local and live Chromium checks passed at 1440, 900, 768, 390, 360, and 320px: logo loads, no horizontal overflow, no overlap with header controls, menu opens, and artwork matches the footer source. The existing navigation browser check passed on both pages, including Help/Theme Packs, keyboard/focus, theme changes, effects preferences, and reading progress. Live desktop/phone screenshots attached.
