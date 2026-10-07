@@ -7,7 +7,7 @@ const root = new URL('../', import.meta.url), dist = new URL('dist/', root);
 // Only generated output is replaced. Use an explicit public-file allowlist.
 await rm(dist, {recursive: true, force: true});
 await mkdir(dist, {recursive: true});
-const publicFiles = ['index.html','community.html','404.html','fonts.css','styles.css','store-nav.css','store-nav.js','site-membership.css','site-membership.js','community.css','stats.css','night-effects.css','app.js','stats-counter.js','community.js','help-panel.js','help-panel.css','catalogue.js','italian-horror.js','curator-data.js','vhs-culture.js','imdb-search.js','after-dark.js','night-effects.js','artwork-sources.json','still-sources.json','catalogue-extra.json','movies.json','SOURCES.md','robots.txt','_routes.json','assets','theme-packs'];
+const publicFiles = ['index.html','community.html','404.html','fonts.css','styles.css','store-nav.css','store-nav.js','neon-polish.css','neon-polish.js','site-membership.css','site-membership.js','community.css','stats.css','night-effects.css','app.js','stats-counter.js','community.js','help-panel.js','help-panel.css','catalogue.js','italian-horror.js','curator-data.js','vhs-culture.js','imdb-search.js','after-dark.js','night-effects.js','artwork-sources.json','still-sources.json','catalogue-extra.json','movies.json','SOURCES.md','robots.txt','_routes.json','assets','theme-packs'];
 for (const file of publicFiles) await cp(new URL(file, root), new URL(file, dist), {recursive: true});
 await mkdir(new URL('shared/', dist));
 await cp(new URL('shared/genre-footer.css', root), new URL('shared/genre-footer.css', dist));

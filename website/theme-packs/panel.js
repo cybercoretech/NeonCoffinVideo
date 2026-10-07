@@ -11,13 +11,8 @@
     const {width,height,column,row,src} = theme.art;
     return `<svg class="${className}" viewBox="0 0 ${width/2} ${height/2}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><image href="${src}" width="${width}" height="${height}" x="${-column*width/2}" y="${-row*height/2}"/></svg>`;
   }
-  const trigger = document.createElement('button');
-  trigger.className = 'cybercore-theme-launch';
-  trigger.type = 'button';
-  trigger.setAttribute('aria-haspopup','dialog');
-  trigger.setAttribute('aria-controls','cybercoreThemePanel');
-  trigger.innerHTML = '<span class="cybercore-theme-mark" aria-hidden="true">CC</span><span>THEME PACKS<small>HALLOWEEN COLLECTION</small></span>';
-  document.body.append(trigger);
+  const triggers = [...document.querySelectorAll('[data-open-themes]')];
+  let opener;
   const dialog = document.createElement('dialog');
   dialog.id = 'cybercoreThemePanel';
   dialog.className = 'cybercore-theme-panel';
@@ -68,7 +63,7 @@
     dialog.querySelector('#ctpCurrent').textContent=theme?.name || 'Original Neon Coffin';
     dialog.querySelectorAll('[data-theme-id]').forEach(card=>card.setAttribute('aria-pressed',String(card.dataset.themeId===id)));
     sceneHost.innerHTML=theme?scene(theme,'halloween-scene'):'';
-    trigger.title='Current theme: '+(theme?.name || 'Original Neon Coffin');
+    triggers.forEach(trigger => {trigger.title='Current theme: '+(theme?.name || 'Original Neon Coffin');});
   }
   function choose(id) {
     if(!engine.apply(id))return;
@@ -79,11 +74,11 @@
   }
   dialog.querySelectorAll('[data-theme-id]').forEach(card=>card.addEventListener('click',()=>choose(card.dataset.themeId)));
   dialog.querySelector('.ctp-reset').addEventListener('click',()=>choose('original'));
-  trigger.addEventListener('click',()=>{dialog.querySelectorAll('[data-scene]').forEach(host=>{const theme=engine.pack.themes.find(t=>t.id===host.dataset.scene);host.outerHTML=scene(theme,'ctp-scene');});dialog.showModal();document.body.classList.add('theme-panel-open');});
+  triggers.forEach(trigger => trigger.addEventListener('click',()=>{opener=trigger;dialog.querySelectorAll('[data-scene]').forEach(host=>{const theme=engine.pack.themes.find(t=>t.id===host.dataset.scene);host.outerHTML=scene(theme,'ctp-scene');});dialog.showModal();document.body.classList.add('theme-panel-open');}));
   function close(){dialog.close();}
   dialog.querySelector('.ctp-close').addEventListener('click',close);
   dialog.querySelector('.ctp-view').addEventListener('click',close);
-  dialog.addEventListener('close',()=>{document.body.classList.remove('theme-panel-open');trigger.focus();});
+  dialog.addEventListener('close',()=>{document.body.classList.remove('theme-panel-open');(opener?.closest('[hidden]') ? document.querySelector('.menu-toggle') : opener)?.focus();});
   dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close();}});
   dialog.querySelector('#ctpShare').addEventListener('click',async()=>{
     const url=new URL(location.href);url.searchParams.set('theme',root.dataset.cybercoreTheme || 'original');

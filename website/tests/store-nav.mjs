@@ -19,10 +19,16 @@ assert.match(html,/href="#shelves"[^>]*>.*?Rental Shelves/s);
 assert.match(html,/href="#vhs-culture"[^>]*>.*?VHS Culture/s);
 assert.match(html,/aria-expanded="false" aria-controls="primaryNavigation"/);
 assert.match(script,/event\.key==='Escape'/);
-assert.match(script,/event\.target\.closest\('a'\)/);
+assert.match(script,/button\[data-open-help\].*button\[data-open-themes\]/);
 assert.match(html,/store-nav\.css/);
 assert.match(html,/store-nav\.js/);
 assert.match(build,/'store-nav\.css','store-nav\.js'/);
 const app=readFileSync(new URL('app.js',root),'utf8');
 assert.match(app,/month-9/,'October begins issue 001');
 console.log('PASS: the masthead is concise, the menu has unique destinations and a11y behavior, and its assets are built for production.');
+
+for(const page of ['index.html','community.html']){
+ const markup=readFileSync(new URL(page,root),'utf8');
+ for(const action of ['data-open-help','data-open-themes'])assert(markup.includes(action),page+' has '+action);
+ assert.match(markup,/store-nav\.js/);
+}
