@@ -27,12 +27,18 @@ try{
   assert.equal(await evaluate(`document.querySelectorAll('[data-open-help]').length`),1);
   assert.equal(await evaluate(`document.querySelectorAll('[data-open-themes]').length`),1);
   await screenshot(path==='index.html'?'polish-main-desktop':'polish-lounge-desktop');
-  for(const width of [1440,900,390]){
-   await command('Emulation.setDeviceMetricsOverride',{width,height:width===390?844:1000,deviceScaleFactor:1,mobile:width===390},sessionId);
+  for(const width of [1440,900,768,600,540,430,390,360,320]){
+   await command('Emulation.setDeviceMetricsOverride',{width,height:width<=600?844:1000,deviceScaleFactor:1,mobile:width<=600},sessionId);
    await evaluate(`scrollTo(0,0)`);await click('.menu-toggle');
    assert.equal(await evaluate(`document.querySelector('#primaryNavigation').hidden`),false);
    assert(await evaluate(`(()=>{const r=document.querySelector('#primaryNavigation').getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&r.width>200&&r.bottom<=innerHeight})()`),path+' menu fits '+width);
    assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),path+' no page overflow '+width);
+   const menuSizes=await evaluate(`(()=>{const nav=document.querySelector('#primaryNavigation');const items=[...nav.querySelectorAll(':scope>a,:scope>button')];return {columns:getComputedStyle(nav).gridTemplateColumns.split(' ').length,rows:items.map(e=>{const r=e.getBoundingClientRect();return {width:r.width,height:r.height,shop:e.classList.contains('menu-shop'),icon:!!e.querySelector('svg[data-menu-art]'),textFits:[...e.querySelectorAll('span,small')].every(t=>t.scrollWidth<=t.clientWidth&&t.getBoundingClientRect().bottom<=r.bottom-4)}})}})()`);
+   assert(menuSizes.rows.every(r=>r.height===76),path+' uniform 76px menu tiles at '+width);
+   const regularWidths=menuSizes.rows.map(r=>r.width);
+   assert(Math.max(...regularWidths)-Math.min(...regularWidths)<1,path+' uniform menu widths at '+width);
+   assert(menuSizes.rows.every(r=>r.icon&&r.textFits),path+' horror icons and unclipped labels at '+width);
+   assert.equal(menuSizes.columns,width<=600?1:2,path+' comfortable phone menu columns at '+width);
    if(path==='index.html')assert.equal(await evaluate(`[...document.querySelectorAll('#primaryNavigation>a')].filter(e=>getComputedStyle(e).display!=='none').length`),10);
    await screenshot((path==='index.html'?'main':'lounge')+'-menu-'+width);
    await command('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape',windowsVirtualKeyCode:27},sessionId);await command('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape',windowsVirtualKeyCode:27},sessionId);
