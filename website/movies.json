@@ -994,7 +994,8 @@
   {
     "id": "lifeforce",
     "title": "Lifeforce",
-    "year": 1985
+    "year": 1985,
+    "poster": "assets/lifeforce.jpg"
   },
   {
     "id": "maniac-cop",

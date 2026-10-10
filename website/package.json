@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node preview.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node tests/catalogue.test.mjs && node tests/stats-counter.mjs && node tests/community-server.mjs && node tests/community-oauth.mjs && node tests/community-ui.mjs && node tests/help-panel.mjs && node tests/store-nav.mjs && node tests/theme-preferences.mjs && node tests/site-membership.mjs && node tests/night-clerk-connector.mjs && node tests/late-show.mjs"
+    "test": "node tests/catalogue.test.mjs && node tests/stats-counter.mjs && node tests/community-server.mjs && node tests/community-oauth.mjs && node tests/community-ui.mjs && node tests/help-panel.mjs && node tests/store-nav.mjs && node tests/theme-preferences.mjs && node tests/site-membership.mjs && node tests/night-clerk-connector.mjs && node tests/late-show.mjs && node tests/seo.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.147.0",

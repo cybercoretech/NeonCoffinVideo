@@ -44,8 +44,14 @@ try{
   assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'page fits '+width);
   assert(await evaluate(`[...document.querySelectorAll('.ls-remote button')].every(b=>b.getBoundingClientRect().height>=44)`));
   assert.equal(await evaluate(`document.querySelectorAll('#lsTVScreen iframe').length`),0);
+  assert(await evaluate(`[...document.querySelectorAll('.ls-rental-card img,.ls-preview-art img,#lsNowPoster')].every(i=>i.src.includes('/assets/')&&i.src.endsWith('.jpg'))`),'actual posters throughout rental rack and preview deck');
   await evaluate(`Promise.allSettled([...document.images].map(i=>{i.loading='eager';return i.decode()}))`);
   const failedImages=await evaluate(`[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)`);assert.deepEqual(failedImages,[],'images loaded '+width);
+  if(width===1440||width===390){
+   await evaluate(`document.querySelector('#rentalRack').scrollIntoView({behavior:'instant'})`);
+   const rackShot=await command('Page.captureScreenshot',{format:'png'},sessionId);writeFileSync(screenshotDir+'/rental-rack-'+width+'.png',Buffer.from(rackShot.data,'base64'));
+   await evaluate(`window.scrollTo({top:0,behavior:'instant'})`);
+  }
   await evaluate(`document.querySelector('.menu-toggle').click()`);
   const menuBox=await evaluate(`(()=>{const e=document.querySelector('#primaryNavigation');const r=e.getBoundingClientRect();return {hidden:e.hidden,left:r.left,right:r.right,width:innerWidth}})()`);assert(!menuBox.hidden&&menuBox.left>=0&&menuBox.right<=menuBox.width,'menu fits '+width+' '+JSON.stringify(menuBox));
   assert(await evaluate(`(()=>{const tiles=[...document.querySelectorAll('#primaryNavigation a')];return new Set(tiles.map(e=>Math.round(e.getBoundingClientRect().height))).size===1})()`),'equal menu tile heights');
@@ -73,10 +79,19 @@ try{
   await command('Page.navigate',{url:base+'/screening-room'},sessionId);await waitFor(`document.readyState==='complete'&&document.querySelectorAll('.ls-rental-card').length===6`);await evaluate(`Promise.allSettled([...document.images].map(i=>{i.loading='eager';return i.decode()}))`);await evaluate(`window.scrollTo({top:0,behavior:'instant'})`);await new Promise(r=>setTimeout(r,300));
   const shot=await command('Page.captureScreenshot',{format:'png'},sessionId);writeFileSync(screenshotDir+'/late-show-'+width+'.png',Buffer.from(shot.data,'base64'));
  }
+ // Audit every film's tape file, including films seen only in the preview deck.
+ for(const id of ['the-mutilator','hellraiser','event-horizon','prom-night','lifeforce','the-prowler','killer-klowns','fright-night']){
+  await evaluate(`location.hash='tape/${id}'`);
+  await waitFor(`document.querySelector('#lsDossier').open&&document.querySelector('#lsDossierContent img').src.endsWith('/${id}.jpg')`);
+  await evaluate(`document.querySelector('#lsDossierContent img').decode()`);
+  assert(await evaluate(`!!document.querySelector('#lsDossierContent .ls-credit-link')`),'poster credit for '+id);
+  await evaluate(`document.querySelector('[data-ls-close="lsDossier"]').click()`);
+  await waitFor(`!document.querySelector('#lsDossier').open`);
+ }
  // Only browser-local saved shelf state is changed; no account mutation or sends.
  await evaluate(`localStorage.setItem('neon-coffin-shelf',JSON.stringify(['near-dark']))`);
  await command('Page.navigate',{url:base+'/screening-room'},sessionId);
- await waitFor(`document.querySelectorAll('.ls-rental-card').length===6`);
+ await waitFor(`document.readyState==='complete'&&document.querySelectorAll('#lsPreviewList button').length===3&&document.querySelector('#lsShelfCount').textContent==='1'`);
  await evaluate(`document.querySelector('.ls-rental-card [data-ls-save="hellraiser"]').click()`);
  assert(await evaluate(`JSON.parse(localStorage.getItem('neon-coffin-shelf')).includes('near-dark')&&JSON.parse(localStorage.getItem('neon-coffin-shelf')).includes('hellraiser')`));
  await evaluate(`document.querySelector('[data-ls-channel="2"]').click();document.querySelector('#lsPlay').click()`);
@@ -106,5 +121,5 @@ try{
   assert(await evaluate(`document.querySelector('#topicForm').elements.body.value.includes('forgotten slasher')`));
   await evaluate(`document.querySelector('#composer').close()`);
  }
- assert.deepEqual(errors,[]);console.log('PASS: screening page at 1440/768/390/320px, consistent menus, filters, original images, nested local dossiers, Google signup handoff, saved-shelf preservation, user-triggered player and fallback, reduced motion, and Lounge screening context. No subscriptions, posts or email sent.');
+ assert.deepEqual(errors,[]);console.log('PASS: screening page at 1440/768/390/320px, consistent menus, filters, all eight credited film posters, nested local dossiers, Google signup handoff, saved-shelf preservation, user-triggered player and fallback, reduced motion, and Lounge screening context. No subscriptions, posts or email sent.');
 }finally{ws?.close();browser.kill();server.closeAllConnections();server.close();db.close()}

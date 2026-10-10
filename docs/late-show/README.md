@@ -30,7 +30,7 @@ Google's adults-only content classification is irreversible once selected; revie
 
 `late-show-data.js` is the single source for six opening issues (October 9–November 13, 2026), rental metadata, service links, and preview videos. Friday publication follows America/Los_Angeles midnight; personal viewing suggestions start at 8 PM Pacific and calendar files handle daylight-saving changes. The homepage, feature card, issue archive, Lounge discussion context, and RSS use this schedule. Once the six issues finish, the latest issue stays available until you add another dated issue. The website's schedule does not trigger Google email delivery.
 
-Add future Friday records to dispatchIssues with unique IDs and valid feature/pair IDs. Recheck provider availability before sending. There is no new Tubi scraper, full-film player, or stream proxy. New covers are original NCV illustrations. Production worker routes /api/late-show/newsletter, /rss, and /calendar; the newsletter route exposes only the public Google Group URL.
+Add future Friday records to dispatchIssues with unique IDs and valid feature/pair IDs. Recheck provider availability before sending. There is no new Tubi scraper, full-film player, or stream proxy. Displayed film covers use credited catalog posters. Original NCV label illustrations remain fallback artwork. Production worker routes /api/late-show/newsletter, /rss, and /calendar; the newsletter route exposes only the public Google Group URL.
 
 YouTube: set screeningConfig.youtubeChannel when your real public channel URL exists, then connect the reserved NCV On Air section. Never create a fake Subscribe destination. New verified preview IDs belong in vaultTrailers; verify official uploader metadata and keep a direct playback fallback.
 

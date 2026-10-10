@@ -8,7 +8,7 @@ Film posters, photographs, and film/trailer frames belong to their respective ri
 
 ## The Late Show
 
-The screening room uses the original NCV television cabinet and newly drawn geometric rental-label SVGs in `assets/late-show/`. These are original site illustrations, not official film posters. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
+The screening room uses the original NCV television cabinet and newly drawn geometric rental-label SVGs in `assets/late-show/`. These are original fallback illustrations, not official film posters. The screening room displays the credited film posters listed below, including the restored Lifeforce theatrical poster. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
 
 ## Halloween Collection original artwork
 
@@ -1119,9 +1119,10 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 ### lifeforce
 
-- Local file: `assets/lifeforce.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Lifeforce
+- Local file: `assets/lifeforce.jpg`
+- Credit: Lifeforce (1985) US theatrical poster. Copyright belongs to its respective rights holders. Low-resolution image from Wikipedia; used for editorial film identification. Attribution is provenance, not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Lifeforce_(film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/2/2d/Lifeforceposter.jpg
 
 ### maniac-cop
 

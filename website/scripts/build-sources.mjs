@@ -12,7 +12,7 @@ Film posters, photographs, and film/trailer frames belong to their respective ri
 
 ## The Late Show
 
-The screening room uses the original NCV television cabinet and newly drawn geometric rental-label SVGs in \`assets/late-show/\`. These are original site illustrations, not official film posters. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
+The screening room uses the original NCV television cabinet and newly drawn geometric rental-label SVGs in \`assets/late-show/\`. These are original fallback illustrations, not official film posters. The screening room displays the credited film posters listed below, including the restored Lifeforce theatrical poster. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
 
 ## Halloween Collection original artwork
 

@@ -1102,9 +1102,10 @@
   },
   {
     "slug": "lifeforce",
-    "page": "https://en.wikipedia.org/wiki/Lifeforce",
-    "local": "assets/lifeforce.svg",
-    "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
+    "page": "https://en.wikipedia.org/wiki/Lifeforce_(film)",
+    "local": "assets/lifeforce.jpg",
+    "credit": "Lifeforce (1985) US theatrical poster. Copyright belongs to its respective rights holders. Low-resolution image from Wikipedia; used for editorial film identification. Attribution is provenance, not a reuse license.",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/2d/Lifeforceposter.jpg"
   },
   {
     "slug": "maniac-cop",

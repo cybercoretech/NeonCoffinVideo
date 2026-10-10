@@ -1,10 +1,14 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {screenMovies,dispatchIssues,publishedIssues,currentIssue,screeningStart,pacificDay} from '../late-show-data.js';
+import {screenMovies,vaultTrailers,screeningArtwork,dispatchIssues,publishedIssues,currentIssue,screeningStart,pacificDay} from '../late-show-data.js';
 import {dispatchRSS,issueCalendar,lateShow} from '../server/late-show.js';
 import worker from '../_worker.js';
 const group='https://groups.google.com/g/neon-coffin-midnight-dispatch';
 assert.equal(new Set(screenMovies.map(m=>m.id)).size,screenMovies.length);
+for(const movie of [...screenMovies,...vaultTrailers]){
+ assert.equal(movie.poster,screeningArtwork[movie.id].poster);assert(movie.posterSource.startsWith('https://'));
+ const bytes=readFileSync(new URL('..'+movie.poster,import.meta.url));assert(bytes.length>8000);assert.equal(bytes[0],0xff);assert.equal(bytes[1],0xd8,'film cover is a real JPEG');
+}
 for(const issue of dispatchIssues){assert(screenMovies.some(m=>m.id===issue.feature));assert(screenMovies.some(m=>m.id===issue.pair));assert.equal(new Date(issue.date+'T12:00:00Z').getUTCDay(),5)}
 assert.equal(pacificDay(new Date('2026-10-16T06:59:59Z')),'2026-10-15');
 assert.equal(currentIssue(new Date('2026-10-16T06:59:59Z')).id,'001');
