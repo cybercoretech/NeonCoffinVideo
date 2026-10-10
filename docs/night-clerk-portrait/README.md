@@ -22,3 +22,14 @@ Deployment target: existing Cloudflare Pages `neoncoffinvideo`, production branc
 `main`, serving `neoncoffinvideo.site`. Deployment uses only generated `dist/`.
 
 Wrangler reference: https://developers.cloudflare.com/pages/get-started/direct-upload/
+
+## Production verification
+
+Published on 2026-10-10 to https://neoncoffinvideo.site/community.
+Deployment: https://9a9a4470.neoncoffinvideo.pages.dev
+Source commit: `c3a2d06`.
+
+Live browser checks passed at 1440, 768, 390 and 320 px, including the portrait,
+film rotation, catalog commands, conversational AI follow-up, reset and closing
+the chat. Live screenshots are in `live/`. The public stats endpoint also returned
+numeric totals. No live sign-in or membership-write flow was exercised.
