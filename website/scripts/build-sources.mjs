@@ -18,6 +18,10 @@ The screening room uses the original NCV television cabinet and newly drawn geom
 
 The eight movie-inspired full-frame wallpapers in \`theme-packs/art/*-wallpaper.webp\` were generated with AI for Cybercore Theme Packs. Each is a dedicated native-resolution scene, losslessly converted to WebP without enlargement. The previous two scene atlases are retained as historical source assets and are no longer displayed. They are original atmospheric illustrations, not film frames or official promotional artwork. Movie names identify inspiration; this collection is independently created.
 
+## The Night Clerk
+
+The Midnight Lounge portrait in \`assets/night-clerk/past-due-portrait.webp\` is an original AI-generated illustration developed from the user-selected “Past Due” character concept. Its source portrait, model and expression studies, and editable animation plates are archived in the private NeonCoffinAnimations production repository. The web image is a compressed export of the portrait.
+
 ## Film artwork
 
 `;
