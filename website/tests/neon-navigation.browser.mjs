@@ -33,6 +33,22 @@ try{
    assert.equal(await evaluate(`document.querySelector('#primaryNavigation').hidden`),false);
    assert(await evaluate(`(()=>{const r=document.querySelector('#primaryNavigation').getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&r.width>200&&r.bottom<=innerHeight})()`),path+' menu fits '+width);
    assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),path+' no page overflow '+width);
+   if(path==='index.html'){
+    const toolbar=await evaluate(`(()=>{const buttons=[...document.querySelectorAll('.header .header-control')];return buttons.map(b=>{const r=b.getBoundingClientRect();return {width:r.width,height:r.height,top:r.top,left:r.left,right:r.right,label:!!(b.getAttribute('aria-label')||b.innerText.trim())}})})()`);
+    assert.equal(toolbar.length,5);
+    assert(toolbar.every(b=>b.height===48&&b.label), 'five accessible 48px top-bar controls at '+width);
+    assert(Math.max(...toolbar.map(b=>b.width))-Math.min(...toolbar.map(b=>b.width))<1,'equal top-bar widths at '+width);
+    assert(Math.max(...toolbar.map(b=>b.top))-Math.min(...toolbar.map(b=>b.top))<1,'aligned top-bar controls at '+width);
+    assert(toolbar.every(b=>b.left>=0&&b.right<=width),'top-bar controls fit at '+width);
+    await evaluate(`document.querySelector('#memberPortalLabel').textContent='@NeonDemon_74';`);
+    assert(await evaluate(`[...document.querySelectorAll('.header .header-control')].every(b=>{const icon=b.querySelector('svg');const r=icon.getBoundingClientRect();return getComputedStyle(icon).display!=='none'&&r.width===20&&r.height===20})`),'all five icons visible at '+width);
+    if(width>1100)assert(await evaluate(`[document.querySelector('#memberPortalLabel'),document.querySelector('#openShelf>span:not(.icon)')].every(e=>getComputedStyle(e).display!=='none'&&e.scrollWidth<=e.clientWidth)`),'username and shelf label fully visible at '+width);
+
+    assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'signed-in label fits at '+width);
+    await evaluate(`document.querySelector('#memberPortalLabel').textContent='@ABCDEFGHIJKLMNOPQRSTUVWX';`);
+    assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'maximum handle fits at '+width);
+    await evaluate(`document.querySelector('#memberPortalLabel').textContent='@NeonDemon_74';`);
+   }
    const menuSizes=await evaluate(`(()=>{const nav=document.querySelector('#primaryNavigation');const items=[...nav.querySelectorAll(':scope>a,:scope>button')];return {columns:getComputedStyle(nav).gridTemplateColumns.split(' ').length,rows:items.map(e=>{const r=e.getBoundingClientRect();return {width:r.width,height:r.height,shop:e.classList.contains('menu-shop'),icon:!!e.querySelector('svg[data-menu-art]'),textFits:[...e.querySelectorAll('span,small')].every(t=>t.scrollWidth<=t.clientWidth&&t.getBoundingClientRect().bottom<=r.bottom-4)}})}})()`);
    assert(menuSizes.rows.every(r=>r.height===76),path+' uniform 76px menu tiles at '+width);
    const regularWidths=menuSizes.rows.map(r=>r.width);
