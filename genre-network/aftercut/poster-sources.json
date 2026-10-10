@@ -1,0 +1,1798 @@
+[
+  {
+    "title": "Scream",
+    "year": 1996,
+    "page": "https://en.wikipedia.org/wiki/Scream_(1996_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/86/Scream_%281996_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream.jpg"
+  },
+  {
+    "title": "I Know What You Did Last Summer",
+    "year": 1997,
+    "page": "https://en.wikipedia.org/wiki/I_Know_What_You_Did_Last_Summer",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a2/I_Know_What_You_Did_Last_Summer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/i-know-what-you-did-last-summer.jpg"
+  },
+  {
+    "title": "The Faculty",
+    "year": 1998,
+    "page": "https://www.impawards.com/1998/faculty.html",
+    "image_source": "https://www.impawards.com/1998/posters/faculty.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-faculty.jpg"
+  },
+  {
+    "title": "Ringu",
+    "year": 1998,
+    "page": "https://en.wikipedia.org/wiki/Ring_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/4a/Ringu_%281998%29_Japanese_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/ringu.jpg"
+  },
+  {
+    "title": "Audition",
+    "year": 1999,
+    "page": "https://en.wikipedia.org/wiki/Audition_(1999_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/32/Audition-1999-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/audition.jpg"
+  },
+  {
+    "title": "The Blair Witch Project",
+    "year": 1999,
+    "page": "https://en.wikipedia.org/wiki/The_Blair_Witch_Project",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/26/Blair_Witch_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-blair-witch-project.jpg"
+  },
+  {
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "page": "https://en.wikipedia.org/wiki/The_Sixth_Sense",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/the-sixth-sense.png"
+  },
+  {
+    "title": "Final Destination",
+    "year": 2000,
+    "page": "https://en.wikipedia.org/wiki/Final_Destination_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a3/Final_Destination_movie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/final-destination.jpg"
+  },
+  {
+    "title": "American Psycho",
+    "year": 2000,
+    "page": "https://en.wikipedia.org/wiki/American_Psycho_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/0c/American_Psycho.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/american-psycho.png"
+  },
+  {
+    "title": "Ginger Snaps",
+    "year": 2000,
+    "page": "https://nitehawkcinema.com/williamsburg/movies/ginger-snaps/",
+    "image_source": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/4/2022/08/19113701/ginger-snaps-poster.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/ginger-snaps.jpg"
+  },
+  {
+    "title": "Battle Royale",
+    "year": 2000,
+    "page": "https://en.wikipedia.org/wiki/Battle_Royale_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/eb/Battle_Royale-japanese-film-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/battle-royale.jpg"
+  },
+  {
+    "title": "From Dusk Till Dawn",
+    "year": 1996,
+    "page": "https://en.wikipedia.org/wiki/From_Dusk_till_Dawn",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f0/From_dusk_till_dawn_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/from-dusk-till-dawn.jpg"
+  },
+  {
+    "title": "The Ring",
+    "year": 2002,
+    "page": "https://en.wikipedia.org/wiki/The_Ring_(2002_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/37/Theringpostere.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-ring.jpg"
+  },
+  {
+    "title": "28 Days Later",
+    "year": 2002,
+    "page": "https://en.wikipedia.org/wiki/28_Days_Later",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e4/28_days_later.jpg/330px-28_days_later.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/28-days-later.jpg"
+  },
+  {
+    "title": "Ichi the Killer",
+    "year": 2001,
+    "page": "https://japanposter.co.uk/products/ichi-the-killer-original-release-japanese-movie-poster-2001-b2-size-style-a-51cm-x-73cm-i146-1",
+    "image_source": "https://japanposter.co.uk/cdn/shop/files/IMG_8694.jpg?v=1728194170",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/ichi-the-killer.jpg"
+  },
+  {
+    "title": "Resident Evil",
+    "year": 2002,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil_(2002_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a1/Resident_evil_ver4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/resident-evil.jpg"
+  },
+  {
+    "title": "Resident Evil: Apocalypse",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil%3A_Apocalypse",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/50/Resident_evil_apocalypse_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/resident-evil-apocalypse.jpg"
+  },
+  {
+    "title": "Resident Evil: Extinction",
+    "year": 2007,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil%3A_Extinction",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/34/Resident_Evil_Extinction.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/resident-evil-extinction.jpg"
+  },
+  {
+    "title": "Resident Evil: Afterlife",
+    "year": 2010,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil%3A_Afterlife",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/ea/Resident_Evil-_Afterlife.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/resident-evil-afterlife.jpg"
+  },
+  {
+    "title": "Resident Evil: Retribution",
+    "year": 2012,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil%3A_Retribution",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/50/Resident_evil_retribution_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/resident-evil-retribution.jpg"
+  },
+  {
+    "title": "Resident Evil: The Final Chapter",
+    "year": 2016,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil%3A_The_Final_Chapter",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/b/bf/Resident_Evil_The_Final_Chapter_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/resident-evil-the-final-chapter.jpg"
+  },
+  {
+    "title": "Ginger Snaps 2: Unleashed",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Ginger_Snaps_2%3A_Unleashed",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/ea/Ginger_Snaps2_Unleashed_film.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/ginger-snaps-2-unleashed.jpg"
+  },
+  {
+    "title": "Ginger Snaps Back",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Ginger_Snaps_Back%3A_The_Beginning",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/45/Gingersnapsback.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/ginger-snaps-back.jpg"
+  },
+  {
+    "title": "Dawn of the Dead",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Dawn_of_the_Dead_(2004_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/16/Dawn_of_the_Dead_2004_movie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/dawn-of-the-dead.jpg"
+  },
+  {
+    "title": "Saw",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Saw_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/56/Saw_official_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/saw.jpg"
+  },
+  {
+    "title": "The Descent",
+    "year": 2005,
+    "page": "https://en.wikipedia.org/wiki/The_Descent",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d5/Descentposter.jpg/330px-Descentposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-descent.jpg"
+  },
+  {
+    "title": "Hostel",
+    "year": 2005,
+    "page": "https://en.wikipedia.org/wiki/Hostel_(2005_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/aa/Hostel_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/hostel.jpg"
+  },
+  {
+    "title": "The Descent Part 2",
+    "year": 2009,
+    "page": "https://en.wikipedia.org/wiki/The_Descent_Part_2",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/97/De2cent.jpg/330px-De2cent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-descent-part-2.jpg"
+  },
+  {
+    "title": "The Cabin in the Woods",
+    "year": 2011,
+    "page": "https://en.wikipedia.org/wiki/The_Cabin_in_the_Woods",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/84/The_Cabin_in_the_Woods_%282012%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-cabin-in-the-woods.jpg"
+  },
+  {
+    "title": "The Witch",
+    "year": 2015,
+    "page": "https://en.wikipedia.org/wiki/The_Witch_(2015_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/b/bf/The_Witch_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/the-witch.png"
+  },
+  {
+    "title": "Train to Busan",
+    "year": 2016,
+    "page": "https://en.wikipedia.org/wiki/Train_to_Busan",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/95/Train_to_Busan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/train-to-busan.jpg"
+  },
+  {
+    "title": "Terrifier",
+    "year": 2016,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/terrifier.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Possessor",
+    "year": 2020,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/possessor.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Blackcoat’s Daughter",
+    "year": 2015,
+    "page": "https://en.wikipedia.org/wiki/The_Blackcoat's_Daughter",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/b/bc/The_Blackcoat%27s_Daughter.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/the-blackcoat-s-daughter.png"
+  },
+  {
+    "title": "Longlegs",
+    "year": 2024,
+    "page": "https://www.neonrated.com/film/longlegs-film",
+    "image_source": "https://www.datocms-assets.com/148598/1736253972-longlegs-poster.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/longlegs-official.jpg",
+    "artwork": "Official theatrical poster, NEON"
+  },
+  {
+    "title": "X",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/X_(2022_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/34/X_%282022_film%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/x.jpg"
+  },
+  {
+    "title": "Pearl",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Pearl_(2022_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/5b/Pearl_theatricalposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/pearl.jpg"
+  },
+  {
+    "title": "MaXXXine",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/MaXXXine",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/06/MaXXXine_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/maxxxine.jpg"
+  },
+  {
+    "title": "When Evil Lurks",
+    "year": 2023,
+    "page": "https://en.wikipedia.org/wiki/When_Evil_Lurks",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/25/When_Evil_Lurks_%282023%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/when-evil-lurks.jpg"
+  },
+  {
+    "title": "Scream 2",
+    "year": 1997,
+    "page": "https://en.wikipedia.org/wiki/Scream_2",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7f/Scream_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream-2.jpg"
+  },
+  {
+    "title": "Scream 3",
+    "year": 2000,
+    "page": "https://en.wikipedia.org/wiki/Scream_3",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/19/Scream3_ver2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream-3.jpg"
+  },
+  {
+    "title": "Scream 4",
+    "year": 2011,
+    "page": "https://en.wikipedia.org/wiki/Scream_4",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d8/Scream4Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream-4.jpg"
+  },
+  {
+    "title": "Scream (2022)",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Scream_(2022_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/24/Scream2022film.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream-2022.jpg"
+  },
+  {
+    "title": "Scream VI",
+    "year": 2023,
+    "page": "https://en.wikipedia.org/wiki/Scream_VI",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/c9/Scream_VI_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream-vi.jpg"
+  },
+  {
+    "title": "Scream 7",
+    "year": 2026,
+    "page": "https://en.wikipedia.org/wiki/Scream_7",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/c2/Scream_7_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/scream-7.jpg"
+  },
+  {
+    "title": "The Ring Two",
+    "year": 2005,
+    "page": "https://en.wikipedia.org/wiki/The_Ring_Two",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/15/Ring_two_ver2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-ring-two.jpg"
+  },
+  {
+    "title": "Rings",
+    "year": 2017,
+    "page": "https://en.wikipedia.org/wiki/Rings_(2017_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/ec/Rings_-_Official_Theatrical_Poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/rings.png"
+  },
+  {
+    "title": "From Dusk Till Dawn 2: Texas Blood Money",
+    "year": 1999,
+    "page": "https://en.wikipedia.org/wiki/From_Dusk_Till_Dawn_2%3A_Texas_Blood_Money",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e0/From_Dusk_Till_Dawn_2_movie_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/from-dusk-till-dawn-2-texas-blood-money.jpg"
+  },
+  {
+    "title": "From Dusk Till Dawn 3: The Hangman’s Daughter",
+    "year": 1999,
+    "page": "https://en.wikipedia.org/wiki/From_Dusk_Till_Dawn_3%3A_The_Hangman's_Daughter",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/14/From_Dusk_Till_Dawn_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/from-dusk-till-dawn-3-the-hangman-s-daughter.jpg"
+  },
+  {
+    "title": "Final Destination 2",
+    "year": 2003,
+    "page": "https://en.wikipedia.org/wiki/Final_Destination_2",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/dd/Final_destination_two.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/final-destination-2.jpg"
+  },
+  {
+    "title": "Final Destination 3",
+    "year": 2006,
+    "page": "https://en.wikipedia.org/wiki/Final_Destination_3",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/b/b2/Final_Destination_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/final-destination-3.jpg"
+  },
+  {
+    "title": "Final Destination 5",
+    "year": 2011,
+    "page": "https://en.wikipedia.org/wiki/Final_Destination_5",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a0/FD5_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/final-destination-5.jpg"
+  },
+  {
+    "title": "Final Destination Bloodlines",
+    "year": 2025,
+    "page": "https://en.wikipedia.org/wiki/Final_Destination_Bloodlines",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/ab/Final_Destination_Bloodlines_%282025%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/final-destination-bloodlines.jpg"
+  },
+  {
+    "title": "Terrifier 2",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Terrifier_2",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/cd/Terrifier_2_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/terrifier-2.jpg"
+  },
+  {
+    "title": "Terrifier 3",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/Terrifier_3",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/51/Terrifier_3_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/terrifier-3.jpg"
+  },
+  {
+    "title": "Don’t Move",
+    "year": 2026,
+    "page": "https://www.dontmovemovie.com/",
+    "image_source": "https://www.dontmovemovie.com/dont-move-key-art.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/dont-move.jpg"
+  },
+  {
+    "title": "Crimes of the Future",
+    "year": 2022,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/crimes-of-the-future.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Resident Evil (2026)",
+    "year": 2026,
+    "page": "https://en.wikipedia.org/wiki/Resident_Evil_(2026_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/3c/Resident_Evil_2026_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/resident-evil-2026.png"
+  },
+  {
+    "title": "Breeder",
+    "year": 2026,
+    "page": "https://www.filmtv.it/film/291984/breeder/",
+    "image_source": "https://www.filmtv.it/imgbank/GALLERYXL/R202609/ftv45-6aab899e6d540-breeder_xlg.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/breeder.jpg"
+  },
+  {
+    "title": "Victorian Psycho",
+    "year": 2026,
+    "page": "https://en.wikipedia.org/wiki/Victorian_Psycho_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f8/Victorian_Psycho_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/victorian-psycho.jpg"
+  },
+  {
+    "title": "Dark Hollow",
+    "year": 2026,
+    "page": "https://en.wikipedia.org/wiki/Dark_Hollow_(film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/86/Dark_Hollow_%282026%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/dark-hollow.jpg"
+  },
+  {
+    "title": "In a Violent Nature 2",
+    "year": 2027,
+    "page": "https://en.wikipedia.org/wiki/In_a_Violent_Nature%3A_Part_2",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7c/In_a_violent_nature_two.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/in-a-violent-nature-2.jpg"
+  },
+  {
+    "title": "Grin",
+    "year": 2026,
+    "page": "https://commons.wikimedia.org/wiki/File:Grin_poster_small.png",
+    "image_source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Grin_poster_small.png",
+    "content_type": "image/png",
+    "local": "assets/posters/grin.png"
+  },
+  {
+    "title": "Beware Boiúna",
+    "year": 2026,
+    "page": "https://en.wikipedia.org/wiki/Beware_Boi%C3%BAna",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/ad/Beware_Boi%C3%BAna.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/beware-boi-na.jpg"
+  },
+  {
+    "title": "Onslaught",
+    "year": 2026,
+    "page": "https://www.impawards.com/2026/onslaught.html",
+    "image_source": "https://www.upcominghorrormovies.com/sites/default/files/onslaught_1.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/onslaught.jpg"
+  },
+  {
+    "title": "She Saw Us",
+    "year": 2026,
+    "page": "https://www.imdb.com/title/tt38119130/mediaviewer/rm3417428994/",
+    "image_source": "https://m.media-amazon.com/images/M/MV5BOTM5OWRlY2YtYWQxMC00MzI1LWIzNDUtNDBkOTJkMTZmNDY1XkEyXkFqcGc%40._V1_.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/she-saw-us.jpg"
+  },
+  {
+    "title": "Black Christmas",
+    "year": 1974,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/black-christmas.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Texas Chain Saw Massacre",
+    "year": 1974,
+    "page": "https://en.wikipedia.org/wiki/The_Texas_Chain_Saw_Massacre",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Texas_Chain_Saw_Massacre_%281974%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-texas-chain-saw-massacre.jpg"
+  },
+  {
+    "title": "Halloween",
+    "year": 1978,
+    "page": "https://en.wikipedia.org/wiki/Halloween",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Jack-o%27-Lantern_2003-10-31.jpg/330px-Jack-o%27-Lantern_2003-10-31.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/halloween.jpg"
+  },
+  {
+    "title": "Dawn of the Dead",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Dawn_of_the_Dead_(2004_film)",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/16/Dawn_of_the_Dead_2004_movie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/dawn-of-the-dead.jpg"
+  },
+  {
+    "title": "Alien",
+    "year": 1979,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/alien.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Maniac",
+    "year": 1980,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/maniac.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Friday the 13th",
+    "year": 1980,
+    "page": "https://en.wikipedia.org/wiki/Friday_the_13th",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Freitag_der_13._im_Kalender.jpg/330px-Freitag_der_13._im_Kalender.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/friday-the-13th.jpg"
+  },
+  {
+    "title": "The Evil Dead",
+    "year": 1981,
+    "page": "https://en.wikipedia.org/wiki/The_Evil_Dead",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7d/Evil_dead_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-evil-dead.jpg"
+  },
+  {
+    "title": "Basket Case",
+    "year": 1982,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/basket-case.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Thing",
+    "year": 1982,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-thing.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Sleepaway Camp",
+    "year": 1983,
+    "page": "https://en.wikipedia.org/wiki/Sleepaway_Camp",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f1/SleepawayCampposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/sleepaway-camp.jpg"
+  },
+  {
+    "title": "The Toxic Avenger",
+    "year": 1984,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-toxic-avenger.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "A Nightmare on Elm Street",
+    "year": 1984,
+    "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/fa/A_Nightmare_on_Elm_Street_%281984%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/a-nightmare-on-elm-street.jpg"
+  },
+  {
+    "title": "The Return of the Living Dead",
+    "year": 1985,
+    "page": "https://en.wikipedia.org/wiki/The_Return_of_the_Living_Dead",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Return_of_the_Living_Dead_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-return-of-the-living-dead.jpg"
+  },
+  {
+    "title": "Re-Animator",
+    "year": 1985,
+    "page": "https://en.wikipedia.org/wiki/Re-Animator",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6e/Reanimator_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/re-animator.png"
+  },
+  {
+    "title": "The Stuff",
+    "year": 1985,
+    "page": "https://en.wikipedia.org/wiki/The_Stuff",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/60/The-Stuff-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-stuff.jpg"
+  },
+  {
+    "title": "Fright Night",
+    "year": 1985,
+    "page": "https://en.wikipedia.org/wiki/Fright_Night",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e2/Fright_night_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/fright-night.jpg"
+  },
+  {
+    "title": "Night of the Creeps",
+    "year": 1986,
+    "page": "https://en.wikipedia.org/wiki/Night_of_the_Creeps",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6b/Nightofthecreepsposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/night-of-the-creeps.jpg"
+  },
+  {
+    "title": "The Fly",
+    "year": 1986,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-fly.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "From Beyond",
+    "year": 1986,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/from-beyond.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Chopping Mall",
+    "year": 1986,
+    "page": "https://en.wikipedia.org/wiki/Chopping_Mall",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/9c/Choppingmall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/chopping-mall.jpg"
+  },
+  {
+    "title": "Evil Dead II",
+    "year": 1987,
+    "page": "https://en.wikipedia.org/wiki/Evil_Dead_II",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/6d/Evil_Dead_II_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/evil-dead-ii.jpg"
+  },
+  {
+    "title": "Bad Taste",
+    "year": 1987,
+    "page": "https://en.wikipedia.org/wiki/Bad_Taste",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/9f/Bad_taste_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/bad-taste.jpg"
+  },
+  {
+    "title": "The Blob",
+    "year": 1988,
+    "page": "https://en.wikipedia.org/wiki/The_Blob",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/80/The_Blob_%281958%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-blob.jpg"
+  },
+  {
+    "title": "Killer Klowns from Outer Space",
+    "year": 1988,
+    "page": "https://en.wikipedia.org/wiki/Killer_Klowns_from_Outer_Space",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7e/Killer_Klowns_from_Outer_Space_%281988%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/killer-klowns-from-outer-space.jpg"
+  },
+  {
+    "title": "Society",
+    "year": 1989,
+    "page": "https://en.wikipedia.org/wiki/Society",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Lao_Mangkong_family_eats_together_%28square%29.JPG/330px-Lao_Mangkong_family_eats_together_%28square%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/society.jpg"
+  },
+  {
+    "title": "Tremors",
+    "year": 1990,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/tremors.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Frankenhooker",
+    "year": 1990,
+    "page": "https://en.wikipedia.org/wiki/Frankenhooker",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/23/Frankenhooker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/frankenhooker.jpg"
+  },
+  {
+    "title": "Candyman",
+    "year": 1992,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/candyman.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Braindead",
+    "year": 1992,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/braindead.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Cube",
+    "year": 1997,
+    "page": "https://en.wikipedia.org/wiki/Cube",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cube-h.svg/330px-Cube-h.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/png",
+    "local": "assets/posters/cube.png"
+  },
+  {
+    "title": "Event Horizon",
+    "year": 1997,
+    "page": "https://en.wikipedia.org/wiki/Event_horizon",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Black_hole_details.svg/330px-Black_hole_details.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/png",
+    "local": "assets/posters/event-horizon.png"
+  },
+  {
+    "title": "The House of the Devil",
+    "year": 2009,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-house-of-the-devil.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "You’re Next",
+    "year": 2011,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/you-re-next.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "V/H/S",
+    "year": 2012,
+    "page": "https://en.wikipedia.org/wiki/V%2FH%2FS",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/cd/Vhs-film-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/v-h-s.jpg"
+  },
+  {
+    "title": "The Sacrament",
+    "year": 2013,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-sacrament.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Creep",
+    "year": 2014,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/creep.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Babadook",
+    "year": 2014,
+    "page": "https://en.wikipedia.org/wiki/The_Babadook",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d7/The-Babadook-Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-babadook.jpg"
+  },
+  {
+    "title": "It Follows",
+    "year": 2014,
+    "page": "https://en.wikipedia.org/wiki/It_Follows",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/9e/It_Follows_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/it-follows.jpg"
+  },
+  {
+    "title": "Green Room",
+    "year": 2015,
+    "page": "https://en.wikipedia.org/wiki/Green_room",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Teatro_Real_%28Madrid%29_05.jpg/330px-Teatro_Real_%28Madrid%29_05.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/green-room.jpg"
+  },
+  {
+    "title": "The Invitation",
+    "year": 2015,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-invitation.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Autopsy of Jane Doe",
+    "year": 2016,
+    "page": "https://en.wikipedia.org/wiki/The_Autopsy_of_Jane_Doe",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/47/The_Autopsy_of_Jane_Doe.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-autopsy-of-jane-doe.jpg"
+  },
+  {
+    "title": "Raw",
+    "year": 2016,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/raw.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Void",
+    "year": 2016,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-void.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Wailing",
+    "year": 2016,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-wailing.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Ritual",
+    "year": 2017,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-ritual.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "One Cut of the Dead",
+    "year": 2017,
+    "page": "https://en.wikipedia.org/wiki/One_Cut_of_the_Dead",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/89/Kamera-o-tomeru-na-japanese-movie-poster-md.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/one-cut-of-the-dead.jpg"
+  },
+  {
+    "title": "Mandy",
+    "year": 2018,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/mandy.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Dark and the Wicked",
+    "year": 2020,
+    "page": "https://en.wikipedia.org/wiki/The_Dark_and_the_Wicked",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Dark_and_the_Wicked.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-dark-and-the-wicked.jpg"
+  },
+  {
+    "title": "Caveat",
+    "year": 2020,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/caveat.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Host",
+    "year": 2020,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/host.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Night House",
+    "year": 2020,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-night-house.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Medium",
+    "year": 2021,
+    "page": "https://en.wikipedia.org/wiki/The_Medium",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Gcmenotti.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-medium.jpg"
+  },
+  {
+    "title": "The Sadness",
+    "year": 2021,
+    "page": "https://en.wikipedia.org/wiki/The_Sadness",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/fd/The_Sadness_%282021%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-sadness.jpg"
+  },
+  {
+    "title": "Titane",
+    "year": 2021,
+    "page": "https://en.wikipedia.org/wiki/Titane",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/01/Titane_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/titane.jpg"
+  },
+  {
+    "title": "Deadstream",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Deadstream",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/ab/Deadstream-poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/deadstream.png"
+  },
+  {
+    "title": "Barbarian",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Barbarian",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Visigoths_sack_Rome.jpg/330px-Visigoths_sack_Rome.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/barbarian.jpg"
+  },
+  {
+    "title": "Talk to Me",
+    "year": 2022,
+    "page": "https://www.cosmopolitan.com/entertainment/movies/a44674799/how-to-watch-talk-to-me-streaming/",
+    "image_source": "https://vader-prod.s3.amazonaws.com/1690904125-tktme-keyartdigitalvrt-rgb-fin-r12-64c92621694cc.jpg",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/talk-to-me-official.jpg",
+    "artwork": "Official theatrical key art"
+  },
+  {
+    "title": "The Coffee Table",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/The_Coffee_Table",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Coffee_Table_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-coffee-table.jpg"
+  },
+  {
+    "title": "Late Night with the Devil",
+    "year": 2023,
+    "page": "https://en.wikipedia.org/wiki/Late_Night_with_the_Devil",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/cb/Late_Night_with_the_Devil_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/late-night-with-the-devil.jpg"
+  },
+  {
+    "title": "Oddity",
+    "year": 2024,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/oddity.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Strange Darling",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/Strange_Darling",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f9/Strange_Darling_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/strange-darling.jpg"
+  },
+  {
+    "title": "The Substance",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/The_Substance",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/ff/The_Substance_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-substance.jpg"
+  },
+  {
+    "title": "The Devil’s Bath",
+    "year": 2024,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-devil-s-bath.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Dead Mail",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/Dead_letter_mail",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/US_airmail-Fr_1942_RTS_Service_Suspended.jpg/330px-US_airmail-Fr_1942_RTS_Service_Suspended.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/dead-mail.jpg"
+  },
+  {
+    "title": "Frewaka",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/Frewaka",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a7/This_is_a_poster_for_the_film_Frewaka.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/frewaka.jpg"
+  },
+  {
+    "title": "The Ugly Stepsister",
+    "year": 2025,
+    "page": "https://en.wikipedia.org/wiki/The_Ugly_Stepsister",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Ugly_Stepsister_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-ugly-stepsister.jpg"
+  },
+  {
+    "title": "The Surrender",
+    "year": 2025,
+    "page": "https://en.wikipedia.org/wiki/The_Surrender",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/64/Film_poster_for_The_Surrender.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-surrender.jpg"
+  },
+  {
+    "title": "Bring Her Back",
+    "year": 2025,
+    "page": "https://en.wikipedia.org/wiki/Bring_Her_Back",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/fd/Bring_Her_Back_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/bring-her-back.jpg"
+  },
+  {
+    "title": "Weapons",
+    "year": 2025,
+    "page": "https://en.wikipedia.org/wiki/Weapon",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dangerous_weapons_seized_from_holiday_flights_at_Manchester_Airport.jpg/330px-Dangerous_weapons_seized_from_holiday_flights_at_Manchester_Airport.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/weapons.jpg"
+  },
+  {
+    "title": "Sinners",
+    "year": 2025,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/sinners.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Good Boy",
+    "year": 2025,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/good-boy.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Companion",
+    "year": 2025,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/companion.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Return of the Living Dead Part II",
+    "year": 1988,
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead_Part_II",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/94/TheReturnOfTheLivingDead2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/return-of-the-living-dead-part-ii.jpg"
+  },
+  {
+    "title": "Return of the Living Dead 3",
+    "year": 1993,
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead_3",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d3/Return-of-the-living-dead-3-film-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/return-of-the-living-dead-3.jpg"
+  },
+  {
+    "title": "Return of the Living Dead: Necropolis",
+    "year": 2005,
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead%3A_Necropolis",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/12/ReturnOfTheLivingDeadNecropolisDVDCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/return-of-the-living-dead-necropolis.jpg"
+  },
+  {
+    "title": "Return of the Living Dead: Rave to the Grave",
+    "year": 2005,
+    "page": "https://en.wikipedia.org/wiki/Return_of_the_Living_Dead%3A_Rave_to_the_Grave",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/3/33/TheReturnOfTheLivingDead5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/return-of-the-living-dead-rave-to-the-grave.jpg"
+  },
+  {
+    "title": "The Others",
+    "year": 2001,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-others.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Devil’s Backbone",
+    "year": 2001,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-devil-s-backbone.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Shaun of the Dead",
+    "year": 2004,
+    "page": "https://en.wikipedia.org/wiki/Shaun_of_the_Dead",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8d/Shaun_of_the_Dead_film_poster.jpg/330px-Shaun_of_the_Dead_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/shaun-of-the-dead.jpg"
+  },
+  {
+    "title": "The Host",
+    "year": 2006,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-host.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Pan’s Labyrinth",
+    "year": 2006,
+    "page": "https://en.wikipedia.org/wiki/Pan's_Labyrinth",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/pan-s-labyrinth.jpg"
+  },
+  {
+    "title": "Slither",
+    "year": 2006,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/slither.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Orphanage",
+    "year": 2007,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-orphanage.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "[REC]",
+    "year": 2007,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/rec.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Paranormal Activity",
+    "year": 2007,
+    "page": "https://en.wikipedia.org/wiki/Paranormal_Activity",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/54/Paranormal_Activity_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/paranormal-activity.jpg"
+  },
+  {
+    "title": "The Mist",
+    "year": 2007,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-mist.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Strangers",
+    "year": 2008,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-strangers.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Let the Right One In",
+    "year": 2008,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/let-the-right-one-in.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Pontypool",
+    "year": 2008,
+    "page": "https://en.wikipedia.org/wiki/Pontypool",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Crane_Street%2C_Pontypool_-_geograph.org.uk_-_357790.jpg/330px-Crane_Street%2C_Pontypool_-_geograph.org.uk_-_357790.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/pontypool.jpg"
+  },
+  {
+    "title": "The Loved Ones",
+    "year": 2009,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-loved-ones.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Drag Me to Hell",
+    "year": 2009,
+    "page": "https://en.wikipedia.org/wiki/Drag_Me_to_Hell",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/52/Dragmetohell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/drag-me-to-hell.jpg"
+  },
+  {
+    "title": "Zombieland",
+    "year": 2009,
+    "page": "https://en.wikipedia.org/wiki/Zombieland",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a3/Zombieland-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/zombieland.jpg"
+  },
+  {
+    "title": "Get Out",
+    "year": 2017,
+    "page": "https://en.wikipedia.org/wiki/Get_Out",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a3/Get_Out_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/get-out.png"
+  },
+  {
+    "title": "A Quiet Place",
+    "year": 2018,
+    "page": "https://en.wikipedia.org/wiki/A_Quiet_Place",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/a-quiet-place.png"
+  },
+  {
+    "title": "Under the Shadow",
+    "year": 2016,
+    "page": "https://en.wikipedia.org/wiki/Under_the_Shadow",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/18/Under_the_Shadow_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/under-the-shadow.jpg"
+  },
+  {
+    "title": "Tigers Are Not Afraid",
+    "year": 2017,
+    "page": "https://en.wikipedia.org/wiki/Tigers_Are_Not_Afraid",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/f/f1/Tigers_Are_Not_Afraid.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/tigers-are-not-afraid.jpg"
+  },
+  {
+    "title": "A Girl Walks Home Alone at Night",
+    "year": 2014,
+    "page": "https://en.wikipedia.org/wiki/A_Girl_Walks_Home_Alone_at_Night",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/56/A_Girl_Walks_Home_Alone_at_Night_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/a-girl-walks-home-alone-at-night.jpg"
+  },
+  {
+    "title": "Good Manners",
+    "year": 2017,
+    "page": "https://en.wikipedia.org/wiki/Etiquette",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Company-Shocked-Gillray.jpeg/330px-Company-Shocked-Gillray.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/good-manners.jpg"
+  },
+  {
+    "title": "Housebound",
+    "year": 2014,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/housebound.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Hereditary",
+    "year": 2018,
+    "page": "https://en.wikipedia.org/wiki/Heredity",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Hybridogenesis_in_water_frogs_gametes.svg/330px-Hybridogenesis_in_water_frogs_gametes.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/png",
+    "local": "assets/posters/hereditary.png"
+  },
+  {
+    "title": "Midsommar",
+    "year": 2019,
+    "page": "https://en.wikipedia.org/wiki/Midsommar",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/47/Midsommar_%282019_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/midsommar.png"
+  },
+  {
+    "title": "Ready or Not",
+    "year": 2019,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/ready-or-not.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Lighthouse",
+    "year": 2019,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-lighthouse.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Hush",
+    "year": 2016,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/hush.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Conjuring",
+    "year": 2013,
+    "page": "https://en.wikipedia.org/wiki/The_Conjuring",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Conjuring_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-conjuring.jpg"
+  },
+  {
+    "title": "The Invisible Man",
+    "year": 2020,
+    "page": "https://en.wikipedia.org/wiki/The_Invisible_Man",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Wells_-_The_Invisible_Man_-_Pearson_cover_1897.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-invisible-man.jpg"
+  },
+  {
+    "title": "His House",
+    "year": 2020,
+    "page": "https://en.wikipedia.org/wiki/His_House",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/77/His_House_film_poster.png/330px-His_House_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/png",
+    "local": "assets/posters/his-house.png"
+  },
+  {
+    "title": "Saint Maud",
+    "year": 2019,
+    "page": "https://en.wikipedia.org/wiki/Saint_Maud",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/5/50/Saint_Maud_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/saint-maud.jpg"
+  },
+  {
+    "title": "Anything for Jackson",
+    "year": 2020,
+    "page": "https://en.wikipedia.org/wiki/Anything_for_Jackson",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/4/4c/Anything_for_jackson.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/anything-for-jackson.jpg"
+  },
+  {
+    "title": "My Heart Can’t Beat Unless You Tell It To",
+    "year": 2020,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/my-heart-can-t-beat-unless-you-tell-it-to.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "The Innocents",
+    "year": 2021,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-innocents.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Huesera: The Bone Woman",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Huesera%3A_The_Bone_Woman",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/97/HueseraPoster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/png",
+    "local": "assets/posters/huesera-the-bone-woman.png"
+  },
+  {
+    "title": "Hellbender",
+    "year": 2021,
+    "page": "https://en.wikipedia.org/wiki/Hellbender",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hellbender.jpg/330px-Hellbender.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/hellbender.jpg"
+  },
+  {
+    "title": "The Boy Behind the Door",
+    "year": 2020,
+    "page": "https://en.wikipedia.org/wiki/The_Boy_Behind_the_Door",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/2/2a/The_Boy_Behind_the_Door_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-boy-behind-the-door.jpg"
+  },
+  {
+    "title": "The Black Phone",
+    "year": 2021,
+    "page": "https://en.wikipedia.org/wiki/The_Black_Phone",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/7f/The_Black_Phone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-black-phone.jpg"
+  },
+  {
+    "title": "Nope",
+    "year": 2022,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/nope.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Prey",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Predation",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Polar_bear_%28Ursus_maritimus%29_with_its_prey.jpg/330px-Polar_bear_%28Ursus_maritimus%29_with_its_prey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/prey.jpg"
+  },
+  {
+    "title": "M3GAN",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/M3GAN",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/0/03/M3GAN_Poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/m3gan.jpg"
+  },
+  {
+    "title": "Smile",
+    "year": 2022,
+    "page": "https://en.wikipedia.org/wiki/Smile",
+    "image_source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/330px-Mona_Lisa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/smile.jpg"
+  },
+  {
+    "title": "Evil Dead Rise",
+    "year": 2023,
+    "page": "https://en.wikipedia.org/wiki/Evil_Dead_Rise",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/9/98/EvilDeadRiseTeaser.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/evil-dead-rise.jpg"
+  },
+  {
+    "title": "The First Omen",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/The_First_Omen",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/7/70/The_First_Omen_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/the-first-omen.jpg"
+  },
+  {
+    "title": "Smile 2",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/Smile_2",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/1/17/Smile_2_%282024%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/smile-2.jpg"
+  },
+  {
+    "title": "Alien: Romulus",
+    "year": 2024,
+    "page": "https://en.wikipedia.org/wiki/Alien%3A_Romulus",
+    "image_source": "https://upload.wikimedia.org/wikipedia/en/c/cb/Alien_Romulus_2024_%28poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "content_type": "image/jpeg",
+    "local": "assets/posters/alien-romulus.jpg"
+  },
+  {
+    "title": "The Damned",
+    "year": 2024,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/the-damned.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Obsession",
+    "year": 2026,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/obsession.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "Backrooms",
+    "year": 2026,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/posters/backrooms.svg",
+    "artwork": "AFTER/CUT original title-card artwork"
+  },
+  {
+    "title": "One Missed Call",
+    "local": "assets/miike/one-missed-call.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Gozu",
+    "local": "assets/miike/gozu.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Imprint",
+    "local": "assets/miike/imprint.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Yakuza Apocalypse",
+    "local": "assets/miike/yakuza-apocalypse.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "13 Assassins",
+    "local": "assets/miike/thirteen-assassins.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Hara-Kiri: Death of a Samurai",
+    "local": "assets/miike/hara-kiri-death-of-a-samurai.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "First Love",
+    "local": "assets/miike/first-love.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Visitor Q",
+    "local": "assets/miike/visitor-q.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "The Happiness of the Katakuris",
+    "local": "assets/miike/happiness-of-the-katakuris.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Dead or Alive",
+    "local": "assets/miike/dead-or-alive.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "As the Gods Will",
+    "local": "assets/miike/as-the-gods-will.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "Blade of the Immortal",
+    "local": "assets/miike/blade-of-the-immortal.svg",
+    "year": null,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "artwork": "AFTER/CUT original vector rental sleeve artwork"
+  },
+  {
+    "title": "3 from Hell",
+    "local": "assets/posters/3-from-hell-official.png",
+    "year": 2019,
+    "page": "https://www.sabanfilms.com/films/3-from-hell/",
+    "image_source": "https://www.sabanfilms.com/wp-content/uploads/2019/11/poster_3_from_hell.png",
+    "content_type": "image/png",
+    "artwork": "Official theatrical poster from Saban Films"
+  },
+  {
+    "title": "Cabin Fever",
+    "year": 2002,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/cabin-fever.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "Thanksgiving",
+    "year": 2023,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/thanksgiving.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "Death Proof",
+    "year": 2007,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/death-proof.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "Doctor Sleep",
+    "year": 2019,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/doctor-sleep.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "Oculus",
+    "year": 2013,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/oculus.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "High Tension",
+    "year": 2003,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/high-tension.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "The Hills Have Eyes",
+    "year": 2006,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/the-hills-have-eyes.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "House of 1000 Corpses",
+    "year": 2003,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/house-of-1000-corpses.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  },
+  {
+    "title": "The Devil’s Rejects",
+    "year": 2005,
+    "page": null,
+    "image_source": null,
+    "content_type": "image/svg+xml",
+    "local": "assets/director/the-devils-rejects.svg",
+    "artwork": "AFTER/CUT original illustrated rental sleeve artwork"
+  }
+]

@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "scream",
+    "title": "Scream",
+    "year": 1996,
+    "poster": "assets/posters/scream.jpg"
+  },
+  {
+    "id": "i-know-what-you-did-last-summer",
+    "title": "I Know What You Did Last Summer",
+    "year": 1997,
+    "poster": "assets/posters/i-know-what-you-did-last-summer.jpg"
+  },
+  {
+    "id": "the-faculty",
+    "title": "The Faculty",
+    "year": 1998,
+    "poster": "assets/posters/the-faculty.jpg"
+  },
+  {
+    "id": "ringu",
+    "title": "Ringu",
+    "year": 1998,
+    "poster": "assets/posters/ringu.jpg"
+  },
+  {
+    "id": "audition",
+    "title": "Audition",
+    "year": 1999,
+    "poster": "assets/posters/audition.jpg"
+  },
+  {
+    "id": "the-blair-witch-project",
+    "title": "The Blair Witch Project",
+    "year": 1999,
+    "poster": "assets/posters/the-blair-witch-project.jpg"
+  },
+  {
+    "id": "the-sixth-sense",
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "poster": "assets/posters/the-sixth-sense.png"
+  },
+  {
+    "id": "final-destination",
+    "title": "Final Destination",
+    "year": 2000,
+    "poster": "assets/posters/final-destination.jpg"
+  },
+  {
+    "id": "american-psycho",
+    "title": "American Psycho",
+    "year": 2000,
+    "poster": "assets/posters/american-psycho.png"
+  },
+  {
+    "id": "ginger-snaps",
+    "title": "Ginger Snaps",
+    "year": 2000,
+    "poster": "assets/posters/ginger-snaps.jpg"
+  },
+  {
+    "id": "battle-royale",
+    "title": "Battle Royale",
+    "year": 2000,
+    "poster": "assets/posters/battle-royale.jpg"
+  },
+  {
+    "id": "from-dusk-till-dawn",
+    "title": "From Dusk Till Dawn",
+    "year": 1996,
+    "poster": "assets/posters/from-dusk-till-dawn.jpg"
+  },
+  {
+    "id": "the-ring",
+    "title": "The Ring",
+    "year": 2002,
+    "poster": "assets/posters/the-ring.jpg"
+  },
+  {
+    "id": "28-days-later",
+    "title": "28 Days Later",
+    "year": 2002,
+    "poster": "assets/posters/28-days-later.jpg"
+  },
+  {
+    "id": "ichi-the-killer",
+    "title": "Ichi the Killer",
+    "year": 2001,
+    "poster": "assets/posters/ichi-the-killer.jpg"
+  },
+  {
+    "id": "resident-evil",
+    "title": "Resident Evil",
+    "year": 2002,
+    "poster": "assets/posters/resident-evil.jpg"
+  },
+  {
+    "id": "resident-evil-apocalypse",
+    "title": "Resident Evil: Apocalypse",
+    "year": 2004,
+    "poster": "assets/posters/resident-evil-apocalypse.jpg"
+  },
+  {
+    "id": "resident-evil-extinction",
+    "title": "Resident Evil: Extinction",
+    "year": 2007,
+    "poster": "assets/posters/resident-evil-extinction.jpg"
+  },
+  {
+    "id": "resident-evil-afterlife",
+    "title": "Resident Evil: Afterlife",
+    "year": 2010,
+    "poster": "assets/posters/resident-evil-afterlife.jpg"
+  },
+  {
+    "id": "resident-evil-retribution",
+    "title": "Resident Evil: Retribution",
+    "year": 2012,
+    "poster": "assets/posters/resident-evil-retribution.jpg"
+  },
+  {
+    "id": "resident-evil-the-final-chapter",
+    "title": "Resident Evil: The Final Chapter",
+    "year": 2016,
+    "poster": "assets/posters/resident-evil-the-final-chapter.jpg"
+  },
+  {
+    "id": "ginger-snaps-2-unleashed",
+    "title": "Ginger Snaps 2: Unleashed",
+    "year": 2004,
+    "poster": "assets/posters/ginger-snaps-2-unleashed.jpg"
+  },
+  {
+    "id": "ginger-snaps-back",
+    "title": "Ginger Snaps Back",
+    "year": 2004,
+    "poster": "assets/posters/ginger-snaps-back.jpg"
+  },
+  {
+    "id": "dawn-of-the-dead",
+    "title": "Dawn of the Dead",
+    "year": 2004,
+    "poster": "assets/posters/dawn-of-the-dead.jpg"
+  },
+  {
+    "id": "saw",
+    "title": "Saw",
+    "year": 2004,
+    "poster": "assets/posters/saw.jpg"
+  },
+  {
+    "id": "the-descent",
+    "title": "The Descent",
+    "year": 2005,
+    "poster": "assets/posters/the-descent.jpg"
+  },
+  {
+    "id": "hostel",
+    "title": "Hostel",
+    "year": 2005,
+    "poster": "assets/posters/hostel.jpg"
+  },
+  {
+    "id": "the-descent-part-2",
+    "title": "The Descent Part 2",
+    "year": 2009,
+    "poster": "assets/posters/the-descent-part-2.jpg"
+  },
+  {
+    "id": "the-cabin-in-the-woods",
+    "title": "The Cabin in the Woods",
+    "year": 2011,
+    "poster": "assets/posters/the-cabin-in-the-woods.jpg"
+  },
+  {
+    "id": "the-witch",
+    "title": "The Witch",
+    "year": 2015,
+    "poster": "assets/posters/the-witch.png"
+  },
+  {
+    "id": "train-to-busan",
+    "title": "Train to Busan",
+    "year": 2016,
+    "poster": "assets/posters/train-to-busan.jpg"
+  },
+  {
+    "id": "terrifier",
+    "title": "Terrifier",
+    "year": 2016,
+    "poster": "assets/posters/terrifier.svg"
+  },
+  {
+    "id": "possessor",
+    "title": "Possessor",
+    "year": 2020,
+    "poster": "assets/posters/possessor.svg"
+  },
+  {
+    "id": "the-blackcoat-s-daughter",
+    "title": "The Blackcoat’s Daughter",
+    "year": 2015,
+    "poster": "assets/posters/the-blackcoat-s-daughter.png"
+  },
+  {
+    "id": "longlegs",
+    "title": "Longlegs",
+    "year": 2024,
+    "poster": "assets/posters/longlegs.svg"
+  },
+  {
+    "id": "x",
+    "title": "X",
+    "year": 2022,
+    "poster": "assets/posters/x.jpg"
+  },
+  {
+    "id": "pearl",
+    "title": "Pearl",
+    "year": 2022,
+    "poster": "assets/posters/pearl.jpg"
+  },
+  {
+    "id": "maxxxine",
+    "title": "MaXXXine",
+    "year": 2024,
+    "poster": "assets/posters/maxxxine.jpg"
+  },
+  {
+    "id": "when-evil-lurks",
+    "title": "When Evil Lurks",
+    "year": 2023,
+    "poster": "assets/posters/when-evil-lurks.jpg"
+  },
+  {
+    "id": "scream-2",
+    "title": "Scream 2",
+    "year": 1997,
+    "poster": "assets/posters/scream-2.jpg"
+  },
+  {
+    "id": "scream-3",
+    "title": "Scream 3",
+    "year": 2000,
+    "poster": "assets/posters/scream-3.jpg"
+  },
+  {
+    "id": "scream-4",
+    "title": "Scream 4",
+    "year": 2011,
+    "poster": "assets/posters/scream-4.jpg"
+  },
+  {
+    "id": "scream-2022",
+    "title": "Scream (2022)",
+    "year": 2022,
+    "poster": "assets/posters/scream-2022.jpg"
+  },
+  {
+    "id": "scream-vi",
+    "title": "Scream VI",
+    "year": 2023,
+    "poster": "assets/posters/scream-vi.jpg"
+  },
+  {
+    "id": "scream-7",
+    "title": "Scream 7",
+    "year": 2026,
+    "poster": "assets/posters/scream-7.jpg"
+  },
+  {
+    "id": "the-ring-two",
+    "title": "The Ring Two",
+    "year": 2005,
+    "poster": "assets/posters/the-ring-two.jpg"
+  },
+  {
+    "id": "rings",
+    "title": "Rings",
+    "year": 2017,
+    "poster": "assets/posters/rings.png"
+  },
+  {
+    "id": "from-dusk-till-dawn-2-texas-blood-money",
+    "title": "From Dusk Till Dawn 2: Texas Blood Money",
+    "year": 1999,
+    "poster": "assets/posters/from-dusk-till-dawn-2-texas-blood-money.jpg"
+  },
+  {
+    "id": "from-dusk-till-dawn-3-the-hangman-s-daughter",
+    "title": "From Dusk Till Dawn 3: The Hangman’s Daughter",
+    "year": 1999,
+    "poster": "assets/posters/from-dusk-till-dawn-3-the-hangman-s-daughter.jpg"
+  },
+  {
+    "id": "final-destination-2",
+    "title": "Final Destination 2",
+    "year": 2003,
+    "poster": "assets/posters/final-destination-2.jpg"
+  },
+  {
+    "id": "final-destination-3",
+    "title": "Final Destination 3",
+    "year": 2006,
+    "poster": "assets/posters/final-destination-3.jpg"
+  },
+  {
+    "id": "final-destination-5",
+    "title": "Final Destination 5",
+    "year": 2011,
+    "poster": "assets/posters/final-destination-5.jpg"
+  },
+  {
+    "id": "final-destination-bloodlines",
+    "title": "Final Destination Bloodlines",
+    "year": 2025,
+    "poster": "assets/posters/final-destination-bloodlines.jpg"
+  },
+  {
+    "id": "terrifier-2",
+    "title": "Terrifier 2",
+    "year": 2022,
+    "poster": "assets/posters/terrifier-2.jpg"
+  },
+  {
+    "id": "terrifier-3",
+    "title": "Terrifier 3",
+    "year": 2024,
+    "poster": "assets/posters/terrifier-3.jpg"
+  },
+  {
+    "id": "don-t-move",
+    "title": "Don’t Move",
+    "year": 2026,
+    "poster": "assets/posters/dont-move.jpg"
+  },
+  {
+    "id": "crimes-of-the-future",
+    "title": "Crimes of the Future",
+    "year": 2022,
+    "poster": "assets/posters/crimes-of-the-future.svg"
+  },
+  {
+    "id": "resident-evil-2026",
+    "title": "Resident Evil (2026)",
+    "year": 2026,
+    "poster": "assets/posters/resident-evil-2026.png"
+  },
+  {
+    "id": "breeder",
+    "title": "Breeder",
+    "year": 2026,
+    "poster": "assets/posters/breeder.jpg"
+  },
+  {
+    "id": "victorian-psycho",
+    "title": "Victorian Psycho",
+    "year": 2026,
+    "poster": "assets/posters/victorian-psycho.jpg"
+  },
+  {
+    "id": "dark-hollow",
+    "title": "Dark Hollow",
+    "year": 2026,
+    "poster": "assets/posters/dark-hollow.jpg"
+  },
+  {
+    "id": "in-a-violent-nature-2",
+    "title": "In a Violent Nature 2",
+    "year": 2027,
+    "poster": "assets/posters/in-a-violent-nature-2.jpg"
+  },
+  {
+    "id": "grin",
+    "title": "Grin",
+    "year": 2026,
+    "poster": "assets/posters/grin.png"
+  },
+  {
+    "id": "beware-boi-na",
+    "title": "Beware Boiúna",
+    "year": 2026,
+    "poster": "assets/posters/beware-boi-na.jpg"
+  },
+  {
+    "id": "onslaught",
+    "title": "Onslaught",
+    "year": 2026,
+    "poster": "assets/posters/onslaught.jpg"
+  },
+  {
+    "id": "she-saw-us",
+    "title": "She Saw Us",
+    "year": 2027,
+    "poster": "assets/posters/she-saw-us.jpg"
+  },
+  {
+    "id": "black-christmas",
+    "title": "Black Christmas",
+    "year": 1974,
+    "poster": "assets/posters/black-christmas.svg"
+  },
+  {
+    "id": "the-texas-chain-saw-massacre",
+    "title": "The Texas Chain Saw Massacre",
+    "year": 1974,
+    "poster": "assets/posters/the-texas-chain-saw-massacre.jpg"
+  },
+  {
+    "id": "halloween",
+    "title": "Halloween",
+    "year": 1978,
+    "poster": "assets/posters/halloween.jpg"
+  },
+  {
+    "id": "alien",
+    "title": "Alien",
+    "year": 1979,
+    "poster": "assets/posters/alien.svg"
+  },
+  {
+    "id": "maniac",
+    "title": "Maniac",
+    "year": 1980,
+    "poster": "assets/posters/maniac.svg"
+  },
+  {
+    "id": "friday-the-13th",
+    "title": "Friday the 13th",
+    "year": 1980,
+    "poster": "assets/posters/friday-the-13th.jpg"
+  },
+  {
+    "id": "the-evil-dead",
+    "title": "The Evil Dead",
+    "year": 1981,
+    "poster": "assets/posters/the-evil-dead.jpg"
+  },
+  {
+    "id": "basket-case",
+    "title": "Basket Case",
+    "year": 1982,
+    "poster": "assets/posters/basket-case.svg"
+  },
+  {
+    "id": "the-thing",
+    "title": "The Thing",
+    "year": 1982,
+    "poster": "assets/posters/the-thing.svg"
+  },
+  {
+    "id": "sleepaway-camp",
+    "title": "Sleepaway Camp",
+    "year": 1983,
+    "poster": "assets/posters/sleepaway-camp.jpg"
+  },
+  {
+    "id": "the-toxic-avenger",
+    "title": "The Toxic Avenger",
+    "year": 1984,
+    "poster": "assets/posters/the-toxic-avenger.svg"
+  },
+  {
+    "id": "a-nightmare-on-elm-street",
+    "title": "A Nightmare on Elm Street",
+    "year": 1984,
+    "poster": "assets/posters/a-nightmare-on-elm-street.jpg"
+  },
+  {
+    "id": "the-return-of-the-living-dead",
+    "title": "The Return of the Living Dead",
+    "year": 1985,
+    "poster": "assets/posters/the-return-of-the-living-dead.jpg"
+  },
+  {
+    "id": "re-animator",
+    "title": "Re-Animator",
+    "year": 1985,
+    "poster": "assets/posters/re-animator.png"
+  },
+  {
+    "id": "the-stuff",
+    "title": "The Stuff",
+    "year": 1985,
+    "poster": "assets/posters/the-stuff.jpg"
+  },
+  {
+    "id": "fright-night",
+    "title": "Fright Night",
+    "year": 1985,
+    "poster": "assets/posters/fright-night.jpg"
+  },
+  {
+    "id": "night-of-the-creeps",
+    "title": "Night of the Creeps",
+    "year": 1986,
+    "poster": "assets/posters/night-of-the-creeps.jpg"
+  },
+  {
+    "id": "the-fly",
+    "title": "The Fly",
+    "year": 1986,
+    "poster": "assets/posters/the-fly.svg"
+  },
+  {
+    "id": "from-beyond",
+    "title": "From Beyond",
+    "year": 1986,
+    "poster": "assets/posters/from-beyond.svg"
+  },
+  {
+    "id": "chopping-mall",
+    "title": "Chopping Mall",
+    "year": 1986,
+    "poster": "assets/posters/chopping-mall.jpg"
+  },
+  {
+    "id": "evil-dead-ii",
+    "title": "Evil Dead II",
+    "year": 1987,
+    "poster": "assets/posters/evil-dead-ii.jpg"
+  },
+  {
+    "id": "bad-taste",
+    "title": "Bad Taste",
+    "year": 1987,
+    "poster": "assets/posters/bad-taste.jpg"
+  },
+  {
+    "id": "the-blob",
+    "title": "The Blob",
+    "year": 1988,
+    "poster": "assets/posters/the-blob.jpg"
+  },
+  {
+    "id": "killer-klowns-from-outer-space",
+    "title": "Killer Klowns from Outer Space",
+    "year": 1988,
+    "poster": "assets/posters/killer-klowns-from-outer-space.jpg"
+  },
+  {
+    "id": "society",
+    "title": "Society",
+    "year": 1989,
+    "poster": "assets/posters/society.jpg"
+  },
+  {
+    "id": "tremors",
+    "title": "Tremors",
+    "year": 1990,
+    "poster": "assets/posters/tremors.svg"
+  },
+  {
+    "id": "frankenhooker",
+    "title": "Frankenhooker",
+    "year": 1990,
+    "poster": "assets/posters/frankenhooker.jpg"
+  },
+  {
+    "id": "candyman",
+    "title": "Candyman",
+    "year": 1992,
+    "poster": "assets/posters/candyman.svg"
+  },
+  {
+    "id": "braindead",
+    "title": "Braindead",
+    "year": 1992,
+    "poster": "assets/posters/braindead.svg"
+  },
+  {
+    "id": "cube",
+    "title": "Cube",
+    "year": 1997,
+    "poster": "assets/posters/cube.png"
+  },
+  {
+    "id": "event-horizon",
+    "title": "Event Horizon",
+    "year": 1997,
+    "poster": "assets/posters/event-horizon.png"
+  },
+  {
+    "id": "the-house-of-the-devil",
+    "title": "The House of the Devil",
+    "year": 2009,
+    "poster": "assets/posters/the-house-of-the-devil.svg"
+  },
+  {
+    "id": "youre-next",
+    "title": "You’re Next",
+    "year": 2011,
+    "poster": "assets/posters/you-re-next.svg"
+  },
+  {
+    "id": "v-h-s",
+    "title": "V/H/S",
+    "year": 2012,
+    "poster": "assets/posters/v-h-s.jpg"
+  },
+  {
+    "id": "the-sacrament",
+    "title": "The Sacrament",
+    "year": 2013,
+    "poster": "assets/posters/the-sacrament.svg"
+  },
+  {
+    "id": "creep",
+    "title": "Creep",
+    "year": 2014,
+    "poster": "assets/posters/creep.svg"
+  },
+  {
+    "id": "the-babadook",
+    "title": "The Babadook",
+    "year": 2014,
+    "poster": "assets/posters/the-babadook.jpg"
+  },
+  {
+    "id": "it-follows",
+    "title": "It Follows",
+    "year": 2014,
+    "poster": "assets/posters/it-follows.jpg"
+  },
+  {
+    "id": "green-room",
+    "title": "Green Room",
+    "year": 2015,
+    "poster": "assets/posters/green-room.jpg"
+  },
+  {
+    "id": "the-invitation",
+    "title": "The Invitation",
+    "year": 2015,
+    "poster": "assets/posters/the-invitation.svg"
+  },
+  {
+    "id": "the-autopsy-of-jane-doe",
+    "title": "The Autopsy of Jane Doe",
+    "year": 2016,
+    "poster": "assets/posters/the-autopsy-of-jane-doe.jpg"
+  },
+  {
+    "id": "raw",
+    "title": "Raw",
+    "year": 2016,
+    "poster": "assets/posters/raw.svg"
+  },
+  {
+    "id": "the-void",
+    "title": "The Void",
+    "year": 2016,
+    "poster": "assets/posters/the-void.svg"
+  },
+  {
+    "id": "the-wailing",
+    "title": "The Wailing",
+    "year": 2016,
+    "poster": "assets/posters/the-wailing.svg"
+  },
+  {
+    "id": "the-ritual",
+    "title": "The Ritual",
+    "year": 2017,
+    "poster": "assets/posters/the-ritual.svg"
+  },
+  {
+    "id": "one-cut-of-the-dead",
+    "title": "One Cut of the Dead",
+    "year": 2017,
+    "poster": "assets/posters/one-cut-of-the-dead.jpg"
+  },
+  {
+    "id": "mandy",
+    "title": "Mandy",
+    "year": 2018,
+    "poster": "assets/posters/mandy.svg"
+  },
+  {
+    "id": "the-dark-and-the-wicked",
+    "title": "The Dark and the Wicked",
+    "year": 2020,
+    "poster": "assets/posters/the-dark-and-the-wicked.jpg"
+  },
+  {
+    "id": "caveat",
+    "title": "Caveat",
+    "year": 2020,
+    "poster": "assets/posters/caveat.svg"
+  },
+  {
+    "id": "host",
+    "title": "Host",
+    "year": 2020,
+    "poster": "assets/posters/host.svg"
+  },
+  {
+    "id": "the-night-house",
+    "title": "The Night House",
+    "year": 2020,
+    "poster": "assets/posters/the-night-house.svg"
+  },
+  {
+    "id": "the-medium",
+    "title": "The Medium",
+    "year": 2021,
+    "poster": "assets/posters/the-medium.jpg"
+  },
+  {
+    "id": "the-sadness",
+    "title": "The Sadness",
+    "year": 2021,
+    "poster": "assets/posters/the-sadness.jpg"
+  },
+  {
+    "id": "titane",
+    "title": "Titane",
+    "year": 2021,
+    "poster": "assets/posters/titane.jpg"
+  },
+  {
+    "id": "deadstream",
+    "title": "Deadstream",
+    "year": 2022,
+    "poster": "assets/posters/deadstream.png"
+  },
+  {
+    "id": "barbarian",
+    "title": "Barbarian",
+    "year": 2022,
+    "poster": "assets/posters/barbarian.jpg"
+  },
+  {
+    "id": "talk-to-me",
+    "title": "Talk to Me",
+    "year": 2022,
+    "poster": "assets/posters/talk-to-me.svg"
+  },
+  {
+    "id": "the-coffee-table",
+    "title": "The Coffee Table",
+    "year": 2022,
+    "poster": "assets/posters/the-coffee-table.jpg"
+  },
+  {
+    "id": "late-night-with-the-devil",
+    "title": "Late Night with the Devil",
+    "year": 2023,
+    "poster": "assets/posters/late-night-with-the-devil.jpg"
+  },
+  {
+    "id": "oddity",
+    "title": "Oddity",
+    "year": 2024,
+    "poster": "assets/posters/oddity.svg"
+  },
+  {
+    "id": "strange-darling",
+    "title": "Strange Darling",
+    "year": 2024,
+    "poster": "assets/posters/strange-darling.jpg"
+  },
+  {
+    "id": "the-substance",
+    "title": "The Substance",
+    "year": 2024,
+    "poster": "assets/posters/the-substance.jpg"
+  },
+  {
+    "id": "the-devils-bath",
+    "title": "The Devil’s Bath",
+    "year": 2024,
+    "poster": "assets/posters/the-devil-s-bath.svg"
+  },
+  {
+    "id": "dead-mail",
+    "title": "Dead Mail",
+    "year": 2024,
+    "poster": "assets/posters/dead-mail.jpg"
+  },
+  {
+    "id": "frewaka",
+    "title": "Frewaka",
+    "year": 2024,
+    "poster": "assets/posters/frewaka.jpg"
+  },
+  {
+    "id": "the-ugly-stepsister",
+    "title": "The Ugly Stepsister",
+    "year": 2025,
+    "poster": "assets/posters/the-ugly-stepsister.jpg"
+  },
+  {
+    "id": "the-surrender",
+    "title": "The Surrender",
+    "year": 2025,
+    "poster": "assets/posters/the-surrender.jpg"
+  },
+  {
+    "id": "bring-her-back",
+    "title": "Bring Her Back",
+    "year": 2025,
+    "poster": "assets/posters/bring-her-back.jpg"
+  },
+  {
+    "id": "weapons",
+    "title": "Weapons",
+    "year": 2025,
+    "poster": "assets/posters/weapons.jpg"
+  },
+  {
+    "id": "sinners",
+    "title": "Sinners",
+    "year": 2025,
+    "poster": "assets/posters/sinners.svg"
+  },
+  {
+    "id": "good-boy",
+    "title": "Good Boy",
+    "year": 2025,
+    "poster": "assets/posters/good-boy.svg"
+  },
+  {
+    "id": "companion",
+    "title": "Companion",
+    "year": 2025,
+    "poster": "assets/posters/companion.svg"
+  },
+  {
+    "id": "return-of-the-living-dead-part-ii",
+    "title": "Return of the Living Dead Part II",
+    "year": 1988,
+    "poster": "assets/posters/return-of-the-living-dead-part-ii.jpg"
+  },
+  {
+    "id": "return-of-the-living-dead-3",
+    "title": "Return of the Living Dead 3",
+    "year": 1993,
+    "poster": "assets/posters/return-of-the-living-dead-3.jpg"
+  },
+  {
+    "id": "return-of-the-living-dead-necropolis",
+    "title": "Return of the Living Dead: Necropolis",
+    "year": 2005,
+    "poster": "assets/posters/return-of-the-living-dead-necropolis.jpg"
+  },
+  {
+    "id": "return-of-the-living-dead-rave-to-the-grave",
+    "title": "Return of the Living Dead: Rave to the Grave",
+    "year": 2005,
+    "poster": "assets/posters/return-of-the-living-dead-rave-to-the-grave.jpg"
+  },
+  {
+    "id": "the-others",
+    "title": "The Others",
+    "year": 2001,
+    "poster": "assets/posters/the-others.svg"
+  },
+  {
+    "id": "the-devils-backbone",
+    "title": "The Devil’s Backbone",
+    "year": 2001,
+    "poster": "assets/posters/the-devil-s-backbone.svg"
+  },
+  {
+    "id": "shaun-of-the-dead",
+    "title": "Shaun of the Dead",
+    "year": 2004,
+    "poster": "assets/posters/shaun-of-the-dead.jpg"
+  },
+  {
+    "id": "the-host",
+    "title": "The Host",
+    "year": 2006,
+    "poster": "assets/posters/the-host.svg"
+  },
+  {
+    "id": "pans-labyrinth",
+    "title": "Pan’s Labyrinth",
+    "year": 2006,
+    "poster": "assets/posters/pan-s-labyrinth.jpg"
+  },
+  {
+    "id": "slither",
+    "title": "Slither",
+    "year": 2006,
+    "poster": "assets/posters/slither.svg"
+  },
+  {
+    "id": "the-orphanage",
+    "title": "The Orphanage",
+    "year": 2007,
+    "poster": "assets/posters/the-orphanage.svg"
+  },
+  {
+    "id": "rec",
+    "title": "[REC]",
+    "year": 2007,
+    "poster": "assets/posters/rec.svg"
+  },
+  {
+    "id": "paranormal-activity",
+    "title": "Paranormal Activity",
+    "year": 2007,
+    "poster": "assets/posters/paranormal-activity.jpg"
+  },
+  {
+    "id": "the-mist",
+    "title": "The Mist",
+    "year": 2007,
+    "poster": "assets/posters/the-mist.svg"
+  },
+  {
+    "id": "the-strangers",
+    "title": "The Strangers",
+    "year": 2008,
+    "poster": "assets/posters/the-strangers.svg"
+  },
+  {
+    "id": "let-the-right-one-in",
+    "title": "Let the Right One In",
+    "year": 2008,
+    "poster": "assets/posters/let-the-right-one-in.svg"
+  },
+  {
+    "id": "pontypool",
+    "title": "Pontypool",
+    "year": 2008,
+    "poster": "assets/posters/pontypool.jpg"
+  },
+  {
+    "id": "the-loved-ones",
+    "title": "The Loved Ones",
+    "year": 2009,
+    "poster": "assets/posters/the-loved-ones.svg"
+  },
+  {
+    "id": "drag-me-to-hell",
+    "title": "Drag Me to Hell",
+    "year": 2009,
+    "poster": "assets/posters/drag-me-to-hell.jpg"
+  },
+  {
+    "id": "zombieland",
+    "title": "Zombieland",
+    "year": 2009,
+    "poster": "assets/posters/zombieland.jpg"
+  },
+  {
+    "id": "get-out",
+    "title": "Get Out",
+    "year": 2017,
+    "poster": "assets/posters/get-out.png"
+  },
+  {
+    "id": "a-quiet-place",
+    "title": "A Quiet Place",
+    "year": 2018,
+    "poster": "assets/posters/a-quiet-place.png"
+  },
+  {
+    "id": "under-the-shadow",
+    "title": "Under the Shadow",
+    "year": 2016,
+    "poster": "assets/posters/under-the-shadow.jpg"
+  },
+  {
+    "id": "tigers-are-not-afraid",
+    "title": "Tigers Are Not Afraid",
+    "year": 2017,
+    "poster": "assets/posters/tigers-are-not-afraid.jpg"
+  },
+  {
+    "id": "a-girl-walks-home-alone-at-night",
+    "title": "A Girl Walks Home Alone at Night",
+    "year": 2014,
+    "poster": "assets/posters/a-girl-walks-home-alone-at-night.jpg"
+  },
+  {
+    "id": "good-manners",
+    "title": "Good Manners",
+    "year": 2017,
+    "poster": "assets/posters/good-manners.jpg"
+  },
+  {
+    "id": "housebound",
+    "title": "Housebound",
+    "year": 2014,
+    "poster": "assets/posters/housebound.svg"
+  },
+  {
+    "id": "hereditary",
+    "title": "Hereditary",
+    "year": 2018,
+    "poster": "assets/posters/hereditary.png"
+  },
+  {
+    "id": "midsommar",
+    "title": "Midsommar",
+    "year": 2019,
+    "poster": "assets/posters/midsommar.png"
+  },
+  {
+    "id": "ready-or-not",
+    "title": "Ready or Not",
+    "year": 2019,
+    "poster": "assets/posters/ready-or-not.svg"
+  },
+  {
+    "id": "the-lighthouse",
+    "title": "The Lighthouse",
+    "year": 2019,
+    "poster": "assets/posters/the-lighthouse.svg"
+  },
+  {
+    "id": "hush",
+    "title": "Hush",
+    "year": 2016,
+    "poster": "assets/posters/hush.svg"
+  },
+  {
+    "id": "the-conjuring",
+    "title": "The Conjuring",
+    "year": 2013,
+    "poster": "assets/posters/the-conjuring.jpg"
+  },
+  {
+    "id": "the-invisible-man",
+    "title": "The Invisible Man",
+    "year": 2020,
+    "poster": "assets/posters/the-invisible-man.jpg"
+  },
+  {
+    "id": "his-house",
+    "title": "His House",
+    "year": 2020,
+    "poster": "assets/posters/his-house.png"
+  },
+  {
+    "id": "saint-maud",
+    "title": "Saint Maud",
+    "year": 2019,
+    "poster": "assets/posters/saint-maud.jpg"
+  },
+  {
+    "id": "anything-for-jackson",
+    "title": "Anything for Jackson",
+    "year": 2020,
+    "poster": "assets/posters/anything-for-jackson.jpg"
+  },
+  {
+    "id": "my-heart-cant-beat-unless-you-tell-it-to",
+    "title": "My Heart Can’t Beat Unless You Tell It To",
+    "year": 2020,
+    "poster": "assets/posters/my-heart-can-t-beat-unless-you-tell-it-to.svg"
+  },
+  {
+    "id": "the-innocents",
+    "title": "The Innocents",
+    "year": 2021,
+    "poster": "assets/posters/the-innocents.svg"
+  },
+  {
+    "id": "huesera-the-bone-woman",
+    "title": "Huesera: The Bone Woman",
+    "year": 2022,
+    "poster": "assets/posters/huesera-the-bone-woman.png"
+  },
+  {
+    "id": "hellbender",
+    "title": "Hellbender",
+    "year": 2021,
+    "poster": "assets/posters/hellbender.jpg"
+  },
+  {
+    "id": "the-boy-behind-the-door",
+    "title": "The Boy Behind the Door",
+    "year": 2020,
+    "poster": "assets/posters/the-boy-behind-the-door.jpg"
+  },
+  {
+    "id": "the-black-phone",
+    "title": "The Black Phone",
+    "year": 2021,
+    "poster": "assets/posters/the-black-phone.jpg"
+  },
+  {
+    "id": "nope",
+    "title": "Nope",
+    "year": 2022,
+    "poster": "assets/posters/nope.svg"
+  },
+  {
+    "id": "prey",
+    "title": "Prey",
+    "year": 2022,
+    "poster": "assets/posters/prey.jpg"
+  },
+  {
+    "id": "m3gan",
+    "title": "M3GAN",
+    "year": 2022,
+    "poster": "assets/posters/m3gan.jpg"
+  },
+  {
+    "id": "smile",
+    "title": "Smile",
+    "year": 2022,
+    "poster": "assets/posters/smile.jpg"
+  },
+  {
+    "id": "evil-dead-rise",
+    "title": "Evil Dead Rise",
+    "year": 2023,
+    "poster": "assets/posters/evil-dead-rise.jpg"
+  },
+  {
+    "id": "the-first-omen",
+    "title": "The First Omen",
+    "year": 2024,
+    "poster": "assets/posters/the-first-omen.jpg"
+  },
+  {
+    "id": "smile-2",
+    "title": "Smile 2",
+    "year": 2024,
+    "poster": "assets/posters/smile-2.jpg"
+  },
+  {
+    "id": "alien-romulus",
+    "title": "Alien: Romulus",
+    "year": 2024,
+    "poster": "assets/posters/alien-romulus.jpg"
+  },
+  {
+    "id": "the-damned",
+    "title": "The Damned",
+    "year": 2024,
+    "poster": "assets/posters/the-damned.svg"
+  },
+  {
+    "id": "obsession",
+    "title": "Obsession",
+    "year": 2026,
+    "poster": "assets/posters/obsession.svg"
+  },
+  {
+    "id": "backrooms",
+    "title": "Backrooms",
+    "year": 2026,
+    "poster": "assets/posters/backrooms.svg"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "aftercut-horror-desk",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-10-03",
+  "d1_databases": [{
+    "binding": "COMMUNITY_DB",
+    "database_name": "aftercut-community",
+    "database_id": "f1e92504-48d1-4fc5-a55a-2867efd0a47e",
+    "migrations_dir": "migrations"
+  }],
+  "vars": { "SITE_ORIGIN": "https://aftercut.pages.dev" }
+}

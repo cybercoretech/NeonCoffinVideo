@@ -1,0 +1,44 @@
+[
+  {
+    "id": "vhs",
+    "imageSource": "https://image.tmdb.org/t/p/w500/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
+    "local": "assets/front-page/vhs.jpg",
+    "checkedAt": "2026-10-09"
+  },
+  {
+    "id": "other",
+    "imageSource": "https://image.tmdb.org/t/p/w500/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "local": "assets/front-page/other.jpg",
+    "checkedAt": "2026-10-09"
+  },
+  {
+    "id": "ghost",
+    "imageSource": "https://image.tmdb.org/t/p/w500/zxcMdx0w5Zmg8yZuuiS7CJ8vOea.jpg",
+    "local": "assets/front-page/ghost.jpg",
+    "checkedAt": "2026-10-09"
+  },
+  {
+    "id": "clay",
+    "imageSource": "https://image.tmdb.org/t/p/w500/5jCpQnWPikggmQZoDp1eAi6BI6w.jpg",
+    "local": "assets/front-page/clay.jpg",
+    "checkedAt": "2026-10-09"
+  },
+  {
+    "id": "beyond",
+    "imageSource": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2026/10/Screenshot-2025-05-09-154545.png?resize=768%2C442&ssl=1",
+    "local": "assets/front-page/beyond.png",
+    "checkedAt": "2026-10-09"
+  },
+  {
+    "id": "28",
+    "imageSource": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2026/01/28-years-later-bone-temple-ralphfiennes-header.jpg?resize=1600%2C900&ssl=1",
+    "local": "assets/front-page/28.jpg",
+    "checkedAt": "2026-10-09"
+  },
+  {
+    "id": "kringle",
+    "imageSource": "https://image.tmdb.org/t/p/w500/z0uOPm2KjrZp1v4jp4SdPsrdgWB.jpg",
+    "local": "assets/front-page/kringle.jpg",
+    "checkedAt": "2026-10-09"
+  }
+]
