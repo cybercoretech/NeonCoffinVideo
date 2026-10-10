@@ -39,3 +39,13 @@ YouTube: set screeningConfig.youtubeChannel when your real public channel URL ex
 Run npm test, npm run build, and node tests/late-show-browser.mjs. Optional live checks: node tests/late-show-browser.mjs https://neoncoffinvideo.site. The browser test does not post discussions, join the group, send email, or verify copyrighted full-film playback.
 
 Active source stays in /home/raven/Webdev/neon-coffin-video. Private repository mirrors it at website/. Deploy dist to Cloudflare Pages project neoncoffinvideo; a Git push alone does not publish this direct-upload Pages project.
+
+## Expanded rental rack — October 10, 2026
+
+The screening room now contains 261 distinct 1980–1999 horror rentals, sourced from the shared NCV catalog and an additional 92 films. The shared storefront and Lounge catalogs contain 287 films across their broader historical range. The rack excludes the existing Terminator, RoboCop and Blade Runner science-fiction entries.
+
+The rental cabinet scrolls independently and keeps the rest of the page compact. It supports ten category buttons with counts, title/director/year search, 1980s/1990s filters, A–Z/oldest/newest sorting, reset, keyboard scrolling, local tape files and browser-saved shelves. Posters load lazily. All 261 poster cards and editorial notes appear in the initial HTML for readers and search crawlers.
+
+The six previously verified Tubi picks retain their direct service links. Other films use clearly labeled Tubi search links inside their tape files; catalog inclusion does not establish streaming availability. Film details open the credited reference page in another tab.
+
+Data workflow: update the shared editorial catalog and source records, then run npm run build. scripts/build-rental-rack.mjs validates the 1980–1999 selection and real local poster paths, emits rental-rack-data.js, and the SEO build writes its initial HTML. The curated additions are maintained in rental-rack-additions.json. To audit/download missing artwork, run node scripts/prepare-rental-rack.mjs then python3 scripts/fetch-rental-rack-posters.py. Downloads are validated as images; ambiguous film identities are rejected for manual review.

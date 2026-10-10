@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {screenMovies} from '../late-show-data.js';
+import {rentalMovies} from '../rental-rack-data.js';
 const root=new URL('../',import.meta.url);
 const sitemap=readFileSync(new URL('sitemap.xml',root),'utf8');
 assert.equal((sitemap.match(/<url>/g)||[]).length,3);
@@ -13,7 +13,7 @@ for(const [file,path] of [['index.html','/'],['community.html','/community'],['s
 }
 assert.match(readFileSync(new URL('robots.txt',root),'utf8'),/Sitemap: https:\/\/neoncoffinvideo\.site\/sitemap.xml/);
 const html=readFileSync(new URL('screening-room.html',root),'utf8');
-const rack=html.match(/<div id="lsRentalGrid" class="ls-rental-grid">([\s\S]*?)<\/div><p class="ls-fine">Film posters/)[1];
-assert.equal((rack.match(/class="ls-rental-card"/g)||[]).length,6);
-for(const movie of screenMovies){assert(rack.includes(movie.poster));assert(rack.includes(movie.tubi));assert(rack.includes(movie.title));assert(rack.includes(movie.director));}
-console.log('PASS: canonical URLs, real structured metadata, social previews, sitemap coverage, and all six editorial rentals present without executing JavaScript.');
+const rack=html.match(/<div id="lsRentalGrid" class="ls-rental-grid">([\s\S]*?)<\/div><!-- NCV RENTAL GRID END -->/)[1];
+assert.equal((rack.match(/class="ls-rental-card"/g)||[]).length,rentalMovies.length);
+for(const movie of rentalMovies){assert(rack.includes(movie.poster));assert(rack.includes(movie.posterSource.replace(/&/g,'&amp;').replace(/'/g,'&#39;')));assert(rack.includes(movie.id));}
+console.log('PASS: canonical URLs, real structured metadata, social previews, sitemap coverage, and all 261 editorial rentals present without executing JavaScript.');

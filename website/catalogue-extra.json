@@ -11,7 +11,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "png",
     "wiki": "The_Thing_(1982_film)",
-    "imdb": "tt0084787"
+    "imdb": "tt0084787",
+    "poster": "assets/the-thing.png"
   },
   {
     "id": "alien",
@@ -25,7 +26,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "Alien_(film)",
-    "imdb": "tt0078748"
+    "imdb": "tt0078748",
+    "poster": "assets/alien.jpg"
   },
   {
     "id": "aliens",
@@ -39,7 +41,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "Aliens_(film)",
-    "imdb": "tt0090605"
+    "imdb": "tt0090605",
+    "poster": "assets/aliens.jpg"
   },
   {
     "id": "predator",
@@ -53,7 +56,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "Predator_(film)",
-    "imdb": "tt0093773"
+    "imdb": "tt0093773",
+    "poster": "assets/predator.jpg"
   },
   {
     "id": "they-live",
@@ -67,7 +71,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "They_Live",
-    "imdb": "tt0096256"
+    "imdb": "tt0096256",
+    "poster": "assets/they-live.jpg"
   },
   {
     "id": "terminator",
@@ -81,7 +86,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "png",
     "wiki": "The_Terminator",
-    "imdb": "tt0088247"
+    "imdb": "tt0088247",
+    "poster": "assets/terminator.png"
   },
   {
     "id": "robocop",
@@ -95,7 +101,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "RoboCop",
-    "imdb": "tt0093870"
+    "imdb": "tt0093870",
+    "poster": "assets/robocop.jpg"
   },
   {
     "id": "blade-runner",
@@ -109,7 +116,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "png",
     "wiki": "Blade_Runner",
-    "imdb": "tt0083658"
+    "imdb": "tt0083658",
+    "poster": "assets/blade-runner.png"
   },
   {
     "id": "pet-sematary",
@@ -124,7 +132,8 @@
     "art": "jpg",
     "wiki": "Pet_Sematary_(1989_film)",
     "imdb": "tt0098084",
-    "searchTerms": "Stephen King author adaptation"
+    "searchTerms": "Stephen King author adaptation",
+    "poster": "assets/pet-sematary.jpg"
   },
   {
     "id": "night-comet",
@@ -138,7 +147,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "Night_of_the_Comet",
-    "imdb": "tt0087799"
+    "imdb": "tt0087799",
+    "poster": "assets/night-comet.jpg"
   },
   {
     "id": "galaxy-terror",
@@ -152,7 +162,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "Galaxy_of_Terror",
-    "imdb": "tt0082431"
+    "imdb": "tt0082431",
+    "poster": "assets/galaxy-terror.jpg"
   },
   {
     "id": "house-usher",
@@ -166,7 +177,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "House_of_Usher_(film)",
-    "imdb": "tt0053925"
+    "imdb": "tt0053925",
+    "poster": "assets/house-usher.jpg"
   },
   {
     "id": "pit-pendulum",
@@ -180,7 +192,8 @@
     "spoiler": "This archive entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
     "wiki": "The_Pit_and_the_Pendulum_(1961_film)",
-    "imdb": "tt0055304"
+    "imdb": "tt0055304",
+    "poster": "assets/pit-pendulum.jpg"
   },
   {
     "id": "the-blob",
@@ -195,7 +208,8 @@
     "wiki": "The_Blob_(1988_film)",
     "imdb": "tt0094761",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e0/The_Blob_%281988%29_theatrical_poster.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e0/The_Blob_%281988%29_theatrical_poster.jpg",
+    "poster": "assets/the-blob.jpg"
   },
   {
     "id": "critters",
@@ -210,7 +224,8 @@
     "wiki": "Critters_(film)",
     "imdb": "tt0090887",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/2d/Crittersposter.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/2d/Crittersposter.jpg",
+    "poster": "assets/critters.jpg"
   },
   {
     "id": "gremlins",
@@ -225,7 +240,8 @@
     "wiki": "Gremlins",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/3/3d/Gremlins1.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/3/3d/Gremlins1.jpg",
+    "poster": "assets/gremlins.jpg"
   },
   {
     "id": "tremors",
@@ -240,7 +256,8 @@
     "wiki": "Tremors_(1990_film)",
     "imdb": "tt0100814",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f1/Tremors_official_theatrical_poster.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f1/Tremors_official_theatrical_poster.jpg",
+    "poster": "assets/tremors.jpg"
   },
   {
     "id": "pumpkinhead",
@@ -255,7 +272,8 @@
     "wiki": "Pumpkinhead_(film)",
     "imdb": "tt0095925",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/8/80/Pumpkinhead.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/8/80/Pumpkinhead.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/pumpkinhead.jpg"
   },
   {
     "id": "the-howling",
@@ -270,7 +288,8 @@
     "wiki": "The_Howling_(film)",
     "imdb": "tt0082533",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Howling_%281981_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Howling_%281981_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/the-howling.jpg"
   },
   {
     "id": "american-werewolf",
@@ -285,7 +304,8 @@
     "wiki": "An_American_Werewolf_in_London",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e5/An_American_Werewolf_in_London_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e5/An_American_Werewolf_in_London_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/american-werewolf.jpg"
   },
   {
     "id": "from-beyond",
@@ -300,7 +320,8 @@
     "wiki": "From_Beyond_(film)",
     "imdb": "tt0091083",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f2/Frombeyondposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f2/Frombeyondposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/from-beyond.jpg"
   },
   {
     "id": "night-living-dead",
@@ -315,7 +336,8 @@
     "wiki": "Night_of_the_Living_Dead",
     "imdb": "tt0063350",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/91/Night_of_the_Living_Dead_%281968%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/91/Night_of_the_Living_Dead_%281968%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/night-living-dead.jpg"
   },
   {
     "id": "scanners",
@@ -330,7 +352,8 @@
     "wiki": "Scanners",
     "imdb": "tt0081455",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/a1/Scanners_%28movie_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/a1/Scanners_%28movie_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/scanners.jpg"
   },
   {
     "id": "the-brood",
@@ -345,7 +368,8 @@
     "wiki": "The_Brood",
     "imdb": "tt0078908",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f0/Thebrood.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f0/Thebrood.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/the-brood.jpg"
   },
   {
     "id": "dead-zone",
@@ -360,7 +384,8 @@
     "wiki": "The_Dead_Zone_(film)",
     "imdb": "tt0085407",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Dead_Zone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Dead_Zone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/dead-zone.jpg"
   },
   {
     "id": "society",
@@ -375,7 +400,8 @@
     "wiki": "Society_(film)",
     "imdb": "tt0098354",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/aa/SocietyPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/aa/SocietyPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/society.jpg"
   },
   {
     "id": "basket-case",
@@ -390,7 +416,8 @@
     "wiki": "Basket_Case_(film)",
     "imdb": "tt0083624",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/1d/Basketcaseposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/1d/Basketcaseposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/basket-case.jpg"
   },
   {
     "id": "brain-damage",
@@ -405,7 +432,8 @@
     "wiki": "Brain_Damage_(film)",
     "imdb": "tt0094793",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/c/c6/Brain_Damage_%281988%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/c/c6/Brain_Damage_%281988%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/brain-damage.jpg"
   },
   {
     "id": "frankenhooker",
@@ -420,7 +448,8 @@
     "wiki": "Frankenhooker",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/23/Frankenhooker.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/23/Frankenhooker.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/frankenhooker.jpg"
   },
   {
     "id": "evil-dead",
@@ -435,7 +464,8 @@
     "wiki": "The_Evil_Dead",
     "imdb": "tt0083907",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/7d/Evil_dead_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/7d/Evil_dead_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/evil-dead.jpg"
   },
   {
     "id": "evil-dead-ii",
@@ -450,7 +480,8 @@
     "wiki": "Evil_Dead_II",
     "imdb": "tt0092991",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/6d/Evil_Dead_II_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/6d/Evil_Dead_II_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/evil-dead-ii.jpg"
   },
   {
     "id": "army-of-darkness",
@@ -465,7 +496,8 @@
     "wiki": "Army_of_Darkness",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/46/Army_of_Darkness_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/46/Army_of_Darkness_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/army-of-darkness.jpg"
   },
   {
     "id": "hellraiser",
@@ -480,7 +512,8 @@
     "wiki": "Hellraiser",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/40/Hellraiser-UK-Quad-poster.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/40/Hellraiser-UK-Quad-poster.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/hellraiser.jpg"
   },
   {
     "id": "phantasm",
@@ -495,7 +528,8 @@
     "wiki": "Phantasm_(film)",
     "imdb": "tt0079714",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/5/5f/Phantasm.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/5/5f/Phantasm.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/phantasm.jpg"
   },
   {
     "id": "the-fog",
@@ -510,7 +544,8 @@
     "wiki": "The_Fog",
     "imdb": "tt0080749",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/aa/TheFog.1980TheatricalPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/aa/TheFog.1980TheatricalPoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/the-fog.jpg"
   },
   {
     "id": "prince-of-darkness",
@@ -525,7 +560,8 @@
     "wiki": "Prince_of_Darkness_(film)",
     "imdb": "tt0093777",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e9/Prince_of_darkness.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e9/Prince_of_darkness.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/prince-of-darkness.jpg"
   },
   {
     "id": "halloween",
@@ -540,7 +576,8 @@
     "wiki": "Halloween_(1978_film)",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/af/Halloween_%281978%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/af/Halloween_%281978%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/halloween.jpg"
   },
   {
     "id": "friday-13th",
@@ -555,7 +592,8 @@
     "wiki": "Friday_the_13th_(1980_film)",
     "imdb": "tt0080761",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/2c/Friday_the_13th_%281980%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/2c/Friday_the_13th_%281980%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/friday-13th.jpg"
   },
   {
     "id": "nightmare-elm",
@@ -570,7 +608,8 @@
     "wiki": "A_Nightmare_on_Elm_Street",
     "imdb": "tt0087800",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/fa/A_Nightmare_on_Elm_Street_%281984%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/fa/A_Nightmare_on_Elm_Street_%281984%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/nightmare-elm.jpg"
   },
   {
     "id": "texas-chainsaw",
@@ -585,7 +624,8 @@
     "wiki": "The_Texas_Chain_Saw_Massacre",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Texas_Chain_Saw_Massacre_%281974%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Texas_Chain_Saw_Massacre_%281974%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/texas-chainsaw.jpg"
   },
   {
     "id": "sleepaway-camp",
@@ -600,7 +640,8 @@
     "wiki": "Sleepaway_Camp",
     "imdb": "tt0086320",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f1/SleepawayCampposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f1/SleepawayCampposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/sleepaway-camp.jpg"
   },
   {
     "id": "my-bloody-valentine",
@@ -615,7 +656,8 @@
     "wiki": "My_Bloody_Valentine_(film)",
     "imdb": "tt0082782",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/7b/My_bloody_valentineposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/7b/My_bloody_valentineposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/my-bloody-valentine.jpg"
   },
   {
     "id": "poltergeist",
@@ -630,7 +672,8 @@
     "wiki": "Poltergeist_(1982_film)",
     "imdb": "tt0084516",
     "art": "png",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e4/Poltergeist_%281982%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e4/Poltergeist_%281982%29.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/poltergeist.png"
   },
   {
     "id": "the-shining",
@@ -646,7 +689,8 @@
     "imdb": null,
     "art": "jpg",
     "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "searchTerms": "Stephen King author adaptation"
+    "searchTerms": "Stephen King author adaptation",
+    "poster": "assets/the-shining.jpg"
   },
   {
     "id": "fright-night",
@@ -661,7 +705,8 @@
     "wiki": "Fright_Night",
     "imdb": "tt0089175",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e2/Fright_night_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/e/e2/Fright_night_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/fright-night.jpg"
   },
   {
     "id": "lost-boys",
@@ -676,7 +721,8 @@
     "wiki": "The_Lost_Boys",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/b/b6/Lost_boys.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/b/b6/Lost_boys.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/lost-boys.jpg"
   },
   {
     "id": "night-demons",
@@ -691,7 +737,8 @@
     "wiki": "Night_of_the_Demons_(1988_film)",
     "imdb": "tt0093624",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/ac/Night_of_the_Demons_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/a/ac/Night_of_the_Demons_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/night-demons.jpg"
   },
   {
     "id": "dawn-dead",
@@ -706,7 +753,8 @@
     "wiki": "Dawn_of_the_Dead_(1978_film)",
     "imdb": "tt77402",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/63/Dawn_of_the_dead.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/63/Dawn_of_the_dead.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/dawn-dead.jpg"
   },
   {
     "id": "day-dead",
@@ -721,7 +769,8 @@
     "wiki": "Day_of_the_Dead_(1985_film)",
     "imdb": "tt0088993",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/7e/Day_of_the_Dead_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/7e/Day_of_the_Dead_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/day-dead.jpg"
   },
   {
     "id": "maximum-overdrive",
@@ -737,7 +786,8 @@
     "imdb": "tt0091499",
     "art": "jpg",
     "sourceImage": "https://upload.wikimedia.org/wikipedia/en/2/27/MaximumOverdrivePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-    "searchTerms": "Stephen King author adaptation"
+    "searchTerms": "Stephen King author adaptation",
+    "poster": "assets/maximum-overdrive.jpg"
   },
   {
     "id": "the-stuff",
@@ -752,7 +802,8 @@
     "wiki": "The_Stuff",
     "imdb": "tt0090094",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/60/The-Stuff-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/60/The-Stuff-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/the-stuff.jpg"
   },
   {
     "id": "house",
@@ -767,7 +818,8 @@
     "wiki": "House_(1985_film)",
     "imdb": "tt0091223",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/49/Housefilmposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/49/Housefilmposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/house.jpg"
   },
   {
     "id": "elvira-mistress",
@@ -782,7 +834,8 @@
     "wiki": "Elvira:_Mistress_of_the_Dark_(film)",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/4f/Elviramistressofthedarkposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/4f/Elviramistressofthedarkposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/elvira-mistress.jpg"
   },
   {
     "id": "reanimator-bride",
@@ -797,7 +850,8 @@
     "wiki": "Bride_of_Re-Animator",
     "imdb": "tt0099180",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/63/Bride_of_Re-Animator.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/6/63/Bride_of_Re-Animator.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/reanimator-bride.jpg"
   },
   {
     "id": "humanoids",
@@ -812,7 +866,8 @@
     "wiki": "Humanoids_from_the_Deep",
     "imdb": "tt0080904",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f8/Humanoids_from_the_deep.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/f/f8/Humanoids_from_the_deep.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/humanoids.jpg"
   },
   {
     "id": "forbidden-world",
@@ -827,7 +882,8 @@
     "wiki": "Forbidden_World",
     "imdb": "tt0083959",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/97/Forbidden_world.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/97/Forbidden_world.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/forbidden-world.jpg"
   },
   {
     "id": "death-race",
@@ -842,7 +898,8 @@
     "wiki": "Death_Race_2000",
     "imdb": "tt0072856",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/40/Deathrace2000poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/40/Deathrace2000poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/death-race.jpg"
   },
   {
     "id": "event-horizon",
@@ -857,7 +914,8 @@
     "wiki": "Event_Horizon_(film)",
     "imdb": null,
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/8/8c/Event_horizon_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/event-horizon.jpg"
   },
   {
     "id": "in-mouth-madness",
@@ -872,7 +930,8 @@
     "wiki": "In_the_Mouth_of_Madness",
     "imdb": "tt0113409",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/92/Mouthmadnessposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/92/Mouthmadnessposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/in-mouth-madness.jpg"
   },
   {
     "id": "hardware",
@@ -887,7 +946,8 @@
     "wiki": "Hardware_(film)",
     "imdb": "tt0099740",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/d/d0/Hardwareposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/d/d0/Hardwareposter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "poster": "assets/hardware.jpg"
   },
   {
     "id": "exorcist",
@@ -900,7 +960,8 @@
     "director": "William Friedkin",
     "wiki": "The_Exorcist",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/exorcist.jpg"
   },
   {
     "id": "carrie",
@@ -914,7 +975,8 @@
     "wiki": "Carrie_(1976_film)",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
     "art": "jpg",
-    "searchTerms": "Stephen King author adaptation"
+    "searchTerms": "Stephen King author adaptation",
+    "poster": "assets/carrie.jpg"
   },
   {
     "id": "childs-play",
@@ -927,7 +989,8 @@
     "director": "Tom Holland",
     "wiki": "Child's_Play_(1988_film)",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/childs-play.jpg"
   },
   {
     "id": "christine",
@@ -940,7 +1003,8 @@
     "director": "John Carpenter",
     "wiki": "Christine_(1983_film)",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/christine.jpg"
   },
   {
     "id": "creepshow",
@@ -953,7 +1017,8 @@
     "director": "George A. Romero",
     "wiki": "Creepshow",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/creepshow.jpg"
   },
   {
     "id": "monster-squad",
@@ -966,7 +1031,8 @@
     "director": "Fred Dekker",
     "wiki": "The_Monster_Squad",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/monster-squad.jpg"
   },
   {
     "id": "the-gate",
@@ -979,7 +1045,8 @@
     "director": "Tibor Takács",
     "wiki": "The_Gate_(1987_film)",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/the-gate.jpg"
   },
   {
     "id": "motel-hell",
@@ -992,7 +1059,8 @@
     "director": "Kevin Connor",
     "wiki": "Motel_Hell",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/motel-hell.jpg"
   },
   {
     "id": "toxic-avenger",
@@ -1005,7 +1073,8 @@
     "director": "Michael Herz Lloyd Kaufman (as Samuel Weil)",
     "wiki": "The_Toxic_Avenger_(1984_film)",
     "spoiler": "This entry keeps the setup unspoiled. Open its film references for a detailed synopsis.",
-    "art": "jpg"
+    "art": "jpg",
+    "poster": "assets/toxic-avenger.jpg"
   },
   {
     "id": "halloween-ii",
@@ -1020,7 +1089,8 @@
     "note": "The nightmare moves from Haddonfield’s streets to its hospital. Pair it with Carpenter’s original for one long, very bad Halloween night.",
     "art": "jpg",
     "spoiler": "This seasonal pick keeps the story unspoiled. Open its film references for more detail.",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/1b/Halloween_II_%281981%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/1b/Halloween_II_%281981%29_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "poster": "assets/halloween-ii.jpg"
   },
   {
     "id": "halloween-iii",
@@ -1035,7 +1105,8 @@
     "note": "A standalone Halloween nightmare of sinister masks, television signals, and corporate witchcraft. A different story from Michael Myers, with its own wonderfully strange October atmosphere.",
     "art": "jpg",
     "spoiler": "This seasonal pick keeps the story unspoiled. Open its film references for more detail.",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/78/Halloween_III_Season_of_the_Witch_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/7/78/Halloween_III_Season_of_the_Witch_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "poster": "assets/halloween-iii.jpg"
   },
   {
     "id": "trick-or-treat",
@@ -1050,7 +1121,8 @@
     "note": "A dead rock star, a dangerous record, and a Halloween concert that should never happen. Pure heavy-metal video-store trouble.",
     "art": "png",
     "spoiler": "This seasonal pick keeps the story unspoiled. Open its film references for more detail.",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/45/Trick_or_Treat_%281986_film%29_Poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/4/45/Trick_or_Treat_%281986_film%29_Poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "poster": "assets/trick-or-treat.png"
   },
   {
     "id": "trick-r-treat",
@@ -1065,7 +1137,8 @@
     "note": "A later seasonal essential: interlocking Halloween stories, jack-o’-lanterns, costumes, and Sam keeping an eye on the rules. Our deliberate modern exception for October.",
     "art": "jpg",
     "spoiler": "This seasonal pick keeps the story unspoiled. Open its film references for more detail.",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/d/dc/Trick_r_treat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/d/dc/Trick_r_treat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "poster": "assets/trick-r-treat.jpg"
   },
   {
     "id": "halloween-iv",
@@ -1080,7 +1153,8 @@
     "note": "Michael Myers returns to Haddonfield a decade later. A quintessential late-eighties Halloween rental: small-town streets, autumn shadows, and an old nightmare coming home again.",
     "art": "jpg",
     "spoiler": "This seasonal pick keeps the story unspoiled. Open its film references for more detail.",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/c/c2/Halloween4poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/c/c2/Halloween4poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "poster": "assets/halloween-iv.jpg"
   },
   {
     "id": "halloween-v",
@@ -1095,7 +1169,8 @@
     "note": "The fifth stop on our original Halloween shelf. Jamie Lloyd and Dr. Loomis face another Haddonfield Halloween with Michael Myers on the hunt.",
     "art": "jpg",
     "spoiler": "This seasonal pick keeps the story unspoiled. Open its film references for more detail.",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/0/01/Halloween5poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/0/01/Halloween5poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "poster": "assets/halloween-v.jpg"
   },
   {
     "id": "return-living-dead-ii",
@@ -1109,7 +1184,8 @@
     "spoiler": "This collection entry keeps the story unspoiled. Open the film references for a detailed synopsis.",
     "wiki": "Return_of_the_Living_Dead_Part_II",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/94/TheReturnOfTheLivingDead2.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/9/94/TheReturnOfTheLivingDead2.jpg",
+    "poster": "assets/return-living-dead-ii.jpg"
   },
   {
     "id": "return-living-dead-3",
@@ -1123,7 +1199,8 @@
     "spoiler": "This collection entry keeps the story unspoiled. Open the film references for a detailed synopsis.",
     "wiki": "Return_of_the_Living_Dead_3",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/d/d3/Return-of-the-living-dead-3-film-poster.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/d/d3/Return-of-the-living-dead-3-film-poster.jpg",
+    "poster": "assets/return-living-dead-3.jpg"
   },
   {
     "id": "return-living-dead-necropolis",
@@ -1137,7 +1214,8 @@
     "spoiler": "This collection entry keeps the story unspoiled. Open the film references for a detailed synopsis.",
     "wiki": "Return_of_the_Living_Dead:_Necropolis",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/12/ReturnOfTheLivingDeadNecropolisDVDCover.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/1/12/ReturnOfTheLivingDeadNecropolisDVDCover.jpg",
+    "poster": "assets/return-living-dead-necropolis.jpg"
   },
   {
     "id": "return-living-dead-rave",
@@ -1151,7 +1229,8 @@
     "spoiler": "This collection entry keeps the story unspoiled. Open the film references for a detailed synopsis.",
     "wiki": "Return_of_the_Living_Dead:_Rave_to_the_Grave",
     "art": "jpg",
-    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/3/33/TheReturnOfTheLivingDead5.jpg"
+    "sourceImage": "https://upload.wikimedia.org/wikipedia/en/3/33/TheReturnOfTheLivingDead5.jpg",
+    "poster": "assets/return-living-dead-rave.jpg"
   },
   {
     "id": "sleepaway-camp-ii",
@@ -1166,7 +1245,8 @@
     "wiki": "Sleepaway_Camp_II:_Unhappy_Campers",
     "art": "jpg",
     "searchTerms": "CAMP COUNSELOR FROM HELL cult 1980s VHS rental Michael A. Simpson",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/sleepaway-camp-ii.jpg"
   },
   {
     "id": "sleepaway-camp-iii",
@@ -1181,7 +1261,8 @@
     "wiki": "Sleepaway_Camp_III:_Teenage_Wasteland",
     "art": "jpg",
     "searchTerms": "NO VACANCY AT CAMP cult 1980s VHS rental Michael A. Simpson",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/sleepaway-camp-iii.jpg"
   },
   {
     "id": "slumber-party-massacre",
@@ -1196,7 +1277,8 @@
     "wiki": "The_Slumber_Party_Massacre",
     "art": "jpg",
     "searchTerms": "SLEEPOVER. SHARP OBJECTS. BAD PLAN. cult 1980s VHS rental Amy Holden Jones",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/slumber-party-massacre.jpg"
   },
   {
     "id": "slumber-party-massacre-ii",
@@ -1211,7 +1293,8 @@
     "wiki": "Slumber_Party_Massacre_II",
     "art": "jpg",
     "searchTerms": "THE PARTY GETS LOUDER cult 1980s VHS rental Deborah Brock",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/slumber-party-massacre-ii.jpg"
   },
   {
     "id": "slumber-party-massacre-iii",
@@ -1226,7 +1309,8 @@
     "wiki": "Slumber_Party_Massacre_III",
     "art": "webp",
     "searchTerms": "ONE LAST SLEEPOVER cult 1980s VHS rental Sally Mattison",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/slumber-party-massacre-iii.webp"
   },
   {
     "id": "the-burning",
@@ -1241,7 +1325,8 @@
     "wiki": "The_Burning_(1981_film)",
     "art": "jpg",
     "searchTerms": "CAMP BLACKFOOT / STAFF ONLY cult 1980s VHS rental Tony Maylam",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/the-burning.jpg"
   },
   {
     "id": "black-christmas",
@@ -1256,7 +1341,8 @@
     "wiki": "Black_Christmas_(1974_film)",
     "art": "jpg",
     "searchTerms": "THE ORIGINAL PHONE CALL cult 1980s VHS rental Bob Clark",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/black-christmas.jpg"
   },
   {
     "id": "pieces",
@@ -1271,7 +1357,8 @@
     "wiki": "Pieces_(1982_film)",
     "art": "jpg",
     "searchTerms": "YOU DON’T HAVE TO GO TO TEXAS cult 1980s VHS rental Juan Piquer Simón",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/pieces.jpg"
   },
   {
     "id": "prom-night",
@@ -1286,7 +1373,8 @@
     "wiki": "Prom_Night_(1980_film)",
     "art": "jpg",
     "searchTerms": "THE DANCE ENDS AT MIDNIGHT cult 1980s VHS rental Paul Lynch",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/prom-night.jpg"
   },
   {
     "id": "intruder",
@@ -1301,7 +1389,8 @@
     "wiki": "Intruder_(1989_film)",
     "art": "jpg",
     "searchTerms": "AFTER HOURS / GROCERY AISLE 9 cult 1980s VHS rental Scott Spiegel",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/intruder.jpg"
   },
   {
     "id": "the-prowler",
@@ -1316,7 +1405,8 @@
     "wiki": "The_Prowler_(1981_film)",
     "art": "jpg",
     "searchTerms": "CLASS REUNION / LAST DANCE cult 1980s VHS rental Joseph Zito",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/the-prowler.jpg"
   },
   {
     "id": "hell-night",
@@ -1331,7 +1421,8 @@
     "wiki": "Hell_Night",
     "art": "jpg",
     "searchTerms": "THE HOUSE KEEPS SCORE cult 1980s VHS rental Tom DeSimone",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/hell-night.jpg"
   },
   {
     "id": "dead-heat",
@@ -1346,7 +1437,8 @@
     "wiki": "Dead_Heat_(1988_film)",
     "art": "jpg",
     "searchTerms": "PARTNER. CORPSE. POLICE ISSUE. cult 1980s VHS rental Mark Goldblatt",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/dead-heat.jpg"
   },
   {
     "id": "street-trash",
@@ -1361,7 +1453,8 @@
     "wiki": "Street_Trash",
     "art": "jpg",
     "searchTerms": "THE BOTTLE SHOP IS OPEN cult 1980s VHS rental J. Michael Muro",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/street-trash.jpg"
   },
   {
     "id": "evil-spawn",
@@ -1376,7 +1469,8 @@
     "wiki": "Evil_Spawn",
     "art": "jpg",
     "searchTerms": "HOLLYWOOD / CREATURE CALL cult 1980s VHS rental Kenneth J. Hall, Ted Newsom",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/evil-spawn.jpg"
   },
   {
     "id": "vamp",
@@ -1391,7 +1485,8 @@
     "wiki": "Vamp_(1986_film)",
     "art": "jpg",
     "searchTerms": "LAST CALL AT THE AFTERHOURS CLUB cult 1980s VHS rental Richard Wenk",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/vamp.jpg"
   },
   {
     "id": "spookies",
@@ -1406,7 +1501,8 @@
     "wiki": "Spookies",
     "art": "jpg",
     "searchTerms": "THE HOUSE IS FULL cult 1980s VHS rental Eugenie Joseph, Thomas Doran",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/spookies.jpg"
   },
   {
     "id": "terrorvision",
@@ -1421,7 +1517,8 @@
     "wiki": "TerrorVision",
     "art": "jpg",
     "searchTerms": "DON’T ADJUST THE SET cult 1980s VHS rental Ted Nicolaou",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/terrorvision.jpg"
   },
   {
     "id": "rock-n-roll-nightmare",
@@ -1436,7 +1533,8 @@
     "wiki": "Rock_n_Roll_Nightmare",
     "art": "jpg",
     "searchTerms": "HEAVY METAL. HEAVIER DEMONS. cult 1980s VHS rental John Fasano",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/rock-n-roll-nightmare.jpg"
   },
   {
     "id": "necropolis-1986",
@@ -1451,7 +1549,8 @@
     "wiki": "Necropolis_(1986_film)",
     "art": "jpg",
     "searchTerms": "WITCH CITY / 300 YEARS LATE cult 1980s VHS rental Bruce Hickey",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/necropolis-1986.jpg"
   },
   {
     "id": "blood-rage",
@@ -1466,7 +1565,8 @@
     "wiki": "Blood_Rage",
     "art": "jpg",
     "searchTerms": "THAT’S NOT CRANBERRY SAUCE cult 1980s VHS rental John Grissmer",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/blood-rage.jpg"
   },
   {
     "id": "the-dungeonmaster",
@@ -1481,7 +1581,8 @@
     "wiki": "The_Dungeonmaster",
     "art": "jpg",
     "searchTerms": "ONE MODEM. SEVEN DEMONS. cult 1980s VHS rental David Allen, et al.",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/the-dungeonmaster.jpg"
   },
   {
     "id": "demon-wind",
@@ -1496,7 +1597,8 @@
     "wiki": "Demon_Wind",
     "art": "jpg",
     "searchTerms": "THE HOUSE WANTS YOU cult 1980s VHS rental Charles Philip Moore",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/demon-wind.jpg"
   },
   {
     "id": "sorority-house-massacre-ii",
@@ -1511,7 +1613,8 @@
     "wiki": "Sorority_House_Massacre_II",
     "art": "jpg",
     "searchTerms": "THE HOUSE STILL HAS ROOM cult 1980s VHS rental Jim Wynorski",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/sorority-house-massacre-ii.jpg"
   },
   {
     "id": "blood-hook",
@@ -1526,7 +1629,8 @@
     "wiki": "Blood_Hook",
     "art": "jpg",
     "searchTerms": "FISHING OPENS AT DAWN cult 1980s VHS rental Jim Mallon",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/blood-hook.jpg"
   },
   {
     "id": "doom-asylum",
@@ -1541,7 +1645,8 @@
     "wiki": "Doom_Asylum",
     "art": "jpg",
     "searchTerms": "THE MORGUE HAS A DOOR cult 1980s VHS rental Richard Friedman",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/doom-asylum.jpg"
   },
   {
     "id": "class-nuke-em-high",
@@ -1556,7 +1661,8 @@
     "wiki": "Class_of_Nuke_Em_High",
     "art": "jpg",
     "searchTerms": "TOXIC HIGH / HOMEROOM 245 cult 1980s VHS rental Richard W. Haines, Lloyd Kaufman",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/class-nuke-em-high.jpg"
   },
   {
     "id": "surf-nazis-must-die",
@@ -1571,7 +1677,8 @@
     "wiki": "Surf_Nazis_Must_Die",
     "art": "jpg",
     "searchTerms": "TROMA BEACH / NO LIFEGUARD cult 1980s VHS rental Peter George",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/surf-nazis-must-die.jpg"
   },
   {
     "id": "redneck-zombies",
@@ -1586,7 +1693,8 @@
     "wiki": "Redneck_Zombies",
     "art": "jpg",
     "searchTerms": "MOONSHINE / CONTAINS TOXIN cult 1980s VHS rental Pericles Lewnes",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/redneck-zombies.jpg"
   },
   {
     "id": "nightbreed",
@@ -1601,7 +1709,8 @@
     "wiki": "Nightbreed_(film)",
     "art": "jpg",
     "searchTerms": "MONSTER CITY / BELOW THE SURFACE cult 1980s VHS rental Clive Barker",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/nightbreed.jpg"
   },
   {
     "id": "children-of-the-corn",
@@ -1616,7 +1725,8 @@
     "wiki": "Children_of_the_Corn_(1984_film)",
     "art": "jpg",
     "searchTerms": "OUT BEYOND THE FIELDS cult 1980s VHS rental Fritz Kiersch Stephen King author adaptation",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/children-of-the-corn.jpg"
   },
   {
     "id": "silver-bullet",
@@ -1631,7 +1741,8 @@
     "wiki": "Silver_Bullet_(film)",
     "art": "jpg",
     "searchTerms": "FULL MOON / SMALL TOWN cult 1980s VHS rental Daniel Attias Stephen King author adaptation",
-    "sourceArt": "Original Neon Coffin Video vector sleeve illustration"
+    "sourceArt": "Original Neon Coffin Video vector sleeve illustration",
+    "poster": "assets/silver-bullet.jpg"
   },
   {
     "id": "deadly-spawn",
@@ -1647,7 +1758,8 @@
     "imdb": "tt0087998",
     "art": "jpg",
     "searchTerms": "The Deadly Spawn 1983 VHS cult low budget creature practical effects",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/deadly-spawn.jpg"
   },
   {
     "id": "blood-diner",
@@ -1663,7 +1775,8 @@
     "imdb": "tt0092669",
     "art": "jpg",
     "searchTerms": "Blood Diner 1987 Vestron Video horror comedy Herschell Gordon Lewis",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/blood-diner.jpg"
   },
   {
     "id": "the-video-dead",
@@ -1679,7 +1792,8 @@
     "imdb": "tt0155350",
     "art": "jpg",
     "searchTerms": "The Video Dead 1987 direct-to-video horror zombie television",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/the-video-dead.jpg"
   },
   {
     "id": "evilspeak",
@@ -1695,7 +1809,8 @@
     "imdb": "tt0082346",
     "art": "jpg",
     "searchTerms": "Evilspeak 1981 Eric Weston Clint Howard video nasty horror",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/evilspeak.jpg"
   },
   {
     "id": "the-mutilator",
@@ -1711,7 +1826,8 @@
     "imdb": "tt0124014",
     "art": "jpg",
     "searchTerms": "The Mutilator 1984 Fall Break Buddy Cooper slasher horror VHS",
-    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json."
+    "sourceArt": "Original film poster artwork; full source is listed in artwork-sources.json.",
+    "poster": "assets/the-mutilator.jpg"
   },
   {
     "id": "chud",
@@ -1727,7 +1843,8 @@
     "imdb": "tt0087015",
     "art": "jpg",
     "searchTerms": "C.H.U.D. 1984 Douglas Cheek John Heard Daniel Stern sewer monsters B horror VHS",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/chud.jpg"
   },
   {
     "id": "puppet-master",
@@ -1743,7 +1860,8 @@
     "imdb": "tt0098143",
     "art": "jpg",
     "searchTerms": "Puppet Master 1989 David Schmoeller Full Moon killer puppets VHS horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/puppet-master.jpg"
   },
   {
     "id": "invaders-from-mars-1986",
@@ -1759,7 +1877,8 @@
     "imdb": "tt0091276",
     "art": "jpg",
     "searchTerms": "Invaders from Mars 1986 Tobe Hooper Karen Black alien invasion sci-fi horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/invaders-from-mars-1986.jpg"
   },
   {
     "id": "something-wicked-this-way-comes",
@@ -1775,7 +1894,8 @@
     "imdb": "tt0086336",
     "art": "jpg",
     "searchTerms": "Something Wicked This Way Comes 1983 Jack Clayton Ray Bradbury carnival dark fantasy horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/something-wicked-this-way-comes.jpg"
   },
   {
     "id": "terror-train",
@@ -1791,7 +1911,8 @@
     "imdb": "tt0081617",
     "art": "jpg",
     "searchTerms": "Terror Train 1980 Roger Spottiswoode Jamie Lee Curtis slasher horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/terror-train.jpg"
   },
   {
     "id": "the-funhouse",
@@ -1807,7 +1928,8 @@
     "imdb": "tt0082427",
     "art": "jpg",
     "searchTerms": "The Funhouse 1981 Tobe Hooper carnival slasher monster horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/the-funhouse.jpg"
   },
   {
     "id": "deadly-friend",
@@ -1823,7 +1945,8 @@
     "imdb": "tt0090917",
     "art": "jpg",
     "searchTerms": "Deadly Friend 1986 Wes Craven Kristy Swanson robot sci-fi horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/deadly-friend.jpg"
   },
   {
     "id": "cat-people-1982",
@@ -1839,7 +1962,8 @@
     "imdb": "tt0083722",
     "art": "jpg",
     "searchTerms": "Cat People 1982 Paul Schrader Nastassja Kinski erotic horror Giorgio Moroder",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/cat-people-1982.jpg"
   },
   {
     "id": "the-entity",
@@ -1855,7 +1979,8 @@
     "imdb": "tt0082334",
     "art": "jpg",
     "searchTerms": "The Entity 1982 Sidney J Furie Barbara Hershey supernatural horror",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/the-entity.jpg"
   },
   {
     "id": "the-changeling",
@@ -1871,7 +1996,8 @@
     "imdb": "tt0080516",
     "art": "jpg",
     "searchTerms": "The Changeling 1980 Peter Medak George C Scott haunted house ghost story",
-    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json."
+    "sourceArt": "Original theatrical poster artwork; source credited in artwork-sources.json.",
+    "poster": "assets/the-changeling.jpg"
   },
   {
     "id": "i-spit-on-your-grave",
@@ -1897,7 +2023,8 @@
     "note": "A bleak, low-budget character study whose restrained style makes it far more unsettling than a conventional slasher.",
     "spoiler": "Henry: Portrait of a Serial Killer — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "henry_portrait_of_a_serial_killer_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/henry-portrait-of-a-serial-killer.jpg"
   },
   {
     "id": "satans-blood",
@@ -1923,7 +2050,8 @@
     "note": "A cruel high-school prank returns years later at a reunion in this colorful, effects-heavy slasher.",
     "spoiler": "Slaughter High — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "slaughter_high_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/slaughter-high.jpg"
   },
   {
     "id": "near-dark",
@@ -1936,7 +2064,8 @@
     "note": "A moody road movie that fuses western imagery, family drama, and a distinctly nocturnal vampire myth.",
     "spoiler": "Near Dark — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "near_dark_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/near-dark.jpg"
   },
   {
     "id": "the-stepfather",
@@ -1949,7 +2078,8 @@
     "note": "Terry O’Quinn anchors a sharp suburban thriller about a new husband whose polished persona hides a violent past.",
     "spoiler": "The Stepfather — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "the_stepfather_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/the-stepfather.jpg"
   },
   {
     "id": "alligator",
@@ -1962,7 +2092,8 @@
     "note": "A city sewer legend becomes a practical-effects creature feature with a satirical bite.",
     "spoiler": "Alligator — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "alligator_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/alligator.jpg"
   },
   {
     "id": "possession",
@@ -1975,7 +2106,8 @@
     "note": "An intense, surreal relationship drama that erupts into body horror and an unforgettable performance by Isabelle Adjani.",
     "spoiler": "Possession — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "possession_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/possession.jpg"
   },
   {
     "id": "wolfen",
@@ -1988,7 +2120,8 @@
     "note": "An atmospheric urban thriller blends police investigation, Native American mythology, and unusual animal-perspective imagery.",
     "spoiler": "Wolfen — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "wolfen_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/wolfen.jpg"
   },
   {
     "id": "dead-of-winter",
@@ -2001,7 +2134,8 @@
     "note": "A suspenseful snowbound thriller follows an actress trapped in a remote house with a dangerous host.",
     "spoiler": "Dead of Winter — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "dead_of_winter_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/dead-of-winter.jpg"
   },
   {
     "id": "the-hidden",
@@ -2014,7 +2148,8 @@
     "note": "A fast, funny science-fiction chase movie pairs an alien parasite with a hard-boiled Los Angeles detective.",
     "spoiler": "The Hidden — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "the_hidden_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/the-hidden.jpg"
   },
   {
     "id": "phenomena",
@@ -2027,7 +2162,8 @@
     "note": "A young student with an uncanny connection to insects investigates a series of killings in a dreamlike Swiss setting.",
     "spoiler": "Phenomena — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "phenomena_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/phenomena.jpg"
   },
   {
     "id": "bloody-birthday",
@@ -2040,7 +2176,8 @@
     "note": "A rare alignment of the stars marks three children whose cheerful surfaces conceal chilling behavior.",
     "spoiler": "Bloody Birthday — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "bloody_birthday_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/bloody-birthday.jpg"
   },
   {
     "id": "bad-taste",
@@ -2053,7 +2190,8 @@
     "note": "Peter Jackson’s scrappy debut turns an alien invasion into a deliriously messy splatter-comedy.",
     "spoiler": "Bad Taste — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "bad_taste_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/bad-taste.jpg"
   },
   {
     "id": "q-the-winged-serpent",
@@ -2066,7 +2204,8 @@
     "note": "Larry Cohen’s New York monster movie mixes a winged reptile, rooftop danger, and street-level crime.",
     "spoiler": "Q: The Winged Serpent — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "q_the_winged_serpent_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/q-the-winged-serpent.jpg"
   },
   {
     "id": "dead-and-buried",
@@ -2079,7 +2218,8 @@
     "note": "A small coastal town hides a grim secret in this atmospheric mystery with makeup effects by Stan Winston.",
     "spoiler": "Dead & Buried — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "dead_and_buried_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/dead-and-buried.jpg"
   },
   {
     "id": "nightmare-on-elm-street-2",
@@ -2092,7 +2232,8 @@
     "note": "Freddy Krueger returns as a teenager discovers that the killer’s influence is reaching beyond sleep.",
     "spoiler": "A Nightmare on Elm Street 2: Freddy’s Revenge — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "nightmare_on_elm_street_2_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/nightmare-on-elm-street-2.jpg"
   },
   {
     "id": "nightmare-on-elm-street-3",
@@ -2105,7 +2246,8 @@
     "note": "A group of young patients learns to use their dreams against Freddy in the series’ imaginative third chapter.",
     "spoiler": "A Nightmare on Elm Street 3: Dream Warriors — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "nightmare_on_elm_street_3_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/nightmare-on-elm-street-3.jpg"
   },
   {
     "id": "nightmare-on-elm-street-4",
@@ -2118,7 +2260,8 @@
     "note": "The survivors face Freddy again as their dreams become a vivid, effects-packed battleground.",
     "spoiler": "A Nightmare on Elm Street 4: The Dream Master — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "nightmare_on_elm_street_4_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/nightmare-on-elm-street-4.jpg"
   },
   {
     "id": "nightmare-on-elm-street-5",
@@ -2131,7 +2274,8 @@
     "note": "A new generation is drawn into Freddy’s dream world in a surreal continuation of the Elm Street saga.",
     "spoiler": "A Nightmare on Elm Street 5: The Dream Child — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "nightmare_on_elm_street_5_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/nightmare-on-elm-street-5.jpg"
   },
   {
     "id": "cats-eye",
@@ -2144,7 +2288,8 @@
     "note": "A roaming cat links three Stephen King stories in an anthology that balances suspense, dark humor, and creature effects.",
     "spoiler": "Cat’s Eye — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "cats_eye_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/cats-eye.jpg"
   },
   {
     "id": "lady-in-white",
@@ -2157,7 +2302,8 @@
     "note": "A boy investigates a decades-old disappearance in a nostalgic, atmospheric ghost story set in a small town.",
     "spoiler": "Lady in White — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "lady_in_white_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/lady-in-white.jpg"
   },
   {
     "id": "psycho-ii",
@@ -2170,7 +2316,8 @@
     "note": "Norman Bates returns home after years in an institution in a sequel that builds genuine suspense from the original’s legacy.",
     "spoiler": "Psycho II — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "psycho_ii_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/psycho-ii.jpg"
   },
   {
     "id": "the-hitcher",
@@ -2183,7 +2330,8 @@
     "note": "A young driver is pursued across the American Southwest by a mysterious hitchhiker in a lean road thriller.",
     "spoiler": "The Hitcher — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "the_hitcher_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/the-hitcher.jpg"
   },
   {
     "id": "cannibal-holocaust",
@@ -2196,7 +2344,8 @@
     "note": "A controversial Italian exploitation film framed as recovered documentary footage; its production history includes real animal harm.",
     "spoiler": "Cannibal Holocaust — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "cannibal_holocaust_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/cannibal-holocaust.jpg"
   },
   {
     "id": "pulse-1988",
@@ -2209,7 +2358,8 @@
     "note": "A radio signal appears to awaken a deadly presence in this atmospheric television horror film.",
     "spoiler": "Pulse — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "pulse_1988_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/pulse-1988.jpg"
   },
   {
     "id": "dark-night-of-the-scarecrow",
@@ -2222,7 +2372,8 @@
     "note": "A rural community’s act of violence returns as a quiet, effective tale of guilt and revenge.",
     "spoiler": "Dark Night of the Scarecrow — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "dark_night_of_the_scarecrow_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/dark-night-of-the-scarecrow.jpg"
   },
   {
     "id": "swamp-thing",
@@ -2235,7 +2386,8 @@
     "note": "Wes Craven adapts the DC Comics creature into a swamp-set adventure with pulp romance and practical creature work.",
     "spoiler": "Swamp Thing — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "swamp_thing_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/swamp-thing.jpg"
   },
   {
     "id": "cujo",
@@ -2248,7 +2400,8 @@
     "note": "A mother and child are trapped in a car by a rabid Saint Bernard in a tense adaptation of Stephen King’s novel.",
     "spoiler": "Cujo — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "cujo_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/cujo.jpg"
   },
   {
     "id": "dolls-1987",
@@ -2261,7 +2414,8 @@
     "note": "A storm strands travelers in a mansion where handmade dolls have a life of their own.",
     "spoiler": "Dolls — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "dolls_1987_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/dolls-1987.jpg"
   },
   {
     "id": "april-fools-day",
@@ -2274,7 +2428,8 @@
     "note": "A weekend gathering at a remote island estate becomes a clever, playful mystery with slasher trappings.",
     "spoiler": "April Fool’s Day — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "april_fools_day_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/april-fools-day.jpg"
   },
   {
     "id": "waxwork",
@@ -2287,7 +2442,8 @@
     "note": "A wax museum’s exhibits become dangerously real in a witty anthology-style creature feature.",
     "spoiler": "Waxwork — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "waxwork_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/waxwork.jpg"
   },
   {
     "id": "lifeforce",
@@ -2314,7 +2470,8 @@
     "note": "A hulking, seemingly unstoppable police officer stalks New York in a gritty cult slasher.",
     "spoiler": "Maniac Cop — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "maniac_cop_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/maniac-cop.jpg"
   },
   {
     "id": "puppet-master-2",
@@ -2327,7 +2484,8 @@
     "note": "The puppets return to protect their secrets in the first sequel to Full Moon’s killer-puppet series.",
     "spoiler": "Puppet Master II — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "puppet_master_2_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/puppet-master-2.jpg"
   },
   {
     "id": "puppet-master-3-toulons-revenge",
@@ -2340,7 +2498,8 @@
     "note": "A wartime prequel reveals how André Toulon and his puppets became enemies of the Nazis.",
     "spoiler": "Puppet Master III: Toulon’s Revenge — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "puppet_master_3_toulons_revenge_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/puppet-master-3-toulons-revenge.jpg"
   },
   {
     "id": "puppet-master-4",
@@ -2353,7 +2512,8 @@
     "note": "A young researcher becomes the target of a demonic force, with Toulon’s puppets caught in the fight.",
     "spoiler": "Puppet Master 4 — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "puppet_master_4_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/puppet-master-4.jpg"
   },
   {
     "id": "puppet-master-5-the-final-chapter",
@@ -2366,7 +2526,8 @@
     "note": "The story continues directly from Puppet Master 4 as the puppets defend their human ally.",
     "spoiler": "Puppet Master 5: The Final Chapter — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "puppet_master_5_the_final_chapter_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/puppet-master-5-the-final-chapter.jpg"
   },
   {
     "id": "curse-of-the-puppet-master",
@@ -2379,7 +2540,8 @@
     "note": "A sideshow performer discovers Toulon’s puppets and the dangerous secret behind their movement.",
     "spoiler": "Curse of the Puppet Master — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "curse_of_the_puppet_master_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/curse-of-the-puppet-master.jpg"
   },
   {
     "id": "retro-puppet-master",
@@ -2392,7 +2554,8 @@
     "note": "A prequel travels to Cairo in 1902 to show the beginnings of Toulon’s mysterious creations.",
     "spoiler": "Retro Puppet Master — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "retro_puppet_master_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/retro-puppet-master.jpg"
   },
   {
     "id": "the-silence-of-the-lambs",
@@ -2405,7 +2568,8 @@
     "note": "An FBI trainee seeks help from an imprisoned killer while tracking another predator in this landmark psychological thriller.",
     "spoiler": "The Silence of the Lambs — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "the_silence_of_the_lambs_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/the-silence-of-the-lambs.jpg"
   },
   {
     "id": "jacobs-ladder",
@@ -2418,7 +2582,8 @@
     "note": "A Vietnam veteran struggles to understand a series of disturbing visions in a disorienting psychological horror film.",
     "spoiler": "Jacob’s Ladder — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "jacobs_ladder_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/jacobs-ladder.jpg"
   },
   {
     "id": "candyman",
@@ -2431,7 +2596,8 @@
     "note": "A researcher investigating an urban legend encounters a figure whose story is rooted in a neglected Chicago neighborhood.",
     "spoiler": "Candyman — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "candyman_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/candyman.jpg"
   },
   {
     "id": "scream",
@@ -2444,7 +2610,8 @@
     "note": "Wes Craven and Kevin Williamson reinvent the slasher with sharp self-awareness, memorable characters, and a masked caller.",
     "spoiler": "Scream — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "scream_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/scream.jpg"
   },
   {
     "id": "dead-alive",
@@ -2457,7 +2624,8 @@
     "note": "Peter Jackson’s splatter-comedy escalates from a mysterious bite to an outrageous suburban zombie outbreak.",
     "spoiler": "Dead Alive — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "dead_alive_(film)",
-    "art": "svg"
+    "art": "png",
+    "poster": "assets/dead-alive.png"
   },
   {
     "id": "the-frighteners",
@@ -2470,7 +2638,8 @@
     "note": "A small-time paranormal investigator discovers that a grim reaper is haunting his town in this comic supernatural mystery.",
     "spoiler": "The Frighteners — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "the_frighteners_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/the-frighteners.jpg"
   },
   {
     "id": "cronos",
@@ -2483,7 +2652,8 @@
     "note": "Guillermo del Toro’s feature debut follows an antique device that grants its owner a disturbing form of longevity.",
     "spoiler": "Cronos — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "cronos_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/cronos.jpg"
   },
   {
     "id": "mimic",
@@ -2496,7 +2666,8 @@
     "note": "Scientists confront an engineered insect species that has adapted to hunt in the New York subway system.",
     "spoiler": "Mimic — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "mimic_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/mimic.jpg"
   },
   {
     "id": "ringu",
@@ -2509,7 +2680,8 @@
     "note": "A journalist investigates a cursed videotape in the influential Japanese ghost story that helped define modern J-horror.",
     "spoiler": "Ringu — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "ringu_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/ringu.jpg"
   },
   {
     "id": "the-faculty",
@@ -2522,6 +2694,1295 @@
     "note": "Students suspect an alien presence has taken over their school in a fast-moving science-fiction horror ensemble.",
     "spoiler": "The Faculty — setup and premise details are kept spoiler-light. Open the linked film references for a full synopsis.",
     "wiki": "the_faculty_(film)",
-    "art": "svg"
+    "art": "jpg",
+    "poster": "assets/the-faculty.jpg"
+  },
+  {
+    "id": "little-shop-of-horrors",
+    "title": "Little Shop of Horrors",
+    "year": 1986,
+    "director": "Frank Oz",
+    "category": "chaos",
+    "note": "A timid florist discovers that a show-stopping plant has a very demanding appetite.",
+    "reference": "https://www.rottentomatoes.com/m/1012515-little_shop_of_horrors",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/little-shop-of-horrors.jpg"
+  },
+  {
+    "id": "santa-sangre",
+    "title": "Santa Sangre",
+    "year": 1989,
+    "director": "Alejandro Jodorowsky",
+    "category": "psychological",
+    "note": "A circus nightmare unfolds through fractured memory, obsession, and an unsettling family bond.",
+    "reference": "https://www.rottentomatoes.com/m/santa_sangre",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/santa-sangre.jpg"
+  },
+  {
+    "id": "dead-ringers",
+    "title": "Dead Ringers",
+    "year": 1988,
+    "director": "David Cronenberg",
+    "category": "body",
+    "note": "Twin gynecologists lose their boundaries in a cold, intimate nightmare of dependence.",
+    "reference": "https://www.rottentomatoes.com/m/dead_ringers",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/dead-ringers.jpg"
+  },
+  {
+    "id": "altered-states",
+    "title": "Altered States",
+    "year": 1980,
+    "director": "Ken Russell",
+    "category": "body",
+    "note": "A scientist's sensory-deprivation experiments send his search for origins dangerously inward.",
+    "reference": "https://www.rottentomatoes.com/m/altered_states",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/altered-states.jpg"
+  },
+  {
+    "id": "beetlejuice",
+    "title": "Beetlejuice",
+    "year": 1988,
+    "director": "Tim Burton",
+    "category": "chaos",
+    "note": "Two ghosts discover that haunting their own home is harder than it looks.",
+    "reference": "https://www.rottentomatoes.com/m/beetlejuice",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/beetlejuice.jpg"
+  },
+  {
+    "id": "the-company-of-wolves",
+    "title": "The Company of Wolves",
+    "year": 1984,
+    "director": "Neil Jordan",
+    "category": "creatures",
+    "note": "A dark fairy tale follows a girl through a forest where stories and predators mingle.",
+    "reference": "https://www.rottentomatoes.com/m/company_of_wolves",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-company-of-wolves.jpg"
+  },
+  {
+    "id": "tetsuo-the-iron-man",
+    "title": "Tetsuo: The Iron Man",
+    "year": 1989,
+    "director": "Shin'ya Tsukamoto",
+    "category": "body",
+    "note": "Flesh and machinery collide in a frantic industrial nightmare.",
+    "reference": "https://www.rottentomatoes.com/m/tetsuo-the-ironman",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/tetsuo-the-iron-man.jpg"
+  },
+  {
+    "id": "demons",
+    "title": "Demons",
+    "year": 1985,
+    "director": "Lamberto Bava",
+    "category": "supernatural",
+    "note": "A movie-theater invitation turns an evening at the pictures into a siege.",
+    "reference": "https://www.rottentomatoes.com/m/demons_1985",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/demons.jpg"
+  },
+  {
+    "id": "the-witches-of-eastwick",
+    "title": "The Witches of Eastwick",
+    "year": 1987,
+    "director": "George Miller",
+    "category": "supernatural",
+    "note": "Three friends discover that their mysterious new neighbor is a dangerous answer to their wishes.",
+    "reference": "https://www.rottentomatoes.com/m/witches_of_eastwick",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-witches-of-eastwick.jpg"
+  },
+  {
+    "id": "the-lair-of-the-white-worm",
+    "title": "The Lair of the White Worm",
+    "year": 1988,
+    "director": "Ken Russell",
+    "category": "creatures",
+    "note": "An archaeological find stirs a serpentine menace beneath an English country house.",
+    "reference": "https://www.rottentomatoes.com/m/lair_of_the_white_worm",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-lair-of-the-white-worm.jpg"
+  },
+  {
+    "id": "vampire-s-kiss",
+    "title": "Vampire's Kiss",
+    "year": 1988,
+    "director": "Robert Bierman",
+    "category": "psychological",
+    "note": "A literary agent's conviction that he is becoming a vampire sends his life into a spiral.",
+    "reference": "https://www.rottentomatoes.com/m/vampires_kiss",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/vampire-s-kiss.jpg"
+  },
+  {
+    "id": "the-church",
+    "title": "The Church",
+    "year": 1989,
+    "director": "Michele Soavi",
+    "category": "supernatural",
+    "note": "An old cathedral holds a history that refuses to stay beneath the floor.",
+    "reference": "https://www.rottentomatoes.com/m/the_church",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-church.jpg"
+  },
+  {
+    "id": "the-serpent-and-the-rainbow",
+    "title": "The Serpent and the Rainbow",
+    "year": 1988,
+    "director": "Wes Craven",
+    "category": "supernatural",
+    "note": "A research trip into the mysteries of zombification becomes a waking nightmare.",
+    "reference": "https://www.rottentomatoes.com/m/serpent_and_the_rainbow",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-serpent-and-the-rainbow.jpg"
+  },
+  {
+    "id": "twilight-zone-the-movie",
+    "title": "Twilight Zone: The Movie",
+    "year": 1983,
+    "director": "John Landis, Steven Spielberg, Joe Dante, George Miller",
+    "category": "anthology",
+    "note": "Four filmmakers take an anthology trip through strange wishes, monstrous fears, and altered realities.",
+    "reference": "https://www.rottentomatoes.com/m/twilight_zone_the_movie",
+    "minutes": null,
+    "tag": "1980s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/twilight-zone-the-movie.jpg"
+  },
+  {
+    "id": "cure",
+    "title": "Cure",
+    "year": 1997,
+    "director": "Kiyoshi Kurosawa",
+    "category": "psychological",
+    "note": "A detective investigates murders connected by a disturbing pattern and a stranger's questions.",
+    "reference": "https://www.rottentomatoes.com/m/cure_1997",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/cure.jpg"
+  },
+  {
+    "id": "arachnophobia",
+    "title": "Arachnophobia",
+    "year": 1990,
+    "director": "Frank Marshall",
+    "category": "creatures",
+    "note": "A small town becomes the wrong destination for a very dangerous spider.",
+    "reference": "https://www.rottentomatoes.com/m/arachnophobia",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/arachnophobia.jpg"
+  },
+  {
+    "id": "misery",
+    "title": "Misery",
+    "year": 1990,
+    "director": "Rob Reiner",
+    "category": "psychological",
+    "note": "An injured novelist discovers that his rescuer is his most demanding reader.",
+    "reference": "https://www.rottentomatoes.com/m/misery",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/misery.jpg"
+  },
+  {
+    "id": "the-blair-witch-project",
+    "title": "The Blair Witch Project",
+    "year": 1999,
+    "director": "Daniel Myrick, Eduardo Sánchez",
+    "category": "supernatural",
+    "note": "Three filmmakers head into the woods to investigate a local legend and lose their bearings.",
+    "reference": "https://www.rottentomatoes.com/m/blair_witch_project",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-blair-witch-project.jpg"
+  },
+  {
+    "id": "the-sixth-sense",
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "director": "M. Night Shyamalan",
+    "category": "supernatural",
+    "note": "A troubled boy and a child psychologist confront encounters that adults cannot explain.",
+    "reference": "https://www.rottentomatoes.com/m/sixth_sense",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-sixth-sense.jpg"
+  },
+  {
+    "id": "seven",
+    "title": "Seven",
+    "year": 1995,
+    "director": "David Fincher",
+    "category": "psychological",
+    "note": "Two detectives follow a grim sequence of murders through a rain-soaked city.",
+    "reference": "https://www.rottentomatoes.com/m/seven",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/seven.jpg"
+  },
+  {
+    "id": "scream-2",
+    "title": "Scream 2",
+    "year": 1997,
+    "director": "Wes Craven",
+    "category": "slashers",
+    "note": "A college campus becomes the next setting for a familiar masked nightmare.",
+    "reference": "https://www.rottentomatoes.com/m/scream_2",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/scream-2.jpg"
+  },
+  {
+    "id": "audition",
+    "title": "Audition",
+    "year": 1999,
+    "director": "Takashi Miike",
+    "category": "psychological",
+    "note": "A widower's staged casting call introduces him to someone he should have known better.",
+    "reference": "https://www.rottentomatoes.com/m/audition_1999",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/audition.jpg"
+  },
+  {
+    "id": "wes-craven-s-new-nightmare",
+    "title": "Wes Craven's New Nightmare",
+    "year": 1994,
+    "director": "Wes Craven",
+    "category": "supernatural",
+    "note": "The people behind a familiar horror franchise discover that fiction is crossing the boundary.",
+    "reference": "https://www.rottentomatoes.com/m/wes_cravens_new_nightmare",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/wes-craven-s-new-nightmare.jpg"
+  },
+  {
+    "id": "cape-fear",
+    "title": "Cape Fear",
+    "year": 1991,
+    "director": "Martin Scorsese",
+    "category": "psychological",
+    "note": "An ex-convict brings a calculating campaign of intimidation to a lawyer's family.",
+    "reference": "https://www.rottentomatoes.com/m/1037581-cape_fear",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/cape-fear.jpg"
+  },
+  {
+    "id": "basket-case-2",
+    "title": "Basket Case 2",
+    "year": 1990,
+    "director": "Frank Henenlotter",
+    "category": "body",
+    "note": "Two unusual brothers find refuge with a household of fellow outsiders.",
+    "reference": "https://www.rottentomatoes.com/m/basket_case_2",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/basket-case-2.jpg"
+  },
+  {
+    "id": "mute-witness",
+    "title": "Mute Witness",
+    "year": 1995,
+    "director": "Anthony Waller",
+    "category": "psychological",
+    "note": "A film worker witnesses something after hours that makes the set a dangerous place to hide.",
+    "reference": "https://www.rottentomatoes.com/m/mute_witness",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/mute-witness.jpg"
+  },
+  {
+    "id": "habit",
+    "title": "Habit",
+    "year": 1996,
+    "director": "Larry Fessenden",
+    "category": "creatures",
+    "note": "A New York encounter turns desire and grief into an uncertain vampire story.",
+    "reference": "https://www.rottentomatoes.com/m/habit",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/habit.jpg"
+  },
+  {
+    "id": "funny-games",
+    "title": "Funny Games",
+    "year": 1997,
+    "director": "Michael Haneke",
+    "category": "psychological",
+    "note": "Two polite strangers invade a family's holiday and turn hospitality against them.",
+    "reference": "https://www.rottentomatoes.com/m/1083791-funny_games",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/funny-games.jpg"
+  },
+  {
+    "id": "body-bags",
+    "title": "Body Bags",
+    "year": 1993,
+    "director": "John Carpenter, Tobe Hooper",
+    "category": "anthology",
+    "note": "A late-night morgue introduces three twisted tales of roads, vanity, and strange visions.",
+    "reference": "https://www.rottentomatoes.com/m/body_bags",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/body-bags.jpg"
+  },
+  {
+    "id": "gremlins-2-the-new-batch",
+    "title": "Gremlins 2: The New Batch",
+    "year": 1990,
+    "director": "Joe Dante",
+    "category": "creatures",
+    "note": "The creatures invade a high-tech tower and treat every system as a playground.",
+    "reference": "https://www.rottentomatoes.com/m/gremlins_2_the_new_batch",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/gremlins-2-the-new-batch.jpg"
+  },
+  {
+    "id": "sleepy-hollow",
+    "title": "Sleepy Hollow",
+    "year": 1999,
+    "director": "Tim Burton",
+    "category": "supernatural",
+    "note": "A skeptical investigator follows a headless legend through a fogbound village.",
+    "reference": "https://www.rottentomatoes.com/m/sleepy_hollow",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/sleepy-hollow.jpg"
+  },
+  {
+    "id": "stir-of-echoes",
+    "title": "Stir of Echoes",
+    "year": 1999,
+    "director": "David Koepp",
+    "category": "supernatural",
+    "note": "A hypnotic suggestion opens a working-class father's mind to an unwelcome presence.",
+    "reference": "https://www.rottentomatoes.com/m/stir_of_echoes",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/stir-of-echoes.jpg"
+  },
+  {
+    "id": "the-stendhal-syndrome",
+    "title": "The Stendhal Syndrome",
+    "year": 1996,
+    "director": "Dario Argento",
+    "category": "psychological",
+    "note": "An art-triggered collapse draws a detective into a dangerous pursuit.",
+    "reference": "https://www.rottentomatoes.com/m/stendhal_syndrome",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-stendhal-syndrome.jpg"
+  },
+  {
+    "id": "bram-stoker-s-dracula",
+    "title": "Bram Stoker's Dracula",
+    "year": 1992,
+    "director": "Francis Ford Coppola",
+    "category": "creatures",
+    "note": "An ancient count carries his obsession from a mountain castle to Victorian London.",
+    "reference": "https://www.rottentomatoes.com/m/bram_stokers_dracula",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/bram-stoker-s-dracula.jpg"
+  },
+  {
+    "id": "body-snatchers",
+    "title": "Body Snatchers",
+    "year": 1993,
+    "director": "Abel Ferrara",
+    "category": "scifi",
+    "note": "A teenager at a military base notices that familiar people are losing something essential.",
+    "reference": "https://www.rottentomatoes.com/m/body_snatchers",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/body-snatchers.jpg"
+  },
+  {
+    "id": "stephen-king-s-it",
+    "title": "Stephen King's It",
+    "year": 1990,
+    "director": "Tommy Lee Wallace",
+    "category": "supernatural",
+    "note": "Childhood friends face a recurring terror hiding behind a clown's grin.",
+    "reference": "https://www.rottentomatoes.com/m/stephen_kings_it",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/stephen-king-s-it.jpg"
+  },
+  {
+    "id": "the-people-under-the-stairs",
+    "title": "The People Under the Stairs",
+    "year": 1991,
+    "director": "Wes Craven",
+    "category": "chaos",
+    "note": "A burglary leads a boy into a house whose respectable owners conceal a monstrous secret.",
+    "reference": "https://www.rottentomatoes.com/m/people_under_the_stairs",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-people-under-the-stairs.jpg"
+  },
+  {
+    "id": "sometimes-they-come-back",
+    "title": "Sometimes They Come Back",
+    "year": 1991,
+    "director": "Tom McLoughlin",
+    "category": "supernatural",
+    "note": "A teacher's return to his hometown brings old tormentors back into his classroom.",
+    "reference": "https://www.rottentomatoes.com/m/sometimes_they_come_back",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/sometimes-they-come-back.jpg"
+  },
+  {
+    "id": "from-dusk-till-dawn",
+    "title": "From Dusk Till Dawn",
+    "year": 1996,
+    "director": "Robert Rodriguez",
+    "category": "creatures",
+    "note": "A fugitive road trip ends at a bar with a very unusual nighttime clientele.",
+    "reference": "https://www.rottentomatoes.com/m/from_dusk_till_dawn",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/from-dusk-till-dawn.jpg"
+  },
+  {
+    "id": "the-devil-s-advocate",
+    "title": "The Devil's Advocate",
+    "year": 1997,
+    "director": "Taylor Hackford",
+    "category": "supernatural",
+    "note": "A rising lawyer discovers the cost of ambition at a powerful New York firm.",
+    "reference": "https://www.rottentomatoes.com/m/devils_advocate",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-devil-s-advocate.jpg"
+  },
+  {
+    "id": "interview-with-the-vampire",
+    "title": "Interview With the Vampire",
+    "year": 1994,
+    "director": "Neil Jordan",
+    "category": "creatures",
+    "note": "A vampire tells the story of immortality, companionship, and a life that refuses to end.",
+    "reference": "https://www.rottentomatoes.com/m/interview_with_the_vampire",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/interview-with-the-vampire.jpg"
+  },
+  {
+    "id": "raising-cain",
+    "title": "Raising Cain",
+    "year": 1992,
+    "director": "Brian De Palma",
+    "category": "psychological",
+    "note": "A child psychologist's family life becomes a maze of identities and dangerous experiments.",
+    "reference": "https://www.rottentomatoes.com/m/raising_cain",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/raising-cain.jpg"
+  },
+  {
+    "id": "nadja",
+    "title": "Nadja",
+    "year": 1994,
+    "director": "Michael Almereyda",
+    "category": "creatures",
+    "note": "A vampire family drifts through a shadowy New York in a stark, dreamlike nocturne.",
+    "reference": "https://www.rottentomatoes.com/m/nadja",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/nadja.jpg"
+  },
+  {
+    "id": "tremors-ii-aftershocks",
+    "title": "Tremors II: Aftershocks",
+    "year": 1996,
+    "director": "S.S. Wilson",
+    "category": "creatures",
+    "note": "The monster hunters return to a job where the underground threat has learned new tricks.",
+    "reference": "https://www.rottentomatoes.com/m/tremors_2_aftershocks",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/tremors-ii-aftershocks.jpg"
+  },
+  {
+    "id": "cemetery-man",
+    "title": "Cemetery Man",
+    "year": 1994,
+    "director": "Michele Soavi",
+    "category": "supernatural",
+    "note": "A cemetery caretaker has an exhausting problem: the residents will not stay buried.",
+    "reference": "https://www.rottentomatoes.com/m/cemetery_man",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/cemetery-man.jpg"
+  },
+  {
+    "id": "two-evil-eyes",
+    "title": "Two Evil Eyes",
+    "year": 1990,
+    "director": "Dario Argento, George A. Romero",
+    "category": "anthology",
+    "note": "Two directors rework Poe into tales of guilt, greed, and an unwelcome return.",
+    "reference": "https://www.rottentomatoes.com/m/two_evil_eyes",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/two-evil-eyes.jpg"
+  },
+  {
+    "id": "maniac-cop-2",
+    "title": "Maniac Cop 2",
+    "year": 1990,
+    "director": "William Lustig",
+    "category": "slashers",
+    "note": "A city's uniformed killer returns while detectives try to make sense of the impossible.",
+    "reference": "https://www.rottentomatoes.com/m/maniac_cop_2",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/maniac-cop-2.jpg"
+  },
+  {
+    "id": "wolf",
+    "title": "Wolf",
+    "year": 1994,
+    "director": "Mike Nichols",
+    "category": "creatures",
+    "note": "An aging editor finds that a wolf bite is changing more than his professional confidence.",
+    "reference": "https://www.rottentomatoes.com/m/1053942-wolf",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/wolf.jpg"
+  },
+  {
+    "id": "cube",
+    "title": "Cube",
+    "year": 1997,
+    "director": "Vincenzo Natali",
+    "category": "scifi",
+    "note": "Strangers wake inside a deadly geometric maze and must learn its rules together.",
+    "reference": "https://www.rottentomatoes.com/m/cube",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/cube.jpg"
+  },
+  {
+    "id": "tales-from-the-hood",
+    "title": "Tales From the Hood",
+    "year": 1995,
+    "director": "Rusty Cundieff",
+    "category": "anthology",
+    "note": "A funeral-home visit becomes a set of horror stories with a sharp social bite.",
+    "reference": "https://www.rottentomatoes.com/m/tales_from_the_hood",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/tales-from-the-hood.jpg"
+  },
+  {
+    "id": "kolobos",
+    "title": "Kolobos",
+    "year": 1999,
+    "director": "Daniel Liatowitsch, David Todd Ocvirk",
+    "category": "slashers",
+    "note": "A group filmed inside a house discovers that the experiment has turned deadly.",
+    "reference": "https://www.rottentomatoes.com/m/kolobos",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/kolobos.jpg"
+  },
+  {
+    "id": "blade",
+    "title": "Blade",
+    "year": 1998,
+    "director": "Stephen Norrington",
+    "category": "creatures",
+    "note": "A half-vampire hunter takes on a hidden society operating beneath the city.",
+    "reference": "https://www.rottentomatoes.com/m/1083484-blade",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/blade.jpg"
+  },
+  {
+    "id": "death-becomes-her",
+    "title": "Death Becomes Her",
+    "year": 1992,
+    "director": "Robert Zemeckis",
+    "category": "chaos",
+    "note": "Two rivals discover that a promise of eternal youth has difficult maintenance requirements.",
+    "reference": "https://www.rottentomatoes.com/m/death_becomes_her",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/death-becomes-her.jpg"
+  },
+  {
+    "id": "the-exorcist-iii",
+    "title": "The Exorcist III",
+    "year": 1990,
+    "director": "William Peter Blatty",
+    "category": "supernatural",
+    "note": "An investigator finds echoes of an old killer in a case tied to a psychiatric ward.",
+    "reference": "https://www.rottentomatoes.com/m/exorcist_3",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-exorcist-iii.jpg"
+  },
+  {
+    "id": "the-dark-half",
+    "title": "The Dark Half",
+    "year": 1993,
+    "director": "George A. Romero",
+    "category": "supernatural",
+    "note": "A writer retires his pseudonym and discovers that the other identity will not disappear.",
+    "reference": "https://www.rottentomatoes.com/m/dark_half",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-dark-half.jpg"
+  },
+  {
+    "id": "snow-white-a-tale-of-terror",
+    "title": "Snow White: A Tale of Terror",
+    "year": 1997,
+    "director": "Michael Cohn",
+    "category": "supernatural",
+    "note": "A familiar fairy tale becomes a bitter family struggle in a dark medieval forest.",
+    "reference": "https://www.rottentomatoes.com/m/snow_white_a_tale_of_terror",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/snow-white-a-tale-of-terror.jpg"
+  },
+  {
+    "id": "night-of-the-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1990,
+    "director": "Tom Savini",
+    "category": "supernatural",
+    "note": "Strangers barricade a farmhouse while the dead gather outside in this 1990 retelling.",
+    "reference": "https://www.rottentomatoes.com/m/night_of_the_living_dead_1990",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/night-of-the-living-dead.jpg"
+  },
+  {
+    "id": "the-craft",
+    "title": "The Craft",
+    "year": 1996,
+    "director": "Andrew Fleming",
+    "category": "supernatural",
+    "note": "Four schoolgirls discover that shared power can turn friendship into a dangerous bargain.",
+    "reference": "https://www.rottentomatoes.com/m/craft",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-craft.jpg"
+  },
+  {
+    "id": "alien-resurrection",
+    "title": "Alien Resurrection",
+    "year": 1997,
+    "director": "Jean-Pierre Jeunet",
+    "category": "scifi",
+    "note": "A cloned survivor wakes aboard a research vessel that has repeated the wrong experiment.",
+    "reference": "https://www.rottentomatoes.com/m/alien_resurrection",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/alien-resurrection.jpg"
+  },
+  {
+    "id": "halloween-h20-20-years-later",
+    "title": "Halloween H20: 20 Years Later",
+    "year": 1998,
+    "director": "Steve Miner",
+    "category": "slashers",
+    "note": "A survivor's new life at a school is interrupted by the past she tried to leave behind.",
+    "reference": "https://www.rottentomatoes.com/m/halloween_h2o_20_years_later",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/halloween-h20-20-years-later.jpg"
+  },
+  {
+    "id": "apt-pupil",
+    "title": "Apt Pupil",
+    "year": 1998,
+    "director": "Bryan Singer",
+    "category": "psychological",
+    "note": "A teenager's fascination with a neighbor's hidden history becomes a corrosive relationship.",
+    "reference": "https://www.rottentomatoes.com/m/apt_pupil",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/apt-pupil.jpg"
+  },
+  {
+    "id": "lord-of-illusions",
+    "title": "Lord of Illusions",
+    "year": 1995,
+    "director": "Clive Barker",
+    "category": "supernatural",
+    "note": "A private investigator enters a world where stage magic conceals something much darker.",
+    "reference": "https://www.rottentomatoes.com/m/lord_of_illusions",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/lord-of-illusions.jpg"
+  },
+  {
+    "id": "ravenous",
+    "title": "Ravenous",
+    "year": 1999,
+    "director": "Antonia Bird",
+    "category": "creatures",
+    "note": "An isolated frontier outpost receives a stranger carrying an unsettling appetite.",
+    "reference": "https://www.rottentomatoes.com/m/ravenous",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/ravenous.jpg"
+  },
+  {
+    "id": "flatliners",
+    "title": "Flatliners",
+    "year": 1990,
+    "director": "Joel Schumacher",
+    "category": "supernatural",
+    "note": "Medical students experiment with near-death experiences and bring their pasts back with them.",
+    "reference": "https://www.rottentomatoes.com/m/flatliners",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/flatliners.jpg"
+  },
+  {
+    "id": "i-know-what-you-did-last-summer",
+    "title": "I Know What You Did Last Summer",
+    "year": 1997,
+    "director": "Jim Gillespie",
+    "category": "slashers",
+    "note": "Four friends discover that a secret from the previous summer has not stayed buried.",
+    "reference": "https://www.rottentomatoes.com/m/i_know_what_you_did_last_summer",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/i-know-what-you-did-last-summer.jpg"
+  },
+  {
+    "id": "bride-of-chucky",
+    "title": "Bride of Chucky",
+    "year": 1998,
+    "director": "Ronnie Yu",
+    "category": "slashers",
+    "note": "Two murderous dolls take their relationship problems on a chaotic road trip.",
+    "reference": "https://www.rottentomatoes.com/m/bride_of_chucky",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/bride-of-chucky.jpg"
+  },
+  {
+    "id": "child-s-play-2",
+    "title": "Child's Play 2",
+    "year": 1990,
+    "director": "John Lafia",
+    "category": "slashers",
+    "note": "A young survivor finds that a rebuilt toy has returned to finish its business.",
+    "reference": "https://www.rottentomatoes.com/m/childs_play_2",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/child-s-play-2.jpg"
+  },
+  {
+    "id": "tales-from-the-darkside-the-movie",
+    "title": "Tales From the Darkside: The Movie",
+    "year": 1990,
+    "director": "John Harrison",
+    "category": "anthology",
+    "note": "A captive storyteller buys time with three tales of monsters, promises, and revenge.",
+    "reference": "https://www.rottentomatoes.com/m/tales_from_the_darkside_the_movie",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/tales-from-the-darkside-the-movie.jpg"
+  },
+  {
+    "id": "tales-from-the-crypt-presents-demon-knight",
+    "title": "Tales From the Crypt Presents Demon Knight",
+    "year": 1995,
+    "director": "Ernest R. Dickerson",
+    "category": "supernatural",
+    "note": "A roadside boarding house becomes the battleground for an ancient pursuit.",
+    "reference": "https://www.rottentomatoes.com/m/tales_from_the_crypt_presents_demon_knight",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/tales-from-the-crypt-presents-demon-knight.jpg"
+  },
+  {
+    "id": "alien-3",
+    "title": "Alien 3",
+    "year": 1992,
+    "director": "David Fincher",
+    "category": "scifi",
+    "note": "A crash landing leaves a survivor inside a prison with another uninvited passenger.",
+    "reference": "https://www.rottentomatoes.com/m/alien3",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/alien-3.jpg"
+  },
+  {
+    "id": "species",
+    "title": "Species",
+    "year": 1995,
+    "director": "Roger Donaldson",
+    "category": "scifi",
+    "note": "A research team hunts an escaped experiment that can pass for human.",
+    "reference": "https://www.rottentomatoes.com/m/species",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/species.jpg"
+  },
+  {
+    "id": "anaconda",
+    "title": "Anaconda",
+    "year": 1997,
+    "director": "Luis Llosa",
+    "category": "creatures",
+    "note": "A documentary crew's river journey is hijacked by an obsession with a giant predator.",
+    "reference": "https://www.rottentomatoes.com/m/anaconda",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/anaconda.jpg"
+  },
+  {
+    "id": "hellraiser-iii-hell-on-earth",
+    "title": "Hellraiser III: Hell on Earth",
+    "year": 1992,
+    "director": "Anthony Hickox",
+    "category": "supernatural",
+    "note": "A reporter investigates a nightclub statue that contains an extremely unwelcome guest.",
+    "reference": "https://www.rottentomatoes.com/m/hellraiser_iii_hell_on_earth",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/hellraiser-iii-hell-on-earth.jpg"
+  },
+  {
+    "id": "popcorn",
+    "title": "Popcorn",
+    "year": 1991,
+    "director": "Mark Herrier",
+    "category": "slashers",
+    "note": "A student horror marathon brings elaborate movie gimmicks and a real killer into the theater.",
+    "reference": "https://www.rottentomatoes.com/m/popcorn_1990",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/popcorn.jpg"
+  },
+  {
+    "id": "body-parts",
+    "title": "Body Parts",
+    "year": 1991,
+    "director": "Eric Red",
+    "category": "body",
+    "note": "A transplant patient suspects that his new arm carries something from its previous owner.",
+    "reference": "https://www.rottentomatoes.com/m/body_parts",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/body-parts.jpg"
+  },
+  {
+    "id": "disturbing-behavior",
+    "title": "Disturbing Behavior",
+    "year": 1998,
+    "director": "David Nutter",
+    "category": "scifi",
+    "note": "Two outsiders question why their school's model students have become so unnaturally perfect.",
+    "reference": "https://www.rottentomatoes.com/m/disturbing_behavior",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/disturbing-behavior.jpg"
+  },
+  {
+    "id": "needful-things",
+    "title": "Needful Things",
+    "year": 1993,
+    "director": "Fraser C. Heston",
+    "category": "supernatural",
+    "note": "A new shop offers a small town exactly what it wants at a much darker price.",
+    "reference": "https://www.rottentomatoes.com/m/needful_things",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/needful-things.jpg"
+  },
+  {
+    "id": "leprechaun",
+    "title": "Leprechaun",
+    "year": 1993,
+    "director": "Mark Jones",
+    "category": "creatures",
+    "note": "A stolen pot of gold brings a vicious folkloric visitor to a rural house.",
+    "reference": "https://www.rottentomatoes.com/m/leprechaun",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/leprechaun.jpg"
+  },
+  {
+    "id": "evil-toons",
+    "title": "Evil Toons",
+    "year": 1992,
+    "director": "Fred Olen Ray",
+    "category": "chaos",
+    "note": "A cleaning job in an old house is interrupted by a monster with cartoon rules.",
+    "reference": "https://www.rottentomatoes.com/m/evil_toons",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/evil-toons.jpg"
+  },
+  {
+    "id": "house-on-haunted-hill",
+    "title": "House on Haunted Hill",
+    "year": 1999,
+    "director": "William Malone",
+    "category": "supernatural",
+    "note": "A cash-prize overnight stay draws guests into an abandoned institution with a violent history.",
+    "reference": "https://www.rottentomatoes.com/m/1093881-house_on_haunted_hill",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/house-on-haunted-hill.jpg"
+  },
+  {
+    "id": "urban-legend",
+    "title": "Urban Legend",
+    "year": 1998,
+    "director": "Jamie Blanks",
+    "category": "slashers",
+    "note": "A college campus becomes the setting for murders modeled on familiar cautionary stories.",
+    "reference": "https://www.rottentomatoes.com/m/urban_legend",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/urban-legend.jpg"
+  },
+  {
+    "id": "children-of-the-corn-ii-the-final-sacrifice",
+    "title": "Children of the Corn II: The Final Sacrifice",
+    "year": 1993,
+    "director": "David Price",
+    "category": "supernatural",
+    "note": "A reporter and his son reach a town where the aftermath of a massacre is far from over.",
+    "reference": "https://www.rottentomatoes.com/m/children_of_the_corn_ii_the_final_sacrifice",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/children-of-the-corn-ii-the-final-sacrifice.jpg"
+  },
+  {
+    "id": "sleepwalkers",
+    "title": "Sleepwalkers",
+    "year": 1992,
+    "director": "Mick Garris",
+    "category": "creatures",
+    "note": "A mother and son arrive in a small town with a secret that the local cats seem to understand.",
+    "reference": "https://www.rottentomatoes.com/m/sleepwalkers",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/sleepwalkers.jpg"
+  },
+  {
+    "id": "wishmaster",
+    "title": "Wishmaster",
+    "year": 1997,
+    "director": "Robert Kurtzman",
+    "category": "supernatural",
+    "note": "An ancient djinn offers wishes whose literal consequences are never what anyone intended.",
+    "reference": "https://www.rottentomatoes.com/m/wishmaster",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/wishmaster.jpg"
+  },
+  {
+    "id": "the-good-son",
+    "title": "The Good Son",
+    "year": 1993,
+    "director": "Joseph Ruben",
+    "category": "psychological",
+    "note": "A boy staying with relatives begins to fear the child everyone else trusts.",
+    "reference": "https://www.rottentomatoes.com/m/good_son",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-good-son.jpg"
+  },
+  {
+    "id": "the-guardian",
+    "title": "The Guardian",
+    "year": 1990,
+    "director": "William Friedkin",
+    "category": "supernatural",
+    "note": "New parents discover that their nanny's connection to the woods is more than a hobby.",
+    "reference": "https://www.rottentomatoes.com/m/1028564-guardian",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-guardian.jpg"
+  },
+  {
+    "id": "hellraiser-bloodline",
+    "title": "Hellraiser: Bloodline",
+    "year": 1996,
+    "director": "Kevin Yagher, Joe Chappelle",
+    "category": "supernatural",
+    "note": "A cursed box links several generations across a story of invention and obsession.",
+    "reference": "https://www.rottentomatoes.com/m/hellraiser-bloodline",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/hellraiser-bloodline.jpg"
+  },
+  {
+    "id": "freddy-s-dead-the-final-nightmare",
+    "title": "Freddy's Dead: The Final Nightmare",
+    "year": 1991,
+    "director": "Rachel Talalay",
+    "category": "slashers",
+    "note": "The last survivors of a nightmare-haunted town enter Freddy's stranger final chapter.",
+    "reference": "https://www.rottentomatoes.com/m/freddys_dead_the_final_nightmare",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/freddy-s-dead-the-final-nightmare.jpg"
+  },
+  {
+    "id": "the-rage-carrie-2",
+    "title": "The Rage: Carrie 2",
+    "year": 1999,
+    "director": "Katt Shea",
+    "category": "supernatural",
+    "note": "A teenager with dangerous powers faces the cruelty of a new school generation.",
+    "reference": "https://www.rottentomatoes.com/m/rage_carrie_2",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/the-rage-carrie-2.jpg"
+  },
+  {
+    "id": "dr-giggles",
+    "title": "Dr. Giggles",
+    "year": 1992,
+    "director": "Manny Coto",
+    "category": "slashers",
+    "note": "An escaped killer brings a warped bedside manner to a small town.",
+    "reference": "https://www.rottentomatoes.com/m/dr_giggles",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/dr-giggles.jpg"
+  },
+  {
+    "id": "stigmata",
+    "title": "Stigmata",
+    "year": 1999,
+    "director": "Rupert Wainwright",
+    "category": "supernatural",
+    "note": "A young woman's inexplicable wounds draw an investigator into a conflict over faith and power.",
+    "reference": "https://www.rottentomatoes.com/m/stigmata",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/stigmata.jpg"
+  },
+  {
+    "id": "candyman-farewell-to-the-flesh",
+    "title": "Candyman: Farewell to the Flesh",
+    "year": 1995,
+    "director": "Bill Condon",
+    "category": "supernatural",
+    "note": "A New Orleans teacher encounters a legend whose history reaches into her own family.",
+    "reference": "https://www.rottentomatoes.com/m/candyman_farewell_to_the_flesh",
+    "minutes": null,
+    "tag": "1990s HORROR VAULT",
+    "spoiler": "This rental note keeps the setup brief. Follow the film-details link for complete cast and production information.",
+    "art": "jpg",
+    "poster": "assets/candyman-farewell-to-the-flesh.jpg"
   }
 ]

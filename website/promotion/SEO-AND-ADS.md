@@ -2,7 +2,7 @@
 
 ## Implemented SEO foundation
 
-All three public pages have distinct descriptive titles/meta descriptions, one canonical URL, Open Graph and social-card metadata using original NCV artwork, and truthful basic WebSite/CollectionPage structured data. sitemap.xml lists the homepage, screening room, and Lounge; robots.txt advertises it. The screening room's six movie posters, original editorial notes, director names, and official-service links now appear in the initial HTML. JavaScript enhances filtering, saving and popups; it is no longer required to read those six rentals.
+All three public pages have distinct descriptive titles/meta descriptions, one canonical URL, Open Graph and social-card metadata using original NCV artwork, and truthful basic WebSite/CollectionPage structured data. sitemap.xml lists the homepage, screening room, and Lounge; robots.txt advertises it. The screening room's 261 movie posters, original editorial notes, director names, and official-service links now appear in the initial HTML. JavaScript enhances filtering, saving and popups; it is no longer required to read those 261 rentals.
 
 Sitemap: https://neoncoffinvideo.site/sitemap.xml
 

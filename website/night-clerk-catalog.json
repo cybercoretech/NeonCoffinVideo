@@ -1480,6 +1480,742 @@
     "note": "Students suspect an alien presence has taken over their school in a fast-moving science-fiction horror ensemble."
   },
   {
+    "id": "little-shop-of-horrors",
+    "title": "Little Shop of Horrors",
+    "year": 1986,
+    "director": "Frank Oz",
+    "category": "chaos",
+    "note": "A timid florist discovers that a show-stopping plant has a very demanding appetite."
+  },
+  {
+    "id": "santa-sangre",
+    "title": "Santa Sangre",
+    "year": 1989,
+    "director": "Alejandro Jodorowsky",
+    "category": "psychological",
+    "note": "A circus nightmare unfolds through fractured memory, obsession, and an unsettling family bond."
+  },
+  {
+    "id": "dead-ringers",
+    "title": "Dead Ringers",
+    "year": 1988,
+    "director": "David Cronenberg",
+    "category": "body",
+    "note": "Twin gynecologists lose their boundaries in a cold, intimate nightmare of dependence."
+  },
+  {
+    "id": "altered-states",
+    "title": "Altered States",
+    "year": 1980,
+    "director": "Ken Russell",
+    "category": "body",
+    "note": "A scientist's sensory-deprivation experiments send his search for origins dangerously inward."
+  },
+  {
+    "id": "beetlejuice",
+    "title": "Beetlejuice",
+    "year": 1988,
+    "director": "Tim Burton",
+    "category": "chaos",
+    "note": "Two ghosts discover that haunting their own home is harder than it looks."
+  },
+  {
+    "id": "the-company-of-wolves",
+    "title": "The Company of Wolves",
+    "year": 1984,
+    "director": "Neil Jordan",
+    "category": "creatures",
+    "note": "A dark fairy tale follows a girl through a forest where stories and predators mingle."
+  },
+  {
+    "id": "tetsuo-the-iron-man",
+    "title": "Tetsuo: The Iron Man",
+    "year": 1989,
+    "director": "Shin'ya Tsukamoto",
+    "category": "body",
+    "note": "Flesh and machinery collide in a frantic industrial nightmare."
+  },
+  {
+    "id": "demons",
+    "title": "Demons",
+    "year": 1985,
+    "director": "Lamberto Bava",
+    "category": "supernatural",
+    "note": "A movie-theater invitation turns an evening at the pictures into a siege."
+  },
+  {
+    "id": "the-witches-of-eastwick",
+    "title": "The Witches of Eastwick",
+    "year": 1987,
+    "director": "George Miller",
+    "category": "supernatural",
+    "note": "Three friends discover that their mysterious new neighbor is a dangerous answer to their wishes."
+  },
+  {
+    "id": "the-lair-of-the-white-worm",
+    "title": "The Lair of the White Worm",
+    "year": 1988,
+    "director": "Ken Russell",
+    "category": "creatures",
+    "note": "An archaeological find stirs a serpentine menace beneath an English country house."
+  },
+  {
+    "id": "vampire-s-kiss",
+    "title": "Vampire's Kiss",
+    "year": 1988,
+    "director": "Robert Bierman",
+    "category": "psychological",
+    "note": "A literary agent's conviction that he is becoming a vampire sends his life into a spiral."
+  },
+  {
+    "id": "the-church",
+    "title": "The Church",
+    "year": 1989,
+    "director": "Michele Soavi",
+    "category": "supernatural",
+    "note": "An old cathedral holds a history that refuses to stay beneath the floor."
+  },
+  {
+    "id": "the-serpent-and-the-rainbow",
+    "title": "The Serpent and the Rainbow",
+    "year": 1988,
+    "director": "Wes Craven",
+    "category": "supernatural",
+    "note": "A research trip into the mysteries of zombification becomes a waking nightmare."
+  },
+  {
+    "id": "twilight-zone-the-movie",
+    "title": "Twilight Zone: The Movie",
+    "year": 1983,
+    "director": "John Landis, Steven Spielberg, Joe Dante, George Miller",
+    "category": "anthology",
+    "note": "Four filmmakers take an anthology trip through strange wishes, monstrous fears, and altered realities."
+  },
+  {
+    "id": "cure",
+    "title": "Cure",
+    "year": 1997,
+    "director": "Kiyoshi Kurosawa",
+    "category": "psychological",
+    "note": "A detective investigates murders connected by a disturbing pattern and a stranger's questions."
+  },
+  {
+    "id": "arachnophobia",
+    "title": "Arachnophobia",
+    "year": 1990,
+    "director": "Frank Marshall",
+    "category": "creatures",
+    "note": "A small town becomes the wrong destination for a very dangerous spider."
+  },
+  {
+    "id": "misery",
+    "title": "Misery",
+    "year": 1990,
+    "director": "Rob Reiner",
+    "category": "psychological",
+    "note": "An injured novelist discovers that his rescuer is his most demanding reader."
+  },
+  {
+    "id": "the-blair-witch-project",
+    "title": "The Blair Witch Project",
+    "year": 1999,
+    "director": "Daniel Myrick, Eduardo Sánchez",
+    "category": "supernatural",
+    "note": "Three filmmakers head into the woods to investigate a local legend and lose their bearings."
+  },
+  {
+    "id": "the-sixth-sense",
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "director": "M. Night Shyamalan",
+    "category": "supernatural",
+    "note": "A troubled boy and a child psychologist confront encounters that adults cannot explain."
+  },
+  {
+    "id": "seven",
+    "title": "Seven",
+    "year": 1995,
+    "director": "David Fincher",
+    "category": "psychological",
+    "note": "Two detectives follow a grim sequence of murders through a rain-soaked city."
+  },
+  {
+    "id": "scream-2",
+    "title": "Scream 2",
+    "year": 1997,
+    "director": "Wes Craven",
+    "category": "slashers",
+    "note": "A college campus becomes the next setting for a familiar masked nightmare."
+  },
+  {
+    "id": "audition",
+    "title": "Audition",
+    "year": 1999,
+    "director": "Takashi Miike",
+    "category": "psychological",
+    "note": "A widower's staged casting call introduces him to someone he should have known better."
+  },
+  {
+    "id": "wes-craven-s-new-nightmare",
+    "title": "Wes Craven's New Nightmare",
+    "year": 1994,
+    "director": "Wes Craven",
+    "category": "supernatural",
+    "note": "The people behind a familiar horror franchise discover that fiction is crossing the boundary."
+  },
+  {
+    "id": "cape-fear",
+    "title": "Cape Fear",
+    "year": 1991,
+    "director": "Martin Scorsese",
+    "category": "psychological",
+    "note": "An ex-convict brings a calculating campaign of intimidation to a lawyer's family."
+  },
+  {
+    "id": "basket-case-2",
+    "title": "Basket Case 2",
+    "year": 1990,
+    "director": "Frank Henenlotter",
+    "category": "body",
+    "note": "Two unusual brothers find refuge with a household of fellow outsiders."
+  },
+  {
+    "id": "mute-witness",
+    "title": "Mute Witness",
+    "year": 1995,
+    "director": "Anthony Waller",
+    "category": "psychological",
+    "note": "A film worker witnesses something after hours that makes the set a dangerous place to hide."
+  },
+  {
+    "id": "habit",
+    "title": "Habit",
+    "year": 1996,
+    "director": "Larry Fessenden",
+    "category": "creatures",
+    "note": "A New York encounter turns desire and grief into an uncertain vampire story."
+  },
+  {
+    "id": "funny-games",
+    "title": "Funny Games",
+    "year": 1997,
+    "director": "Michael Haneke",
+    "category": "psychological",
+    "note": "Two polite strangers invade a family's holiday and turn hospitality against them."
+  },
+  {
+    "id": "body-bags",
+    "title": "Body Bags",
+    "year": 1993,
+    "director": "John Carpenter, Tobe Hooper",
+    "category": "anthology",
+    "note": "A late-night morgue introduces three twisted tales of roads, vanity, and strange visions."
+  },
+  {
+    "id": "gremlins-2-the-new-batch",
+    "title": "Gremlins 2: The New Batch",
+    "year": 1990,
+    "director": "Joe Dante",
+    "category": "creatures",
+    "note": "The creatures invade a high-tech tower and treat every system as a playground."
+  },
+  {
+    "id": "sleepy-hollow",
+    "title": "Sleepy Hollow",
+    "year": 1999,
+    "director": "Tim Burton",
+    "category": "supernatural",
+    "note": "A skeptical investigator follows a headless legend through a fogbound village."
+  },
+  {
+    "id": "stir-of-echoes",
+    "title": "Stir of Echoes",
+    "year": 1999,
+    "director": "David Koepp",
+    "category": "supernatural",
+    "note": "A hypnotic suggestion opens a working-class father's mind to an unwelcome presence."
+  },
+  {
+    "id": "the-stendhal-syndrome",
+    "title": "The Stendhal Syndrome",
+    "year": 1996,
+    "director": "Dario Argento",
+    "category": "psychological",
+    "note": "An art-triggered collapse draws a detective into a dangerous pursuit."
+  },
+  {
+    "id": "bram-stoker-s-dracula",
+    "title": "Bram Stoker's Dracula",
+    "year": 1992,
+    "director": "Francis Ford Coppola",
+    "category": "creatures",
+    "note": "An ancient count carries his obsession from a mountain castle to Victorian London."
+  },
+  {
+    "id": "body-snatchers",
+    "title": "Body Snatchers",
+    "year": 1993,
+    "director": "Abel Ferrara",
+    "category": "scifi",
+    "note": "A teenager at a military base notices that familiar people are losing something essential."
+  },
+  {
+    "id": "stephen-king-s-it",
+    "title": "Stephen King's It",
+    "year": 1990,
+    "director": "Tommy Lee Wallace",
+    "category": "supernatural",
+    "note": "Childhood friends face a recurring terror hiding behind a clown's grin."
+  },
+  {
+    "id": "the-people-under-the-stairs",
+    "title": "The People Under the Stairs",
+    "year": 1991,
+    "director": "Wes Craven",
+    "category": "chaos",
+    "note": "A burglary leads a boy into a house whose respectable owners conceal a monstrous secret."
+  },
+  {
+    "id": "sometimes-they-come-back",
+    "title": "Sometimes They Come Back",
+    "year": 1991,
+    "director": "Tom McLoughlin",
+    "category": "supernatural",
+    "note": "A teacher's return to his hometown brings old tormentors back into his classroom."
+  },
+  {
+    "id": "from-dusk-till-dawn",
+    "title": "From Dusk Till Dawn",
+    "year": 1996,
+    "director": "Robert Rodriguez",
+    "category": "creatures",
+    "note": "A fugitive road trip ends at a bar with a very unusual nighttime clientele."
+  },
+  {
+    "id": "the-devil-s-advocate",
+    "title": "The Devil's Advocate",
+    "year": 1997,
+    "director": "Taylor Hackford",
+    "category": "supernatural",
+    "note": "A rising lawyer discovers the cost of ambition at a powerful New York firm."
+  },
+  {
+    "id": "interview-with-the-vampire",
+    "title": "Interview With the Vampire",
+    "year": 1994,
+    "director": "Neil Jordan",
+    "category": "creatures",
+    "note": "A vampire tells the story of immortality, companionship, and a life that refuses to end."
+  },
+  {
+    "id": "raising-cain",
+    "title": "Raising Cain",
+    "year": 1992,
+    "director": "Brian De Palma",
+    "category": "psychological",
+    "note": "A child psychologist's family life becomes a maze of identities and dangerous experiments."
+  },
+  {
+    "id": "nadja",
+    "title": "Nadja",
+    "year": 1994,
+    "director": "Michael Almereyda",
+    "category": "creatures",
+    "note": "A vampire family drifts through a shadowy New York in a stark, dreamlike nocturne."
+  },
+  {
+    "id": "tremors-ii-aftershocks",
+    "title": "Tremors II: Aftershocks",
+    "year": 1996,
+    "director": "S.S. Wilson",
+    "category": "creatures",
+    "note": "The monster hunters return to a job where the underground threat has learned new tricks."
+  },
+  {
+    "id": "cemetery-man",
+    "title": "Cemetery Man",
+    "year": 1994,
+    "director": "Michele Soavi",
+    "category": "supernatural",
+    "note": "A cemetery caretaker has an exhausting problem: the residents will not stay buried."
+  },
+  {
+    "id": "two-evil-eyes",
+    "title": "Two Evil Eyes",
+    "year": 1990,
+    "director": "Dario Argento, George A. Romero",
+    "category": "anthology",
+    "note": "Two directors rework Poe into tales of guilt, greed, and an unwelcome return."
+  },
+  {
+    "id": "maniac-cop-2",
+    "title": "Maniac Cop 2",
+    "year": 1990,
+    "director": "William Lustig",
+    "category": "slashers",
+    "note": "A city's uniformed killer returns while detectives try to make sense of the impossible."
+  },
+  {
+    "id": "wolf",
+    "title": "Wolf",
+    "year": 1994,
+    "director": "Mike Nichols",
+    "category": "creatures",
+    "note": "An aging editor finds that a wolf bite is changing more than his professional confidence."
+  },
+  {
+    "id": "cube",
+    "title": "Cube",
+    "year": 1997,
+    "director": "Vincenzo Natali",
+    "category": "scifi",
+    "note": "Strangers wake inside a deadly geometric maze and must learn its rules together."
+  },
+  {
+    "id": "tales-from-the-hood",
+    "title": "Tales From the Hood",
+    "year": 1995,
+    "director": "Rusty Cundieff",
+    "category": "anthology",
+    "note": "A funeral-home visit becomes a set of horror stories with a sharp social bite."
+  },
+  {
+    "id": "kolobos",
+    "title": "Kolobos",
+    "year": 1999,
+    "director": "Daniel Liatowitsch, David Todd Ocvirk",
+    "category": "slashers",
+    "note": "A group filmed inside a house discovers that the experiment has turned deadly."
+  },
+  {
+    "id": "blade",
+    "title": "Blade",
+    "year": 1998,
+    "director": "Stephen Norrington",
+    "category": "creatures",
+    "note": "A half-vampire hunter takes on a hidden society operating beneath the city."
+  },
+  {
+    "id": "death-becomes-her",
+    "title": "Death Becomes Her",
+    "year": 1992,
+    "director": "Robert Zemeckis",
+    "category": "chaos",
+    "note": "Two rivals discover that a promise of eternal youth has difficult maintenance requirements."
+  },
+  {
+    "id": "the-exorcist-iii",
+    "title": "The Exorcist III",
+    "year": 1990,
+    "director": "William Peter Blatty",
+    "category": "supernatural",
+    "note": "An investigator finds echoes of an old killer in a case tied to a psychiatric ward."
+  },
+  {
+    "id": "the-dark-half",
+    "title": "The Dark Half",
+    "year": 1993,
+    "director": "George A. Romero",
+    "category": "supernatural",
+    "note": "A writer retires his pseudonym and discovers that the other identity will not disappear."
+  },
+  {
+    "id": "snow-white-a-tale-of-terror",
+    "title": "Snow White: A Tale of Terror",
+    "year": 1997,
+    "director": "Michael Cohn",
+    "category": "supernatural",
+    "note": "A familiar fairy tale becomes a bitter family struggle in a dark medieval forest."
+  },
+  {
+    "id": "night-of-the-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1990,
+    "director": "Tom Savini",
+    "category": "supernatural",
+    "note": "Strangers barricade a farmhouse while the dead gather outside in this 1990 retelling."
+  },
+  {
+    "id": "the-craft",
+    "title": "The Craft",
+    "year": 1996,
+    "director": "Andrew Fleming",
+    "category": "supernatural",
+    "note": "Four schoolgirls discover that shared power can turn friendship into a dangerous bargain."
+  },
+  {
+    "id": "alien-resurrection",
+    "title": "Alien Resurrection",
+    "year": 1997,
+    "director": "Jean-Pierre Jeunet",
+    "category": "scifi",
+    "note": "A cloned survivor wakes aboard a research vessel that has repeated the wrong experiment."
+  },
+  {
+    "id": "halloween-h20-20-years-later",
+    "title": "Halloween H20: 20 Years Later",
+    "year": 1998,
+    "director": "Steve Miner",
+    "category": "slashers",
+    "note": "A survivor's new life at a school is interrupted by the past she tried to leave behind."
+  },
+  {
+    "id": "apt-pupil",
+    "title": "Apt Pupil",
+    "year": 1998,
+    "director": "Bryan Singer",
+    "category": "psychological",
+    "note": "A teenager's fascination with a neighbor's hidden history becomes a corrosive relationship."
+  },
+  {
+    "id": "lord-of-illusions",
+    "title": "Lord of Illusions",
+    "year": 1995,
+    "director": "Clive Barker",
+    "category": "supernatural",
+    "note": "A private investigator enters a world where stage magic conceals something much darker."
+  },
+  {
+    "id": "ravenous",
+    "title": "Ravenous",
+    "year": 1999,
+    "director": "Antonia Bird",
+    "category": "creatures",
+    "note": "An isolated frontier outpost receives a stranger carrying an unsettling appetite."
+  },
+  {
+    "id": "flatliners",
+    "title": "Flatliners",
+    "year": 1990,
+    "director": "Joel Schumacher",
+    "category": "supernatural",
+    "note": "Medical students experiment with near-death experiences and bring their pasts back with them."
+  },
+  {
+    "id": "i-know-what-you-did-last-summer",
+    "title": "I Know What You Did Last Summer",
+    "year": 1997,
+    "director": "Jim Gillespie",
+    "category": "slashers",
+    "note": "Four friends discover that a secret from the previous summer has not stayed buried."
+  },
+  {
+    "id": "bride-of-chucky",
+    "title": "Bride of Chucky",
+    "year": 1998,
+    "director": "Ronnie Yu",
+    "category": "slashers",
+    "note": "Two murderous dolls take their relationship problems on a chaotic road trip."
+  },
+  {
+    "id": "child-s-play-2",
+    "title": "Child's Play 2",
+    "year": 1990,
+    "director": "John Lafia",
+    "category": "slashers",
+    "note": "A young survivor finds that a rebuilt toy has returned to finish its business."
+  },
+  {
+    "id": "tales-from-the-darkside-the-movie",
+    "title": "Tales From the Darkside: The Movie",
+    "year": 1990,
+    "director": "John Harrison",
+    "category": "anthology",
+    "note": "A captive storyteller buys time with three tales of monsters, promises, and revenge."
+  },
+  {
+    "id": "tales-from-the-crypt-presents-demon-knight",
+    "title": "Tales From the Crypt Presents Demon Knight",
+    "year": 1995,
+    "director": "Ernest R. Dickerson",
+    "category": "supernatural",
+    "note": "A roadside boarding house becomes the battleground for an ancient pursuit."
+  },
+  {
+    "id": "alien-3",
+    "title": "Alien 3",
+    "year": 1992,
+    "director": "David Fincher",
+    "category": "scifi",
+    "note": "A crash landing leaves a survivor inside a prison with another uninvited passenger."
+  },
+  {
+    "id": "species",
+    "title": "Species",
+    "year": 1995,
+    "director": "Roger Donaldson",
+    "category": "scifi",
+    "note": "A research team hunts an escaped experiment that can pass for human."
+  },
+  {
+    "id": "anaconda",
+    "title": "Anaconda",
+    "year": 1997,
+    "director": "Luis Llosa",
+    "category": "creatures",
+    "note": "A documentary crew's river journey is hijacked by an obsession with a giant predator."
+  },
+  {
+    "id": "hellraiser-iii-hell-on-earth",
+    "title": "Hellraiser III: Hell on Earth",
+    "year": 1992,
+    "director": "Anthony Hickox",
+    "category": "supernatural",
+    "note": "A reporter investigates a nightclub statue that contains an extremely unwelcome guest."
+  },
+  {
+    "id": "popcorn",
+    "title": "Popcorn",
+    "year": 1991,
+    "director": "Mark Herrier",
+    "category": "slashers",
+    "note": "A student horror marathon brings elaborate movie gimmicks and a real killer into the theater."
+  },
+  {
+    "id": "body-parts",
+    "title": "Body Parts",
+    "year": 1991,
+    "director": "Eric Red",
+    "category": "body",
+    "note": "A transplant patient suspects that his new arm carries something from its previous owner."
+  },
+  {
+    "id": "disturbing-behavior",
+    "title": "Disturbing Behavior",
+    "year": 1998,
+    "director": "David Nutter",
+    "category": "scifi",
+    "note": "Two outsiders question why their school's model students have become so unnaturally perfect."
+  },
+  {
+    "id": "needful-things",
+    "title": "Needful Things",
+    "year": 1993,
+    "director": "Fraser C. Heston",
+    "category": "supernatural",
+    "note": "A new shop offers a small town exactly what it wants at a much darker price."
+  },
+  {
+    "id": "leprechaun",
+    "title": "Leprechaun",
+    "year": 1993,
+    "director": "Mark Jones",
+    "category": "creatures",
+    "note": "A stolen pot of gold brings a vicious folkloric visitor to a rural house."
+  },
+  {
+    "id": "evil-toons",
+    "title": "Evil Toons",
+    "year": 1992,
+    "director": "Fred Olen Ray",
+    "category": "chaos",
+    "note": "A cleaning job in an old house is interrupted by a monster with cartoon rules."
+  },
+  {
+    "id": "house-on-haunted-hill",
+    "title": "House on Haunted Hill",
+    "year": 1999,
+    "director": "William Malone",
+    "category": "supernatural",
+    "note": "A cash-prize overnight stay draws guests into an abandoned institution with a violent history."
+  },
+  {
+    "id": "urban-legend",
+    "title": "Urban Legend",
+    "year": 1998,
+    "director": "Jamie Blanks",
+    "category": "slashers",
+    "note": "A college campus becomes the setting for murders modeled on familiar cautionary stories."
+  },
+  {
+    "id": "children-of-the-corn-ii-the-final-sacrifice",
+    "title": "Children of the Corn II: The Final Sacrifice",
+    "year": 1993,
+    "director": "David Price",
+    "category": "supernatural",
+    "note": "A reporter and his son reach a town where the aftermath of a massacre is far from over."
+  },
+  {
+    "id": "sleepwalkers",
+    "title": "Sleepwalkers",
+    "year": 1992,
+    "director": "Mick Garris",
+    "category": "creatures",
+    "note": "A mother and son arrive in a small town with a secret that the local cats seem to understand."
+  },
+  {
+    "id": "wishmaster",
+    "title": "Wishmaster",
+    "year": 1997,
+    "director": "Robert Kurtzman",
+    "category": "supernatural",
+    "note": "An ancient djinn offers wishes whose literal consequences are never what anyone intended."
+  },
+  {
+    "id": "the-good-son",
+    "title": "The Good Son",
+    "year": 1993,
+    "director": "Joseph Ruben",
+    "category": "psychological",
+    "note": "A boy staying with relatives begins to fear the child everyone else trusts."
+  },
+  {
+    "id": "the-guardian",
+    "title": "The Guardian",
+    "year": 1990,
+    "director": "William Friedkin",
+    "category": "supernatural",
+    "note": "New parents discover that their nanny's connection to the woods is more than a hobby."
+  },
+  {
+    "id": "hellraiser-bloodline",
+    "title": "Hellraiser: Bloodline",
+    "year": 1996,
+    "director": "Kevin Yagher, Joe Chappelle",
+    "category": "supernatural",
+    "note": "A cursed box links several generations across a story of invention and obsession."
+  },
+  {
+    "id": "freddy-s-dead-the-final-nightmare",
+    "title": "Freddy's Dead: The Final Nightmare",
+    "year": 1991,
+    "director": "Rachel Talalay",
+    "category": "slashers",
+    "note": "The last survivors of a nightmare-haunted town enter Freddy's stranger final chapter."
+  },
+  {
+    "id": "the-rage-carrie-2",
+    "title": "The Rage: Carrie 2",
+    "year": 1999,
+    "director": "Katt Shea",
+    "category": "supernatural",
+    "note": "A teenager with dangerous powers faces the cruelty of a new school generation."
+  },
+  {
+    "id": "dr-giggles",
+    "title": "Dr. Giggles",
+    "year": 1992,
+    "director": "Manny Coto",
+    "category": "slashers",
+    "note": "An escaped killer brings a warped bedside manner to a small town."
+  },
+  {
+    "id": "stigmata",
+    "title": "Stigmata",
+    "year": 1999,
+    "director": "Rupert Wainwright",
+    "category": "supernatural",
+    "note": "A young woman's inexplicable wounds draw an investigator into a conflict over faith and power."
+  },
+  {
+    "id": "candyman-farewell-to-the-flesh",
+    "title": "Candyman: Farewell to the Flesh",
+    "year": 1995,
+    "director": "Bill Condon",
+    "category": "supernatural",
+    "note": "A New Orleans teacher encounters a legend whose history reaches into her own family."
+  },
+  {
     "id": "suspiria",
     "title": "Suspiria",
     "year": 1977,

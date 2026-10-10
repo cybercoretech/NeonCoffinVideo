@@ -7,6 +7,8 @@ import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import {previewDatabase} from '../preview-store.mjs';
 import {community} from '../server/community.js';
+import {rentalMovies} from '../rental-rack-data.js';
+import {filterRentals,rackCategories} from '../late-show-rack.js';
 const root=fileURLToPath(new URL('../',import.meta.url)),db=previewDatabase(':memory:');
 const {lateShow}=await import('../server/late-show.js');
 const catalog=JSON.parse(readFileSync(root+'night-clerk-catalog.json','utf8'));
@@ -23,7 +25,9 @@ const server=http.createServer(async(req,res)=>{
  }catch{res.writeHead(404);res.end('Not found')}
 });
 await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
-const browser=spawn('/usr/lib/chromium/chromium',['--headless','--no-sandbox','--disable-gpu','--disable-dev-shm-usage','--no-first-run','--disable-extensions','--remote-debugging-port=0','--user-data-dir='+mkdtempSync('/tmp/ncv-clerk-cdp-'),'about:blank'],{stdio:['ignore','ignore','pipe']});
+// The bulk cover audit changes hundreds of hashes much faster than a user;
+// disable Chromium's navigation-IPC flood throttle only in this test browser.
+const browser=spawn('/usr/lib/chromium/chromium',['--headless','--disable-ipc-flooding-protection','--no-sandbox','--disable-gpu','--disable-dev-shm-usage','--no-first-run','--disable-extensions','--remote-debugging-port=0','--user-data-dir='+mkdtempSync('/tmp/ncv-clerk-cdp-'),'about:blank'],{stdio:['ignore','ignore','pipe']});
 let ws;const pending=new Map();let next=0;
 try{
  const address=await new Promise((resolve,reject)=>{let output='';const timeout=setTimeout(()=>reject(new Error('Browser startup timed out')),15000);browser.stderr.on('data',chunk=>{output+=chunk;const match=output.match(/DevTools listening on (ws:\/\/\S+)/);if(match){clearTimeout(timeout);resolve(match[1])}});browser.on('exit',()=>reject(new Error('Browser exited')))});
@@ -34,17 +38,17 @@ try{
  const evaluate=async expression=>{const result=await command('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true},sessionId);if(result.exceptionDetails)throw new Error(result.exceptionDetails.text);return result.result.value};
  await command('Page.enable',{},sessionId);await command('Runtime.enable',{},sessionId);
  const errors=[];ws.addEventListener('message',e=>{const m=JSON.parse(e.data);if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails.text)});
- const waitFor=async expression=>{for(let i=0;i<400;i++){if(await evaluate(expression))return;await new Promise(r=>setTimeout(r,100))}throw new Error('Timed out: '+expression)};
+ const waitFor=async expression=>{for(let i=0;i<400;i++){if(await evaluate(expression))return;await new Promise(r=>setTimeout(r,100))}throw new Error('Timed out: '+expression+'; state='+JSON.stringify(await evaluate(`({hash:location.hash,open:document.querySelector('#lsDossier')?.open,title:document.querySelector('#lsDossierTitle')?.textContent})`)))};
  const screenshotDir=process.env.NCV_CLERK_SCREENSHOTS||'/tmp/ncv-late-show-preview';mkdirSync(screenshotDir,{recursive:true});
  const base=process.argv[2]||'http://127.0.0.1:'+server.address().port;
  for(const width of [1440,768,390,320]){
   await command('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500},sessionId);
   await command('Page.navigate',{url:base+'/screening-room'},sessionId);
-  await waitFor(`document.querySelectorAll('.ls-rental-card').length===6&&!document.querySelector('#lsSignupSubmit').disabled&&document.readyState==='complete'`);
+  await waitFor(`document.querySelectorAll('.ls-rental-card').length===${rentalMovies.length}&&!document.querySelector('#lsSignupSubmit').disabled&&document.readyState==='complete'`);
   assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'page fits '+width);
   assert(await evaluate(`[...document.querySelectorAll('.ls-remote button')].every(b=>b.getBoundingClientRect().height>=44)`));
   assert.equal(await evaluate(`document.querySelectorAll('#lsTVScreen iframe').length`),0);
-  assert(await evaluate(`[...document.querySelectorAll('.ls-rental-card img,.ls-preview-art img,#lsNowPoster')].every(i=>i.src.includes('/assets/')&&i.src.endsWith('.jpg'))`),'actual posters throughout rental rack and preview deck');
+  assert(await evaluate(`[...document.querySelectorAll('.ls-rental-card img,.ls-preview-art img,#lsNowPoster')].every(i=>i.src.includes('/assets/')&&/\.(jpg|png|webp)$/.test(i.src))`),'actual posters throughout rental rack and preview deck');
   await evaluate(`Promise.allSettled([...document.images].map(i=>{i.loading='eager';return i.decode()}))`);
   const failedImages=await evaluate(`[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)`);assert.deepEqual(failedImages,[],'images loaded '+width);
   if(width===1440||width===390){
@@ -56,11 +60,26 @@ try{
   const menuBox=await evaluate(`(()=>{const e=document.querySelector('#primaryNavigation');const r=e.getBoundingClientRect();return {hidden:e.hidden,left:r.left,right:r.right,width:innerWidth}})()`);assert(!menuBox.hidden&&menuBox.left>=0&&menuBox.right<=menuBox.width,'menu fits '+width+' '+JSON.stringify(menuBox));
   assert(await evaluate(`(()=>{const tiles=[...document.querySelectorAll('#primaryNavigation a')];return new Set(tiles.map(e=>Math.round(e.getBoundingClientRect().height))).size===1})()`),'equal menu tile heights');
   await evaluate(`document.querySelector('.menu-toggle').click()`);
-  for(const [filter,count] of [['slashers',3],['scifi',2],['supernatural',1],['all',6]]){
+  for(const {id:filter} of rackCategories){
+   const count=filterRentals(rentalMovies,{category:filter}).length;
    await evaluate(`document.querySelector('[data-ls-filter="${filter}"]').click()`);
    assert.equal(await evaluate(`document.querySelectorAll('.ls-rental-card').length`),count);
   }
-  await evaluate(`document.querySelector('#rentalRack').scrollIntoView();document.querySelector('[data-ls-tape="the-mutilator"]').click()`);
+  await evaluate(`document.querySelector('#lsRackReset').click()`);
+  assert(await evaluate(`(()=>{const r=document.querySelector('#lsRackScroll');return r.scrollHeight>r.clientHeight&&r.scrollWidth<=r.clientWidth})()`),'bounded, scrollable rack at '+width);
+  await evaluate(`document.querySelector('#lsRackScroll').focus()`);
+  await command('Input.dispatchKeyEvent',{type:'keyDown',key:'End',code:'End',windowsVirtualKeyCode:35},sessionId);
+  await new Promise(r=>setTimeout(r,300));
+  assert(await evaluate(`document.querySelector('#lsRackScroll').scrollTop>0`),'rack keyboard scrolling '+width);
+  await evaluate(`document.querySelector('#lsRackSearch').value='scream';document.querySelector('#lsRackSearch').dispatchEvent(new Event('input'))`);
+  assert.equal(await evaluate(`document.querySelectorAll('.ls-rental-card').length`),filterRentals(rentalMovies,{query:'scream'}).length);
+  await evaluate(`document.querySelector('#lsRackSearch').value='nosuchtape999';document.querySelector('#lsRackSearch').dispatchEvent(new Event('input'))`);
+  assert(await evaluate(`!document.querySelector('#lsRackEmpty').hidden&&document.querySelectorAll('.ls-rental-card').length===0`));
+  await evaluate(`document.querySelector('#lsRackReset').click();document.querySelector('#lsRackDecade').value='1990';document.querySelector('#lsRackDecade').dispatchEvent(new Event('change'))`);
+  assert.equal(await evaluate(`document.querySelectorAll('.ls-rental-card').length`),filterRentals(rentalMovies,{decade:'1990'}).length);
+  await evaluate(`document.querySelector('#lsRackSort').value='newest';document.querySelector('#lsRackSort').dispatchEvent(new Event('change'))`);
+  assert.equal(await evaluate(`document.querySelector('.ls-rental-card').dataset.rentalId`),filterRentals(rentalMovies,{decade:'1990',sort:'newest'})[0].id);
+  await evaluate(`document.querySelector('#lsRackReset').click();document.querySelector('#rentalRack').scrollIntoView();document.querySelector('[data-ls-tape="the-mutilator"]').click()`);
   assert(await evaluate(`document.querySelector('#lsDossier').open&&location.pathname==='/screening-room'`));
   assert(await evaluate(`(()=>{const e=document.querySelector('#lsDossier');return e.scrollWidth<=e.clientWidth})()`),'tape file fits '+width);
   assert.equal(await evaluate(`document.querySelector('#lsDossier a[href*="tubitv"]').target`),'_blank');
@@ -76,17 +95,18 @@ try{
   await evaluate(`window.__opened=null;window.open=(url)=>{window.__opened=url};document.querySelector('#lsSignupForm [name="adult"]').checked=true;document.querySelector('#lsSignupForm [name="consent"]').checked=true;document.querySelector('#lsSignupForm').requestSubmit()`);
   assert.equal(await evaluate(`window.__opened`),group);
   assert(await evaluate(`document.querySelector('#lsSignupStatus').textContent.includes('does not subscribe you automatically')`));
-  await command('Page.navigate',{url:base+'/screening-room'},sessionId);await waitFor(`document.readyState==='complete'&&document.querySelectorAll('.ls-rental-card').length===6`);await evaluate(`Promise.allSettled([...document.images].map(i=>{i.loading='eager';return i.decode()}))`);await evaluate(`window.scrollTo({top:0,behavior:'instant'})`);await new Promise(r=>setTimeout(r,300));
+  await command('Page.navigate',{url:base+'/screening-room'},sessionId);await waitFor(`document.readyState==='complete'&&document.querySelectorAll('.ls-rental-card').length===${rentalMovies.length}`);await evaluate(`Promise.allSettled([...document.images].map(i=>{i.loading='eager';return i.decode()}))`);await evaluate(`window.scrollTo({top:0,behavior:'instant'})`);await new Promise(r=>setTimeout(r,300));
   const shot=await command('Page.captureScreenshot',{format:'png'},sessionId);writeFileSync(screenshotDir+'/late-show-'+width+'.png',Buffer.from(shot.data,'base64'));
  }
  // Audit every film's tape file, including films seen only in the preview deck.
- for(const id of ['the-mutilator','hellraiser','event-horizon','prom-night','lifeforce','the-prowler','killer-klowns','fright-night']){
+ for(const {id,poster} of [...rentalMovies,{id:'hellraiser',poster:'/assets/hellraiser.jpg'}]){
   await evaluate(`location.hash='tape/${id}'`);
-  await waitFor(`document.querySelector('#lsDossier').open&&document.querySelector('#lsDossierContent img').src.endsWith('/${id}.jpg')`);
+  await waitFor(`document.querySelector('#lsDossier').open&&document.querySelector('#lsDossierContent img').src.endsWith('${poster}')`);
   await evaluate(`document.querySelector('#lsDossierContent img').decode()`);
   assert(await evaluate(`!!document.querySelector('#lsDossierContent .ls-credit-link')`),'poster credit for '+id);
   await evaluate(`document.querySelector('[data-ls-close="lsDossier"]').click()`);
-  await waitFor(`!document.querySelector('#lsDossier').open`);
+  await waitFor(`!document.querySelector('#lsDossier').open&&!location.hash.startsWith('#tape/')`);
+  if((rentalMovies.findIndex(m=>m.id===id)+1)%50===0)console.log('Audited tape file:',id);
  }
  // Only browser-local saved shelf state is changed; no account mutation or sends.
  await evaluate(`localStorage.setItem('neon-coffin-shelf',JSON.stringify(['near-dark']))`);
@@ -121,5 +141,16 @@ try{
   assert(await evaluate(`document.querySelector('#topicForm').elements.body.value.includes('forgotten slasher')`));
   await evaluate(`document.querySelector('#composer').close()`);
  }
- assert.deepEqual(errors,[]);console.log('PASS: screening page at 1440/768/390/320px, consistent menus, filters, all eight credited film posters, nested local dossiers, Google signup handoff, saved-shelf preservation, user-triggered player and fallback, reduced motion, and Lounge screening context. No subscriptions, posts or email sent.');
+ if(process.argv[2]){
+  await command('Page.navigate',{url:base+'/'},sessionId);
+  await waitFor(`document.readyState==='complete'&&document.querySelector('#filmCount')?.textContent.includes('287')`);
+  await evaluate(`document.querySelector('#movieSearch').value='Scream 2';document.querySelector('#movieSearch').dispatchEvent(new Event('input'))`);
+  await waitFor(`document.querySelectorAll('#filmGrid .film-card').length===1`);
+  await evaluate(`document.querySelector('#filmGrid img').decode();document.querySelector('#filmGrid [data-film]').click()`);
+  assert(await evaluate(`document.querySelector('#detailDialog').open&&document.querySelector('#detailTitle').textContent==='Scream 2'`));
+  assert(await evaluate(`!document.querySelector('#detailContent').textContent.includes('null MIN')&&!!document.querySelector('#detailContent a[href="https://www.rottentomatoes.com/m/scream_2"]')`));
+  await evaluate(`document.querySelector('[data-close="detailDialog"]').click();document.querySelector('#backToAisles').click();document.querySelector('#cryptCategories [data-filter="psychological"]').click()`);
+  assert(await evaluate(`document.querySelector('#cryptShelfName').textContent.includes('MIND GAMES')&&document.querySelectorAll('#filmGrid .film-card').length>0`));
+ }
+ assert.deepEqual(errors,[]);console.log('PASS: screening page at 1440/768/390/320px, consistent menus, categories, search, decade/sort controls, keyboard scrolling, all 261 credited rental posters, nested local dossiers, Google signup handoff, saved-shelf preservation, user-triggered player and fallback, reduced motion, and Lounge screening context. No subscriptions, posts or email sent.');
 }finally{ws?.close();browser.kill();server.closeAllConnections();server.close();db.close()}

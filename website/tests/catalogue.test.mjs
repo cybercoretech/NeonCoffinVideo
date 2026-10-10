@@ -16,7 +16,7 @@ const records = [...baseBlock.matchAll(/\{id:'([^']+)'[^}]*title:'([^']+)'[^}]*y
 records.push(...extra);
 records.push(...[...italian.matchAll(/\{id:'([^']+)',title:'([^']+)',year:(\d+)/g)]
   .map(([, id, title, year]) => ({id, title, year: Number(year)})));
-assert.equal(records.length, 195, 'public catalogue total is reflected in the tape counter');
+assert.equal(records.length, 287, 'public catalogue total is reflected in the tape counter');
 const ids = new Set();
 const titles = new Set();
 for (const film of records) {
@@ -30,4 +30,4 @@ for (const film of records) {
 for (const title of ['I Spit on Your Grave','Henry: Portrait of a Serial Killer','Satan’s Blood','Near Dark','Possession','The Hidden','Phenomena','A Nightmare on Elm Street 5: The Dream Child','Puppet Master II','Retro Puppet Master','The Silence of the Lambs','Ringu','The Faculty','Zombie']) {
   assert.ok(records.some(f => f.title === title), `requested title is in the public catalogue: ${title}`);
 }
-console.log('PASS: 195 unique public catalogue films, complete artwork paths, and requested titles.');
+console.log('PASS: '+records.length+' unique public catalogue films, complete artwork paths, and requested titles.');

@@ -1,6 +1,6 @@
 import {readFile,writeFile} from 'node:fs/promises';
-import {screenMovies} from '../late-show-data.js';
-import {rentalRackHTML} from '../late-show-rack.js';
+import {rentalMovies} from '../rental-rack-data.js';
+import {rentalRackHTML,rentalFiltersHTML} from '../late-show-rack.js';
 const root=new URL('../',import.meta.url),origin='https://neoncoffinvideo.site';
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pages=[
@@ -16,7 +16,11 @@ for(const page of pages){
  if(page.type!=='WebSite')schema.isPartOf={'@type':'WebSite',name:'Neon Coffin Video',url:origin+'/'};
  const seo=`<!-- NCV SEO START -->\n<link rel="canonical" href="${origin+page.path}">\n<meta property="og:type" content="website"><meta property="og:site_name" content="Neon Coffin Video"><meta property="og:title" content="${escape(page.title)}"><meta property="og:description" content="${escape(page.description)}"><meta property="og:url" content="${origin+page.path}"><meta property="og:image" content="${origin+page.image}"><meta property="og:image:width" content="${page.width}"><meta property="og:image:height" content="${page.height}"><meta property="og:image:alt" content="Original Neon Coffin Video artwork">\n<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escape(page.title)}"><meta name="twitter:description" content="${escape(page.description)}"><meta name="twitter:image" content="${origin+page.image}">\n<script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script>\n<!-- NCV SEO END -->`;
  html=html.replace('</head>',seo+'</head>');
- if(page.file==='screening-room.html')html=html.replace(/<div id="lsRentalGrid" class="ls-rental-grid">[\s\S]*?<\/div><p class="ls-fine">Film posters/,`<div id="lsRentalGrid" class="ls-rental-grid">${rentalRackHTML(screenMovies)}</div><p class="ls-fine">Film posters`);
+ if(page.file==='screening-room.html'){
+  html=html.replace(/<div id="lsRentalGrid" class="ls-rental-grid">[\s\S]*?<\/div><!-- NCV RENTAL GRID END -->/,`<div id="lsRentalGrid" class="ls-rental-grid">${rentalRackHTML(rentalMovies)}</div><!-- NCV RENTAL GRID END -->`);
+  html=html.replace(/<div id="lsRackFilters"[^>]*>[\s\S]*?<\/div>/,`<div id="lsRackFilters" class="ls-filters" role="group" aria-label="Filter horror categories">${rentalFiltersHTML(rentalMovies)}</div>`);
+  html=html.replace(/(<p id="lsRackStatus"[^>]*>)[\s\S]*?<\/p>/,`$1${rentalMovies.length} OF ${rentalMovies.length} TAPES / 1980–1999</p>`);
+ }
  await writeFile(file,html.replace(/[ \t]+$/gm,''));
 }
 await writeFile(new URL('sitemap.xml',root),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+pages.map(page=>`  <url><loc>${origin+page.path}</loc></url>`).join('\n')+'\n</urlset>\n');

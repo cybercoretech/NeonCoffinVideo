@@ -823,7 +823,8 @@
   {
     "id": "henry-portrait-of-a-serial-killer",
     "title": "Henry: Portrait of a Serial Killer",
-    "year": 1986
+    "year": 1986,
+    "poster": "assets/henry-portrait-of-a-serial-killer.jpg"
   },
   {
     "id": "satans-blood",
@@ -833,123 +834,146 @@
   {
     "id": "the-beyond",
     "title": "The Beyond",
-    "year": 1981
+    "year": 1981,
+    "poster": "assets/the-beyond.jpg"
   },
   {
     "id": "slaughter-high",
     "title": "Slaughter High",
-    "year": 1986
+    "year": 1986,
+    "poster": "assets/slaughter-high.jpg"
   },
   {
     "id": "near-dark",
     "title": "Near Dark",
     "year": 1987,
-    "poster": "assets/near-dark-poster.jpg"
+    "poster": "assets/near-dark.jpg"
   },
   {
     "id": "the-stepfather",
     "title": "The Stepfather",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/the-stepfather.jpg"
   },
   {
     "id": "alligator",
     "title": "Alligator",
-    "year": 1980
+    "year": 1980,
+    "poster": "assets/alligator.jpg"
   },
   {
     "id": "possession",
     "title": "Possession",
-    "year": 1981
+    "year": 1981,
+    "poster": "assets/possession.jpg"
   },
   {
     "id": "tenebrae",
     "title": "Tenebrae",
-    "year": 1982
+    "year": 1982,
+    "poster": "assets/tenebrae.jpg"
   },
   {
     "id": "wolfen",
     "title": "Wolfen",
-    "year": 1981
+    "year": 1981,
+    "poster": "assets/wolfen.jpg"
   },
   {
     "id": "dead-of-winter",
     "title": "Dead of Winter",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/dead-of-winter.jpg"
   },
   {
     "id": "the-hidden",
     "title": "The Hidden",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/the-hidden.jpg"
   },
   {
     "id": "phenomena",
     "title": "Phenomena",
-    "year": 1985
+    "year": 1985,
+    "poster": "assets/phenomena.jpg"
   },
   {
     "id": "bloody-birthday",
     "title": "Bloody Birthday",
-    "year": 1981
+    "year": 1981,
+    "poster": "assets/bloody-birthday.jpg"
   },
   {
     "id": "bad-taste",
     "title": "Bad Taste",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/bad-taste.jpg"
   },
   {
     "id": "q-the-winged-serpent",
     "title": "Q: The Winged Serpent",
-    "year": 1982
+    "year": 1982,
+    "poster": "assets/q-the-winged-serpent.jpg"
   },
   {
     "id": "dead-and-buried",
     "title": "Dead & Buried",
-    "year": 1981
+    "year": 1981,
+    "poster": "assets/dead-and-buried.jpg"
   },
   {
     "id": "nightmare-on-elm-street-2",
     "title": "A Nightmare on Elm Street 2: Freddy’s Revenge",
-    "year": 1985
+    "year": 1985,
+    "poster": "assets/nightmare-on-elm-street-2.jpg"
   },
   {
     "id": "nightmare-on-elm-street-3",
     "title": "A Nightmare on Elm Street 3: Dream Warriors",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/nightmare-on-elm-street-3.jpg"
   },
   {
     "id": "nightmare-on-elm-street-4",
     "title": "A Nightmare on Elm Street 4: The Dream Master",
-    "year": 1988
+    "year": 1988,
+    "poster": "assets/nightmare-on-elm-street-4.jpg"
   },
   {
     "id": "nightmare-on-elm-street-5",
     "title": "A Nightmare on Elm Street 5: The Dream Child",
-    "year": 1989
+    "year": 1989,
+    "poster": "assets/nightmare-on-elm-street-5.jpg"
   },
   {
     "id": "cats-eye",
     "title": "Cat’s Eye",
-    "year": 1985
+    "year": 1985,
+    "poster": "assets/cats-eye.jpg"
   },
   {
     "id": "lady-in-white",
     "title": "Lady in White",
-    "year": 1988
+    "year": 1988,
+    "poster": "assets/lady-in-white.jpg"
   },
   {
     "id": "psycho-ii",
     "title": "Psycho II",
-    "year": 1983
+    "year": 1983,
+    "poster": "assets/psycho-ii.jpg"
   },
   {
     "id": "the-hitcher",
     "title": "The Hitcher",
-    "year": 1986
+    "year": 1986,
+    "poster": "assets/the-hitcher.jpg"
   },
   {
     "id": "cannibal-holocaust",
     "title": "Cannibal Holocaust",
-    "year": 1980
+    "year": 1980,
+    "poster": "assets/cannibal-holocaust.jpg"
   },
   {
     "id": "inferno-1980",
@@ -959,37 +983,44 @@
   {
     "id": "pulse-1988",
     "title": "Pulse",
-    "year": 1988
+    "year": 1988,
+    "poster": "assets/pulse-1988.jpg"
   },
   {
     "id": "dark-night-of-the-scarecrow",
     "title": "Dark Night of the Scarecrow",
-    "year": 1981
+    "year": 1981,
+    "poster": "assets/dark-night-of-the-scarecrow.jpg"
   },
   {
     "id": "swamp-thing",
     "title": "Swamp Thing",
-    "year": 1982
+    "year": 1982,
+    "poster": "assets/swamp-thing.jpg"
   },
   {
     "id": "cujo",
     "title": "Cujo",
-    "year": 1983
+    "year": 1983,
+    "poster": "assets/cujo.jpg"
   },
   {
     "id": "dolls-1987",
     "title": "Dolls",
-    "year": 1987
+    "year": 1987,
+    "poster": "assets/dolls-1987.jpg"
   },
   {
     "id": "april-fools-day",
     "title": "April Fool’s Day",
-    "year": 1986
+    "year": 1986,
+    "poster": "assets/april-fools-day.jpg"
   },
   {
     "id": "waxwork",
     "title": "Waxwork",
-    "year": 1988
+    "year": 1988,
+    "poster": "assets/waxwork.jpg"
   },
   {
     "id": "lifeforce",
@@ -1000,86 +1031,655 @@
   {
     "id": "maniac-cop",
     "title": "Maniac Cop",
-    "year": 1988
+    "year": 1988,
+    "poster": "assets/maniac-cop.jpg"
   },
   {
     "id": "puppet-master-2",
     "title": "Puppet Master II",
-    "year": 1990
+    "year": 1990,
+    "poster": "assets/puppet-master-2.jpg"
   },
   {
     "id": "puppet-master-3-toulons-revenge",
     "title": "Puppet Master III: Toulon’s Revenge",
-    "year": 1991
+    "year": 1991,
+    "poster": "assets/puppet-master-3-toulons-revenge.jpg"
   },
   {
     "id": "puppet-master-4",
     "title": "Puppet Master 4",
-    "year": 1993
+    "year": 1993,
+    "poster": "assets/puppet-master-4.jpg"
   },
   {
     "id": "puppet-master-5-the-final-chapter",
     "title": "Puppet Master 5: The Final Chapter",
-    "year": 1994
+    "year": 1994,
+    "poster": "assets/puppet-master-5-the-final-chapter.jpg"
   },
   {
     "id": "curse-of-the-puppet-master",
     "title": "Curse of the Puppet Master",
-    "year": 1998
+    "year": 1998,
+    "poster": "assets/curse-of-the-puppet-master.jpg"
   },
   {
     "id": "retro-puppet-master",
     "title": "Retro Puppet Master",
-    "year": 1999
+    "year": 1999,
+    "poster": "assets/retro-puppet-master.jpg"
   },
   {
     "id": "the-silence-of-the-lambs",
     "title": "The Silence of the Lambs",
-    "year": 1991
+    "year": 1991,
+    "poster": "assets/the-silence-of-the-lambs.jpg"
   },
   {
     "id": "jacobs-ladder",
     "title": "Jacob’s Ladder",
-    "year": 1990
+    "year": 1990,
+    "poster": "assets/jacobs-ladder.jpg"
   },
   {
     "id": "candyman",
     "title": "Candyman",
-    "year": 1992
+    "year": 1992,
+    "poster": "assets/candyman.jpg"
   },
   {
     "id": "scream",
     "title": "Scream",
-    "year": 1996
+    "year": 1996,
+    "poster": "assets/scream.jpg"
   },
   {
     "id": "dead-alive",
     "title": "Dead Alive",
-    "year": 1992
+    "year": 1992,
+    "poster": "assets/dead-alive.png"
   },
   {
     "id": "the-frighteners",
     "title": "The Frighteners",
-    "year": 1996
+    "year": 1996,
+    "poster": "assets/the-frighteners.jpg"
   },
   {
     "id": "cronos",
     "title": "Cronos",
-    "year": 1993
+    "year": 1993,
+    "poster": "assets/cronos.jpg"
   },
   {
     "id": "mimic",
     "title": "Mimic",
-    "year": 1997
+    "year": 1997,
+    "poster": "assets/mimic.jpg"
   },
   {
     "id": "ringu",
     "title": "Ringu",
-    "year": 1998
+    "year": 1998,
+    "poster": "assets/ringu.jpg"
   },
   {
     "id": "the-faculty",
     "title": "The Faculty",
-    "year": 1998
+    "year": 1998,
+    "poster": "assets/the-faculty.jpg"
+  },
+  {
+    "id": "little-shop-of-horrors",
+    "title": "Little Shop of Horrors",
+    "year": 1986,
+    "poster": "assets/little-shop-of-horrors.jpg"
+  },
+  {
+    "id": "santa-sangre",
+    "title": "Santa Sangre",
+    "year": 1989,
+    "poster": "assets/santa-sangre.jpg"
+  },
+  {
+    "id": "dead-ringers",
+    "title": "Dead Ringers",
+    "year": 1988,
+    "poster": "assets/dead-ringers.jpg"
+  },
+  {
+    "id": "altered-states",
+    "title": "Altered States",
+    "year": 1980,
+    "poster": "assets/altered-states.jpg"
+  },
+  {
+    "id": "beetlejuice",
+    "title": "Beetlejuice",
+    "year": 1988,
+    "poster": "assets/beetlejuice.jpg"
+  },
+  {
+    "id": "the-company-of-wolves",
+    "title": "The Company of Wolves",
+    "year": 1984,
+    "poster": "assets/the-company-of-wolves.jpg"
+  },
+  {
+    "id": "tetsuo-the-iron-man",
+    "title": "Tetsuo: The Iron Man",
+    "year": 1989,
+    "poster": "assets/tetsuo-the-iron-man.jpg"
+  },
+  {
+    "id": "demons",
+    "title": "Demons",
+    "year": 1985,
+    "poster": "assets/demons.jpg"
+  },
+  {
+    "id": "the-witches-of-eastwick",
+    "title": "The Witches of Eastwick",
+    "year": 1987,
+    "poster": "assets/the-witches-of-eastwick.jpg"
+  },
+  {
+    "id": "the-lair-of-the-white-worm",
+    "title": "The Lair of the White Worm",
+    "year": 1988,
+    "poster": "assets/the-lair-of-the-white-worm.jpg"
+  },
+  {
+    "id": "vampire-s-kiss",
+    "title": "Vampire's Kiss",
+    "year": 1988,
+    "poster": "assets/vampire-s-kiss.jpg"
+  },
+  {
+    "id": "the-church",
+    "title": "The Church",
+    "year": 1989,
+    "poster": "assets/the-church.jpg"
+  },
+  {
+    "id": "the-serpent-and-the-rainbow",
+    "title": "The Serpent and the Rainbow",
+    "year": 1988,
+    "poster": "assets/the-serpent-and-the-rainbow.jpg"
+  },
+  {
+    "id": "twilight-zone-the-movie",
+    "title": "Twilight Zone: The Movie",
+    "year": 1983,
+    "poster": "assets/twilight-zone-the-movie.jpg"
+  },
+  {
+    "id": "cure",
+    "title": "Cure",
+    "year": 1997,
+    "poster": "assets/cure.jpg"
+  },
+  {
+    "id": "arachnophobia",
+    "title": "Arachnophobia",
+    "year": 1990,
+    "poster": "assets/arachnophobia.jpg"
+  },
+  {
+    "id": "misery",
+    "title": "Misery",
+    "year": 1990,
+    "poster": "assets/misery.jpg"
+  },
+  {
+    "id": "the-blair-witch-project",
+    "title": "The Blair Witch Project",
+    "year": 1999,
+    "poster": "assets/the-blair-witch-project.jpg"
+  },
+  {
+    "id": "the-sixth-sense",
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "poster": "assets/the-sixth-sense.jpg"
+  },
+  {
+    "id": "seven",
+    "title": "Seven",
+    "year": 1995,
+    "poster": "assets/seven.jpg"
+  },
+  {
+    "id": "scream-2",
+    "title": "Scream 2",
+    "year": 1997,
+    "poster": "assets/scream-2.jpg"
+  },
+  {
+    "id": "audition",
+    "title": "Audition",
+    "year": 1999,
+    "poster": "assets/audition.jpg"
+  },
+  {
+    "id": "wes-craven-s-new-nightmare",
+    "title": "Wes Craven's New Nightmare",
+    "year": 1994,
+    "poster": "assets/wes-craven-s-new-nightmare.jpg"
+  },
+  {
+    "id": "cape-fear",
+    "title": "Cape Fear",
+    "year": 1991,
+    "poster": "assets/cape-fear.jpg"
+  },
+  {
+    "id": "basket-case-2",
+    "title": "Basket Case 2",
+    "year": 1990,
+    "poster": "assets/basket-case-2.jpg"
+  },
+  {
+    "id": "mute-witness",
+    "title": "Mute Witness",
+    "year": 1995,
+    "poster": "assets/mute-witness.jpg"
+  },
+  {
+    "id": "habit",
+    "title": "Habit",
+    "year": 1996,
+    "poster": "assets/habit.jpg"
+  },
+  {
+    "id": "funny-games",
+    "title": "Funny Games",
+    "year": 1997,
+    "poster": "assets/funny-games.jpg"
+  },
+  {
+    "id": "body-bags",
+    "title": "Body Bags",
+    "year": 1993,
+    "poster": "assets/body-bags.jpg"
+  },
+  {
+    "id": "gremlins-2-the-new-batch",
+    "title": "Gremlins 2: The New Batch",
+    "year": 1990,
+    "poster": "assets/gremlins-2-the-new-batch.jpg"
+  },
+  {
+    "id": "sleepy-hollow",
+    "title": "Sleepy Hollow",
+    "year": 1999,
+    "poster": "assets/sleepy-hollow.jpg"
+  },
+  {
+    "id": "stir-of-echoes",
+    "title": "Stir of Echoes",
+    "year": 1999,
+    "poster": "assets/stir-of-echoes.jpg"
+  },
+  {
+    "id": "the-stendhal-syndrome",
+    "title": "The Stendhal Syndrome",
+    "year": 1996,
+    "poster": "assets/the-stendhal-syndrome.jpg"
+  },
+  {
+    "id": "bram-stoker-s-dracula",
+    "title": "Bram Stoker's Dracula",
+    "year": 1992,
+    "poster": "assets/bram-stoker-s-dracula.jpg"
+  },
+  {
+    "id": "body-snatchers",
+    "title": "Body Snatchers",
+    "year": 1993,
+    "poster": "assets/body-snatchers.jpg"
+  },
+  {
+    "id": "stephen-king-s-it",
+    "title": "Stephen King's It",
+    "year": 1990,
+    "poster": "assets/stephen-king-s-it.jpg"
+  },
+  {
+    "id": "the-people-under-the-stairs",
+    "title": "The People Under the Stairs",
+    "year": 1991,
+    "poster": "assets/the-people-under-the-stairs.jpg"
+  },
+  {
+    "id": "sometimes-they-come-back",
+    "title": "Sometimes They Come Back",
+    "year": 1991,
+    "poster": "assets/sometimes-they-come-back.jpg"
+  },
+  {
+    "id": "from-dusk-till-dawn",
+    "title": "From Dusk Till Dawn",
+    "year": 1996,
+    "poster": "assets/from-dusk-till-dawn.jpg"
+  },
+  {
+    "id": "the-devil-s-advocate",
+    "title": "The Devil's Advocate",
+    "year": 1997,
+    "poster": "assets/the-devil-s-advocate.jpg"
+  },
+  {
+    "id": "interview-with-the-vampire",
+    "title": "Interview With the Vampire",
+    "year": 1994,
+    "poster": "assets/interview-with-the-vampire.jpg"
+  },
+  {
+    "id": "raising-cain",
+    "title": "Raising Cain",
+    "year": 1992,
+    "poster": "assets/raising-cain.jpg"
+  },
+  {
+    "id": "nadja",
+    "title": "Nadja",
+    "year": 1994,
+    "poster": "assets/nadja.jpg"
+  },
+  {
+    "id": "tremors-ii-aftershocks",
+    "title": "Tremors II: Aftershocks",
+    "year": 1996,
+    "poster": "assets/tremors-ii-aftershocks.jpg"
+  },
+  {
+    "id": "cemetery-man",
+    "title": "Cemetery Man",
+    "year": 1994,
+    "poster": "assets/cemetery-man.jpg"
+  },
+  {
+    "id": "two-evil-eyes",
+    "title": "Two Evil Eyes",
+    "year": 1990,
+    "poster": "assets/two-evil-eyes.jpg"
+  },
+  {
+    "id": "maniac-cop-2",
+    "title": "Maniac Cop 2",
+    "year": 1990,
+    "poster": "assets/maniac-cop-2.jpg"
+  },
+  {
+    "id": "wolf",
+    "title": "Wolf",
+    "year": 1994,
+    "poster": "assets/wolf.jpg"
+  },
+  {
+    "id": "cube",
+    "title": "Cube",
+    "year": 1997,
+    "poster": "assets/cube.jpg"
+  },
+  {
+    "id": "tales-from-the-hood",
+    "title": "Tales From the Hood",
+    "year": 1995,
+    "poster": "assets/tales-from-the-hood.jpg"
+  },
+  {
+    "id": "kolobos",
+    "title": "Kolobos",
+    "year": 1999,
+    "poster": "assets/kolobos.jpg"
+  },
+  {
+    "id": "blade",
+    "title": "Blade",
+    "year": 1998,
+    "poster": "assets/blade.jpg"
+  },
+  {
+    "id": "death-becomes-her",
+    "title": "Death Becomes Her",
+    "year": 1992,
+    "poster": "assets/death-becomes-her.jpg"
+  },
+  {
+    "id": "the-exorcist-iii",
+    "title": "The Exorcist III",
+    "year": 1990,
+    "poster": "assets/the-exorcist-iii.jpg"
+  },
+  {
+    "id": "the-dark-half",
+    "title": "The Dark Half",
+    "year": 1993,
+    "poster": "assets/the-dark-half.jpg"
+  },
+  {
+    "id": "snow-white-a-tale-of-terror",
+    "title": "Snow White: A Tale of Terror",
+    "year": 1997,
+    "poster": "assets/snow-white-a-tale-of-terror.jpg"
+  },
+  {
+    "id": "night-of-the-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1990,
+    "poster": "assets/night-of-the-living-dead.jpg"
+  },
+  {
+    "id": "the-craft",
+    "title": "The Craft",
+    "year": 1996,
+    "poster": "assets/the-craft.jpg"
+  },
+  {
+    "id": "alien-resurrection",
+    "title": "Alien Resurrection",
+    "year": 1997,
+    "poster": "assets/alien-resurrection.jpg"
+  },
+  {
+    "id": "halloween-h20-20-years-later",
+    "title": "Halloween H20: 20 Years Later",
+    "year": 1998,
+    "poster": "assets/halloween-h20-20-years-later.jpg"
+  },
+  {
+    "id": "apt-pupil",
+    "title": "Apt Pupil",
+    "year": 1998,
+    "poster": "assets/apt-pupil.jpg"
+  },
+  {
+    "id": "lord-of-illusions",
+    "title": "Lord of Illusions",
+    "year": 1995,
+    "poster": "assets/lord-of-illusions.jpg"
+  },
+  {
+    "id": "ravenous",
+    "title": "Ravenous",
+    "year": 1999,
+    "poster": "assets/ravenous.jpg"
+  },
+  {
+    "id": "flatliners",
+    "title": "Flatliners",
+    "year": 1990,
+    "poster": "assets/flatliners.jpg"
+  },
+  {
+    "id": "i-know-what-you-did-last-summer",
+    "title": "I Know What You Did Last Summer",
+    "year": 1997,
+    "poster": "assets/i-know-what-you-did-last-summer.jpg"
+  },
+  {
+    "id": "bride-of-chucky",
+    "title": "Bride of Chucky",
+    "year": 1998,
+    "poster": "assets/bride-of-chucky.jpg"
+  },
+  {
+    "id": "child-s-play-2",
+    "title": "Child's Play 2",
+    "year": 1990,
+    "poster": "assets/child-s-play-2.jpg"
+  },
+  {
+    "id": "tales-from-the-darkside-the-movie",
+    "title": "Tales From the Darkside: The Movie",
+    "year": 1990,
+    "poster": "assets/tales-from-the-darkside-the-movie.jpg"
+  },
+  {
+    "id": "tales-from-the-crypt-presents-demon-knight",
+    "title": "Tales From the Crypt Presents Demon Knight",
+    "year": 1995,
+    "poster": "assets/tales-from-the-crypt-presents-demon-knight.jpg"
+  },
+  {
+    "id": "alien-3",
+    "title": "Alien 3",
+    "year": 1992,
+    "poster": "assets/alien-3.jpg"
+  },
+  {
+    "id": "species",
+    "title": "Species",
+    "year": 1995,
+    "poster": "assets/species.jpg"
+  },
+  {
+    "id": "anaconda",
+    "title": "Anaconda",
+    "year": 1997,
+    "poster": "assets/anaconda.jpg"
+  },
+  {
+    "id": "hellraiser-iii-hell-on-earth",
+    "title": "Hellraiser III: Hell on Earth",
+    "year": 1992,
+    "poster": "assets/hellraiser-iii-hell-on-earth.jpg"
+  },
+  {
+    "id": "popcorn",
+    "title": "Popcorn",
+    "year": 1991,
+    "poster": "assets/popcorn.jpg"
+  },
+  {
+    "id": "body-parts",
+    "title": "Body Parts",
+    "year": 1991,
+    "poster": "assets/body-parts.jpg"
+  },
+  {
+    "id": "disturbing-behavior",
+    "title": "Disturbing Behavior",
+    "year": 1998,
+    "poster": "assets/disturbing-behavior.jpg"
+  },
+  {
+    "id": "needful-things",
+    "title": "Needful Things",
+    "year": 1993,
+    "poster": "assets/needful-things.jpg"
+  },
+  {
+    "id": "leprechaun",
+    "title": "Leprechaun",
+    "year": 1993,
+    "poster": "assets/leprechaun.jpg"
+  },
+  {
+    "id": "evil-toons",
+    "title": "Evil Toons",
+    "year": 1992,
+    "poster": "assets/evil-toons.jpg"
+  },
+  {
+    "id": "house-on-haunted-hill",
+    "title": "House on Haunted Hill",
+    "year": 1999,
+    "poster": "assets/house-on-haunted-hill.jpg"
+  },
+  {
+    "id": "urban-legend",
+    "title": "Urban Legend",
+    "year": 1998,
+    "poster": "assets/urban-legend.jpg"
+  },
+  {
+    "id": "children-of-the-corn-ii-the-final-sacrifice",
+    "title": "Children of the Corn II: The Final Sacrifice",
+    "year": 1993,
+    "poster": "assets/children-of-the-corn-ii-the-final-sacrifice.jpg"
+  },
+  {
+    "id": "sleepwalkers",
+    "title": "Sleepwalkers",
+    "year": 1992,
+    "poster": "assets/sleepwalkers.jpg"
+  },
+  {
+    "id": "wishmaster",
+    "title": "Wishmaster",
+    "year": 1997,
+    "poster": "assets/wishmaster.jpg"
+  },
+  {
+    "id": "the-good-son",
+    "title": "The Good Son",
+    "year": 1993,
+    "poster": "assets/the-good-son.jpg"
+  },
+  {
+    "id": "the-guardian",
+    "title": "The Guardian",
+    "year": 1990,
+    "poster": "assets/the-guardian.jpg"
+  },
+  {
+    "id": "hellraiser-bloodline",
+    "title": "Hellraiser: Bloodline",
+    "year": 1996,
+    "poster": "assets/hellraiser-bloodline.jpg"
+  },
+  {
+    "id": "freddy-s-dead-the-final-nightmare",
+    "title": "Freddy's Dead: The Final Nightmare",
+    "year": 1991,
+    "poster": "assets/freddy-s-dead-the-final-nightmare.jpg"
+  },
+  {
+    "id": "the-rage-carrie-2",
+    "title": "The Rage: Carrie 2",
+    "year": 1999,
+    "poster": "assets/the-rage-carrie-2.jpg"
+  },
+  {
+    "id": "dr-giggles",
+    "title": "Dr. Giggles",
+    "year": 1992,
+    "poster": "assets/dr-giggles.jpg"
+  },
+  {
+    "id": "stigmata",
+    "title": "Stigmata",
+    "year": 1999,
+    "poster": "assets/stigmata.jpg"
+  },
+  {
+    "id": "candyman-farewell-to-the-flesh",
+    "title": "Candyman: Farewell to the Flesh",
+    "year": 1995,
+    "poster": "assets/candyman-farewell-to-the-flesh.jpg"
   }
 ]

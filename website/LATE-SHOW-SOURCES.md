@@ -40,3 +40,16 @@ Third-party films, previews, artwork, and trademarks belong to their respective 
 The Midnight Dispatch joins through [the Google Group](https://groups.google.com/g/neon-coffin-midnight-dispatch). Google manages membership and email delivery. NCV does not collect email addresses in this signup form. Joining requires completing Google's flow; clicking the NCV button does not subscribe a visitor. Members choose “Each email” or another delivery frequency and can leave in Google Groups. Public issues and RSS require no subscription.
 
 Group settings are controlled by the owner and have not been independently verified. See [Google's group settings reference](https://support.google.com/groups/answer/2464926?hl=en). The scheduled NCV archive does not send emails automatically; the owner publishes each email edition in Google Groups.
+
+## Expanded 1980s–1990s rental selection — October 10, 2026
+
+The 261-film rack combines the existing NCV horror selection with 92 additional titles discovered through these decade guides:
+
+- https://editorial.rottentomatoes.com/guide/best-80s-horror-movies/
+- https://editorial.rottentomatoes.com/guide/best-90s-horror-movies/
+
+This is an NCV editorial selection, not a reproduction of another site's ranked list or scores. Descriptions are original NCV rental notes; critics' consensus paragraphs, synopses and ratings were not copied. Release-year conventions sometimes differ between festival premieres and theatrical releases. The Company of Wolves (1984), Vampire's Kiss (1988), Maniac Cop 2 (1990), Evil Toons (1992) and Children of the Corn II (1993) use original release years rather than the alternate years on the discovery guide. Production credits and poster identities are linked individually in artwork-sources.json and SOURCES.md.
+
+Every rack title uses a local raster poster or cover. All 47 placeholder sleeves in the in-period catalog were replaced. Poster/cover art is preserved without cropping, including legitimate landscape posters and VHS sleeves. Some source posters are low-resolution editorial images; they are not enlarged source masters or merchandise files. Rights remain with the respective owners; attribution records provenance rather than granting a reuse license.
+
+No availability claim is made for the 92 new titles or other unverified catalog entries. Search Tubi is a search link, not a verified streaming offer. Official preview embeds remain limited to the previously checked uploads.

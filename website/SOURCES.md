@@ -926,9 +926,10 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 ### henry-portrait-of-a-serial-killer
 
-- Local file: `assets/henry-portrait-of-a-serial-killer.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/henry-portrait-of-a-serial-killer.jpg`
+- Credit: Henry: Portrait of a Serial Killer (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Henry:_Portrait_of_a_Serial_Killer
+- Image source: https://upload.wikimedia.org/wikipedia/en/8/8d/Henryportrait.jpg
 
 ### satans-blood
 
@@ -938,15 +939,17 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 ### slaughter-high
 
-- Local file: `assets/slaughter-high.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/slaughter-high.jpg`
+- Credit: Slaughter High (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Slaughter_High
+- Image source: https://upload.wikimedia.org/wikipedia/en/6/68/Slaughter_High_%281986_poster%29.jpeg
 
 ### near-dark
 
-- Local file: `assets/near-dark.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/near-dark.jpg`
+- Credit: Near Dark (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Near_Dark
+- Image source: https://upload.wikimedia.org/wikipedia/en/b/b3/Neardarktheatposter.jpg
 
 ### near-dark-theatrical-poster
 
@@ -957,165 +960,192 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 ### the-stepfather
 
-- Local file: `assets/the-stepfather.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/The_Stepfather
+- Local file: `assets/the-stepfather.jpg`
+- Credit: The Stepfather (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/The_Stepfather_(1987_film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/3/3d/Stepfather_1987.jpg
 
 ### alligator
 
-- Local file: `assets/alligator.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Alligator
+- Local file: `assets/alligator.jpg`
+- Credit: Alligator (1980) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/alligator
+- Image source: https://resizing.flixster.com/72w-nTW4gr0hD0EI3f7QJvfsVq8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p4686_p_v10_ab.jpg
 
 ### possession
 
-- Local file: `assets/possession.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Possession
+- Local file: `assets/possession.jpg`
+- Credit: Possession (1981) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Possession_(1981_film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/2/24/Possession_film_cover.jpg
 
 ### wolfen
 
-- Local file: `assets/wolfen.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Wolfen
+- Local file: `assets/wolfen.jpg`
+- Credit: Wolfen (1981) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/wolfen
+- Image source: https://resizing.flixster.com/xyCcqelnpg_rd7wLncr5p9z117s=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p1582_p_v12_ac.jpg
 
 ### dead-of-winter
 
-- Local file: `assets/dead-of-winter.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Dead_of_Winter
+- Local file: `assets/dead-of-winter.jpg`
+- Credit: Dead of Winter (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/dead_of_winter
+- Image source: https://resizing.flixster.com/HAJI6FETLNkEIpYYeQY5Hoq3ZJo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6239_p_v8_ad.jpg
 
 ### the-hidden
 
-- Local file: `assets/the-hidden.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/The_Hidden
+- Local file: `assets/the-hidden.jpg`
+- Credit: The Hidden (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/hidden
+- Image source: https://resizing.flixster.com/cJO2rKYRWQCyrhIOKWUgd9wUJyQ=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10403_p_v13_ad.jpg
 
 ### phenomena
 
-- Local file: `assets/phenomena.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Phenomena
+- Local file: `assets/phenomena.jpg`
+- Credit: Phenomena (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Phenomena_(film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/1/1e/Phenomena-poster.jpg
 
 ### bloody-birthday
 
-- Local file: `assets/bloody-birthday.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Bloody_Birthday
+- Local file: `assets/bloody-birthday.jpg`
+- Credit: Bloody Birthday (1981) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/bloody_birthday
+- Image source: https://resizing.flixster.com/psOB-XHTPJ9EIza4Rts5zP97k7o=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p41778_p_v8_aa.jpg
 
 ### bad-taste
 
-- Local file: `assets/bad-taste.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Bad_Taste
+- Local file: `assets/bad-taste.jpg`
+- Credit: Bad Taste (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/bad_taste
+- Image source: https://resizing.flixster.com/eUw0tp-PeikRphG1wAdLRupvr5E=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10876_p_v11_ad.jpg
 
 ### q-the-winged-serpent
 
-- Local file: `assets/q-the-winged-serpent.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Q:_The_Winged_Serpent
+- Local file: `assets/q-the-winged-serpent.jpg`
+- Credit: Q: The Winged Serpent (1982) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/q
+- Image source: https://resizing.flixster.com/zbyY-F-U-vuIILbBi5jMdd8ktPk=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6903_p_v8_ad.jpg
 
 ### dead-and-buried
 
-- Local file: `assets/dead-and-buried.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Dead_&_Buried
+- Local file: `assets/dead-and-buried.jpg`
+- Credit: Dead & Buried (1981) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/dead_and_buried
+- Image source: https://resizing.flixster.com/-ceYFmmc2wj_8ewU9vLP88X10w8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p1242_p_v10_ab.jpg
 
 ### nightmare-on-elm-street-2
 
-- Local file: `assets/nightmare-on-elm-street-2.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_2:_Freddy’s_Revenge
+- Local file: `assets/nightmare-on-elm-street-2.jpg`
+- Credit: A Nightmare on Elm Street 2: Freddy’s Revenge (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_2:_Freddy%27s_Revenge
+- Image source: https://upload.wikimedia.org/wikipedia/en/d/d5/A_Nightmare_on_Elm_Street_2_-_Freddy%27s_Revenge_%281985%29_theatrical_poster.jpg
 
 ### nightmare-on-elm-street-3
 
-- Local file: `assets/nightmare-on-elm-street-3.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_3:_Dream_Warriors
+- Local file: `assets/nightmare-on-elm-street-3.jpg`
+- Credit: A Nightmare on Elm Street 3: Dream Warriors (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/a_nightmare_on_elm_street_3_dream_warriors
+- Image source: https://resizing.flixster.com/niIxXXh42HUHuowFNysKKN3-JMU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9823_p_v11_ai.jpg
 
 ### nightmare-on-elm-street-4
 
-- Local file: `assets/nightmare-on-elm-street-4.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_4:_The_Dream_Master
+- Local file: `assets/nightmare-on-elm-street-4.jpg`
+- Credit: A Nightmare on Elm Street 4: The Dream Master (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/a_nightmare_on_elm_street_4_the_dream_master
+- Image source: https://resizing.flixster.com/RIJDgwQElJEn4G-lXJQJzbs2jKI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10992_p_v10_aa.jpg
 
 ### nightmare-on-elm-street-5
 
-- Local file: `assets/nightmare-on-elm-street-5.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/nightmare-on-elm-street-5.jpg`
+- Credit: A Nightmare on Elm Street 5: The Dream Child (1989) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_5:_The_Dream_Child
+- Image source: https://upload.wikimedia.org/wikipedia/en/e/e8/A_Nightmare_on_Elm_Street_5_-_The_Dream_Child_-US_poster.jpg
 
 ### cats-eye
 
-- Local file: `assets/cats-eye.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Cat’s_Eye
+- Local file: `assets/cats-eye.jpg`
+- Credit: Cat’s Eye (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cats_eye
+- Image source: https://resizing.flixster.com/mLbTwzQ6GAaZvS_nQnP5fPzqL10=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8775_p_v13_ae.jpg
 
 ### lady-in-white
 
-- Local file: `assets/lady-in-white.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Lady_in_White
+- Local file: `assets/lady-in-white.jpg`
+- Credit: Lady in White (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/lady_in_white
+- Image source: https://resizing.flixster.com/vFLTS_HzbKrqWaXp88oq3yHmOC4=/fit-in/180x240/v2/https://resizing.flixster.com/q3Tq5JClFZe6H2cVMlpim-5X1U4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMzZmYwYzA1LTU3MjEtNDJmOC04NTg1LTkwZGFhNTM2MjEzYi53ZWJw
 
 ### psycho-ii
 
-- Local file: `assets/psycho-ii.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Psycho_II
+- Local file: `assets/psycho-ii.jpg`
+- Credit: Psycho II (1983) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/psycho_2
+- Image source: https://resizing.flixster.com/sw0PL7o2nB0FW2i1o8-C9erCUhY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7187_p_v10_ab.jpg
 
 ### the-hitcher
 
-- Local file: `assets/the-hitcher.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/The_Hitcher
+- Local file: `assets/the-hitcher.jpg`
+- Credit: The Hitcher (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/the_hitcher
+- Image source: https://resizing.flixster.com/LxWCASvGQpj8Twqu7oJz2FEwQJM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9057_p_v13_ac.jpg
 
 ### cannibal-holocaust
 
-- Local file: `assets/cannibal-holocaust.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Cannibal_Holocaust
+- Local file: `assets/cannibal-holocaust.jpg`
+- Credit: Cannibal Holocaust (1980) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cannibal_holocaust
+- Image source: https://resizing.flixster.com/7qmUfyS8J8NugyfMjA8JqkV0PGY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p73972_p_v10_ab.jpg
 
 ### pulse-1988
 
-- Local file: `assets/pulse-1988.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Pulse
+- Local file: `assets/pulse-1988.jpg`
+- Credit: Pulse (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1016897-pulse
+- Image source: https://resizing.flixster.com/M5j3TcX6hZCzt62RscbiQaA4PUo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11359_p_v12_ab.jpg
 
 ### dark-night-of-the-scarecrow
 
-- Local file: `assets/dark-night-of-the-scarecrow.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Dark_Night_of_the_Scarecrow
+- Local file: `assets/dark-night-of-the-scarecrow.jpg`
+- Credit: Dark Night of the Scarecrow (1981) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/dark_night_of_the_scarecrow
+- Image source: https://resizing.flixster.com/SbhdBy_QsmeuG_NOidLpme9pI94=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8498_p_v12_aa.jpg
 
 ### swamp-thing
 
-- Local file: `assets/swamp-thing.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Swamp_Thing
+- Local file: `assets/swamp-thing.jpg`
+- Credit: Swamp Thing (1982) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/swamp_thing
+- Image source: https://resizing.flixster.com/B_GQUPpqIdNJuFuZgWS6M7loftw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p4668_p_v13_ac.jpg
 
 ### cujo
 
-- Local file: `assets/cujo.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Cujo
+- Local file: `assets/cujo.jpg`
+- Credit: Cujo (1983) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cujo
+- Image source: https://resizing.flixster.com/sLc89wx0R0dHLz6tYAFzaq2jNWE=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7043_p_v13_ac.jpg
 
 ### dolls-1987
 
-- Local file: `assets/dolls-1987.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Dolls
+- Local file: `assets/dolls-1987.jpg`
+- Credit: Dolls (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1006068-dolls
+- Image source: https://resizing.flixster.com/QJokKw4y2asZ7-jXbojAt_URXK4=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9941_p_v10_ac.jpg
 
 ### april-fools-day
 
-- Local file: `assets/april-fools-day.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/April_Fool’s_Day
+- Local file: `assets/april-fools-day.jpg`
+- Credit: April Fool’s Day (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1001138-april_fools_day
+- Image source: https://resizing.flixster.com/q7VMlm3WY9cYHoflvYUcAc9UNEQ=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9159_p_v8_ai.jpg
 
 ### waxwork
 
-- Local file: `assets/waxwork.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Waxwork
+- Local file: `assets/waxwork.jpg`
+- Credit: Waxwork (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/waxwork
+- Image source: https://resizing.flixster.com/dDk0A0KOyEd7rdwvsOc9-unzktI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11065_p_v13_ab.jpg
 
 ### lifeforce
 
@@ -1126,111 +1156,772 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 ### maniac-cop
 
-- Local file: `assets/maniac-cop.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Maniac_Cop
+- Local file: `assets/maniac-cop.jpg`
+- Credit: Maniac Cop (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/maniac_cop
+- Image source: https://resizing.flixster.com/gtfI1zYYBTERytvmIPT-t9J8ZIw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p50269_p_v8_ab.jpg
 
 ### puppet-master-2
 
-- Local file: `assets/puppet-master-2.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/puppet-master-2.jpg`
+- Credit: Puppet Master II (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Puppet_Master_II
+- Image source: https://upload.wikimedia.org/wikipedia/en/1/12/Puppet_Master_II.jpg
 
 ### puppet-master-3-toulons-revenge
 
-- Local file: `assets/puppet-master-3-toulons-revenge.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Puppet_Master_III:_Toulon’s_Revenge
+- Local file: `assets/puppet-master-3-toulons-revenge.jpg`
+- Credit: Puppet Master III: Toulon’s Revenge (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Puppet_Master_III:_Toulon%27s_Revenge
+- Image source: https://upload.wikimedia.org/wikipedia/en/2/24/Puppet_Master_III_DVD.jpg
 
 ### puppet-master-4
 
-- Local file: `assets/puppet-master-4.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/puppet-master-4.jpg`
+- Credit: Puppet Master 4 (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Puppet_Master_4
+- Image source: https://upload.wikimedia.org/wikipedia/en/5/50/Puppet_Master_4.jpg
 
 ### puppet-master-5-the-final-chapter
 
-- Local file: `assets/puppet-master-5-the-final-chapter.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/puppet-master-5-the-final-chapter.jpg`
+- Credit: Puppet Master 5: The Final Chapter (1994) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Puppet_Master_5:_The_Final_Chapter
+- Image source: https://upload.wikimedia.org/wikipedia/en/8/82/Puppet_Master_5.jpg
 
 ### curse-of-the-puppet-master
 
-- Local file: `assets/curse-of-the-puppet-master.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/curse-of-the-puppet-master.jpg`
+- Credit: Curse of the Puppet Master (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Curse_of_the_Puppet_Master
+- Image source: https://upload.wikimedia.org/wikipedia/en/6/60/Curse-of-the-puppet-master-movie-poster-md.jpg
 
 ### retro-puppet-master
 
-- Local file: `assets/retro-puppet-master.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
+- Local file: `assets/retro-puppet-master.jpg`
+- Credit: Retro Puppet Master (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
 - Reference: https://en.wikipedia.org/wiki/Retro_Puppet_Master
+- Image source: https://upload.wikimedia.org/wikipedia/en/a/ac/Retro-puppet-master-movie-poster-md.jpg
 
 ### the-silence-of-the-lambs
 
-- Local file: `assets/the-silence-of-the-lambs.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs
+- Local file: `assets/the-silence-of-the-lambs.jpg`
+- Credit: The Silence of the Lambs (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg
 
 ### jacobs-ladder
 
-- Local file: `assets/jacobs-ladder.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Jacob’s_Ladder
+- Local file: `assets/jacobs-ladder.jpg`
+- Credit: Jacob’s Ladder (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Jacob%27s_Ladder_(1990_film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/7/70/Jacobsladderposter.jpg
 
 ### candyman
 
-- Local file: `assets/candyman.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Candyman
+- Local file: `assets/candyman.jpg`
+- Credit: Candyman (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Candyman_(1992_film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/8/89/Candymanposter.jpg
 
 ### scream
 
-- Local file: `assets/scream.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Scream
+- Local file: `assets/scream.jpg`
+- Credit: Scream (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Scream_(1996_film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/8/86/Scream_%281996_film%29_poster.jpg
 
 ### dead-alive
 
-- Local file: `assets/dead-alive.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Dead_Alive
+- Local file: `assets/dead-alive.png`
+- Credit: Dead Alive (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Braindead_(film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/7/71/Dead_Alive_%281993%29.png
 
 ### the-frighteners
 
-- Local file: `assets/the-frighteners.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/The_Frighteners
+- Local file: `assets/the-frighteners.jpg`
+- Credit: The Frighteners (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/the_frighteners
+- Image source: https://resizing.flixster.com/4Ga0eotnq45S5pVGAVQbJitBN4o=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18238_p_v10_ab.jpg
 
 ### cronos
 
-- Local file: `assets/cronos.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Cronos
+- Local file: `assets/cronos.jpg`
+- Credit: Cronos (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cronos
+- Image source: https://resizing.flixster.com/qGgKPcCYvbwOBwUL7WrqoG6elOw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16229_p_v8_aa.jpg
 
 ### mimic
 
-- Local file: `assets/mimic.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Mimic
+- Local file: `assets/mimic.jpg`
+- Credit: Mimic (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/mimic
+- Image source: https://resizing.flixster.com/KvwOrcwrcBkkAOAueaFFhAzkimo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19814_p_v8_ab.jpg
 
 ### ringu
 
-- Local file: `assets/ringu.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/Ringu
+- Local file: `assets/ringu.jpg`
+- Credit: Ringu (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://en.wikipedia.org/wiki/Ring_(film)
+- Image source: https://upload.wikimedia.org/wikipedia/en/4/4a/Ringu_%281998%29_Japanese_theatrical_poster.jpg
 
 ### the-faculty
 
-- Local file: `assets/the-faculty.svg`
-- Credit: Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still.
-- Reference: https://en.wikipedia.org/wiki/The_Faculty
+- Local file: `assets/the-faculty.jpg`
+- Credit: The Faculty (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/faculty
+- Image source: https://resizing.flixster.com/_eZjTeEJCi6M4DkJ6bUaGe9q17s=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22254_p_v8_ak.jpg
 
 ### midnight-forest
 
 - Local file: `assets/midnight-forest.webp`
 - Credit: Original AI-generated atmospheric forest illustration created for The Midnight Lounge; not a film still or official film artwork.
 - Reference: Original Neon Coffin Video community background
+
+### little-shop-of-horrors
+
+- Local file: `assets/little-shop-of-horrors.jpg`
+- Credit: Little Shop of Horrors (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1012515-little_shop_of_horrors
+- Image source: https://resizing.flixster.com/Wc8QTQm59nVcbSnH0BmeQs62Pcs=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9673_p_v8_ai.jpg
+
+### santa-sangre
+
+- Local file: `assets/santa-sangre.jpg`
+- Credit: Santa Sangre (1989) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/santa_sangre
+- Image source: https://resizing.flixster.com/ivvTzE6DRHHt7DjPyOdbqHz2fls=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p54534_v_v8_aa.jpg
+
+### dead-ringers
+
+- Local file: `assets/dead-ringers.jpg`
+- Credit: Dead Ringers (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/dead_ringers
+- Image source: https://resizing.flixster.com/gv7mxK9wWnLQov3hgUYx4qsPGlA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11051_p_v10_ai.jpg
+
+### altered-states
+
+- Local file: `assets/altered-states.jpg`
+- Credit: Altered States (1980) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/altered_states
+- Image source: https://resizing.flixster.com/6aI6HJpPaKRnKMkp74kdms1PevI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p969_p_v10_aa.jpg
+
+### beetlejuice
+
+- Local file: `assets/beetlejuice.jpg`
+- Credit: Beetlejuice (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/beetlejuice
+- Image source: https://resizing.flixster.com/LH1S4ajpPUQY2BUzBJ3uBViFHYU=/fit-in/180x240/v2/https://resizing.flixster.com/TSXIwVS-Bt-y39e-4n7i-YTptB4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2QwNTMzNjgyLWM0YjktNDBhZC04ZDRlLTczOGE2ZmJjODJkZS5qcGc=
+
+### the-company-of-wolves
+
+- Local file: `assets/the-company-of-wolves.jpg`
+- Credit: The Company of Wolves (1984) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/company_of_wolves
+- Image source: https://resizing.flixster.com/2_Az0ixZN93hZsdEiI1p39EZOtM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8728_p_v8_aa.jpg
+
+### tetsuo-the-iron-man
+
+- Local file: `assets/tetsuo-the-iron-man.jpg`
+- Credit: Tetsuo: The Iron Man (1989) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/tetsuo-the-ironman
+- Image source: https://resizing.flixster.com/pyfgMT2KhEbGIQNw1KA8HkSN5pU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p74246_p_v10_ab.jpg
+
+### the-witches-of-eastwick
+
+- Local file: `assets/the-witches-of-eastwick.jpg`
+- Credit: The Witches of Eastwick (1987) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/witches_of_eastwick
+- Image source: https://resizing.flixster.com/yP4BMLr7I1dvy61sFcPthKuG9cY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10075_p_v8_ag.jpg
+
+### demons
+
+- Local file: `assets/demons.jpg`
+- Credit: Demons (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/demons_1985
+- Image source: https://resizing.flixster.com/I-CgiTRQVwewBwyq5QwLI2mnfWw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p47383_p_v8_ae.jpg
+
+### the-lair-of-the-white-worm
+
+- Local file: `assets/the-lair-of-the-white-worm.jpg`
+- Credit: The Lair of the White Worm (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/lair_of_the_white_worm
+- Image source: https://resizing.flixster.com/fYeuBwFVjbcgjhb5gGTZdMFghkw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11014_p_v8_ab.jpg
+
+### vampire-s-kiss
+
+- Local file: `assets/vampire-s-kiss.jpg`
+- Credit: Vampire's Kiss (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/vampires_kiss
+- Image source: https://resizing.flixster.com/E1eBP-dScVLS8aVe11FmQD2AY_8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11118_p_v8_ab.jpg
+
+### the-serpent-and-the-rainbow
+
+- Local file: `assets/the-serpent-and-the-rainbow.jpg`
+- Credit: The Serpent and the Rainbow (1988) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/serpent_and_the_rainbow
+- Image source: https://resizing.flixster.com/oy2ekHyFRQWxQgdklg7uyJ27vUs=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10594_p_v10_ag.jpg
+
+### the-church
+
+- Local file: `assets/the-church.jpg`
+- Credit: The Church (1989) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/the_church
+- Image source: https://resizing.flixster.com/mffKIJeUR0559OW42ANMAbOUKOU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p54539_p_v8_ab.jpg
+
+### cure
+
+- Local file: `assets/cure.jpg`
+- Credit: Cure (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cure_1997
+- Image source: https://resizing.flixster.com/4WDmpcPTlMYOs27uSk4rdORrkew=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p73158_p_v8_aa.jpg
+
+### twilight-zone-the-movie
+
+- Local file: `assets/twilight-zone-the-movie.jpg`
+- Credit: Twilight Zone: The Movie (1983) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/twilight_zone_the_movie
+- Image source: https://resizing.flixster.com/a_eKQL5AgNEHriTg8XfKs14wwaM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7136_p_v10_ak.jpg
+
+### misery
+
+- Local file: `assets/misery.jpg`
+- Credit: Misery (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/misery
+- Image source: https://resizing.flixster.com/Pi4czVy5IcsobEVnKDy-Boq1gz4=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12891_p_v8_aa.jpg
+
+### arachnophobia
+
+- Local file: `assets/arachnophobia.jpg`
+- Credit: Arachnophobia (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/arachnophobia
+- Image source: https://resizing.flixster.com/MZZTzhkYkzVGAZM-rc9vAAtP6kU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12617_p_v13_ah.jpg
+
+### the-blair-witch-project
+
+- Local file: `assets/the-blair-witch-project.jpg`
+- Credit: The Blair Witch Project (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/blair_witch_project
+- Image source: https://resizing.flixster.com/Bj6kbmOCdOsAPTn__m2mPnsAK60=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22546_p_v12_ar.jpg
+
+### the-sixth-sense
+
+- Local file: `assets/the-sixth-sense.jpg`
+- Credit: The Sixth Sense (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/sixth_sense
+- Image source: https://resizing.flixster.com/juXXtJIX6Hfno1NAFj-RXObRMCE=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg
+
+### seven
+
+- Local file: `assets/seven.jpg`
+- Credit: Seven (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/seven
+- Image source: https://resizing.flixster.com/4yr-Afh_2QU12Vx137t3vMpXM-g=/fit-in/180x240/v2/https://resizing.flixster.com/5pwVTM0GOQlUGuzPjurEu1CjJVg=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzM5NmE5YWUzLTBiMjAtNDRkZC04OGZhLTYyMjYxMjA2YzhhZC5qcGc=
+
+### scream-2
+
+- Local file: `assets/scream-2.jpg`
+- Credit: Scream 2 (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/scream_2
+- Image source: https://resizing.flixster.com/usfbgih-u_qFMSG34xXjM-iDuxw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20341_p_v8_ab.jpg
+
+### audition
+
+- Local file: `assets/audition.jpg`
+- Credit: Audition (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/audition_1999
+- Image source: https://resizing.flixster.com/H4ElEQfpRzpx98EVtiUKkMmYwug=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29706_p_v8_ad.jpg
+
+### wes-craven-s-new-nightmare
+
+- Local file: `assets/wes-craven-s-new-nightmare.jpg`
+- Credit: Wes Craven's New Nightmare (1994) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/wes_cravens_new_nightmare
+- Image source: https://resizing.flixster.com/8Lfw64hX3OvYU0Uik6HdbJvo80Y=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16048_v_v12_ag.jpg
+
+### cape-fear
+
+- Local file: `assets/cape-fear.jpg`
+- Credit: Cape Fear (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1037581-cape_fear
+- Image source: https://resizing.flixster.com/Mzep-N5JKAvenk8FbETdD0VmaMU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13554_p_v8_aa.jpg
+
+### mute-witness
+
+- Local file: `assets/mute-witness.jpg`
+- Credit: Mute Witness (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/mute_witness
+- Image source: https://resizing.flixster.com/WsYX5zBVXPklAAYV8oMMbRIO_aM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16469_v_v11_af.jpg
+
+### habit
+
+- Local file: `assets/habit.jpg`
+- Credit: Habit (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/habit
+- Image source: https://resizing.flixster.com/cNv_K-wxv34pvaMjIqD3vUT9ko4=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23170_p_v8_aa.jpg
+
+### basket-case-2
+
+- Local file: `assets/basket-case-2.jpg`
+- Credit: Basket Case 2 (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/basket_case_2
+- Image source: https://resizing.flixster.com/y8xUvHVbxHkluzaiu6TYjI9Byas=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p52376_p_v8_ab.jpg
+
+### funny-games
+
+- Local file: `assets/funny-games.jpg`
+- Credit: Funny Games (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1083791-funny_games
+- Image source: https://resizing.flixster.com/dCqzqptZtm-osrIZYQ74S-rgP7w=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22673_p_v8_ae.jpg
+
+### body-bags
+
+- Local file: `assets/body-bags.jpg`
+- Credit: Body Bags (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/body_bags
+- Image source: https://resizing.flixster.com/26NkpvBIG1ocwRL4XczESp_T_z4=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14849_p_v8_aa.jpg
+
+### gremlins-2-the-new-batch
+
+- Local file: `assets/gremlins-2-the-new-batch.jpg`
+- Credit: Gremlins 2: The New Batch (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/gremlins_2_the_new_batch
+- Image source: https://resizing.flixster.com/GKTyAoybB2qXzq6EB0_b4MVmXw4=/fit-in/180x240/v2/https://resizing.flixster.com/KBnU3RSmNug-tN-uNE1UDWcPiko=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzU4ZTUyNGE4LTY3YjktNGUxMC1hM2QzLWYzOTg4ZmJkZWJiMy5qcGc=
+
+### sleepy-hollow
+
+- Local file: `assets/sleepy-hollow.jpg`
+- Credit: Sleepy Hollow (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/sleepy_hollow
+- Image source: https://resizing.flixster.com/6ohL7UFEQTxzuBHcrBV6uJq1DjE=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24356_p_v12_aw.jpg
+
+### stir-of-echoes
+
+- Local file: `assets/stir-of-echoes.jpg`
+- Credit: Stir of Echoes (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/stir_of_echoes
+- Image source: https://resizing.flixster.com/zmjKjUQVbxj0SFRHjGzWy7e2PnE=/fit-in/180x240/v2/https://resizing.flixster.com/Mn4p8In9WgD1xrwNb4fNG_9UFu4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2M2NDIyMWU2LTU2MGItNGUwMi04ZGM2LWQ3NDUzNmUyMTQwMi5qcGc=
+
+### the-stendhal-syndrome
+
+- Local file: `assets/the-stendhal-syndrome.jpg`
+- Credit: The Stendhal Syndrome (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/stendhal_syndrome
+- Image source: https://resizing.flixster.com/ulMA9lmB6YUNPa8IqTaMSSV-JxU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23122_p_v10_ac.jpg
+
+### bram-stoker-s-dracula
+
+- Local file: `assets/bram-stoker-s-dracula.jpg`
+- Credit: Bram Stoker's Dracula (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/bram_stokers_dracula
+- Image source: https://resizing.flixster.com/zaV5tVWp_-k3tTjXbstRstRjPWs=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14362_p_v10_ao.jpg
+
+### body-snatchers
+
+- Local file: `assets/body-snatchers.jpg`
+- Credit: Body Snatchers (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/body_snatchers
+- Image source: https://resizing.flixster.com/aUtT-ZiElqkWrSrJgK1u2Ido0EI=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14752_p_v8_ac.jpg
+
+### the-people-under-the-stairs
+
+- Local file: `assets/the-people-under-the-stairs.jpg`
+- Credit: The People Under the Stairs (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/people_under_the_stairs
+- Image source: https://resizing.flixster.com/npQ99WHMu14bVJlbehtXP75bAvo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13557_p_v8_ag.jpg
+
+### stephen-king-s-it
+
+- Local file: `assets/stephen-king-s-it.jpg`
+- Credit: Stephen King's It (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/stephen_kings_it
+- Image source: https://resizing.flixster.com/euOvn4w8aP6Mu7C8zoJjUavBob4=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14452845_p_v8_aa.jpg
+
+### sometimes-they-come-back
+
+- Local file: `assets/sometimes-they-come-back.jpg`
+- Credit: Sometimes They Come Back (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/sometimes_they_come_back
+- Image source: https://resizing.flixster.com/6YFLqkL18TCp0uGZAfQ8bQgA8-k=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13133_p_v8_ay.jpg
+
+### from-dusk-till-dawn
+
+- Local file: `assets/from-dusk-till-dawn.jpg`
+- Credit: From Dusk Till Dawn (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/from_dusk_till_dawn
+- Image source: https://resizing.flixster.com/JeO5c6Jsilf0ZdTQd2d1V0JvdDk=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17605_p_v8_aj.jpg
+
+### the-devil-s-advocate
+
+- Local file: `assets/the-devil-s-advocate.jpg`
+- Credit: The Devil's Advocate (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/devils_advocate
+- Image source: https://resizing.flixster.com/EZEFBJrO92bbQGkynd5gYivLIek=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19989_p_v10_aa.jpg
+
+### interview-with-the-vampire
+
+- Local file: `assets/interview-with-the-vampire.jpg`
+- Credit: Interview With the Vampire (1994) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/interview_with_the_vampire
+- Image source: https://resizing.flixster.com/ETlvwH-HiTCPTB0BIWdiG2CWeyw=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16165_p_v8_ab.jpg
+
+### raising-cain
+
+- Local file: `assets/raising-cain.jpg`
+- Credit: Raising Cain (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/raising_cain
+- Image source: https://resizing.flixster.com/1Oc1kRZfV-xRuA6hWjtKSFGVv0c=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14138_p_v11_aa.jpg
+
+### nadja
+
+- Local file: `assets/nadja.jpg`
+- Credit: Nadja (1994) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/nadja
+- Image source: https://resizing.flixster.com/vSCEptynuCvAoG-oD-s0tKBFwHI=/fit-in/180x240/v2/https://resizing.flixster.com/qs6fnotc8bgSeMKhrovfx0WdAxQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzg1NmUwNTA0LWRmNmYtNDhmMi04OGM1LTBmZjZhZWZiOWUzNy5qcGc=
+
+### tremors-ii-aftershocks
+
+- Local file: `assets/tremors-ii-aftershocks.jpg`
+- Credit: Tremors II: Aftershocks (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/tremors_2_aftershocks
+- Image source: https://resizing.flixster.com/kEaOP-DnUZwpgyxdnIoEYGvjKSs=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17722_p_v10_ac.jpg
+
+### cemetery-man
+
+- Local file: `assets/cemetery-man.jpg`
+- Credit: Cemetery Man (1994) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cemetery_man
+- Image source: https://resizing.flixster.com/YtYmw0xYm7lLWyyJr4ujl1jMvkY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18631_p_v8_aa.jpg
+
+### two-evil-eyes
+
+- Local file: `assets/two-evil-eyes.jpg`
+- Credit: Two Evil Eyes (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/two_evil_eyes
+- Image source: https://resizing.flixster.com/mvDWhF-6VxmsQfoPLftVPFh0VzA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14213_v_v8_aa.jpg
+
+### wolf
+
+- Local file: `assets/wolf.jpg`
+- Credit: Wolf (1994) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1053942-wolf
+- Image source: https://resizing.flixster.com/UBUktlO8r2sE4_NJNA1lLzxiWiE=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15767_p_v11_ai.jpg
+
+### maniac-cop-2
+
+- Local file: `assets/maniac-cop-2.jpg`
+- Credit: Maniac Cop 2 (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/maniac_cop_2
+- Image source: https://resizing.flixster.com/LqEP-Y0DI2Y_jAdlSdWLp2SmtaY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12912_p_v8_aa.jpg
+
+### cube
+
+- Local file: `assets/cube.jpg`
+- Credit: Cube (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/cube
+- Image source: https://resizing.flixster.com/gNpEv_2dmeaGCKahMkT7sXTXMNM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20005_p_v10_ab.jpg
+
+### tales-from-the-hood
+
+- Local file: `assets/tales-from-the-hood.jpg`
+- Credit: Tales From the Hood (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/tales_from_the_hood
+- Image source: https://resizing.flixster.com/Y5Dpx6QFO1r8UII8PI0ZJSZRk5I=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16805_p_v8_aa.jpg
+
+### death-becomes-her
+
+- Local file: `assets/death-becomes-her.jpg`
+- Credit: Death Becomes Her (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/death_becomes_her
+- Image source: https://resizing.flixster.com/dBzrPaM1v0JAVNcGZHV2rBGfI44=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14124_p_v13_aj.jpg
+
+### kolobos
+
+- Local file: `assets/kolobos.jpg`
+- Credit: Kolobos (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/kolobos
+- Image source: https://resizing.flixster.com/ujpn5QB6K16lkbas3P9mg-sVOds=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25730_p_v12_aa.jpg
+
+### blade
+
+- Local file: `assets/blade.jpg`
+- Credit: Blade (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1083484-blade
+- Image source: https://resizing.flixster.com/L9mIkeVNLquEY1VHo2m_bfrmKcc=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21512_p_v8_ad.jpg
+
+### the-exorcist-iii
+
+- Local file: `assets/the-exorcist-iii.jpg`
+- Credit: The Exorcist III (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/exorcist_3
+- Image source: https://resizing.flixster.com/YFs9UEUH8Xw-LH5jNEB3OakzHaA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12694_p_v10_ah.jpg
+
+### snow-white-a-tale-of-terror
+
+- Local file: `assets/snow-white-a-tale-of-terror.jpg`
+- Credit: Snow White: A Tale of Terror (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/snow_white_a_tale_of_terror
+- Image source: https://resizing.flixster.com/D6iuH6r04o_rXHdn8mPpupDMgCE=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19591_p_v7_ag.jpg
+
+### the-dark-half
+
+- Local file: `assets/the-dark-half.jpg`
+- Credit: The Dark Half (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/dark_half
+- Image source: https://resizing.flixster.com/dWoNuH4jMwFNZ5AZtTdBYDQvo7g=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14739_p_v8_aa.jpg
+
+### night-of-the-living-dead
+
+- Local file: `assets/night-of-the-living-dead.jpg`
+- Credit: Night of the Living Dead (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/night_of_the_living_dead_1990
+- Image source: https://resizing.flixster.com/fQScPKeBZNJFVhh_tnZgAGN8XPQ=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12811_p_v8_af.jpg
+
+### the-craft
+
+- Local file: `assets/the-craft.jpg`
+- Credit: The Craft (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/craft
+- Image source: https://resizing.flixster.com/Shnx_PM3EjlxCv8r3eN5L6R4wRs=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18004_p_v8_ad.jpg
+
+### alien-resurrection
+
+- Local file: `assets/alien-resurrection.jpg`
+- Credit: Alien Resurrection (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/alien_resurrection
+- Image source: https://resizing.flixster.com/U2E8eLLp0TRB5vzAKM_2XhWfPgM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20180_p_v13_bn.jpg
+
+### halloween-h20-20-years-later
+
+- Local file: `assets/halloween-h20-20-years-later.jpg`
+- Credit: Halloween H20: 20 Years Later (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/halloween_h2o_20_years_later
+- Image source: https://resizing.flixster.com/RtWUDKO8tX_oa23fzJZgIZvr_2Q=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21448_p_v8_au.jpg
+
+### apt-pupil
+
+- Local file: `assets/apt-pupil.jpg`
+- Credit: Apt Pupil (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/apt_pupil
+- Image source: https://resizing.flixster.com/jsIxPn3lVi98RpaC4kPuKJeHfEk=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21679_p_v8_aa.jpg
+
+### lord-of-illusions
+
+- Local file: `assets/lord-of-illusions.jpg`
+- Credit: Lord of Illusions (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/lord_of_illusions
+- Image source: https://resizing.flixster.com/5gfNVez4vEVc6d3zqI5B8SymGcc=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17045_p_v10_aa.jpg
+
+### flatliners
+
+- Local file: `assets/flatliners.jpg`
+- Credit: Flatliners (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/flatliners
+- Image source: https://resizing.flixster.com/d2FalCmGK-m0piphXJd5Thc75WA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12636_p_v13_aa.jpg
+
+### ravenous
+
+- Local file: `assets/ravenous.jpg`
+- Credit: Ravenous (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/ravenous
+- Image source: https://resizing.flixster.com/b7j30NhpiCcEbHHuC7VTVxtl_AY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22491_p_v8_aa.jpg
+
+### i-know-what-you-did-last-summer
+
+- Local file: `assets/i-know-what-you-did-last-summer.jpg`
+- Credit: I Know What You Did Last Summer (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/i_know_what_you_did_last_summer
+- Image source: https://resizing.flixster.com/IjiMStFyNSQFjHYS0m7Z0kaSaig=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19990_p_v8_ax.jpg
+
+### bride-of-chucky
+
+- Local file: `assets/bride-of-chucky.jpg`
+- Credit: Bride of Chucky (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/bride_of_chucky
+- Image source: https://resizing.flixster.com/xYXauOChGy-wV15b2srU8n_hHAA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21968_p_v10_ae.jpg
+
+### child-s-play-2
+
+- Local file: `assets/child-s-play-2.jpg`
+- Credit: Child's Play 2 (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/childs_play_2
+- Image source: https://resizing.flixster.com/E0bT8uJylXK5XnjyqwCKsJ_9KF8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6612_p_v10_aa.jpg
+
+### tales-from-the-darkside-the-movie
+
+- Local file: `assets/tales-from-the-darkside-the-movie.jpg`
+- Credit: Tales From the Darkside: The Movie (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/tales_from_the_darkside_the_movie
+- Image source: https://resizing.flixster.com/P91oNyrrDPetNisvJOKf-54uwIg=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12290_p_v8_ad.jpg
+
+### tales-from-the-crypt-presents-demon-knight
+
+- Local file: `assets/tales-from-the-crypt-presents-demon-knight.jpg`
+- Credit: Tales From the Crypt Presents Demon Knight (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/tales_from_the_crypt_presents_demon_knight
+- Image source: https://resizing.flixster.com/Nek5ICaGEbSBHdCi3H3qvSG-4FY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16373_p_v10_ah.jpg
+
+### hellraiser-iii-hell-on-earth
+
+- Local file: `assets/hellraiser-iii-hell-on-earth.jpg`
+- Credit: Hellraiser III: Hell on Earth (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/hellraiser_iii_hell_on_earth
+- Image source: https://resizing.flixster.com/HMwu0TwPZAkuDHEw6txepiXYNGA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14219_p_v13_ak.jpg
+
+### alien-3
+
+- Local file: `assets/alien-3.jpg`
+- Credit: Alien 3 (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/alien3
+- Image source: https://resizing.flixster.com/llAtMn-muVF8ypPoiwEbqZByftc=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14014_p_v8_ad.jpg
+
+### species
+
+- Local file: `assets/species.jpg`
+- Credit: Species (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/species
+- Image source: https://resizing.flixster.com/msm7J2i2J7u7cyZKhoKwcMAZJaE=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16917_p_v10_aa.jpg
+
+### anaconda
+
+- Local file: `assets/anaconda.jpg`
+- Credit: Anaconda (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/anaconda
+- Image source: https://resizing.flixster.com/QfGkwAEFal_4EPBwitkFflJhVBY=/fit-in/180x240/v2/https://resizing.flixster.com/uRsfAN4nkLxHDLhjdJOGGRdgzjY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzQzODc0MWQyLTIyZmEtNGI5Zi1hOThiLTQxNzY2OTNiYmE2NS5qcGc=
+
+### disturbing-behavior
+
+- Local file: `assets/disturbing-behavior.jpg`
+- Credit: Disturbing Behavior (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/disturbing_behavior
+- Image source: https://resizing.flixster.com/uwW7reIWn9bLnRs0Kf3lgcMY-Jo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21446_p_v10_ae.jpg
+
+### popcorn
+
+- Local file: `assets/popcorn.jpg`
+- Credit: Popcorn (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/popcorn_1990
+- Image source: https://resizing.flixster.com/CUZc1LnfmssM1U4n-RJzZ0DxfH0=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p54087_p_v13_aa.jpg
+
+### needful-things
+
+- Local file: `assets/needful-things.jpg`
+- Credit: Needful Things (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/needful_things
+- Image source: https://resizing.flixster.com/9zGA-3So1ffFRPK8JhS_sfXvS8c=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14953_p_v10_ac.jpg
+
+### body-parts
+
+- Local file: `assets/body-parts.jpg`
+- Credit: Body Parts (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/body_parts
+- Image source: https://resizing.flixster.com/n57-582zRi8AbC-RlEwScy4kQSY=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11145_p_v8_ab.jpg
+
+### leprechaun
+
+- Local file: `assets/leprechaun.jpg`
+- Credit: Leprechaun (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/leprechaun
+- Image source: https://resizing.flixster.com/cUvHxxifEOnU6euWUC05WAS-Tb8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14513_p_v10_ac.jpg
+
+### evil-toons
+
+- Local file: `assets/evil-toons.jpg`
+- Credit: Evil Toons (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/evil_toons
+- Image source: https://resizing.flixster.com/h86v7lexSP1etFHN36jU4_M3kWo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p55348_v_v11_ab.jpg
+
+### house-on-haunted-hill
+
+- Local file: `assets/house-on-haunted-hill.jpg`
+- Credit: House on Haunted Hill (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1093881-house_on_haunted_hill
+- Image source: https://resizing.flixster.com/R-viFKoWzAbxG9_QuSg7g9hxXns=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24224_p_v12_aj.jpg
+
+### urban-legend
+
+- Local file: `assets/urban-legend.jpg`
+- Credit: Urban Legend (1998) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/urban_legend
+- Image source: https://resizing.flixster.com/RXhj88V3pmtPinSiki3-x4R_c0g=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21703_p_v10_aa.jpg
+
+### wishmaster
+
+- Local file: `assets/wishmaster.jpg`
+- Credit: Wishmaster (1997) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/wishmaster
+- Image source: https://resizing.flixster.com/QrbZg0s1zckG5Z_ER6Auwgne5gA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19953_p_v13_af.jpg
+
+### children-of-the-corn-ii-the-final-sacrifice
+
+- Local file: `assets/children-of-the-corn-ii-the-final-sacrifice.jpg`
+- Credit: Children of the Corn II: The Final Sacrifice (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/children_of_the_corn_ii_the_final_sacrifice
+- Image source: https://resizing.flixster.com/ii1ybbXZWjxZi5RBMtKGkuSU8jo=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14572_p_v8_ac.jpg
+
+### sleepwalkers
+
+- Local file: `assets/sleepwalkers.jpg`
+- Credit: Sleepwalkers (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/sleepwalkers
+- Image source: https://resizing.flixster.com/JxHIhn096ilz2mHED1y5m6KqdZg=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13939_p_v13_af.jpg
+
+### the-good-son
+
+- Local file: `assets/the-good-son.jpg`
+- Credit: The Good Son (1993) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/good_son
+- Image source: https://resizing.flixster.com/2zY8GjHMZDKn4tEajXYwF6Ppj20=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15071_p_v8_ai.jpg
+
+### hellraiser-bloodline
+
+- Local file: `assets/hellraiser-bloodline.jpg`
+- Credit: Hellraiser: Bloodline (1996) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/hellraiser-bloodline
+- Image source: https://resizing.flixster.com/0mgCOfaZXhf6lTpzNujnSM9SRy4=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17780_p_v10_aa.jpg
+
+### the-rage-carrie-2
+
+- Local file: `assets/the-rage-carrie-2.jpg`
+- Credit: The Rage: Carrie 2 (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/rage_carrie_2
+- Image source: https://resizing.flixster.com/D-YY_6J-cgaT2ZV-4xZJN9XvRW8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22711_p_v13_af.jpg
+
+### freddy-s-dead-the-final-nightmare
+
+- Local file: `assets/freddy-s-dead-the-final-nightmare.jpg`
+- Credit: Freddy's Dead: The Final Nightmare (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/freddys_dead_the_final_nightmare
+- Image source: https://resizing.flixster.com/G1AtWY4ng186IE5iRPZ95pi91CU=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13452_p_v10_al.jpg
+
+### the-guardian
+
+- Local file: `assets/the-guardian.jpg`
+- Credit: The Guardian (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/1028564-guardian
+- Image source: https://resizing.flixster.com/Ki1cC9b0zGank0eoNyBryBNNYsM=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12272_p_v8_az.jpg
+
+### candyman-farewell-to-the-flesh
+
+- Local file: `assets/candyman-farewell-to-the-flesh.jpg`
+- Credit: Candyman: Farewell to the Flesh (1995) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/candyman_farewell_to_the_flesh
+- Image source: https://resizing.flixster.com/1Ie5N-6g7RnRGfGw1SjhuBqKSg0=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16591_p_v13_af.jpg
+
+### dr-giggles
+
+- Local file: `assets/dr-giggles.jpg`
+- Credit: Dr. Giggles (1992) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/dr_giggles
+- Image source: https://resizing.flixster.com/OE__U4l_RyNJyJM-u3LFkMVMCjA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14333_p_v12_ab.jpg
+
+### stigmata
+
+- Local file: `assets/stigmata.jpg`
+- Credit: Stigmata (1999) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.
+- Reference: https://www.rottentomatoes.com/m/stigmata
+- Image source: https://resizing.flixster.com/ykMgWo2ee6XYhBqqkrwfACJGrHA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23018_p_v8_ac.jpg
 
 ## Film and trailer frames
 
