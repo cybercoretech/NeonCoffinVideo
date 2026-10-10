@@ -21,3 +21,30 @@ Screenshots in this folder show the live deployed command panel.
 The active source is /home/raven/Webdev/neon-coffin-video/night-clerk. The Git
 archive keeps that independent project in the root night-clerk folder and the
 website connector in website/. Keep them deliberately synchronized.
+
+## AI conversation upgrade — October 9, 2026
+
+Pages release: https://b8822b7f.neoncoffinvideo.pages.dev
+
+The standalone Worker now uses `@cf/meta/llama-3.3-70b-instruct-fp8-fast`
+through its Workers AI binding. Model replies use structured JSON restricted
+to retrieved public catalog IDs. The popup supports normal questions, six-message
+follow-up context, guided questions, reset, and direct catalog commands. The
+site proxy forwards signed pseudonymous client digests without member cookies.
+
+AI limits: 6 requests/minute per source at each Cloudflare location, 20/day
+per source, 100/day sitewide, and an 8,000-neuron daily reservation budget.
+Successful calls release excess reservations using measured token usage.
+The budget is local and estimated; other apps share Cloudflare's accountwide
+AI allowance. No paid plan was enabled. An independent AI pause and owner-only
+controlled diagnostic check are available through the CLI.
+
+The older Llama 3.1 models answered direct REST probes but were rejected as
+deprecated by the production Worker binding. The current Llama 3.3 model was
+verified through the binding and the public site proxy. Live conversation
+recommended Hellraiser, then Candyman when asked for a 1990s option.
+
+All 21 bot tests and the website regression suite passed. Browser verification
+covers 1440/390/320px, actual catalog commands, an actual AI follow-up at 390px,
+chat reset, 44px controls, separate-tab dossiers, and overflow. The chat retains
+no server-side conversation history and publishes no generated replies.

@@ -9,7 +9,8 @@
   "vars": {
     "SITE_ORIGIN": "https://neoncoffinvideo.site",
     "TIME_ZONE": "America/Los_Angeles",
-    "PUBLISH_HOUR": "0"
+    "PUBLISH_HOUR": "0",
+    "AI_ENABLED": "1"
   },
   "triggers": {
     "crons": [
@@ -32,6 +33,14 @@
         "limit": 30,
         "period": 60
       }
+    },
+    {
+      "name": "CHAT_LIMITER",
+      "namespace_id": "2026100902",
+      "simple": {
+        "limit": 6,
+        "period": 60
+      }
     }
   ],
   "observability": {
@@ -44,5 +53,8 @@
       "enabled": true,
       "head_sampling_rate": 0.01
     }
+  },
+  "ai": {
+    "binding": "AI"
   }
 }

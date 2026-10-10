@@ -10,15 +10,24 @@ function invalid(message,status=400){throw Object.assign(new Error(message),{sta
 export async function nightClerk(request,env) {
   const path=new URL(request.url).pathname;
   try {
-    if(path==='/api/community/bot/command'){
+    if(['/api/community/bot/command','/api/community/bot/chat'].includes(path)){
       if(request.method!=='POST')return json({error:'Method not allowed.'},405);
       const origin=new URL(request.url).origin;
       if(request.headers.get('origin')!==origin||![env.SITE_ORIGIN,'https://neoncoffinvideo.site','https://neoncoffinvideo.pages.dev'].includes(origin))return json({error:'Request origin rejected.'},403);
       if(!env.NIGHT_CLERK_URL)return json({error:'The Night Clerk is not connected yet.'},503);
       const base=new URL(env.NIGHT_CLERK_URL);
       if(base.protocol!=='https:'||base.username||base.password)throw new Error('Invalid bot URL');
-      const body=await readBody(request,2048);
-      const upstream=await fetch(new URL('/v1/command',base),{method:'POST',headers:{'Content-Type':'application/json',Origin:origin,'CF-Connecting-IP':request.headers.get('cf-connecting-ip')||'local'},body,signal:AbortSignal.timeout(15000)});
+      const chat=path.endsWith('/chat'),body=await readBody(request,chat?14000:2048);
+      const headers={'Content-Type':'application/json',Origin:origin,'CF-Connecting-IP':request.headers.get('cf-connecting-ip')||'local'};
+      if(chat){
+        if(!env.NIGHT_CLERK_SHARED_SECRET)return json({error:'The Night Clerk is not connected yet.'},503);
+        const key=await crypto.subtle.importKey('raw',encoder.encode(env.NIGHT_CLERK_SHARED_SECRET),{name:'HMAC',hash:'SHA-256'},false,['sign']);
+        const hex=bytes=>[...new Uint8Array(bytes)].map(b=>b.toString(16).padStart(2,'0')).join('');
+        const client=hex(await crypto.subtle.sign('HMAC',key,encoder.encode(headers['CF-Connecting-IP']))),time=String(Math.floor(Date.now()/1000));
+        headers['X-NCV-Clerk-Client']=client;headers['X-NCV-Clerk-Time']=time;
+        headers['X-NCV-Clerk-Signature']=hex(await crypto.subtle.sign('HMAC',key,encoder.encode(time+'\n'+client+'\n'+body)));
+      }
+      const upstream=await fetch(new URL(chat?'/v1/chat':'/v1/command',base),{method:'POST',headers,body,signal:AbortSignal.timeout(chat?35000:15000)});
       const result=await readBody(upstream,20000);
       return new Response(result,{status:upstream.status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
     }

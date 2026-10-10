@@ -39,6 +39,7 @@ const output=run(['deploy','--config','wrangler.jsonc','--secrets-file',keysFile
 const url=output.match(/https:\/\/neon-coffin-night-clerk\.[a-z0-9-]+\.workers\.dev/);
 if(!url)throw new Error('Could not read deployed bot address.');
 console.log('Deployed standalone bot: '+url[0]);
+if(process.argv.includes('--bot-only'))process.exit(0);
 const pagesKeys=privateDir+'/night-clerk-pages-key.json';writeFileSync(pagesKeys,JSON.stringify({NIGHT_CLERK_SHARED_SECRET:keys.LOUNGE_SIGNING_SECRET})+'\n',{mode:0o600});chmodSync(pagesKeys,0o600);
 run(['pages','secret','bulk',pagesKeys,'--project-name',project]);
 const siteConfig=JSON.parse(readFileSync(website+'wrangler.jsonc','utf8'));siteConfig.vars.NIGHT_CLERK_URL=url[0];writeFileSync(website+'wrangler.jsonc',JSON.stringify(siteConfig,null,2)+'\n');

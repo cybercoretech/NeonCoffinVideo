@@ -17,3 +17,16 @@ const catalog=await (await fetch(origin+'/night-clerk-catalog.json')).json();
 const expected=JSON.parse(readFileSync(new URL('../night-clerk-catalog.json',import.meta.url),'utf8'));
 assert.deepEqual(catalog.map(m=>m.id).sort(),expected.map(m=>m.id).sort());
 console.log('PASS: standalone health, authenticated admin status, Pacific-midnight schedule, production signing-secret agreement, invalid operation rejection without publishing, and complete '+catalog.length+'-film catalog.');
+
+assert.equal(status.ai.enabled,true);assert.equal(status.ai.paused,false);
+async function chat(message,history=[]){
+ const res=await fetch(origin+'/api/community/bot/chat',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({message,history}),signal:AbortSignal.timeout(40000)});
+ const data=await res.json();assert.equal(res.status,200,JSON.stringify(data));assert.equal(data.mode,'ai',JSON.stringify(data));assert(data.text.length>20);
+ for(const film of data.movies){assert(catalog.some(m=>m.id===film.id));assert.equal(film.url,origin+'/#film/'+film.id)}
+ return data;
+}
+const question='Recommend one film like Near Dark from our shelves. Do not pick Near Dark itself.';
+const first=await chat(question);assert(first.movies.length>0);
+const second=await chat('Now give me one from the 1990s.',[{role:'user',content:question},{role:'assistant',content:first.text}]);
+assert(second.movies.some(m=>m.year>=1990&&m.year<2000));
+console.log('PASS: real Workers AI inference through the production site proxy, catalog-backed film cards, and a contextual 1990s follow-up. Picks: '+first.movies.map(m=>m.title).join(', ')+' → '+second.movies.map(m=>m.title).join(', ')+'.');

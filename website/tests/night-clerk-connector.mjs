@@ -17,5 +17,22 @@ try{
  const topics=await (await community(new Request(origin+'/api/community/topics'),env)).json();assert.equal(topics.topics[0].isBot,1);
  const stats=await (await community(new Request(origin+'/api/community/stats'),env)).json();assert.equal(stats.members,0);assert.equal(stats.discussions,1);assert.equal(stats.posts,1);
  assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM sessions').first()).n,0);
- console.log('PASS: signed bot connector, stale/forged/anonymous rejection, limited post kinds, idempotent delivery, bot badges, no login sessions, bot excluded from member counts.');
+ const original=globalThis.fetch;
+ try{
+  globalThis.fetch=async(url,options)=>{
+   assert.equal(String(url),'https://clerk.example/v1/chat');
+   assert.equal(options.headers.Cookie,undefined);assert.equal(options.headers.Authorization,undefined);
+   assert.match(options.headers['X-NCV-Clerk-Client'],/^[a-f0-9]{64}$/);
+   assert(!options.headers['X-NCV-Clerk-Client'].includes('192.0.2.1'));
+   const signing=await crypto.subtle.importKey('raw',new TextEncoder().encode(secret),{name:'HMAC',hash:'SHA-256'},false,['verify']);
+   assert(await crypto.subtle.verify('HMAC',signing,Buffer.from(options.headers['X-NCV-Clerk-Signature'],'hex'),new TextEncoder().encode(options.headers['X-NCV-Clerk-Time']+'\n'+options.headers['X-NCV-Clerk-Client']+'\n'+options.body)));
+   assert.equal(JSON.parse(options.body).message,'A vampire film?');
+   return Response.json({mode:'ai',text:'Try Near Dark.'});
+  };
+  const chat=new Request(origin+'/api/community/bot/chat',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json',Cookie:'private-session','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify({message:'A vampire film?'})});
+  assert.equal((await community(chat,{...env,NIGHT_CLERK_URL:'https://clerk.example'})).status,200);
+  const foreign=new Request(origin+'/api/community/bot/chat',{method:'POST',headers:{Origin:'https://evil.example','Content-Type':'application/json'},body:'{}'});
+  assert.equal((await community(foreign,{...env,NIGHT_CLERK_URL:'https://clerk.example'})).status,403);
+ }finally{globalThis.fetch=original}
+ console.log('PASS: signed bot delivery and chat proxy, client signature, no forwarded session, stale/forged/anonymous rejection, limited post kinds, idempotent delivery, bot badges, no login sessions, bot excluded from member counts.');
 }finally{db.close()}

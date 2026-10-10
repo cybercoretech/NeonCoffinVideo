@@ -3,7 +3,8 @@
 Standalone Neon Coffin Video bot and Midnight Lounge house host. A separate
 Cloudflare Worker runs its API and scheduler; its own D1 database holds its
 pause setting, catalog baseline, and durable delivery outbox. It never binds
-the Lounge member database. No AI provider or inference subscription is needed.
+the Lounge member database. Private conversation uses a Workers AI binding;
+no external API key is required. Scheduled public posts still use curated prompts.
 
 ## Commands
 
@@ -24,9 +25,9 @@ the Lounge member database. No AI provider or inference subscription is needed.
 Shelves: `slashers`, `creatures`, `body`, `supernatural`, `scifi`, `chaos`,
 `corman`. Requests without a decade or shelf default to the 1980s–1990s.
 Recommendations change daily and use only films in the actual public catalog.
-This is a command-based catalog bot, not a free-form conversational AI.
+Commands remain deterministic and available independently of AI conversation.
 
-The Lounge sidebar's **Ask the Night Clerk** button opens its command panel.
+The Lounge sidebar's **Ask the Night Clerk** button opens its chat panel.
 Movie dossiers open in a separate tab to preserve the Lounge. Today's prompt
 links to the bot's existing discussion instead of making duplicate threads.
 
@@ -51,20 +52,29 @@ before exercising local delivery. Unit tests stub HTTP and use in-memory SQL.
 
 - `GET /health`: name, role, and version.
 - `POST /v1/command`: JSON `{"command":"/find Near Dark"}`.
-- `GET /admin/status`: private pause state and recent deliveries.
+- `POST /v1/chat`: JSON `{"message":"Something like Near Dark","history":[]}`.
+- `GET /admin/status`: private pause state, AI usage counters, and recent deliveries.
+- `POST /admin/ai/check`: owner-only controlled model check; uses the AI budget.
+- `POST /admin/ai`: JSON `{"paused":true}` to pause AI conversation independently.
 - `POST /admin/pause`: JSON `{"paused":true}` or `{"paused":false}`.
 - `POST /admin/run`: run today's scheduled work now, honoring the pause switch.
 
 Admin requests require `Authorization: Bearer <ADMIN_TOKEN>`. Keep tokens out of
 browser scripts, Git, command-line arguments, and logs. Browser requests are
-forwarded through the site's same-origin `/api/community/bot/command` route;
+forwarded through the site's same-origin `/api/community/bot/command` and
+`/api/community/bot/chat` routes;
 there is no wildcard cross-origin access. A Worker rate-limit binding limits
 public commands to 30/minute per source address at each Cloudflare location;
-shared connections share that limit. No conversation history is stored.
+shared connections share that limit. AI requests have a separate 6/minute
+limiter. See the limits and privacy notes below.
 
 ## CLI
 
 ```sh
+node bin/clerk.mjs chat "Something like Near Dark"
+node bin/clerk.mjs ai-check
+node bin/clerk.mjs ai-pause
+node bin/clerk.mjs ai-resume
 node bin/clerk.mjs health
 node bin/clerk.mjs command "/find Near Dark"
 node bin/clerk.mjs command "/double-feature 1980s body"
@@ -121,3 +131,48 @@ Source references:
 - https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/
 - https://developers.cloudflare.com/workers/configuration/secrets/
 - https://developers.cloudflare.com/d1/worker-api/d1-database/#batch
+
+## AI conversation
+
+Ask normal questions, then refine the picks with a follow-up: “Something like
+Near Dark” → “Give me a 1990s option” → “Build a double feature.” Film cards
+come from retrieved public catalog IDs, with URLs built by the server. The
+model receives up to eight film records and the last six short chat messages.
+Answers are generated, so unsupported facts can still be wrong; the host is
+instructed to admit uncertainty and avoid unverified streaming or stock claims.
+
+The pinned model is `@cf/meta/llama-3.3-70b-instruct-fp8-fast`, capped at 384 output
+tokens and 14,000 bytes of input. Structured JSON output restricts film IDs to
+the retrieved shelf, and replies are validated; malformed replies,
+a missing binding, paused AI, and provider failures return command help.
+Timeouts return help after 25 seconds; an already-started inference may continue
+at the provider and keeps its full budget reservation.
+
+Before each inference, one atomic D1 insert checks three limits: 100 calls/day
+sitewide, 20 calls/day per pseudonymous source address, and 8,000 reserved
+neurons/day sitewide. Reservations conservatively estimate input tokens from
+UTF-8 bytes plus template overhead, and reserve the maximum output. Successful requests release excess reservations using measured token usage;
+failed attempts retain their reservation and count too. Reset is midnight UTC. Rate and quota exhaustion return 429;
+catalog commands continue to work. Shared source addresses share limits.
+The site signs forwarded client digests to prevent spoofing the proxy's limiter.
+Stored daily digests expire after seven days when another chat request reserves
+usage. No raw IP, question, reply, cookie, or member profile is stored in bot D1.
+
+Chat history exists only in the tab's memory; Start a fresh tape or reload clears
+it. Submitted questions and recent chat replies are sent to Cloudflare Workers
+AI with public catalog/help context. They are not published to the Lounge. The
+bot has no access to private profiles, member messages, or forum history. Logs
+record operational events, never prompts/replies/provider error bodies.
+
+This deployment does not enable a paid plan. Cloudflare's free AI allowance is
+accountwide; other apps can consume it. The local budget is an estimate, not a
+Cloudflare billing hard cap. Review account usage before raising limits.
+
+AI references:
+- https://developers.cloudflare.com/workers-ai/configuration/bindings/
+- https://developers.cloudflare.com/workers-ai/models/llama-3.3-70b-instruct-fp8-fast/
+- https://developers.cloudflare.com/workers-ai/platform/pricing/
+- https://developers.cloudflare.com/workers-ai/platform/data-usage/
+
+For a bot-only update, run `node scripts/deploy-night-clerk.mjs --bot-only`;
+this verifies the same target and updates the Worker without republishing Pages.

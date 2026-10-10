@@ -1,4 +1,5 @@
 import {identity,normalizeCatalog,commandReply,localClock,promptFor} from './clerk.js';
+import {AI_MODEL,limits,chatInput,chatReply,clientKey} from './chat.js';
 const enc=new TextEncoder();
 const fail=(message,status=400)=>{throw Object.assign(new Error(message),{status})};
 const response=(value,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -72,14 +73,23 @@ export default {
   async fetch(request,env) {
     try {
       const url=new URL(request.url),path=url.pathname;
-      if(path==='/health'&&request.method==='GET')return response({ok:true,bot:identity,version:'1.0.0'});
+      if(path==='/health'&&request.method==='GET')return response({ok:true,bot:identity,version:'1.1.0',conversation:!!env.AI&&env.AI_ENABLED==='1'});
       if(path.startsWith('/admin/')) {
         if(!await authorized(request,env))return response({error:'Administrator token required.'},401);
         if(!env.BOT_DB)fail('Bot storage is not connected.',503);
+        if(path==='/admin/ai/check'&&request.method==='POST'){
+          const day=new Date().toISOString().slice(0,10);
+          return response(await chatReply(env,{message:'Recommend a film like Near Dark.',history:[]},await catalog(env),'owner-check',originFor(env),day,{diagnostic:true}));
+        }
         if(path==='/admin/status'&&request.method==='GET'){
-          const settings=await env.BOT_DB.prepare('SELECT paused FROM settings WHERE id=1').first();
+          const settings=await env.BOT_DB.prepare('SELECT paused,ai_paused FROM settings WHERE id=1').first();
           const jobs=await env.BOT_DB.prepare('SELECT id,kind,topic,created,delivered FROM jobs ORDER BY created DESC LIMIT 15').all();
-          return response({bot:identity,paused:!!settings.paused,timeZone:env.TIME_ZONE,publishHour:Number(env.PUBLISH_HOUR||0),jobs:jobs.results});
+          const day=new Date().toISOString().slice(0,10),usage=await env.BOT_DB.prepare('SELECT COUNT(*) AS calls,COALESCE(SUM(reserved),0) AS reserved FROM ai_usage WHERE day=?').bind(day).first();
+          return response({bot:identity,paused:!!settings.paused,timeZone:env.TIME_ZONE,publishHour:Number(env.PUBLISH_HOUR||0),jobs:jobs.results,ai:{enabled:!!env.AI&&env.AI_ENABLED==='1',paused:!!settings.ai_paused,model:AI_MODEL,day,...usage,limits}});
+        }
+        if(path==='/admin/ai'&&request.method==='POST'){
+          const body=await jsonBody(request);if(typeof body.paused!=='boolean')fail('Choose true or false for paused.');
+          await env.BOT_DB.prepare('UPDATE settings SET ai_paused=? WHERE id=1').bind(body.paused?1:0).run();return response({aiPaused:body.paused});
         }
         if(path==='/admin/pause'&&request.method==='POST'){
           const body=await jsonBody(request);if(typeof body.paused!=='boolean')fail('Choose true or false for paused.');
@@ -88,11 +98,22 @@ export default {
         if(path==='/admin/run'&&request.method==='POST')return response(await runNightly(env,Date.now(),{force:true}));
         fail('Not found.',404);
       }
-      if(path==='/v1/command'&&request.method==='POST'){
+      if(['/v1/command','/v1/chat'].includes(path)&&request.method==='POST'){
         const allowed=new Set([originFor(env),'https://neoncoffinvideo.pages.dev']);
         if(request.headers.has('origin')&&!allowed.has(request.headers.get('origin')))fail('Request origin rejected.',403);
-        const limited=env.COMMAND_LIMITER?await env.COMMAND_LIMITER.limit({key:'clerk:'+ (request.headers.get('cf-connecting-ip')||'local')}):{success:true};
+        const isChat=path==='/v1/chat';
+        const day=new Date().toISOString().slice(0,10);
+        if(isChat&&!request.headers.get('content-type')?.startsWith('application/json'))fail('JSON required.',415);
+        const raw=isChat?await boundedText(request,14000):null;
+        const client=isChat?await clientKey(request,env,raw,day):(request.headers.get('cf-connecting-ip')||'local');
+        const limiter=isChat?env.CHAT_LIMITER:env.COMMAND_LIMITER;
+        const limited=limiter?await limiter.limit({key:'clerk:'+client}):{success:true};
         if(!limited.success)fail('The clerk is busy. Try again in a minute.',429);
+        if(isChat){
+          let value;try{value=JSON.parse(raw)}catch{fail('Invalid JSON.')}
+          const input=chatInput(value);
+          return response(await chatReply(env,input,await catalog(env),client,originFor(env),day));
+        }
         const body=await jsonBody(request,2048);
         if(!body||typeof body.command!=='string'||body.command.length>200||!body.command.trim())fail('Enter a command up to 200 characters.');
         const movies=/^\/?(help|prompt)(\s|$)/i.test(body.command||'')?[]:await catalog(env);

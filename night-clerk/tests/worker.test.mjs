@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import worker,{runNightly} from '../src/worker.js';
-function database(){const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../migrations/0001-bot-state.sql',import.meta.url),'utf8'));return {raw:db,prepare(sql){let args=[];return {bind(...values){args=values;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){return db.prepare(sql).run(...args)}}}}}
+function database(){const db=new DatabaseSync(':memory:');for(const name of ['0001-bot-state.sql','0002-ai-usage.sql'])db.exec(readFileSync(new URL('../migrations/'+name,import.meta.url),'utf8'));return {raw:db,prepare(sql){let args=[];return {bind(...values){args=values;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){return db.prepare(sql).run(...args)}}}}}
 const films=[{id:'the-thing',title:'The Thing',year:1982,category:'body'},{id:'the-fly',title:'The Fly',year:1986,category:'body'}];
 const env={SITE_ORIGIN:'https://neoncoffinvideo.site',TIME_ZONE:'America/Los_Angeles',PUBLISH_HOUR:'0',ADMIN_TOKEN:'test-admin-token-not-a-real-secret',LOUNGE_SIGNING_SECRET:'test-signing-key-not-a-real-secret'};
 const request=(path,body,token)=>new Request('https://clerk.example'+path,{method:body?'POST':'GET',headers:{...(body?{'Content-Type':'application/json'}:{}),...(token?{Authorization:'Bearer '+token}:{})},...(body?{body:JSON.stringify(body)}:{})});

@@ -64,3 +64,12 @@ three public catalog sources by the site build. All 195 films are represented.
 Dossiers open separately; the nightly question links to its published thread
 when available. The bot supports help, title search, decade/subgenre picks, and
 double features. No AI provider is configured.
+
+Night Clerk AI chat is available from **Ask the Night Clerk** in the right rail.
+Normal questions and follow-ups use Workers AI with retrieved public film
+records; slash commands still return direct catalog results. Only the chat's
+submitted messages and short in-tab history go to the AI service, never member
+profiles or forum history. Replies are private to the popup. The separate bot
+DB stores bounded usage counters and an independent AI pause setting, added
+by bot migration `0002-ai-usage.sql`. See the bot README for daily limits, privacy,
+model configuration, and owner CLI controls.

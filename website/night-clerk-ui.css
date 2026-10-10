@@ -9,3 +9,7 @@
 .night-clerk-dialog a{display:inline-block;color:#65e6ed;margin:8px 12px 8px 0;text-decoration:underline}.night-clerk-dialog footer{margin-top:20px;padding-top:14px;border-top:1px dashed #65e6ed80;color:#a6a4ac;font-size:.75rem;line-height:1.5}
 .rail-prompt [data-open-clerk]{width:100%;margin-bottom:8px;color:#b8f64b;border-color:#65e6ed}
 @media(max-width:430px){.night-clerk-dialog{padding:16px}.clerk-shortcuts{grid-template-columns:1fr}.clerk-input-row{flex-wrap:wrap}.clerk-input-row input{flex-basis:100%}.clerk-input-row button{width:100%}}
+
+.clerk-message{white-space:pre-line;overflow-wrap:anywhere;padding:12px;border-left:2px solid #65e6ed;background:#101c2380;font-size:.9rem;line-height:1.6}.clerk-message.user{border-color:#b8f64b}.clerk-message strong{display:block;color:#b8f64b;font-size:.7rem;letter-spacing:.08em}.clerk-message.assistant strong{color:#65e6ed}.clerk-follow-ups{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.clerk-follow-ups button{font-size:.8rem}.clerk-answer{overflow-wrap:anywhere}.clerk-thinking::after{content:' ▪ ▪ ▪';animation:clerk-signal 1s steps(2,end) infinite}@keyframes clerk-signal{50%{opacity:.4}}@media(prefers-reduced-motion:reduce){.clerk-thinking::after{animation:none}}
+
+.night-clerk-dialog header{position:sticky;top:0;z-index:2;background:#080d11}#nightClerkResponse{scroll-margin-top:120px}

@@ -62,7 +62,7 @@ export function commandReply(input,catalog,{origin='https://neoncoffinvideo.site
   let result;
   if(command==='help') {
     const entry=help[query.toLowerCase()];
-    result=entry?{title:entry[0],text:entry[1],links:[{label:'Open the counter',url:entry[2].startsWith('/')?origin+entry[2]:entry[2]}]}:{title:'Ask the Night Clerk',text:'Try /recommend 1980s creatures, /recommend 1990s supernatural, /find Near Dark, /double-feature body, /prompt, or /help profiles. Help topics: profiles, shelves, reviews, rules, support. Answers come from our curated shelves; this is a catalog bot, not free-form AI.',commands:['/recommend 1980s creatures','/find Near Dark','/double-feature body','/prompt','/help support']};
+    result=entry?{title:entry[0],text:entry[1],links:[{label:'Open the counter',url:entry[2].startsWith('/')?origin+entry[2]:entry[2]}]}:{title:'Ask the Night Clerk',text:'Try /recommend 1980s creatures, /recommend 1990s supernatural, /find Near Dark, /double-feature body, /prompt, or /help profiles. Help topics: profiles, shelves, reviews, rules, support. Ask a normal question for AI conversation, or use these catalog commands for direct results.',commands:['/recommend 1980s creatures','/find Near Dark','/double-feature body','/prompt','/help support']};
   } else if(command==='prompt') {
     result={title:'Tonight’s question',text:promptFor(date)+'\n\nTell us your take in Movie talk. Mark spoilers before the reveal.',links:[{label:'Open Movie talk',url:origin+'/community#room/movie-talk'}]};
   } else if(command==='find') {
