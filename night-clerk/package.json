@@ -1,0 +1,20 @@
+{
+  "name": "neon-coffin-night-clerk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone Neon Coffin Video catalog bot and Midnight Lounge host",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "check": "node --check src/worker.js && node --check src/clerk.js && node --check bin/clerk.mjs",
+    "deploy": "wrangler deploy",
+    "clerk": "node bin/clerk.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  }
+}

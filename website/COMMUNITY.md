@@ -7,7 +7,7 @@ This is a custom forum integrated with the Neon Coffin site, not an installed Di
 
 ## Built
 
-Six discussion rooms, title search and pagination, topic creation, replies, spoiler disclosure, member profiles with unique handles, display names, avatar/banner uploads up to 5 MB each (compressed locally to fit D1 row limits), bios, signatures, optional location, up to four HTTPS social links, public/member/private visibility, online-status privacy, earned badges and measured activity/reputation totals, public 1–5-skull reviews, private account shelves with browser-shelf import and removal, sign-out, post reporting, moderator report desk and post hiding. Reviews for a movie can be updated by publishing again or deleted by their author. Movie dossiers link into the lounge. The sidebar shows recent real discussions, an anonymous live-session estimate, and explicitly labeled fictional house mascots plus a rotating Night Clerk prompt; it does not create fake member accounts, posts, reviews, or online identities.
+Six discussion rooms, title search and pagination, topic creation, replies, spoiler disclosure, member profiles with unique handles, display names, avatar/banner uploads up to 5 MB each (compressed locally to fit D1 row limits), bios, signatures, optional location, up to four HTTPS social links, public/member/private visibility, online-status privacy, earned badges and measured activity/reputation totals, public 1–5-skull reviews, private account shelves with browser-shelf import and removal, sign-out, post reporting, moderator report desk and post hiding. Reviews for a movie can be updated by publishing again or deleted by their author. Movie dossiers link into the lounge. The sidebar shows recent real discussions, an anonymous live-session estimate, and fictional Rewind and Static mascots plus The Night Clerk, a clearly labeled automated bot. The bot has its own service identity, posts nightly questions and new-catalog digests, and is excluded from human membership and online-user counts. It does not create fake human activity.
 
 The live-session estimate stores only a hash of a random tab-scoped token and a 90-second expiry in D1. The client refreshes it every 30 seconds while visible. No member identity or IP address is written to the presence table. The displayed number is active browser sessions, not a verified count of people.
 
@@ -47,3 +47,20 @@ Forum posts refresh on navigation/reopening a discussion; this first version is 
 Sources: https://developers.google.com/identity/protocols/oauth2/web-server ; https://developers.cloudflare.com/pages/functions/wrangler-configuration/ ; https://developers.cloudflare.com/d1/platform/pricing/
 
 Deployed verification (October 7, 2026): production reports Google configured. Live email registration, returning login, shared Lounge identity, private email, preset avatar save/restore, incorrect-password rejection, and logout passed with a temporary private member which was subsequently removed along with its sessions and write-limit row. Browser checks passed for main-page dialog controls, age-confirmation gating, desktop/390px layouts, and all six avatar assets. Google callback account reuse and return-to-main-page behavior passed with mocked Google responses; interactive Google consent was not exercised in this check. Dark Google buttons retain the official icon; source https://developers.google.com/identity/branding-guidelines .
+
+## Standalone Night Clerk
+
+The bot source is in `night-clerk/` in the active website folder and archived as
+`night-clerk/` at the repository root. See its README for development, commands,
+API, schedule, and private CLI controls. The separate Worker has its own D1
+database and does not bind community storage. The site's
+`/api/community/bot/publish` endpoint verifies a five-minute HMAC signature,
+allows only the Night Clerk identity and prompt/announcement rooms, and deduplicates
+delivery keys atomically. Schema additions are in `0010-night-clerk.sql`.
+
+The browser uses the same-origin `/api/community/bot/command` proxy and sends only
+the entered command. The bot reads `night-clerk-catalog.json`, generated from all
+three public catalog sources by the site build. All 195 films are represented.
+Dossiers open separately; the nightly question links to its published thread
+when available. The bot supports help, title search, decade/subgenre picks, and
+double features. No AI provider is configured.

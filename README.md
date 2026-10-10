@@ -4,6 +4,7 @@ Private source archive for the Neon Coffin Video website and merchandise.
 
 - **website/** — Cloudflare Pages source, original site graphics, sourced film artwork, D1 migrations, tests, shared genre footer and deployment docs.
 - **merch-pack/** — original artwork, print exports, sticker files, Fourthwall theme, previews, production guides, and the separate **Facebook/** assets and copy folder.
+- **night-clerk/** — standalone Night Clerk Worker, CLI, scheduled host, tests, and operating guide.
 - **docs/** — footer desktop/tablet/mobile review images and change notes.
 
 Website: https://neoncoffinvideo.site/

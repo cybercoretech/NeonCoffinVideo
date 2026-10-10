@@ -1,0 +1,11 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import vm from 'node:vm';
+const root=new URL('../',import.meta.url),app=await readFile(new URL('app.js',root),'utf8');
+const end=app.indexOf('films.push(');if(end<0)throw new Error('Base film catalog not found');
+const base=vm.runInNewContext(app.slice(0,end)+';films',{},{timeout:1000});
+const extra=JSON.parse(await readFile(new URL('catalogue-extra.json',root),'utf8'));
+const italianSource=await readFile(new URL('italian-horror.js',root),'utf8');
+const italian=vm.runInNewContext(italianSource+';ncvItalianFilms',{},{timeout:1000});
+const seen=new Set(),catalog=[...base,...extra,...italian].filter(m=>!seen.has(m.id)&&seen.add(m.id)).map(({id,title,year,director,category,note})=>({id,title,year,director,category,note}));
+await writeFile(new URL('night-clerk-catalog.json',root),JSON.stringify(catalog,null,2)+'\n');
+console.log('Night Clerk catalog: '+catalog.length+' curated tapes.');
