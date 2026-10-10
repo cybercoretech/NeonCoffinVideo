@@ -10,6 +10,10 @@ The transparent coffin-and-wordmark logo in \`assets/branding/neon-coffin-video-
 
 Film posters, photographs, and film/trailer frames belong to their respective rights holders. These references document provenance, not a blanket license for reuse. Photo/artwork attribution is linked in each film profile and collected here.
 
+## The Late Show
+
+The screening room uses the original NCV television cabinet and newly drawn geometric rental-label SVGs in \`assets/late-show/\`. These are original site illustrations, not official film posters. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
+
 ## Halloween Collection original artwork
 
 The eight movie-inspired full-frame wallpapers in \`theme-packs/art/*-wallpaper.webp\` were generated with AI for Cybercore Theme Packs. Each is a dedicated native-resolution scene, losslessly converted to WebP without enlargement. The previous two scene atlases are retained as historical source assets and are no longer displayed. They are original atmospheric illustrations, not film frames or official promotional artwork. Movie names identify inspiration; this collection is independently created.

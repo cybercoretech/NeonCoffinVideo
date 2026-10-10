@@ -3,23 +3,52 @@
   "name": "Neon Coffin Video",
   "email": "info@neoncoffinvideo.site",
   "emblem": "assets/emblem.png",
-  "logo": {"src": "assets/branding/neon-coffin-video-logo.webp", "width": 2067, "height": 761},
+  "logo": {
+    "src": "assets/branding/neon-coffin-video-logo.webp",
+    "width": 2067,
+    "height": 761
+  },
   "tagline": "YOUR AFTER-HOURS HORROR HANGOUT",
   "signoff": "PLEASE REWIND YOUR NIGHTMARES.",
   "supportHeading": "KEEP THE LATE SHOW RUNNING.",
   "supportText": "Enjoying the shelves? Help keep this little corner of the video store open after dark.",
   "creditLine": "BAD MOVIES. GREAT NIGHTS.",
   "network": [
-    {"label": "After/Cut", "href": "https://aftercut.pages.dev/"},
-    {"label": "LastActionReel", "href": "https://lastactionreel.pages.dev/"}
+    {
+      "label": "After/Cut",
+      "href": "https://aftercut.pages.dev/"
+    },
+    {
+      "label": "LastActionReel",
+      "href": "https://lastactionreel.pages.dev/"
+    }
   ],
   "links": [
-    {"label": "Shop the merch", "href": "https://neon-coffin-video-shop.fourthwall.com/"},
-    {"label": "The Midnight Lounge", "href": "/community.html"},
-    {"label": "Artwork & sources", "href": "/#artwork-credits"}
+    {
+      "label": "Shop the merch",
+      "href": "https://neon-coffin-video-shop.fourthwall.com/"
+    },
+    {
+      "label": "The Late Show",
+      "href": "/screening-room"
+    },
+    {
+      "label": "The Midnight Lounge",
+      "href": "/community.html"
+    },
+    {
+      "label": "Artwork & sources",
+      "href": "/#artwork-credits"
+    }
   ],
   "support": [
-    {"label": "Buy Me a Coffee", "href": "https://buymeacoffee.com/cybercoretech"},
-    {"label": "PayPal · @elementxdesign", "href": "https://www.paypal.com/paypalme/elementxdesign"}
+    {
+      "label": "Buy Me a Coffee",
+      "href": "https://buymeacoffee.com/cybercoretech"
+    },
+    {
+      "label": "PayPal \u00b7 @elementxdesign",
+      "href": "https://www.paypal.com/paypalme/elementxdesign"
+    }
   ]
 }

@@ -9,7 +9,7 @@ const menu=html.match(/<nav class="primary-navigation"[^>]*>(.*?)<\/nav>/s)?.[1]
 assert.ok(menu,'the main site navigation exists');
 const links=[...menu.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/gs)];
 const destinations=links.map(([,href])=>href);
-assert.equal(destinations.length,10,'directory has one link for each top-level destination');
+assert.equal(destinations.length,11,'directory has one link for each top-level destination');
 assert.equal(new Set(destinations).size,destinations.length,'menu does not repeat destinations');
 assert.match(html,/class="issue-motto">THE MONTHLY MIDNIGHT FILE/);
 assert.match(html,/id="editionIssue">001/);

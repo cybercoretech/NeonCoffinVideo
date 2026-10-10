@@ -1,5 +1,5 @@
 'use strict';
-const trailerTapes=[{film:'killer-klowns',video:'ETiSMS4i1as',studio:'MGM Studios',station:'THE CIRCUS SIGNAL',format:'CREATURE FEATURE'},{film:'fright-night',video:'PMRH0RIEjnc',studio:'Sony Pictures Entertainment',station:'VAMPIRE VIDEO',format:'AFTER-HOURS HORROR'},{film:'alien',video:'EI8fv1wWrQs',studio:'20th Century Fox',station:'DEEP SPACE AFTER DARK',format:'SCI-FI NIGHTMARE'}];
+const trailerTapes=[{film:'killer-klowns',video:'ETiSMS4i1as',studio:'MGM Studios',station:'THE CIRCUS SIGNAL',format:'CREATURE FEATURE'},{film:'fright-night',video:'PMRH0RIEjnc',studio:'Sony Pictures Entertainment',station:'VAMPIRE VIDEO',format:'AFTER-HOURS HORROR'},{film:'hellraiser',video:'tOcth6-HjPg',studio:'Arrow Video',station:'THE FORBIDDEN FREQUENCY',format:'RESTORATION TRAILER'}];
 const TRAILER_ROTATION_MS=3*60*60*1000;
 let trailerSlot=Math.floor(Date.now()/TRAILER_ROTATION_MS),trailerRotationPending=false;
 let trailerIndex=trailerSlot%trailerTapes.length,guideData=null,channelIndex=0,tvProvider='pluto',guideLoading=false,atmosphere=!matchMedia('(prefers-reduced-motion: reduce)').matches,particles=null;

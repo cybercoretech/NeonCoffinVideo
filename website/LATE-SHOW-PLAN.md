@@ -1,3 +1,5 @@
+Implementation completed: see `LATE-SHOW.md` for the free Google Groups workflow, schedule, and maintenance. The planning notes below are retained for context.
+
 # Neon Coffin Video: The Late Show
 
 Proposal researched October 9, 2026. This document proposes the feature; it does not mean the page, newsletter, or a streaming integration has been published or legally cleared.

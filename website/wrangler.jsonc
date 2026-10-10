@@ -13,6 +13,7 @@
   "vars": {
     "SITE_ORIGIN": "https://neoncoffinvideo.site",
     "GOOGLE_CALLBACK_ORIGIN": "https://neoncoffinvideo.pages.dev",
-    "NIGHT_CLERK_URL": "https://neon-coffin-night-clerk.darkstardevx.workers.dev"
+    "NIGHT_CLERK_URL": "https://neon-coffin-night-clerk.darkstardevx.workers.dev",
+    "NEWSLETTER_GROUP_URL": "https://groups.google.com/g/neon-coffin-midnight-dispatch"
   }
 }

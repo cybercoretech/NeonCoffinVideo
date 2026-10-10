@@ -52,3 +52,6 @@
 .upgraded-profile .profile-banner{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;opacity:.58;pointer-events:none}
 .upgraded-profile:before{z-index:1;background:linear-gradient(90deg,#0b1015e8 0%,#0b101578 70%,#0b101540 100%)}
 .upgraded-profile>.profile-avatar,.upgraded-profile>div{position:relative;z-index:2}
+
+/* Friday screenings share the existing member discussion workflow. */
+.friday-lounge-context{padding:22px;margin-bottom:18px;border:2px solid #bbff57;background:#080f15}.friday-lounge-context h2{color:#ff47a6;font-size:clamp(24px,4vw,36px);line-height:1.15}.friday-lounge-context button{min-height:44px;background:#bbff57;color:#080f15;padding:10px 16px;font-weight:bold}.friday-lounge-context a{display:inline-block;padding:12px;color:#65e6ed}.friday-lounge-context p{overflow-wrap:anywhere}

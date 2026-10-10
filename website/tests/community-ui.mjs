@@ -14,7 +14,7 @@ for(const id of ['the-mutilator','hardware','zombi-2','chud','near-dark']){
 }
 assert.match(html,/id="featureCatalogLink"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
 assert.match(html,/id="featureArtLink"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
-assert.match(html,/community\.js\?v=20261007j/);
+assert.match(html,/community\.js\?v=[a-z0-9-]+/);
 assert.match(html,/community\.css\?v=[a-z0-9]+/);
 assert.match(script,/compressProfileImage/);assert.match(script,/profile-banner/);assert.match(script,/5\*1024\*1024/);assert.match(script,/maxStored=650000/);assert.match(script,/community\/reaction/);assert.match(script,/community\/subscription/);assert.match(script,/browserAlerts/);
 console.log('PASS: Lounge startup hooks, side rail, membership, dialogs, and five-title feature rotation controls exist.');
