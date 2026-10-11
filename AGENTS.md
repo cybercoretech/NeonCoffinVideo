@@ -58,3 +58,18 @@ Finished videos and build notes are in `/home/raven/Animations/NCV_Animations/`.
 - Lounge moderation labels say "moderators", so the AI host never appears to moderate.
 - The bot account's live rename needs `migrations/0011-night-manager.sql` applied to
   the `neon-coffin-community` D1 database when deploying.
+
+## Site-wide consistency (checked 2026-10-11)
+
+- Every page opens with the shared `.issue-strip` (pink/green marker, motto left, boxed
+  `NCV / <SECTION> /// …` right), then the header.
+- Section pages (Lounge, Late Show, Late Returns) show their name under the logo in small
+  green mono type (`.brand-page-label` / the Lounge and Late Returns `small`).
+- A page's top hero label starts with the glowing green dot: an empty `<span></span>` as
+  the label's first child (`.eyebrow` or `.lr-kicker`; styled once in `store-nav.css`).
+- Every menu shows Help Desk, Theme Packs, then the full rental directory in the
+  homepage's order. Page-only extras go between those: House Rules (Lounge), the Late
+  Show's own section links (Late Show).
+- Index, Lounge, Late Show and Late Returns all get the generated `genre-footer`
+  (`scripts/build-footer.mjs`).
+- Shared CSS/JS files carry the same `?v=` stamp on every page; bump it everywhere at once.

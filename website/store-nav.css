@@ -83,3 +83,9 @@
 .lounge-header .primary-navigation{right:0}
 .lounge-account-nav{margin-left:auto}
 @media(max-width:760px){.lounge-header{gap:12px}.lounge-header .lounge-account-nav{order:3;width:100%;margin:0}.lounge-header>.site-menu{margin-left:auto}.lounge-header .primary-navigation{width:min(450px,calc(100vw - 28px))}}
+
+/* The glowing green dot before a page's top label, as on the homepage hero. */
+:is(.eyebrow,.lr-kicker):has(>span:empty){display:flex;align-items:center;gap:10px}
+:is(.eyebrow,.lr-kicker)>span:empty{display:block;flex-shrink:0;width:6px;height:6px;border-radius:50%;background:var(--green,#bbff57);box-shadow:0 0 12px var(--green,#bbff57)}
+/* Section name under the logo (Lounge, Late Show, Late Returns). */
+.brand-page-label{display:block;margin:5px 0 0 3px;font:8px/1.5 'JetBrains Mono',monospace;letter-spacing:2px;color:var(--green,#bbff57)}
