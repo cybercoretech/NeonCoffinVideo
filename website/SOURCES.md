@@ -1931,6 +1931,12 @@ The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is a
 - Reference: https://www.rottentomatoes.com/m/stigmata
 - Image source: https://resizing.flixster.com/ykMgWo2ee6XYhBqqkrwfACJGrHA=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23018_p_v8_ac.jpg
 
+### slashers-background
+
+- Local file: `assets/collections/slashers-background.webp`
+- Credit: Original AI-generated horror-comic illustration of a deserted coastal road in Harrow Point at night, made for Neon Coffin Video with Stable Diffusion XL 1.0 (CreativeML Open RAIL++-M) from a hand-built layout.
+- Reference: Original Neon Coffin Video slasher collection background
+
 ## Film and trailer frames
 
 - The Little Shop of Horrors (1960) — Original film/trailer frame. Local file: `assets/little-shop-still.png`. Source: https://upload.wikimedia.org/wikipedia/commons/c/c1/Jonathan_Haze_as_Seymour_Krelboyne.png
