@@ -11,6 +11,7 @@ assert.ok(menu&&homeMenu,'both pages have the shared site navigation');
 assert.equal(menu.replace(/href="\/#([^\"]+)"/g,'href="#$1"').replace('href="/community"','href="community.html"'),homeMenu,'Late Returns uses the complete homepage menu and destinations');
 assert.equal([...menu.matchAll(/<a\b/g)].length,12,'Late Returns menu has every homepage destination');
 assert.equal([...menu.matchAll(/<svg class="menu-art"/g)].length,14,'all homepage menu entries have their shared artwork');
+for(const script of ['theme-packs/catalogue.js','theme-packs/boot.js','theme-packs/panel.js','help-panel.js','store-nav.js'])assert.match(html,new RegExp(`<script src="/${script.replaceAll('/','\\/')}\\?v=20261011a" defer><\\/script>`));
 assert.match(css,/late-returns-background\.webp/);
 for(const file of ['index.html','community.html','screening-room.html'])assert.match(readFileSync(new URL(file,root),'utf8'),/href="\/late-returns"[\s\S]{0,450}Late Returns/);
 const video=statSync(new URL('assets/late-returns/be-kind-rewind-1080p.mp4',root));
