@@ -25,3 +25,12 @@ character and town feel.
 
 The user separately plans to finish the voices and place dialogue into the
 animated short. Do that in `/home/raven/Animations/` and follow its instructions.
+
+## Late Returns (animated section)
+
+The user named the site's planned animated/cartoon section **Late Returns**
+(decided 2026-10-10; checked against existing site names such as The Late Show,
+The Midnight Lounge and "After Hours"). Its first tape is the short
+*Be Kind. Rewind.* The widescreen cut belongs on the site; a vertical cut goes to
+YouTube Shorts to bring viewers here, with `NEONCOFFINVIDEO.SITE` on screen.
+Finished videos and build notes are in `/home/raven/Animations/`.
