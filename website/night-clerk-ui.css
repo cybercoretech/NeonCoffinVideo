@@ -42,15 +42,6 @@
 .night-clerk-dialog [data-clerk-close]{flex-shrink:0}
 
 /* Harrow Point: a hand-painted town directory nailed up inside the shop. */
-.harrow-point-board{position:relative;display:grid;grid-template-columns:minmax(185px,.72fr) minmax(0,2.28fr);gap:12px 24px;margin:8px 0 34px;padding:22px 24px 16px;border:1px solid #b79a6960;background:linear-gradient(112deg,#302619ec,#17161bf2 68%),repeating-linear-gradient(0deg,#e8d5a00a 0 1px,transparent 1px 7px);box-shadow:inset 0 0 34px #0008,0 12px 32px #0007;transform:rotate(-.12deg)}
-.harrow-point-board:before{position:absolute;inset:7px;border:1px dashed #c8a56b30;content:"";pointer-events:none}
-.harrow-point-heading{align-self:center;padding:2px 2px 8px}.harrow-point-heading .eyebrow{font-size:8px;letter-spacing:1.2px;color:#d7bd83}.harrow-point-heading h2{font-size:clamp(28px,3vw,39px);line-height:.98;color:#eee0b6;text-shadow:1px 2px #000;margin:10px 0}.harrow-point-heading>p:last-child{font-size:12px;line-height:1.55;color:#c6b7a1;margin:11px 0 0}
-.harrow-point-signs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;align-items:stretch}
-.harrow-point-sign{position:relative;min-width:0;padding:17px 15px 14px;border:1px solid #c2a16a55;background:radial-gradient(circle at 10px 10px,#e3c58b99 0 1.5px,transparent 2px),radial-gradient(circle at calc(100% - 10px) 10px,#e3c58b99 0 1.5px,transparent 2px),linear-gradient(135deg,#55422bdc,#30281feF 56%,#493722ee);box-shadow:inset 0 0 24px #0908079c,0 3px 8px #0007}
-.harrow-point-sign:nth-child(2){transform:rotate(.35deg)}.harrow-point-sign:nth-child(3){transform:rotate(-.3deg)}
-.harrow-point-sign small{display:block;color:#d9bf82;font:8px/1.5 'JetBrains Mono',monospace;letter-spacing:1px}.harrow-point-sign h3{margin:8px 0 7px;color:#f0e1b8;font:clamp(17px,1.55vw,23px)/.98 'Bebas Neue',sans-serif;letter-spacing:.6px;text-shadow:1px 2px #15100b;overflow-wrap:anywhere}.harrow-point-sign p{margin:0;color:#d2c3a7;font-size:11px;line-height:1.5}
-.harrow-point-note{grid-column:1/-1;margin:0;color:#a99c8d;font:9px/1.55 'JetBrains Mono',monospace}
-@media(max-width:760px){.harrow-point-board{grid-template-columns:1fr;gap:14px;margin-bottom:26px;padding:19px 18px 14px}.harrow-point-heading h2{font-size:34px}.harrow-point-signs{grid-template-columns:1fr}.harrow-point-sign{padding:15px 14px}.harrow-point-sign h3{font-size:22px}.harrow-point-note{grid-column:1}}
 @media(max-width:860px){
  .lounge-hero.lounge-hero--clerk{grid-template-columns:1fr;padding-top:24px;gap:24px}
  .lounge-hero--clerk .clerk-portrait{grid-row:1}
@@ -68,6 +59,3 @@
  .clerk-dialog-identity{gap:9px}.clerk-dialog-portrait{flex-basis:48px;width:48px;height:64px}
  .night-clerk-dialog .clerk-dialog-identity h2{font-size:25px}.clerk-dialog-identity .eyebrow{font-size:7px;letter-spacing:.4px}
 }
-.harrow-point-sign{display:flex;flex-direction:column}.harrow-point-sign p{flex:1}
-.harrow-point-more{position:static;align-self:flex-start;margin-top:12px;padding:5px 0 0;border:0;border-top:1px dashed #c8a56b55;border-radius:0;background:none;color:#e9cf8f;font:9px/1.5 'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase}
-.harrow-point-more:after{position:absolute;inset:0;content:""}.harrow-point-sign:has(.harrow-point-more:hover),.harrow-point-sign:has(.harrow-point-more:focus-visible){border-color:#e9cf8f;box-shadow:inset 0 0 24px #0908079c,0 0 0 1px #e9cf8f55,0 6px 16px #000a}.harrow-point-more:hover{box-shadow:none;color:#fff1c9}.harrow-point-more:focus-visible{outline:2px solid #e9cf8f;outline-offset:3px}

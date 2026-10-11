@@ -37,3 +37,9 @@
 .lr-header .menu-toggle span{display:inline}
 @media(max-width:650px){.lr-member-prefix{display:none}.lr-header .menu-toggle{font-size:0;padding:7px}.lr-header .menu-toggle span{display:none}}
 @media(prefers-reduced-motion:reduce){.lr-header .menu-toggle{transition:none}}
+/* Same edge-to-edge spacing as the Lounge header. */
+.lr-header{padding:16px 5%;gap:20px}
+.lr-brand{width:200px}
+@media(max-width:650px){.lr-header{padding:12px 4%;gap:10px}.lr-brand{width:155px}}
+.lr-strip{padding-left:5%;padding-right:5%}
+@media(max-width:650px){.lr-strip{padding-left:4%;padding-right:4%}}
