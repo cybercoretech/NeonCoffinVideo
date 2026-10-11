@@ -2,7 +2,7 @@ import {readFile, writeFile} from 'node:fs/promises';
 import {renderGenreFooter} from '../shared/genre-footer.mjs';
 const root = new URL('../', import.meta.url);
 const config = JSON.parse(await readFile(new URL('shared/footer-config.json', root), 'utf8'));
-for (const page of ['index.html', 'community.html', 'screening-room.html']) {
+for (const page of ['index.html', 'community.html', 'screening-room.html', 'late-returns.html']) {
   const path = new URL(page, root);
   let html = await readFile(path, 'utf8');
   // Keep one visible shared footer outside main/dialogs, including when an older
