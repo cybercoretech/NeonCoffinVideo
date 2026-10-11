@@ -44,3 +44,5 @@
 
 
 .lr-kicker:has(>span:empty){display:flex;justify-content:center}
+.lr-account-nav .site-membership-button{display:inline-flex;align-items:center;gap:8px}
+.lr-header{border-bottom:2px solid var(--green,#bbff57);box-shadow:0 4px 0 #000}

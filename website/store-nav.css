@@ -89,3 +89,7 @@
 :is(.eyebrow,.lr-kicker)>span:empty{display:block;flex-shrink:0;width:6px;height:6px;border-radius:50%;background:var(--green,#bbff57);box-shadow:0 0 12px var(--green,#bbff57)}
 /* Section name under the logo (Lounge, Late Show, Late Returns). */
 .brand-page-label{display:block;margin:5px 0 0 3px;font:8px/1.5 'JetBrains Mono',monospace;letter-spacing:2px;color:var(--green,#bbff57)}
+/* Pink membership button with the shield icon, the same on every page. */
+.site-membership-button{display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.site-membership-button svg{width:20px;height:20px;flex-shrink:0;fill:none;stroke:var(--green,#bbff57);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+:is(.lounge-account-nav,.lr-account-nav,.ls-header-actions) .site-membership-button{border-color:var(--pink,#ff47a6)}
