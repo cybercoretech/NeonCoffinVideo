@@ -1284,7 +1284,7 @@ The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is a
 ### midnight-pier-cliffs
 
 - Local file: `assets/midnight-pier-cliffs.webp`
-- Credit: Original AI-generated horror-comic illustration of a haunted Maine amusement pier, rocky cliffs, and a hilltop cemetery, created for Neon Coffin Video.
+- Credit: Original AI-generated horror-comic illustration of Harrow Point’s haunted Amusement Pier, rocky cliffs, and Widow’s Rise Burial Ground on the hill, created for Neon Coffin Video.
 - Reference: Original Neon Coffin Video community background
 
 ### little-shop-of-horrors

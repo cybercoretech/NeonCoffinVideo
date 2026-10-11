@@ -1,4 +1,4 @@
-export const identity = Object.freeze({handle:'NightClerk',displayName:'The Night Clerk',role:'BOT / HOUSE HOST'});
+export const identity = Object.freeze({handle:'NightManager',displayName:'The Night Manager',role:'BOT / HOUSE HOST'});
 export const genres = Object.freeze({slashers:'Slashers',creatures:'Creature features',body:'Body horror',supernatural:'Supernatural',scifi:'Sci-fi horror',chaos:'Splatter & horror comedy',corman:'Corman shelf'});
 export const prompts = [
   'Which horror sequel actually improves on the original?',
@@ -50,7 +50,7 @@ const normalize=s=>s.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,
 const hash=s=>[...s].reduce((n,c)=>(Math.imul(n,31)+c.charCodeAt(0))>>>0,0);
 const card=(m,origin)=>({...m,genre:genres[m.category]||'Cult horror',url:origin+'/#film/'+m.id});
 const help={
-  town:['The Night Clerk’s local guide','Harrow Point is a fictional coastal town in southern Maine, near Old Orchard Beach. I grew up near Boston; the Massachusetts accent stuck. The Amusement Pier’s music sometimes plays after midnight. I remember the fire and rent a tape of opening day. Widow’s Rise Burial Ground is the old cemetery on the hill; Low Tide Mortuary is the town’s old mortuary. Those places and hauntings belong to Neon Coffin lore, not real Old Orchard Beach.','/community#harrow-point'],
+  town:['The Night Manager’s local guide','Harrow Point is a fictional coastal town in southern Maine, near Old Orchard Beach. I grew up near Boston; the Massachusetts accent stuck. The Amusement Pier’s music sometimes plays after midnight. I remember the fire and rent a tape of opening day. Widow’s Rise Burial Ground is the old cemetery on the hill; Low Tide Mortuary is the town’s old mortuary. Those places and hauntings belong to Neon Coffin lore, not real Old Orchard Beach.','/community#harrow-point'],
   profiles:['Your Night Shift identity','Open My membership to edit your handle, display name, bio, avatar, banner, and privacy settings. Avatar and banner source files can be up to 5 MB each.','/community#profile'],
   shelves:['Your personal rental shelf','Save films with My shelf on the main site. In your membership, open My movie shelf to import browser-saved tapes into your account.','/community#profile'],
   reviews:['Leave a skull rating','Sign in, open your membership, and choose My reviews. Pick a film, rate it from one to five skulls, and mark spoilers before publishing.','/community#profile'],
@@ -63,7 +63,7 @@ export function commandReply(input,catalog,{origin='https://neoncoffinvideo.site
   let result;
   if(command==='help') {
     const entry=help[query.toLowerCase()];
-    result=entry?{title:entry[0],text:entry[1],links:[{label:query.toLowerCase()==='town'?'Read the Harrow Point town board':'Open the counter',url:entry[2].startsWith('/')?origin+entry[2]:entry[2]}]}:{title:'Ask the Night Clerk',text:'Try /town for a local story, /recommend 1980s creatures, /recommend 1990s supernatural, /find Near Dark, /double-feature body, /prompt, or /help profiles. Help topics: town, profiles, shelves, reviews, rules, support. Ask a normal question for AI conversation, or use these catalog commands for direct results.',commands:['/town','/recommend 1980s creatures','/find Near Dark','/double-feature body','/prompt','/help support']};
+    result=entry?{title:entry[0],text:entry[1],links:[{label:query.toLowerCase()==='town'?'Read the Harrow Point town board':'Open the counter',url:entry[2].startsWith('/')?origin+entry[2]:entry[2]}]}:{title:'Ask the Night Manager',text:'Try /town for a local story, /recommend 1980s creatures, /recommend 1990s supernatural, /find Near Dark, /double-feature body, /prompt, or /help profiles. Help topics: town, profiles, shelves, reviews, rules, support. Ask a normal question for AI conversation, or use these catalog commands for direct results.',commands:['/town','/recommend 1980s creatures','/find Near Dark','/double-feature body','/prompt','/help support']};
   } else if(command==='town') {
     const entry=help.town;
     result={title:entry[0],text:entry[1],links:[{label:'Read the Harrow Point town board',url:origin+entry[2]}]};

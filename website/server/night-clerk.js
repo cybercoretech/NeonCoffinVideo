@@ -14,13 +14,13 @@ export async function nightClerk(request,env) {
       if(request.method!=='POST')return json({error:'Method not allowed.'},405);
       const origin=new URL(request.url).origin;
       if(request.headers.get('origin')!==origin||![env.SITE_ORIGIN,'https://neoncoffinvideo.site','https://neoncoffinvideo.pages.dev'].includes(origin))return json({error:'Request origin rejected.'},403);
-      if(!env.NIGHT_CLERK_URL)return json({error:'The Night Clerk is not connected yet.'},503);
+      if(!env.NIGHT_CLERK_URL)return json({error:'The Night Manager is not connected yet.'},503);
       const base=new URL(env.NIGHT_CLERK_URL);
       if(base.protocol!=='https:'||base.username||base.password)throw new Error('Invalid bot URL');
       const chat=path.endsWith('/chat'),body=await readBody(request,chat?14000:2048);
       const headers={'Content-Type':'application/json',Origin:origin,'CF-Connecting-IP':request.headers.get('cf-connecting-ip')||'local'};
       if(chat){
-        if(!env.NIGHT_CLERK_SHARED_SECRET)return json({error:'The Night Clerk is not connected yet.'},503);
+        if(!env.NIGHT_CLERK_SHARED_SECRET)return json({error:'The Night Manager is not connected yet.'},503);
         const key=await crypto.subtle.importKey('raw',encoder.encode(env.NIGHT_CLERK_SHARED_SECRET),{name:'HMAC',hash:'SHA-256'},false,['sign']);
         const hex=bytes=>[...new Uint8Array(bytes)].map(b=>b.toString(16).padStart(2,'0')).join('');
         const client=hex(await crypto.subtle.sign('HMAC',key,encoder.encode(headers['CF-Connecting-IP']))),time=String(Math.floor(Date.now()/1000));
@@ -50,11 +50,11 @@ export async function nightClerk(request,env) {
     // There is no credential for member sessions, moderation, edits, or deletion.
     const now=Math.floor(Date.now()/1000),topic=crypto.randomUUID();
     try{await db.batch([
-      db.prepare('INSERT INTO members(id,google_sub,handle,display_name,bio,avatar_data,created,age_confirmed_at,is_bot,show_online) VALUES(?,?,?,?,?,?,?,?,1,0) ON CONFLICT(id) DO NOTHING').bind(BOT_ID,'bot:night-clerk','NightClerk','The Night Clerk','Automated Neon Coffin Video house host. Catalog picks, nightly questions, and help at the counter.','preset:radioactive-skull',now,now),
+      db.prepare('INSERT INTO members(id,google_sub,handle,display_name,bio,avatar_data,created,age_confirmed_at,is_bot,show_online) VALUES(?,?,?,?,?,?,?,?,1,0) ON CONFLICT(id) DO NOTHING').bind(BOT_ID,'bot:night-clerk','NightManager','The Night Manager','Automated Neon Coffin Video house host. Catalog picks, nightly questions, and help at the counter.','preset:radioactive-skull',now,now),
       db.prepare('INSERT INTO topics(id,author,category,title,created) VALUES(?,?,?,?,?)').bind(topic,BOT_ID,payload.kind==='prompt'?'movie-talk':'the-counter',payload.title.trim(),now),
       db.prepare('INSERT INTO posts(id,topic,author,body,created) VALUES(?,?,?,?,?)').bind(crypto.randomUUID(),topic,BOT_ID,payload.body.trim(),now),
       db.prepare('INSERT INTO bot_deliveries(key,kind,topic,created) VALUES(?,?,?,?)').bind(payload.key,payload.kind,topic,now)
     ])}catch(error){const delivered=await db.prepare('SELECT topic FROM bot_deliveries WHERE key=?').bind(payload.key).first();if(delivered)return json({id:delivered.topic,duplicate:true});throw error}
     return json({id:topic,duplicate:false},201);
-  }catch(error){if(!error.status)console.error('Night Clerk connector failed.');return json({error:error.status?error.message:'The Night Clerk connection is temporarily unavailable.'},error.status||503)}
+  }catch(error){if(!error.status)console.error('Night Manager connector failed.');return json({error:error.status?error.message:'The Night Manager connection is temporarily unavailable.'},error.status||503)}
 }

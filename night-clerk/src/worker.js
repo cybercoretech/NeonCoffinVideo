@@ -54,14 +54,14 @@ export async function runNightly(env,time=Date.now(),{force=false}={}) {
     return delivered.length?{date:clock.date,delivered}:{skipped:true};
   }
   const films=await catalog(env),now=Math.floor(time/1000),promptId='night-clerk:prompt:'+clock.date;
-  const prompt={key:promptId,kind:'prompt',title:promptFor(clock.date),body:'📼 THE NIGHT CLERK / AUTOMATED HOUSE HOST\n\n'+promptFor(clock.date)+'\n\nTell us why. Keep spoilers marked, and be cool to each other. Bad movies. Great nights.'};
+  const prompt={key:promptId,kind:'prompt',title:promptFor(clock.date),body:'📼 THE NIGHT MANAGER / AUTOMATED HOUSE HOST\n\n'+promptFor(clock.date)+'\n\nTell us why. Keep spoilers marked, and be cool to each other. Bad movies. Great nights.'};
   await env.BOT_DB.prepare('INSERT OR IGNORE INTO jobs(id,kind,payload,created) VALUES(?,?,?,?)').bind(promptId,'prompt',JSON.stringify(prompt),now).run();
   const previous=await env.BOT_DB.prepare('SELECT seen FROM catalog_state WHERE id=1').first();
   const ids=films.map(m=>m.id),old=previous?new Set(JSON.parse(previous.seen)):null;
   const additions=old?films.filter(m=>!old.has(m.id)):[];
   if(additions.length){
     const key='night-clerk:announcement:'+clock.date;
-    const payload={key,kind:'announcement',title:'Fresh on the shelves · '+clock.date,body:'📼 THE NIGHT CLERK / CATALOG UPDATE\n\n'+additions.length+' new '+(additions.length===1?'tape has':'tapes have')+' joined the catalog:\n\n'+additions.slice(0,12).map(m=>m.title+' ('+m.year+') — '+originFor(env)+'/#film/'+m.id).join('\n')+(additions.length>12?'\n\nBrowse the main shelf for the rest.':'')};
+    const payload={key,kind:'announcement',title:'Fresh on the shelves · '+clock.date,body:'📼 THE NIGHT MANAGER / CATALOG UPDATE\n\n'+additions.length+' new '+(additions.length===1?'tape has':'tapes have')+' joined the catalog:\n\n'+additions.slice(0,12).map(m=>m.title+' ('+m.year+') — '+originFor(env)+'/#film/'+m.id).join('\n')+(additions.length>12?'\n\nBrowse the main shelf for the rest.':'')};
     await env.BOT_DB.prepare('INSERT OR IGNORE INTO jobs(id,kind,payload,created) VALUES(?,?,?,?)').bind(key,'announcement',JSON.stringify(payload),now).run();
   }
   // Persist the baseline only after the announcement is in the durable outbox.
@@ -127,7 +127,7 @@ export default {
       fail('Not found.',404);
     } catch(error) {
       if(!error.status)console.error(JSON.stringify({event:'night-clerk-error',message:error.message}));
-      return response({error:error.status?error.message:'The Night Clerk is temporarily unavailable. Please try again.'},error.status||503);
+      return response({error:error.status?error.message:'The Night Manager is temporarily unavailable. Please try again.'},error.status||503);
     }
   },
   async scheduled(controller,env) {

@@ -47,14 +47,14 @@ try{
   await evaluate(`document.fonts.ready`);
   await waitFor(`document.querySelector('.clerk-portrait img')?.complete&&document.querySelector('.clerk-portrait img').naturalWidth===1536`);
   assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'Lounge page fits '+width);
-  assert(await evaluate(`document.querySelector('.clerk-portrait').getBoundingClientRect().top<innerHeight`),'Night Clerk portrait is above the fold '+width);
+  assert(await evaluate(`document.querySelector('.clerk-portrait').getBoundingClientRect().top<innerHeight`),'Night Manager portrait is above the fold '+width);
   assert(await evaluate(`document.querySelector('.lounge-hero [data-open-clerk]').getBoundingClientRect().height>=44`),'main clerk action is touch-sized '+width);
   const heroShot=await command('Page.captureScreenshot',{format:'png'},sessionId);writeFileSync(screenshotDir+'/lounge-portrait-'+width+'.png',Buffer.from(heroShot.data,'base64'));
   const previousFeature=await evaluate(`document.querySelector('#featureTitle').textContent`);
   await evaluate(`document.querySelector('#featureNext').click()`);
   await waitFor(`document.querySelector('#featureTitle').textContent!==${JSON.stringify(previousFeature)}`);
   await evaluate(`document.querySelector('[data-open-clerk]').click()`);
-  await waitFor(`document.querySelector('#nightClerkResponse h3')?.textContent==='Ask the Night Clerk'`);
+  await waitFor(`document.querySelector('#nightClerkResponse h3')?.textContent==='Ask the Night Manager'`);
   await evaluate(`document.querySelector('[data-clerk-command="/recommend 1980s creatures"]').click()`);
   await waitFor(`document.querySelectorAll('.clerk-tape').length===3`);
   assert(await evaluate(`(()=>{const e=document.querySelector('#nightClerkDialog'),r=e.getBoundingClientRect();return e.open&&r.left>=0&&r.right<=innerWidth&&e.scrollWidth<=e.clientWidth})()`),'dialog fits '+width);
@@ -74,5 +74,5 @@ try{
   await evaluate(`document.querySelector('[data-clerk-reset]').click()`);assert.equal(await evaluate(`document.querySelector('#nightClerkHistory').children.length`),0);
   await evaluate(`document.querySelector('[data-clerk-close]').click()`);assert.equal(await evaluate(`document.querySelector('#nightClerkDialog').open`),false);
  }
- assert.deepEqual(errors,[]);console.log('PASS: Lounge portrait above the fold, feature rotation, Night Clerk panel, catalog commands, conversational follow-ups and reset, accessible controls, separate-tab dossiers, close action, and overflow checks at 1440/768/390/320px. '+(process.argv[2]?'Live production commands and Workers AI follow-up checked.':'Conversation transport mocked; production AI checked separately.')+'');
+ assert.deepEqual(errors,[]);console.log('PASS: Lounge portrait above the fold, feature rotation, Night Manager panel, catalog commands, conversational follow-ups and reset, accessible controls, separate-tab dossiers, close action, and overflow checks at 1440/768/390/320px. '+(process.argv[2]?'Live production commands and Workers AI follow-up checked.':'Conversation transport mocked; production AI checked separately.')+'');
 }finally{ws?.close();browser.kill();server.closeAllConnections();server.close();db.close()}
