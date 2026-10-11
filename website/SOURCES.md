@@ -18,6 +18,10 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is an original AI-generated illustration developed from the user-selected “Past Due” character concept. Its source portrait, model and expression studies, and editable animation plates are archived in the private NeonCoffinAnimations production repository. The web image is a compressed export of the portrait.
 
+## Late Returns
+
+`assets/late-returns/late-returns-background.webp` is original AI-generated atmospheric artwork created for the Late Returns watch page; it is not a frame from a film. The poster is a frame from Neon Coffin Video's original short, `Be Kind. Rewind.`. The website MP4 is a smaller 1080p web encode of the production export in the private NeonCoffinAnimations repository. English captions are based on the production dialogue guide.
+
 ## Film artwork
 
 ### re-animator

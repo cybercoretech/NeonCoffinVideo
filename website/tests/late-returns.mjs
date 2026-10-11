@@ -1,13 +1,17 @@
 import assert from 'node:assert/strict';
 import {readFileSync,statSync} from 'node:fs';
-const root=new URL('../',import.meta.url),html=readFileSync(new URL('late-returns.html',root),'utf8');
+const root=new URL('../',import.meta.url),html=readFileSync(new URL('late-returns.html',root),'utf8'),css=readFileSync(new URL('late-returns.css',root),'utf8');
 assert.match(html,/<video[^>]+controls[^>]+preload="metadata"/);
 assert.match(html,/be-kind-rewind-1080p\.mp4/);
 assert.match(html,/be-kind-rewind-captions\.vtt/);
 assert.match(html,/DOWNLOAD THE 1080P TAPE/);
+assert.match(html,/class="header lr-header"/);
+assert.match(css,/late-returns-background\.webp/);
+for(const file of ['index.html','community.html','screening-room.html'])assert.match(readFileSync(new URL(file,root),'utf8'),/href="\/late-returns"[\s\S]{0,450}Late Returns/);
 const video=statSync(new URL('assets/late-returns/be-kind-rewind-1080p.mp4',root));
 assert(video.size>1_000_000&&video.size<25*1024*1024,'video must fit the Cloudflare Pages 25 MiB per-file limit');
 assert.match(readFileSync(new URL('assets/late-returns/be-kind-rewind-captions.vtt',root),'utf8'),/^WEBVTT\n/);
+assert(statSync(new URL('assets/late-returns/late-returns-background.webp',root)).size>50_000);
 const schema=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
 assert.equal(schema['@type'],'VideoObject');assert.equal(schema.duration,'PT2M');assert.equal(schema.width,1920);assert.equal(schema.height,1080);
 console.log('PASS: Late Returns has a playable 1080p episode, English captions, downloadable MP4, valid VideoObject metadata, and a Pages-compliant asset size.');

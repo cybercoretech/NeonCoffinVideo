@@ -9,8 +9,9 @@ const menu=html.match(/<nav class="primary-navigation"[^>]*>(.*?)<\/nav>/s)?.[1]
 assert.ok(menu,'the main site navigation exists');
 const links=[...menu.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/gs)];
 const destinations=links.map(([,href])=>href);
-assert.equal(destinations.length,11,'directory has one link for each top-level destination');
+assert.equal(destinations.length,12,'directory has one link for each top-level destination');
 assert.equal(new Set(destinations).size,destinations.length,'menu does not repeat destinations');
+assert.equal(destinations.filter(url=>url==='/late-returns').length,1,'Late Returns has one top-level menu link');
 assert.match(html,/class="issue-motto">THE MONTHLY MIDNIGHT FILE/);
 assert.match(html,/id="editionIssue">001/);
 assert.match(html,/id="editionMonth">OCT 2026/);
@@ -32,3 +33,4 @@ for(const page of ['index.html','community.html']){
  for(const action of ['data-open-help','data-open-themes'])assert(markup.includes(action),page+' has '+action);
  assert.match(markup,/store-nav\.js/);
 }
+for(const page of ['index.html','community.html','screening-room.html','late-returns.html'])assert.match(readFileSync(new URL(page,root),'utf8'),/href="\/late-returns"/);
