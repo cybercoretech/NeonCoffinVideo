@@ -1277,10 +1277,10 @@ The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is a
 - Reference: https://www.rottentomatoes.com/m/faculty
 - Image source: https://resizing.flixster.com/_eZjTeEJCi6M4DkJ6bUaGe9q17s=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22254_p_v8_ak.jpg
 
-### midnight-forest
+### midnight-pier-cliffs
 
-- Local file: `assets/midnight-forest.webp`
-- Credit: Original AI-generated atmospheric forest illustration created for The Midnight Lounge; not a film still or official film artwork.
+- Local file: `assets/midnight-pier-cliffs.webp`
+- Credit: Original AI-generated horror-comic illustration of a haunted Maine amusement pier, rocky cliffs, and a hilltop cemetery, created for Neon Coffin Video.
 - Reference: Original Neon Coffin Video community background
 
 ### little-shop-of-horrors

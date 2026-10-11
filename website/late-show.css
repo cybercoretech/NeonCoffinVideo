@@ -33,6 +33,7 @@
 .ls-rack-scroll{max-height:min(850px,78dvh);min-height:260px;overflow:auto;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:var(--green) #10191f;padding:14px;border:2px solid var(--cyan);background:#050b10;box-shadow:6px 6px #000}
 .ls-rack-scroll::-webkit-scrollbar{width:12px}.ls-rack-scroll::-webkit-scrollbar-track{background:#10191f}.ls-rack-scroll::-webkit-scrollbar-thumb{background:var(--green);border:3px solid #10191f}
 .ls-rack-scroll .ls-rental-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch}
+.ls-seo-collections{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:18px 0 24px;padding:14px;border:1px solid #65e6ed55;background:#0b151b}.ls-seo-collections>span{flex-basis:100%;color:var(--green);font:10px 'JetBrains Mono';letter-spacing:1px}.ls-seo-collections>a{padding:7px 10px;border:1px solid #65e6ed66;color:var(--cyan);font:11px 'JetBrains Mono';text-decoration:none}.ls-seo-collections>a:hover{border-color:var(--pink);color:var(--pink)}
 .ls-rack-scroll .ls-rental-art{padding:9px}.ls-rack-scroll .ls-rental-art img{height:auto;aspect-ratio:2/3;width:100%;object-fit:contain}
 .ls-rack-scroll .ls-rental-copy{padding:0 12px 14px}.ls-rack-scroll .ls-rental-copy h3{font-size:25px;line-height:1.08;margin:10px 0 5px;overflow-wrap:anywhere}
 .ls-rack-scroll .ls-rental-copy .ls-mono{font-size:8px;margin:5px 0}.ls-rack-scroll .ls-rental-copy .ls-fine{font-size:9px;margin:7px 0}

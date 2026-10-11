@@ -55,10 +55,10 @@ try{
  console.log('PASS: shared/old URLs, reloads, and a second real browser tab cannot silently change the active theme.');
  await go('community.html');
  const forest=await evaluate(`getComputedStyle(document.querySelector('.lounge-backdrop')).backgroundImage`);
- assert(forest.includes('midnight-forest.webp'));
+ assert(forest.includes('midnight-pier-cliffs.webp'));
  for(const id of ['original',...ids]){
   if(id==='original'){await open();await evaluate(`document.querySelector('.ctp-reset').click();document.querySelector('.ctp-close').click()`)}else await choose(id);
-  assert.equal(await evaluate(`getComputedStyle(document.querySelector('.lounge-backdrop')).backgroundImage`),forest,id+' keeps identical forest background');
+  assert.equal(await evaluate(`getComputedStyle(document.querySelector('.lounge-backdrop')).backgroundImage`),forest,id+' keeps identical pier-and-cliffs background');
   assert.equal(await evaluate(`document.querySelectorAll('.lounge-hero .halloween-scene-host,.lounge-hero .halloween-atmosphere').length`),0);
   assert.equal(await evaluate(`getComputedStyle(document.querySelector('.lounge-hero'),'::after').content`),'none');
   const surface=await evaluate(`getComputedStyle(document.querySelector('.rail-card')).backgroundImage`);

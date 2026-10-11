@@ -36,7 +36,7 @@
 /* Neutral surfaces and neon accents: no maroon framing. */
 :root{--bg:#080d12;--panel:#101920;--line:#31464f}
 body{background-color:var(--bg)}
-.lounge-backdrop{background:linear-gradient(90deg,#090810b8 0%,#0908108c 48%,#0908106f 100%),linear-gradient(#09081048,#0908109c),url('assets/midnight-forest.webp') center/cover!important}
+.lounge-backdrop{background:linear-gradient(90deg,#090810b8 0%,#0908108c 48%,#0908106f 100%),linear-gradient(#09081048,#0908109c),url('assets/midnight-pier-cliffs.webp') center/cover!important}
 .lounge-hero{background:transparent}
 :is(.header,.lounge-header){background:#0b1015f5}
 :is(.header,.lounge-header) .primary-navigation{background:linear-gradient(145deg,#121b21,#080d12);border-color:color-mix(in srgb,var(--cyan) 55%,transparent)}

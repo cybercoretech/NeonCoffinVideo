@@ -1,6 +1,6 @@
 # Cybercore Theme Packs — Halloween Collection
 
-Open **MENU → Theme Packs** on the storefront or Lounge. Eight original wallpapers are available. Choose a card to apply its theme; **Restore original** restores Neon Coffin’s default appearance. Theme colors use neutral black/charcoal surfaces with neon accents. The Midnight Lounge always keeps `assets/midnight-forest.webp`, independent of the chosen theme.
+Open **MENU → Theme Packs** on the storefront or Lounge. Eight original wallpapers are available. Choose a card to apply its theme; **Restore original** restores Neon Coffin’s default appearance. Theme colors use neutral black/charcoal surfaces with neon accents. The Midnight Lounge always keeps `assets/midnight-pier-cliffs.webp`, independent of the chosen theme.
 
 The last deliberate choice is saved per browser, while each open tab pins its own choice across reloads and storefront/Lounge navigation. Other tabs cannot switch it. Shared theme URLs suggest a theme in the picker; they never apply or save it automatically. **Copy theme link** still creates a shareable suggestion. Effects preferences remain separate and respect reduced motion.
 

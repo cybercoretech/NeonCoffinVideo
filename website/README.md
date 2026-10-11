@@ -78,6 +78,6 @@ Trioxin 245 collection: five films in release order, local sourced covers, indiv
 
 Final launch pass: removed prospective intermission copy, synchronized Trioxin save controls, removed duplicate filter renders, added branded 404 and robots.txt, and verified the core interface and real three-provider feeds. See LAUNCH.md for deployment handoff and remaining external configuration.
 
-Midnight Lounge backdrop: original midnight-forest.webp, a moonlit, fog-heavy forest with hidden creatures and a reaching claw. The layered image stays legible under the Lounge content. The battered OPEN sign is smaller, perspective tilted and positioned within the storefront window, with softened tube light and a wall reflection.
+Midnight Lounge backdrop: original midnight-pier-cliffs.webp, a moonlit haunted Maine amusement pier between rocky cliffs and a hilltop cemetery. The fixed layered image stays legible under the Lounge content and remains independent of storefront theme choices. The battered OPEN sign is smaller, perspective tilted and positioned within the storefront window, with softened tube light and a wall reflection.
 
 The Midnight Lounge is the custom Cloudflare forum at /community. Google account setup is pending; see COMMUNITY.md. The trailer pool now chooses its featured tape every three hours, checks the clock every 30 seconds and upon returning to a tab, and postpones a switch while an embedded trailer is playing. The original 12-hour editorial movie rotation remains separate.

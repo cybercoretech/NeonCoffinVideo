@@ -32,6 +32,6 @@ const panel=readFileSync(new URL('theme-packs/panel.js',root),'utf8');
 assert.doesNotMatch(panel,/querySelector\('\.lounge-hero'\)/,'theme scenery and atmosphere are never attached to the Lounge');
 assert.doesNotMatch(panel,/halloween-haze/,'no generated haze layer');
 const css=readFileSync(new URL('theme-packs/themes.css',root),'utf8');
-assert.doesNotMatch(css,/\.lounge-backdrop|\.lounge-hero[\s.:]/,'theme styles cannot replace or veil the forest');
+assert.doesNotMatch(css,/\.lounge-backdrop|\.lounge-hero[\s.:]/,'theme styles cannot replace or veil the Lounge wallpaper');
 for(const theme of pack.themes){assert.equal(theme.palette.bg,'080d12');assert.equal(theme.palette.panel,'101920');}
 console.log('PASS: explicit theme choices persist per tab; old/shared URLs and other tabs cannot override them; Lounge scenery stays independent; panel backgrounds are neutral.');
