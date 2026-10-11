@@ -44,6 +44,13 @@ Finished videos and build notes are in `/home/raven/Animations/NCV_Animations/`.
 - The host is **the Night Manager** everywhere visitors see him: the chat window, Lounge
   bot, crew bio and homepage. Internal identifiers (`night-clerk` files, `nightClerk`
   ids, `bot:night-clerk`, the Worker name) keep their old names on purpose.
+- Each Lounge town-board sign opens a story dialog (`community.html`, styles in
+  `night-clerk-ui.css`). Story canon written 2026-10-11, all fiction: the pier opened
+  Memorial Day 1951 and burned Labor Day night 1979 (ballroom fire; the carousel organ
+  was never found); Widow's Rise has a north-wall row of cut, dated, empty stones and a
+  lantern seen when boats are overdue; Low Tide Mortuary is a sea captain's house run by
+  one family for four generations, with a tidal sea door in the cellar. Keep films and the
+  chat bot consistent with these.
 - Lounge moderation labels say "moderators", so the AI host never appears to moderate.
 - The bot account's live rename needs `migrations/0011-night-manager.sql` applied to
   the `neon-coffin-community` D1 database when deploying.
