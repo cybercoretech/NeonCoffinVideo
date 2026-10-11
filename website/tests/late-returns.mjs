@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFileSync,statSync} from 'node:fs';
+const root=new URL('../',import.meta.url),html=readFileSync(new URL('late-returns.html',root),'utf8');
+assert.match(html,/<video[^>]+controls[^>]+preload="metadata"/);
+assert.match(html,/be-kind-rewind-1080p\.mp4/);
+assert.match(html,/be-kind-rewind-captions\.vtt/);
+assert.match(html,/DOWNLOAD THE 1080P TAPE/);
+const video=statSync(new URL('assets/late-returns/be-kind-rewind-1080p.mp4',root));
+assert(video.size>1_000_000&&video.size<25*1024*1024,'video must fit the Cloudflare Pages 25 MiB per-file limit');
+assert.match(readFileSync(new URL('assets/late-returns/be-kind-rewind-captions.vtt',root),'utf8'),/^WEBVTT\n/);
+const schema=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+assert.equal(schema['@type'],'VideoObject');assert.equal(schema.duration,'PT2M');assert.equal(schema.width,1920);assert.equal(schema.height,1080);
+console.log('PASS: Late Returns has a playable 1080p episode, English captions, downloadable MP4, valid VideoObject metadata, and a Pages-compliant asset size.');

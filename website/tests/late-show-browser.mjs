@@ -12,7 +12,7 @@ import {filterRentals,rackCategories} from '../late-show-rack.js';
 const root=fileURLToPath(new URL('../',import.meta.url)),db=previewDatabase(':memory:');
 const {lateShow}=await import('../server/late-show.js');
 const catalog=JSON.parse(readFileSync(root+'night-clerk-catalog.json','utf8'));
-const mime={'.html':'text/html','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.ttf':'font/ttf'};
+const mime={'.html':'text/html','.css':'text/css','.js':'text/javascript','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.ttf':'font/ttf','.vtt':'text/vtt','.mp4':'video/mp4'};
 const group='https://groups.google.com/g/neon-coffin-midnight-dispatch';
 let localSessionCookie='';
 const server=http.createServer(async(req,res)=>{
@@ -20,7 +20,7 @@ const server=http.createServer(async(req,res)=>{
   let result;const origin='http://127.0.0.1:'+server.address().port;
   if(req.url.startsWith('/api/late-show/'))result=await lateShow(new Request(origin+req.url),{NEWSLETTER_GROUP_URL:group});
   else if(req.url.startsWith('/api/community/'))result=await community(new Request(origin+req.url,{headers:{...req.headers,...(localSessionCookie?{cookie:localSessionCookie}:{})}}),{COMMUNITY_DB:db,SITE_ORIGIN:origin});
-  else{let name=decodeURIComponent(req.url.split('?')[0]);if(name==='/community')name='/community.html';if(name==='/screening-room')name='/screening-room.html';const file=path.resolve(root,'.'+name);if(!file.startsWith(root))throw new Error('Invalid path');result=new Response(await readFile(file),{headers:{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}})}
+  else{let name=decodeURIComponent(req.url.split('?')[0]);if(name==='/community')name='/community.html';if(name==='/screening-room')name='/screening-room.html';if(name==='/late-returns')name='/late-returns.html';const file=path.resolve(root,'.'+name);if(!file.startsWith(root))throw new Error('Invalid path');result=new Response(await readFile(file),{headers:{'Content-Type':mime[path.extname(file)]||'application/octet-stream'}})}
   res.writeHead(result.status,Object.fromEntries(result.headers));res.end(Buffer.from(await result.arrayBuffer()));
  }catch{res.writeHead(404);res.end('Not found')}
 });
@@ -151,6 +151,16 @@ try{
   assert(await evaluate(`!document.querySelector('#detailContent').textContent.includes('null MIN')&&!!document.querySelector('#detailContent a[href="https://www.rottentomatoes.com/m/scream_2"]')`));
   await evaluate(`document.querySelector('[data-close="detailDialog"]').click();document.querySelector('#backToAisles').click();document.querySelector('#cryptCategories [data-filter="psychological"]').click()`);
   assert(await evaluate(`document.querySelector('#cryptShelfName').textContent.includes('MIND GAMES')&&document.querySelectorAll('#filmGrid .film-card').length>0`));
+ }
+ for(const width of [1440,390]){
+  await command('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500},sessionId);
+  await command('Page.navigate',{url:base+'/late-returns'},sessionId);
+  await waitFor(`document.readyState==='complete'&&!!document.querySelector('.lr-player')`);
+  assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'Late Returns fits '+width);
+  assert(await evaluate(`document.querySelector('.lr-player').getBoundingClientRect().width>0&&document.querySelector('.lr-player').currentSrc.includes('be-kind-rewind-1080p.mp4')`));
+  assert(await evaluate(`document.querySelector('.lr-player track[default][kind="captions"]')?.src.includes('be-kind-rewind-captions.vtt')`));
+  await evaluate(`document.querySelector('.lr-menu-toggle').click()`);
+  assert(await evaluate(`!document.querySelector('#primaryNavigation').hidden`),'Late Returns navigation opens '+width);
  }
  assert.deepEqual(errors,[]);console.log('PASS: screening page at 1440/768/390/320px, consistent menus, categories, search, decade/sort controls, keyboard scrolling, all 261 credited rental posters, nested local dossiers, Google signup handoff, saved-shelf preservation, user-triggered player and fallback, reduced motion, and Lounge screening context. No subscriptions, posts or email sent.');
 }finally{ws?.close();browser.kill();server.closeAllConnections();server.close();db.close()}
