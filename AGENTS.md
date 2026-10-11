@@ -44,8 +44,11 @@ Finished videos and build notes are in `/home/raven/Animations/NCV_Animations/`.
 - The host is **the Night Manager** everywhere visitors see him: the chat window, Lounge
   bot, crew bio and homepage. Internal identifiers (`night-clerk` files, `nightClerk`
   ids, `bot:night-clerk`, the Worker name) keep their old names on purpose.
-- Each Lounge town-board sign opens a story dialog (`community.html`, styles in
-  `night-clerk-ui.css`). Story canon written 2026-10-11, all fiction: the pier opened
+- Each landmark sign on the Lounge town board and the Late Returns Harrow Point section
+  opens a story dialog. The dialog markup is duplicated in `community.html` and
+  `late-returns.html` (keep both copies identical); styles and behavior are shared in
+  `shared/harrow-point-stories.css` and `shared/harrow-point-stories.js`. Late Returns has
+  the Lounge-style header (membership, sign out, green menu) via `late-returns-account.js`. Story canon written 2026-10-11, all fiction: the pier opened
   Memorial Day 1951 and burned Labor Day night 1979 (ballroom fire; the carousel organ
   was never found); Widow's Rise has a north-wall row of cut, dated, empty stones and a
   lantern seen when boats are overdue; Low Tide Mortuary is a sea captain's house run by
