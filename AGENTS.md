@@ -34,3 +34,16 @@ The Midnight Lounge and "After Hours"). Its first tape is the short
 *Be Kind. Rewind.* The widescreen cut belongs on the site; a vertical cut goes to
 YouTube Shorts to bring viewers here, with `NEONCOFFINVIDEO.SITE` on screen.
 Finished videos and build notes are in `/home/raven/Animations/NCV_Animations/`.
+
+## Harrow Point and the Night Manager (decided 2026-10-10)
+
+- Neon Coffin Video itself is in Harrow Point. The footer, homepage welcome article,
+  Late Returns page, Late Show page, 404 page and Lounge carry the town and its three
+  landmarks with short atmospheric lines only. The landmarks' histories stay open for
+  the films.
+- The host is **the Night Manager** everywhere visitors see him: the chat window, Lounge
+  bot, crew bio and homepage. Internal identifiers (`night-clerk` files, `nightClerk`
+  ids, `bot:night-clerk`, the Worker name) keep their old names on purpose.
+- Lounge moderation labels say "moderators", so the AI host never appears to moderate.
+- The bot account's live rename needs `migrations/0011-night-manager.sql` applied to
+  the `neon-coffin-community` D1 database when deploying.

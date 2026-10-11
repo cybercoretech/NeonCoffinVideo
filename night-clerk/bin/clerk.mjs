@@ -7,7 +7,7 @@ let saved={};try{saved=parseEnv(await readFile(filename,'utf8'))}catch(error){if
 const config={...saved,...process.env},base=new URL(config.NCV_CLERK_URL||'http://127.0.0.1:8787');
 if(!['http:','https:'].includes(base.protocol)||(base.protocol==='http:'&&!['localhost','127.0.0.1'].includes(base.hostname)))throw new Error('Use HTTPS for a remote bot.');
 const [action='help',...words]=process.argv.slice(2);
-if(action==='help'&&!words.length){console.log('Night Clerk\n\nclerk command "/recommend 1980s creatures"\nclerk command "/find Near Dark"\nclerk chat "Something like Near Dark"\nclerk ai-pause\nclerk ai-resume\nclerk health\nclerk status\nclerk pause\nclerk resume\nclerk run\n\nConfig: '+filename);process.exit(0)}
+if(action==='help'&&!words.length){console.log('Night Manager\n\nclerk command "/recommend 1980s creatures"\nclerk command "/find Near Dark"\nclerk chat "Something like Near Dark"\nclerk ai-pause\nclerk ai-resume\nclerk health\nclerk status\nclerk pause\nclerk resume\nclerk run\n\nConfig: '+filename);process.exit(0)}
 const routes={health:['/health','GET'],status:['/admin/status','GET'],pause:['/admin/pause','POST',{paused:true}],resume:['/admin/pause','POST',{paused:false}],run:['/admin/run','POST',{}],command:['/v1/command','POST',{command:words.join(' ')}],chat:['/v1/chat','POST',{message:words.join(' ')}],'ai-check':['/admin/ai/check','POST',{}],'ai-pause':['/admin/ai','POST',{paused:true}],'ai-resume':['/admin/ai','POST',{paused:false}]};
 if(!routes[action])throw new Error('Unknown action. Run clerk help.');
 const [path,method,body]=routes[action],headers={};
