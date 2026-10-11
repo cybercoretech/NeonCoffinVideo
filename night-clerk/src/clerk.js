@@ -50,6 +50,7 @@ const normalize=s=>s.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,
 const hash=s=>[...s].reduce((n,c)=>(Math.imul(n,31)+c.charCodeAt(0))>>>0,0);
 const card=(m,origin)=>({...m,genre:genres[m.category]||'Cult horror',url:origin+'/#film/'+m.id});
 const help={
+  town:['The Night Clerk’s local guide','Harrow Point is a fictional coastal town in southern Maine, near Old Orchard Beach. I grew up near Boston; the Massachusetts accent stuck. The Amusement Pier’s music sometimes plays after midnight. I remember the fire and rent a tape of opening day. Widow’s Rise Burial Ground is the old cemetery on the hill; Low Tide Mortuary is the town’s old mortuary. Those places and hauntings belong to Neon Coffin lore, not real Old Orchard Beach.','/community#harrow-point'],
   profiles:['Your Night Shift identity','Open My membership to edit your handle, display name, bio, avatar, banner, and privacy settings. Avatar and banner source files can be up to 5 MB each.','/community#profile'],
   shelves:['Your personal rental shelf','Save films with My shelf on the main site. In your membership, open My movie shelf to import browser-saved tapes into your account.','/community#profile'],
   reviews:['Leave a skull rating','Sign in, open your membership, and choose My reviews. Pick a film, rate it from one to five skulls, and mark spoilers before publishing.','/community#profile'],
@@ -62,7 +63,10 @@ export function commandReply(input,catalog,{origin='https://neoncoffinvideo.site
   let result;
   if(command==='help') {
     const entry=help[query.toLowerCase()];
-    result=entry?{title:entry[0],text:entry[1],links:[{label:'Open the counter',url:entry[2].startsWith('/')?origin+entry[2]:entry[2]}]}:{title:'Ask the Night Clerk',text:'Try /recommend 1980s creatures, /recommend 1990s supernatural, /find Near Dark, /double-feature body, /prompt, or /help profiles. Help topics: profiles, shelves, reviews, rules, support. Ask a normal question for AI conversation, or use these catalog commands for direct results.',commands:['/recommend 1980s creatures','/find Near Dark','/double-feature body','/prompt','/help support']};
+    result=entry?{title:entry[0],text:entry[1],links:[{label:query.toLowerCase()==='town'?'Read the Harrow Point town board':'Open the counter',url:entry[2].startsWith('/')?origin+entry[2]:entry[2]}]}:{title:'Ask the Night Clerk',text:'Try /town for a local story, /recommend 1980s creatures, /recommend 1990s supernatural, /find Near Dark, /double-feature body, /prompt, or /help profiles. Help topics: town, profiles, shelves, reviews, rules, support. Ask a normal question for AI conversation, or use these catalog commands for direct results.',commands:['/town','/recommend 1980s creatures','/find Near Dark','/double-feature body','/prompt','/help support']};
+  } else if(command==='town') {
+    const entry=help.town;
+    result={title:entry[0],text:entry[1],links:[{label:'Read the Harrow Point town board',url:origin+entry[2]}]};
   } else if(command==='prompt') {
     result={title:'Tonight’s question',text:promptFor(date)+'\n\nTell us your take in Movie talk. Mark spoilers before the reveal.',links:[{label:'Open Movie talk',url:origin+'/community#room/movie-talk'}]};
   } else if(command==='find') {
@@ -78,6 +82,6 @@ export function commandReply(input,catalog,{origin='https://neoncoffinvideo.site
     const candidates=catalog.filter(m=>(!decade||m.year>=decade&&m.year<decade+10)&&(!category||m.category===category)&&((decade||category)||m.year>=1980&&m.year<2000));
     const selected=candidates.sort((a,b)=>hash(date+input+a.id)-hash(date+input+b.id)).slice(0,command==='double-feature'?2:3);
     result={title:command==='double-feature'?'Tonight’s double feature':'Pulled from the shelf',text:selected.length?(command==='double-feature'?(selected.length===2?`Two tapes from ${category?genres[category]:'the cult shelves'}${decade?' in the '+decade+'s':''}. Start with the first and keep the lights low.`:'Only one tape matches that combination. Widen the decade or shelf for a pair.'):'A few spoiler-light picks from the requested shelf.'): 'That combination has no tapes yet. Try a different decade or shelf.',movies:selected.map(m=>card(m,origin))};
-  } else throw Object.assign(new Error('Unknown command. Try /help, /find, /recommend, /double-feature, or /prompt.'),{status:400});
+  } else throw Object.assign(new Error('Unknown command. Try /town, /help, /find, /recommend, /double-feature, or /prompt.'),{status:400});
   return {bot:identity,command,date,...result};
 }

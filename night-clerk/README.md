@@ -15,7 +15,9 @@ no external API key is required. Scheduled public posts still use curated prompt
 | `/recommend 1990s supernatural` | Picks from that decade and shelf |
 | `/double-feature body` | Two distinct matching films |
 | `/prompt` | Today's question and its published discussion, when available |
+| `/town` | Harrow Point guide and the Night Manager's local story |
 | `/help` | Commands and instructions |
+| `/help town` | Fictional Harrow Point setting and landmarks |
 | `/help profiles` | Handle, avatar, banner, and privacy help |
 | `/help shelves` | Personal shelf help |
 | `/help reviews` | Ratings, reviews, and spoiler help |
@@ -27,7 +29,10 @@ Shelves: `slashers`, `creatures`, `body`, `supernatural`, `scifi`, `chaos`,
 Recommendations change daily and use only films in the actual public catalog.
 Commands remain deterministic and available independently of AI conversation.
 
-The Lounge sidebar's **Ask the Night Clerk** button opens its chat panel.
+The Lounge sidebar's **Ask the Night Clerk** button opens its chat panel. The
+Night Clerk knows Harrow Point, the fictional coastal Maine town from the Late
+Returns short, and can open the Lounge's illustrated town board with `/town`.
+Keep its landmarks and ghost stories distinct from real Old Orchard Beach.
 Movie dossiers open in a separate tab to preserve the Lounge. Today's prompt
 links to the bot's existing discussion instead of making duplicate threads.
 
