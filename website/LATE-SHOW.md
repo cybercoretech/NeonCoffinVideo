@@ -32,7 +32,7 @@ Google's adults-only content classification is irreversible once selected; revie
 
 Add future Friday records to dispatchIssues with unique IDs and valid feature/pair IDs. Recheck provider availability before sending. There is no new Tubi scraper, full-film player, or stream proxy. Displayed film covers use credited catalog posters. Original NCV label illustrations remain fallback artwork. Production worker routes /api/late-show/newsletter, /rss, and /calendar; the newsletter route exposes only the public Google Group URL.
 
-Original animated shorts live at https://neoncoffinvideo.site/late-returns. **Late Returns, Tape 001: Be Kind. Rewind.** uses the widescreen 1080p web encode, native captions, a direct download link, and original full-page horror-comic background art. Its link appears in the storefront, Lounge, Late Show, and Late Returns header menus. The original full-bitrate export remains in `/home/raven/Animations/episodes/001-be-kind-rewind/exports/`; the website encode is kept under 25 MiB for the Pages static-asset limit.
+Original animated shorts live at https://neoncoffinvideo.site/late-returns. **Late Returns, Tape 001: Be Kind. Rewind.** uses the widescreen 1080p web encode, native captions, a direct download link, and original full-page horror-comic background art. Its link appears in the storefront, Lounge, Late Show, and Late Returns header menus. The original full-bitrate export remains in `/home/raven/Animations/NCV_Animations/episodes/001-be-kind-rewind/exports/`; the website encode is kept under 25 MiB for the Pages static-asset limit.
 
 The NCV channel is https://www.youtube.com/@neoncoffinvideo. New verified trailer IDs belong in vaultTrailers; verify official uploader metadata and keep a direct playback fallback.
 
