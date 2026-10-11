@@ -159,8 +159,11 @@ try{
   assert(await evaluate(`document.documentElement.scrollWidth<=innerWidth`),'Late Returns fits '+width);
   assert(await evaluate(`document.querySelector('.lr-player').getBoundingClientRect().width>0&&document.querySelector('.lr-player').currentSrc.includes('be-kind-rewind-1080p.mp4')`));
   assert(await evaluate(`document.querySelector('.lr-player track[default][kind="captions"]')?.src.includes('be-kind-rewind-captions.vtt')`));
-  await evaluate(`document.querySelector('.lr-menu-toggle').click()`);
+  await evaluate(`document.querySelector('.lr-header .menu-toggle').click()`);
   assert(await evaluate(`!document.querySelector('#primaryNavigation').hidden`),'Late Returns navigation opens '+width);
+  assert.equal(await evaluate(`document.querySelectorAll('#primaryNavigation a').length`),12,'Late Returns has all homepage menu links '+width);
+  assert.equal(await evaluate(`document.querySelectorAll('#primaryNavigation button.menu-utility').length`),2,'Late Returns has the homepage utilities '+width);
+  assert(await evaluate(`([...document.querySelectorAll('#primaryNavigation > a, #primaryNavigation > button')].length===14)&&[...document.querySelectorAll('#primaryNavigation > a, #primaryNavigation > button')].every(t=>t.querySelector('svg.menu-art')&&t.querySelector('span')&&t.querySelector('small'))`),'Late Returns menu tiles match homepage structure '+width);
  }
  assert.deepEqual(errors,[]);console.log('PASS: screening page at 1440/768/390/320px, consistent menus, categories, search, decade/sort controls, keyboard scrolling, all 261 credited rental posters, nested local dossiers, Google signup handoff, saved-shelf preservation, user-triggered player and fallback, reduced motion, and Lounge screening context. No subscriptions, posts or email sent.');
 }finally{ws?.close();browser.kill();server.closeAllConnections();server.close();db.close()}

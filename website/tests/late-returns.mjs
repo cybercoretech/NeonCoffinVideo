@@ -1,11 +1,16 @@
 import assert from 'node:assert/strict';
 import {readFileSync,statSync} from 'node:fs';
-const root=new URL('../',import.meta.url),html=readFileSync(new URL('late-returns.html',root),'utf8'),css=readFileSync(new URL('late-returns.css',root),'utf8');
+const root=new URL('../',import.meta.url),html=readFileSync(new URL('late-returns.html',root),'utf8'),home=readFileSync(new URL('index.html',root),'utf8'),css=readFileSync(new URL('late-returns.css',root),'utf8');
 assert.match(html,/<video[^>]+controls[^>]+preload="metadata"/);
 assert.match(html,/be-kind-rewind-1080p\.mp4/);
 assert.match(html,/be-kind-rewind-captions\.vtt/);
 assert.match(html,/DOWNLOAD THE 1080P TAPE/);
 assert.match(html,/class="header lr-header"/);
+const menu=html.match(/<nav class="primary-navigation"[^>]*>[\s\S]*?<\/nav>/)?.[0],homeMenu=home.match(/<nav class="primary-navigation"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+assert.ok(menu&&homeMenu,'both pages have the shared site navigation');
+assert.equal(menu.replace(/href="\/#([^\"]+)"/g,'href="#$1"').replace('href="/community"','href="community.html"'),homeMenu,'Late Returns uses the complete homepage menu and destinations');
+assert.equal([...menu.matchAll(/<a\b/g)].length,12,'Late Returns menu has every homepage destination');
+assert.equal([...menu.matchAll(/<svg class="menu-art"/g)].length,14,'all homepage menu entries have their shared artwork');
 assert.match(css,/late-returns-background\.webp/);
 for(const file of ['index.html','community.html','screening-room.html'])assert.match(readFileSync(new URL(file,root),'utf8'),/href="\/late-returns"[\s\S]{0,450}Late Returns/);
 const video=statSync(new URL('assets/late-returns/be-kind-rewind-1080p.mp4',root));
