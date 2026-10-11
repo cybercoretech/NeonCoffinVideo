@@ -11,8 +11,20 @@ const pages=[
  {file:'community.html',path:'/community',title:'The Midnight Lounge: Horror Movie Community | Neon Coffin Video',description:'Join the 18+ Midnight Lounge for cult horror discussions, member movie shelves, reviews, and Friday night double features.',image:'/assets/storefront.png',width:1672,height:940,type:'CollectionPage'},
  ...genrePages
 ];
+const footerConfig=JSON.parse(await readFile(new URL('shared/footer-config.json',root),'utf8'));
+const {renderGenreFooter}=await import('../shared/genre-footer.mjs');
+const lateReturns=await readFile(new URL('late-returns.html',root),'utf8');
+const siteMenu=lateReturns.match(/<div class="site-menu">[\s\S]*?<\/nav><\/div>/)[0];
+const stamp=(lateReturns.match(/store-nav\.css\?v=([a-z0-9]+)/)||[])[1]||'1';
+const membershipIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7v5c0 4.6 3.2 7.5 8 9 4.8-1.5 8-4.4 8-9V7l-8-4Z"/><circle cx="12" cy="10" r="2.3"/><path d="M7.8 17c.9-2 2.3-3 4.2-3s3.3 1 4.2 3"/></svg>';
+const collectionChrome={
+ head:['styles.css','store-nav.css','rental-counter.css','help-panel.css','theme-packs/themes.css','theme-packs/panel.css','shared/genre-footer.css'].map(file=>`<link rel="stylesheet" href="/${file}?v=${stamp}">`).join(''),
+ top:`<a class="skip" href="#collection">Skip to the films</a><div class="issue-strip"><span class="issue-motto">THE HORROR VAULT / 1980–1999</span><span class="issue-brand"><strong>NCV / THE HORROR VAULT</strong><i aria-hidden="true">///</i><span>BAD MOVIES. GREAT NIGHTS.</span></span></div><header class="header collection-header"><a class="brand brand--logo" href="/" aria-label="Neon Coffin Video home"><img class="header-logo" src="/assets/branding/neon-coffin-video-logo.webp" width="2067" height="761" alt="Neon Coffin Video"><small class="brand-page-label">THE HORROR VAULT</small></a><div class="collection-header-actions"><a id="lrMembership" class="site-membership-button header-control" href="/community#profile">${membershipIcon}<span id="lrMembershipLabel">Membership</span></a><button id="lrLogout" class="header-control" type="button" hidden>Sign out</button>${siteMenu}</div></header>`,
+ footer:renderGenreFooter(footerConfig),
+ scripts:['theme-packs/catalogue.js','theme-packs/boot.js','theme-packs/panel.js','help-panel.js','store-nav.js','late-returns-account.js'].map(file=>`<script src="/${file}?v=${stamp}" defer></script>`).join('')
+};
 for(const page of pages){
- const file=new URL(page.file,root);let html=page.id?genrePageHTML(page):await readFile(file,'utf8');
+ const file=new URL(page.file,root);let html=page.id?genrePageHTML(page,collectionChrome):await readFile(file,'utf8');
  if(page.id)await mkdir(new URL('.',file),{recursive:true});
  html=html.replace(/<title>[\s\S]*?<\/title>/,`<title>${escape(page.title)}</title>`).replace(/<meta name="description" content="[^"]*">/,`<meta name="description" content="${escape(page.description)}">`);
  html=html.replace(/^[ \t]*<link rel="canonical"[^>]*>[ \t]*\r?\n?/gm,'').replace(/<!-- NCV SEO START -->[\s\S]*?<!-- NCV SEO END -->\r?\n?/g,'');
