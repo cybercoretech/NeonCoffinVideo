@@ -47,3 +47,4 @@
 /* Section label under the logo, as in the Lounge and Late Returns headers. */
 .ls-header .brand--logo{flex-direction:column;align-items:flex-start;gap:0}
 .ls-header-actions .menu-toggle{border:2px solid #080d12;outline:1px solid var(--green)}
+.ls-header-actions .ls-membership svg{width:20px;height:20px;stroke:var(--green);stroke-width:1.5}
