@@ -11,6 +11,7 @@ assert.match(html,/the-last-ride-captions\.vtt/);
 assert.match(html,/the-last-ride-poster\.jpg/);
 assert.match(html,/complete two-minute widescreen illustrated horror short/);
 assert.doesNotMatch(html,/the-last-ride-short-/,'Late Returns features the widescreen episode, not the separate YouTube Short');
+assert.match(html,/href="https:\/\/www\.youtube\.com\/shorts\/Nbsjz_gcCSo" target="_blank" rel="noopener">WATCH ON YOUTUBE/);
 assert.match(html,/class="header lr-header"/);
 const menu=html.match(/<nav class="primary-navigation"[^>]*>[\s\S]*?<\/nav>/)?.[0],homeMenu=home.match(/<nav class="primary-navigation"[^>]*>[\s\S]*?<\/nav>/)?.[0];
 assert.ok(menu&&homeMenu,'both pages have the shared site navigation');
