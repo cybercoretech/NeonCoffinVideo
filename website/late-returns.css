@@ -25,7 +25,7 @@
 .lr-account-nav [hidden]{display:none}
 .lr-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .lr-landmarks li{display:flex;flex-direction:column;position:relative}.lr-landmarks li>span{flex:1}
-.lr-episode-followup{margin-top:24px}.lr-short-player-wrap{width:min(100%,440px);margin:0 auto}.lr-short-player{max-height:78vh;object-fit:contain}
+.lr-episode-followup{margin-top:24px}
 .lr-story-more{align-self:flex-start;margin-top:12px;padding:6px 0 0;border:0;border-top:1px dashed #65e6ed55;background:none;color:var(--lr-cyan,#65e6ed);font:9px/1.5 'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase;cursor:pointer}
 .lr-story-more:after{position:absolute;inset:0;content:""}.lr-story-more:hover{color:#fff}.lr-story-more:focus-visible{outline:2px solid var(--lr-cyan,#65e6ed);outline-offset:3px}
 .lr-landmarks li:has(.lr-story-more:hover),.lr-landmarks li:has(.lr-story-more:focus-visible){border-color:var(--lr-cyan,#65e6ed)}
