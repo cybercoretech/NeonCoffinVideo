@@ -14,7 +14,9 @@ body.ncv-store{
  --secondary-btn-bg:transparent;--secondary-btn-text:var(--ncv-green);--secondary-btn-border-color:var(--ncv-green);
  --primary-button-border-radius:2px;--secondary-button-border-radius:2px;
  --color-product-image-background:#100d17;--color-product-image-background-rgb:16,13,23;
- background:radial-gradient(ellipse at 5% 20%,#ff47a611,transparent 40%),radial-gradient(ellipse at 100% 65%,#bbff5707,transparent 36%),#09080d;
+ background-color:#09080d;
+ background-image:linear-gradient(180deg,rgba(9,8,13,.66),rgba(9,8,13,.82) 54%,rgba(9,8,13,.92)),url('https://neoncoffinvideo.site/assets/harrow-point/harrow-point-town-hall-background-v001.webp');
+ background-position:center top;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;
  color:var(--ncv-paper);font-family:NCVBody,sans-serif;
 }
 .ncv-store .page{background:transparent}
@@ -111,4 +113,5 @@ body.ncv-store{
 }
 @media(max-width:390px){.ncv-hero-copy h2{font-size:58px}.ncv-hero-copy{padding-inline:20px}.ncv-hero-topline{font-size:7px}.ncv-collection-intro h2{font-size:54px}}
 @media(max-width:350px){.ncv-store .header__logo-image{width:205px!important}.ncv-store .header__logo{max-width:205px}}
+@media(max-width:700px){body.ncv-store{background-attachment:scroll}}
 @media(prefers-reduced-motion:reduce){.ncv-store *{scroll-behavior:auto!important;transition:none!important}}

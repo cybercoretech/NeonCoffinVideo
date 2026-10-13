@@ -6,7 +6,9 @@ Prepared October 6, 2026 against the live shop's actual HTML and the user's edit
 
 Open `theme-preview.html` for the homepage and `product-preview.html` for the tee page. These are local design previews made from the real Fourthwall pages, with the actual artwork, garment photographs, product details, and $29.98 price. Checkout is not functional in the local copies.
 
-The preview uses the transparent SVG header logo. The current live header serves a JPEG with a white rectangle. The supplied SVG is a container around the original transparent wordmark image, not a traced vector font; it retains the approved lettering and full image resolution.
+The storefront header uses the approved full NCV lockup: coffin-cassette emblem, pink wordmark, and green VIDEO lettering. The header-code snippet also sets the public logo image and the NCV browser-tab icon.
+
+The header-code snippet now applies a dark, overlay-tinted Harrow Point Town Hall ensemble background across the whole shop. The image is stored in this folder and in `website/assets/harrow-point/`; the theme loads its public-site copy so Fourthwall can display it behind the storefront once the public site asset is deployed and the code is saved in Fourthwall.
 
 The garment photographs also contain white backgrounds baked into the images. CSS does not remove those backgrounds. The theme keeps the actual product photography, rather than inventing a different shirt.
 
@@ -14,14 +16,14 @@ The garment photographs also contain white backgrounds baked into the images. CS
 
 1. Click **Style** beside **Layout**.
 2. Expand **Logo**, directly below **Background visual**.
-3. Upload `neon-coffin-video-header-pink.svg` as the logo. It is 487,635 bytes, below the documented 512 KB limit. Check that Fourthwall preserves its transparency in the preview.
+3. Upload `../branding/neon-coffin-video-logo.png` as the logo. It is the full approved NCV lockup with the coffin-cassette emblem and green VIDEO lettering. Check that Fourthwall preserves its transparency in the preview.
 4. Open `fourthwall-header-code.txt` in a text editor and copy its entire contents.
 5. In the same **Style** panel, scroll down and expand **Edit HTML code**.
 6. Check **Enable header code**, then paste the complete file into the first text field.
 7. Leave the footer code field empty; this file contains both the style and the presentation script.
 8. Review desktop and phone views, then **Save**. The shop is already live, so saving applies these changes to the live storefront.
 
-The file is 16,920 characters, within the editor's displayed 25,000-character limit. It replaces no checkout forms and leaves native product prices, sizes, cart links, and policy links in place.
+The file is kept below the editor's displayed 25,000-character limit. It replaces no checkout forms and leaves native product prices, sizes, cart links, and policy links in place.
 
 To disable the treatment, uncheck **Enable header code** and save. The script only changes the rendered page; it does not edit your catalog or saved page sections.
 
@@ -33,7 +35,7 @@ To disable the treatment, uncheck **Enable header code** and save. The script on
 - Merch shelf with the actual garment photo, price, and front/sleeve/back-neck details.
 - Styling for the existing product page and size buttons.
 - Branded footer with the actual link back to Neon Coffin Video.
-- Bebas Neue display lettering, IBM Plex Sans body text, and JetBrains Mono labels, loaded from the existing movie site's font files. The header uses the approved illustrated lettering.
+- Bebas Neue display lettering, IBM Plex Sans body text, and JetBrains Mono labels, loaded from the existing movie site's font files. The header uses the approved full NCV lockup.
 - Responsive artwork/text placement on tablets and phones; reduced-motion support.
 
 ## Verification
@@ -48,6 +50,8 @@ The production code targets the real section IDs present in this shop. Deleting/
 
 - `fourthwall-header-code.txt`: copy/paste file for Fourthwall.
 - `horror-store-theme.css` and `horror-store-theme.js`: editable source.
-- `neon-coffin-video-header-pink.svg`: recommended transparent logo upload to try.
+- `../branding/neon-coffin-video-logo.png`: transparent full NCV logo to upload in Fourthwall Style → Logo.
+- `harrow-point-town-hall-background-v001.webp`: whole-shop Harrow Point ensemble background; its public-site copy is in `website/assets/harrow-point/`.
+- `neon-coffin-favicon.svg`: compact coffin-cassette icon; the custom header code points to the public NCV favicon.
 - `neon-coffin-video-header-pink.webp` and `.png`: original image exports.
 - `preview-assets/`: unchanged copies of the actual public theme assets, product photos, and existing local font files, used for reliable local previewing.

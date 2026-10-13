@@ -3,10 +3,16 @@
  'use strict';
  const productPath='/products/neon-coffin-video-storefront-tee';
  const artSection='[data-section-id="fw-section-image-aa989e76-e858-4508-a153-3beb857d022b"]';
+ const ncvLogo='https://neoncoffinvideo.site/assets/branding/neon-coffin-video-logo.webp?v=20261013a';
+ const ncvFavicon='https://neoncoffinvideo.site/assets/favicon.svg?v=20261013a';
  function element(tag,className,html){const node=document.createElement(tag);node.className=className;node.innerHTML=html;return node;}
  function apply(){
   if(!document.querySelector('.header__logo')||!document.querySelector('.page__main'))return;
   document.body.classList.add('ncv-store');
+  const logo=document.querySelector('.header__logo-image');
+  if(logo){if(!logo.src.endsWith('/assets/branding/neon-coffin-video-logo.webp?v=20261013a'))logo.src=ncvLogo;logo.removeAttribute('srcset');logo.alt='Neon Coffin Video';}
+  document.querySelectorAll('link[rel="icon"],link[rel="shortcut icon"]').forEach(icon=>icon.remove());
+  const favicon=document.createElement('link');favicon.rel='icon';favicon.type='image/svg+xml';favicon.href=ncvFavicon;document.head.append(favicon);
   const header=document.querySelector('header.header');
   if(header&&!document.querySelector('.ncv-nightstrip')){
    header.after(element('div','ncv-nightstrip','<strong><i aria-hidden="true"></i> BAD MOVIES. GREAT NIGHTS.</strong><span>IN THE SPIRIT OF 1986</span>'));
