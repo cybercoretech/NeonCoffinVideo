@@ -18,21 +18,29 @@ for(const page of ['index.html','community.html','late-returns.html']){
  assert.match(html,/data-town-story="lantern"/,`${page} links to the weekly paper`);
 }
 const home=await readFile(new URL('index.html',root),'utf8');
-assert.match(home,/OPEN THE HARROW POINT LEDGER/,'homepage has a prominent ledger link');
+assert.match(home,/OPEN THE HARROW POINT TOWN GUIDE/,'homepage has a prominent town guide link');
 const atlas=await readFile(new URL('harrow-point.html',root),'utf8');
-for(const canon of ['id="history"','id="landmarks"','id="timeline"','id="residents"','id="paper"','id="station"','hpFullRoster','Marlow Vane','The Blackbacks'])assert.ok(atlas.includes(canon),`dedicated ledger includes ${canon}`);
-assert.match(atlas,/harrow-point-town-hall-background-v001\.webp/,'ledger uses the town hall group photo');
-assert.match(atlas,/THE MONTHLY MIDNIGHT FILE/,'ledger top strip matches the main site issue header');
+for(const canon of ['id="history"','id="landmarks"','id="timeline"','id="residents"','id="archives"','hpFullRoster','data-exclude="ephraim,host,blackbacks"','data-hp-fact="record"','data-hp-fact="sunday"','data-hp-fact="arrivals"','data-hp-fact="place"'])assert.ok(atlas.includes(canon),`town guide includes ${canon}`);
+assert.doesNotMatch(atlas,/id="paper"|id="station"/,'newspaper and station sections live on their own pages');
+assert.match(atlas,/harrow-point-town-hall-background-v001\.webp/,'town guide uses the town hall group photo');
+assert.match(atlas,/THE MONTHLY MIDNIGHT FILE/,'town guide top strip matches the main site issue header');
+const ledger=await readFile(new URL('harrow-point-ledger.html',root),'utf8');
+for(const canon of ['THE HARROW POINT','LANTERN','Ephraim Pike','In the Margins','lantern-paper-texture-v001.webp'])assert.ok(ledger.includes(canon),`newspaper page includes ${canon}`);
+const station=await readFile(new URL('hptv-13.html',root),'utf8');
+for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-channel-13-background-v001.webp'])assert.ok(station.includes(canon),`station page includes ${canon}`);
+for(const page of ['harrow-point.html','harrow-point-ledger.html','hptv-13.html'])assert.match(await readFile(new URL(page,root),'utf8'),/store-nav.js/);
+assert.match(atlas,/href="\/harrow-point-ledger"/,'town guide links to the newspaper archive');
+assert.match(atlas,/href="\/hptv-13"/,'town guide links to the station archive');
 const atlasCss=await readFile(new URL('harrow-point-atlas.css',root),'utf8');
-assert.match(atlasCss,/header-logo[^}]*height:auto!important/,'ledger logo retains the original aspect ratio');
+assert.match(atlasCss,/header-logo[^}]*height:auto!important/,'site logo retains the original aspect ratio');
 assert.match(source,/blackbacks\.webp/,'the Blackbacks use a full wraith portrait instead of the placeholder graphic');
-assert.match(home,/href="\/harrow-point"/,'home menu links to ledger');
+assert.match(home,/href="\/harrow-point"/,'home menu links to town guide');
 assert.match(source,/hp-character-portrait/,'popup includes an accessible portrait image');
 assert.match(styles,/width:min\(510px,calc\(100vw - 30px\)\)/,'character popup stays compact');
 for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-returns/the-last-ride-poster.jpg','assets/late-show/marlow-vane.webp','assets/late-show/blackbacks.webp','assets/late-show/hptv-13-station-mark.svg',...['silas-vale','edmond-vale','mortician','caretaker','mayor-harrow-point','margaret-harrow','isabelle-harrow','aurelian-harrow','vera-wren','captain-rook-bosun','bosun','constable-wainwright','october-stranger','ephraim-pike','ragged-howl','borrowed-face','last-footman'].map(name=>`assets/harrow-point/${name}.webp`)]){
  await access(new URL(image,root));
  assert.ok((await stat(new URL(image,root))).size>(image.endsWith('.svg')?100:10_000),`portrait is present: ${image}`);
 }
-const build=await readFile(new URL('scripts/build.mjs',root),'utf8');assert.match(build,/harrow-point-characters\.js/,'production build copies the character data and roster script');assert.match(build,/harrow-point.html/,'production build publishes the ledger page');
+const build=await readFile(new URL('scripts/build.mjs',root),'utf8');assert.match(build,/harrow-point-characters\.js/,'production build copies the character data and roster script');assert.match(build,/harrow-point.html/,'production build publishes the town guide');assert.match(build,/harrow-point-ledger.html/,'production build publishes the newspaper page');assert.match(build,/hptv-13.html/,'production build publishes the station page');assert.match(build,/harrow-point-facts.js/,'production build publishes fact dialogs');
 assert.match(source,/window\.HARROW_POINT_CHARACTERS=characters/,'shared cast data is available to the full roster');
-console.log(`PASS: ${ids.length} Harrow Point residents have portraits and bios; the dedicated ledger is linked from town pages and the home menu.`);
+console.log(`PASS: ${ids.length} Harrow Point bios and portraits exist; town, Lantern, and HPTV pages have distinct content and imagery.`);

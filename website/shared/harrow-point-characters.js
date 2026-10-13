@@ -27,6 +27,7 @@
   const roster=document.querySelector('#hpFullRoster');if(!roster||roster.dataset.ready)return;roster.dataset.ready='true';
   const icons={manager:'📼',silas:'🎩',edmond:'🎠',mortician:'⚰️',caretaker:'🪦',mayor:'🏛️',margaret:'🦇',isabelle:'🕯️',aurelian:'🐉',vera:'🪞',captain:'⚓',bosun:'🐕‍🦺',constable:'🦯',stranger:'🌫️',ephraim:'📰',ragged:'🐺',borrowed:'🌲',footman:'🕯️',host:'📺',blackbacks:'🎥'};
   for(const [id,c] of Object.entries(characters)){
+   if((roster.dataset.exclude||'').split(',').includes(id))continue;
    const card=el('article',{className:'hp-ledger-card',id:'resident-'+id});
    const figure=el('figure',{className:'hp-ledger-portrait'});const img=el('img',{src:c.portrait,alt:c.alt,loading:'lazy',decoding:'async'});img.style.objectPosition=c.position||'center';figure.append(img,el('figcaption',{textContent:icons[id]+' / '+c.role}));
    const copy=el('div',{className:'hp-ledger-copy'},el('p',{className:'hp-ledger-kicker',textContent:'TOWN RECORD / '+String(Object.keys(characters).indexOf(id)+1).padStart(2,'0')}),el('h3',{textContent:c.name}),el('p',{className:'hp-ledger-look',textContent:c.look}),el('p',{className:'hp-ledger-bio',textContent:c.bio}),el('p',{className:'hp-ledger-voice'},el('strong',{textContent:'VOICE / ' }),document.createTextNode(c.voice)));

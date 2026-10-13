@@ -3,8 +3,8 @@ import {readFileSync} from 'node:fs';
 import {rentalMovies} from '../rental-rack-data.js';
 const root=new URL('../',import.meta.url);
 const sitemap=readFileSync(new URL('sitemap.xml',root),'utf8');
-assert.equal((sitemap.match(/<url>/g)||[]).length,12);
-for(const [file,path] of [['index.html','/'],['community.html','/community'],['screening-room.html','/screening-room'],['late-returns.html','/late-returns'],['harrow-point.html','/harrow-point']]){
+assert.equal((sitemap.match(/<url>/g)||[]).length,14);
+for(const [file,path] of [['index.html','/'],['community.html','/community'],['screening-room.html','/screening-room'],['late-returns.html','/late-returns'],['harrow-point.html','/harrow-point'],['harrow-point-ledger.html','/harrow-point-ledger'],['hptv-13.html','/hptv-13']]){
  const html=readFileSync(new URL(file,root),'utf8'),url='https://neoncoffinvideo.site'+path;
  assert.equal((html.match(/rel="canonical"/g)||[]).length,1);assert(html.includes('rel="canonical" href="'+url+'"'));
  assert(html.includes('property="og:url" content="'+url+'"'));assert.match(html,/name="twitter:card" content="summary_large_image"/);

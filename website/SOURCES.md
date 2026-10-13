@@ -8,7 +8,7 @@ Film posters, photographs, and film/trailer frames belong to their respective ri
 
 ## The Late Show
 
-The screening room uses the original NCV television cabinet, geometric rental-label SVGs, and original HPTV Channel 13 station identity in `assets/late-show/`. The HPTV station background, Marlow Vane portrait, and Blackbacks wraith portrait are original AI-generated Neon Coffin Video artwork; the station mark is original SVG artwork. These are original fallback illustrations, not official film posters. The screening room displays the credited film posters listed below, including the restored Lifeforce theatrical poster. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
+The screening room uses the original NCV television cabinet, geometric rental-label SVGs, and original HPTV Channel 13 station identity in `assets/late-show/`. The HPTV station background, Marlow Vane portrait, and Blackbacks wraith portrait are original AI-generated Neon Coffin Video artwork; the HPTV 13 page has its own original decaying control-room background. the station mark is original SVG artwork. These are original fallback illustrations, not official film posters. The screening room displays the credited film posters listed below, including the restored Lifeforce theatrical poster. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
 
 ## Halloween Collection original artwork
 
@@ -19,6 +19,8 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is an original AI-generated illustration developed from the user-selected “Past Due” character concept. Its source portrait, model and expression studies, and editable animation plates are archived in the private NeonCoffinAnimations production repository. The web image is a compressed export of the portrait.
 
 ## Harrow Point characters
+
+The town hall group photograph, Harrow Point Lantern newsprint texture, and character illustrations are original fictional NCV artwork. The town guide, newspaper archive, and HPTV station archive use distinct page backgrounds.
 
 The Mortician, Burial Ground Caretaker, and Silas Vale portraits in `assets/harrow-point/` are original AI-generated character illustrations created for Neon Coffin Video. Silas’s portrait follows the approved young character design from the original short, `The Last Ride`. The Night Manager portrait is original NCV artwork.
 
