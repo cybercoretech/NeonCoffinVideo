@@ -27,13 +27,15 @@ assert.match(atlas,/THE MONTHLY MIDNIGHT FILE/,'town guide top strip matches the
 const ledger=await readFile(new URL('harrow-point-ledger.html',root),'utf8');
 for(const canon of ['THE HARROW POINT','LANTERN','Ephraim Pike','In the Margins','lantern-paper-texture-v001.webp'])assert.ok(ledger.includes(canon),`newspaper page includes ${canon}`);
 const station=await readFile(new URL('hptv-13.html',root),'utf8');
-for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-channel-13-background-v001.webp','whp-tv-station-logo.svg','hptv-control-floor'])assert.ok(station.includes(canon),`station page includes ${canon}`);
+for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-channel-13-background-v001.webp','whp-tv-station-logo-v002.svg','hptv-control-floor'])assert.ok(station.includes(canon),`station page includes ${canon}`);
 assert.match(await readFile(new URL('shared/harrow-point-places.js',root),'utf8'),/hp-place-dialog/,'landmark profiles use an illustrated detail dialog');
 assert.match(await readFile(new URL('harrow-point-atlas.css',root),'utf8'),/\.hp-place-dialog\{position:relative;display:none/,'closed landmark dialogs stay out of document flow to preserve scroll position');
-assert.match(await readFile(new URL('hptv-13.html',root),'utf8'),/whp-tv-station-logo\.svg/,'station logo is a dedicated branded graphic');
+assert.match(await readFile(new URL('hptv-13.html',root),'utf8'),/whp-tv-station-logo-v002\.svg/,'station logo is a dedicated branded graphic');
+const stationLogo=await readFile(new URL('assets/late-show/whp-tv-station-logo-v002.svg',root),'utf8');assert.match(stationLogo,/broadcast tower rises over Harrow Point/,'station mark has original illustrated coastal transmitter artwork');assert.match(stationLogo,/THE POINT’S ONLY SIGNAL/,'station mark includes its own call-sign slogan');assert.doesNotMatch(stationLogo,/<rect\b/,'station mark is not lettering inside a box');
 assert.match(await readFile(new URL('hptv-13.css',root),'utf8'),/analog-tv-static\.svg/,'station monitor uses animated analog snow artwork');
 assert.match(await readFile(new URL('hptv-13.html',root),'utf8'),/blackbacks\.webp/,'wraiths briefly transmit through the no-signal monitor');
-assert.match(await readFile(new URL('screening-room.html',root),'utf8'),/whp-tv-station-logo\.svg/,'screening-room station ident uses the custom logo');
+const screening=await readFile(new URL('screening-room.html',root),'utf8');assert.match(screening,/whp-tv-station-logo-v002\.svg/,'screening-room station ident uses the custom logo');assert.match(screening,/data-harrow-character="host"/,'Marlow’s screening-room profile opens his biography');
+assert.match(station,/data-harrow-character="host"/,'Marlow’s HPTV profile opens his biography');assert.match(station,/data-harrow-character="blackbacks"/,'the Blackbacks HPTV profile opens their dossier');
 assert.match(await readFile(new URL('shared/harrow-point-characters.js',root),'utf8'),/hpCharacterChronicle/,'character dialogs include extended dossier details');
 assert.match(await readFile(new URL('harrow-point-ledger.html',root),'utf8'),/data-harrow-character="ephraim"/,'Ephraim Pike opens his full biography');
 assert.match(await readFile(new URL('late-show.css',root),'utf8'),/\.hptv-station[^}]*background:linear-gradient/,'station artwork is reserved for the HPTV page');

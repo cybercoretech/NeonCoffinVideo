@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+  <title id="title">WHP-TV station logo</title><desc id="desc">An original illustrated broadcast tower rises over Harrow Point’s dark cliffs, sending colored signal rings across the sea beside a custom HPTV Channel 13 wordmark.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172832"/><stop offset=".58" stop-color="#0b1218"/><stop offset="1" stop-color="#21111f"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff47a6" stop-opacity=".08"/><stop offset=".5" stop-color="#65e6ed" stop-opacity=".75"/><stop offset="1" stop-color="#bbff57" stop-opacity=".08"/></linearGradient>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="seal-clip"><circle cx="139" cy="135" r="112"/></clipPath>
+  </defs>
+  <circle cx="139" cy="135" r="124" fill="#080d12" stroke="#eee9d8" stroke-width="2"/><circle cx="139" cy="135" r="116" fill="url(#sky)" stroke="#65e6ed" stroke-width="2" stroke-dasharray="2 5"/>
+  <g clip-path="url(#seal-clip)">
+    <circle cx="203" cy="58" r="22" fill="#eee9d8" opacity=".9"/><circle cx="212" cy="52" r="22" fill="#111820"/>
+    <path d="M121 49Q139 31 157 49M103 62Q139 27 175 62M84 75Q139 19 194 75" fill="none" stroke="#65e6ed" stroke-width="3" opacity=".82"/><path d="M139 62 81 120h116z" fill="url(#beam)" opacity=".55"/>
+    <path d="M139 62v95m-10-77h20m-23 21h26m-30 21h34m-40 21h46" fill="none" stroke="#eee9d8" stroke-width="5" stroke-linecap="square"/><path d="m126 157-19 42m45-42 19 42m-61-17h80" fill="none" stroke="#ff47a6" stroke-width="4"/>
+    <path d="M0 192q30-15 58 0t57 0q27-15 52 0t58 0v65H0z" fill="#090e12" stroke="#65e6ed" stroke-width="2"/><path d="M0 211q28-13 57 0t58 0q28-13 57 0t58 0M4 229q25-10 51 0t54 0q28-10 55 0t58 0" fill="none" stroke="#65e6ed" stroke-width="2" opacity=".75"/><path d="M24 191 65 161l24 22 28-21 21 18 24-30 44 42" fill="none" stroke="#eee9d8" stroke-width="3"/><circle cx="139" cy="62" r="7" fill="#bbff57" filter="url(#soft-glow)"/>
+  </g>
+  <path d="M58 237h162" stroke="#ff47a6" stroke-width="3"/><text x="139" y="256" text-anchor="middle" fill="#eee9d8" font-family="monospace" font-size="12" letter-spacing="3">HARBOR SIGNAL</text>
+  <text x="310" y="49" fill="#bbff57" font-family="monospace" font-size="15" letter-spacing="4">WHP-TV / HARROW POINT TELEVISION</text><path d="M311 66h548" stroke="#65e6ed" stroke-width="2" opacity=".75"/>
+  <path d="M327 92v82m0-42h35m0-40v82 M390 174V92h27q25 0 25 22t-25 22h-27 M469 92h67m-33 0v82 M557 92l31 82 31-82" fill="none" stroke="#ff47a6" stroke-width="13" stroke-linecap="square" stroke-linejoin="miter" transform="translate(3 4)" opacity=".78"/>
+  <path d="M324 89v82m0-42h35m0-40v82 M387 171V89h27q25 0 25 22t-25 22h-27 M466 89h67m-33 0v82 M554 89l31 82 31-82" fill="none" stroke="#eee9d8" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/><path d="M324 89v82m0-42h35m0-40v82 M387 171V89h27q25 0 25 22t-25 22h-27 M466 89h67m-33 0v82 M554 89l31 82 31-82" fill="none" stroke="#65e6ed" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M650 88v83m0-83 28 21m-28 21 29 17" fill="none" stroke="#bbff57" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/><text x="730" y="150" fill="#bbff57" font-family="Arial,sans-serif" font-size="67" font-weight="900" letter-spacing="-4">13</text><text x="650" y="184" fill="#ff47a6" font-family="monospace" font-size="12" letter-spacing="3">CHANNEL</text>
+  <path d="M310 204h548" stroke="#65e6ed" stroke-width="2" opacity=".55"/><text x="310" y="234" fill="#eee9d8" font-family="monospace" font-size="13" letter-spacing="5">THE POINT’S ONLY SIGNAL</text><circle cx="846" cy="229" r="5" fill="#ff47a6" filter="url(#soft-glow)"/><circle cx="846" cy="246" r="5" fill="#bbff57"/>
+</svg>
