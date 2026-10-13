@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 390" role="img" aria-labelledby="title desc">
+  <title id="title">WHP-TV, Harrow Point Television, Channel 13</title>
+  <desc id="desc">A vintage coastal transmitter emblem paired with a clean WHP-TV Channel 13 station wordmark.</desc>
+  <image href="/assets/late-show/hptv-transmitter-emblem-v001.png" x="4" y="2" width="330" height="386" preserveAspectRatio="xMidYMid meet"/>
+  <g transform="translate(365 0)">
+    <text x="0" y="62" fill="#bbff57" font-family="monospace" font-size="20" letter-spacing="5">WHP-TV  /  HARROW POINT TELEVISION</text>
+    <path d="M0 82H710" stroke="#65e6ed" stroke-width="2" opacity=".78"/>
+    <text x="-5" y="249" fill="#eee9dc" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="174" font-weight="700" letter-spacing="3">HPTV</text>
+    <path d="M495 111v139" stroke="#ff47a6" stroke-width="4"/>
+    <text x="528" y="242" fill="#bbff57" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="150" font-weight="700">13</text>
+    <path d="M0 278H710" stroke="#65e6ed" stroke-width="1" opacity=".6"/>
+    <text x="2" y="322" fill="#eee9dc" font-family="monospace" font-size="16" letter-spacing="6">CHANNEL 13  /  THE POINT’S ONLY SIGNAL</text>
+    <circle cx="700" cy="316" r="5" fill="#ff47a6"/>
+  </g>
+</svg>
