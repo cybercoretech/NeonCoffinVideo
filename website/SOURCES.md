@@ -18,6 +18,10 @@ The eight movie-inspired full-frame wallpapers in `theme-packs/art/*-wallpaper.w
 
 The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is an original AI-generated illustration developed from the user-selected “Past Due” character concept. Its source portrait, model and expression studies, and editable animation plates are archived in the private NeonCoffinAnimations production repository. The web image is a compressed export of the portrait.
 
+## Harrow Point characters
+
+The Mortician, Burial Ground Caretaker, and Silas Vale portraits in `assets/harrow-point/` are original AI-generated character illustrations created for Neon Coffin Video. Silas’s portrait follows the approved young character design from the original short, `The Last Ride`. The Night Manager portrait is original NCV artwork.
+
 ## Late Returns
 
 `assets/late-returns/late-returns-background.webp` is original AI-generated atmospheric artwork created for the Late Returns watch page; it is not a frame from a film. The poster is a frame from Neon Coffin Video's original short, `Be Kind. Rewind.`. The website MP4 is a smaller 1080p web encode of the production export in the private NeonCoffinAnimations repository. English captions are based on the production dialogue guide.
@@ -1936,6 +1940,12 @@ The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is a
 - Local file: `assets/collections/slashers-background.webp`
 - Credit: Original AI-generated horror-comic illustration of a deserted coastal road in Harrow Point at night, made for Neon Coffin Video with Stable Diffusion XL 1.0 (CreativeML Open RAIL++-M) from a hand-built layout.
 - Reference: Original Neon Coffin Video slasher collection background
+
+### slashers-background-v002
+
+- Local file: `assets/collections/slashers-background-v002.webp`
+- Credit: Original AI-generated horror-comic illustration of a masked slasher waiting beneath a streetlamp at a rainy street corner, created for Neon Coffin Video.
+- Reference: Original Neon Coffin Video slasher collection background, version 002
 
 ## Film and trailer frames
 

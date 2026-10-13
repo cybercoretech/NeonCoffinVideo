@@ -919,7 +919,7 @@
   },
   {
     "slug": "satans-blood",
-    "page": "https://en.wikipedia.org/wiki/Satan\u2019s_Blood",
+    "page": "https://en.wikipedia.org/wiki/Satan’s_Blood",
     "local": "assets/satans-blood.svg",
     "credit": "Original Neon Coffin Video archival sleeve illustration. Independently created; not official film key art or a film still."
   },
@@ -947,7 +947,7 @@
     "slug": "near-dark-theatrical-poster",
     "page": "https://www.impawards.com/1987/near_dark.html",
     "local": "assets/near-dark-poster.jpg",
-    "credit": "Near Dark (1987) theatrical poster artwork, reproduced for film identification; copyright remains with the poster\u2019s rights holders.",
+    "credit": "Near Dark (1987) theatrical poster artwork, reproduced for film identification; copyright remains with the poster’s rights holders.",
     "image_source": "https://www.impawards.com/1987/posters/near_dark_ver2_xlg.jpg"
   },
   {
@@ -1065,7 +1065,7 @@
     "page": "https://en.wikipedia.org/wiki/A_Nightmare_on_Elm_Street_2:_Freddy%27s_Revenge",
     "image_source": "https://upload.wikimedia.org/wikipedia/en/d/d5/A_Nightmare_on_Elm_Street_2_-_Freddy%27s_Revenge_%281985%29_theatrical_poster.jpg",
     "local": "assets/nightmare-on-elm-street-2.jpg",
-    "credit": "A Nightmare on Elm Street 2: Freddy\u2019s Revenge (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
+    "credit": "A Nightmare on Elm Street 2: Freddy’s Revenge (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
     "width": 257,
     "height": 393,
     "checked": "2026-10-10"
@@ -1105,7 +1105,7 @@
     "page": "https://www.rottentomatoes.com/m/cats_eye",
     "image_source": "https://resizing.flixster.com/mLbTwzQ6GAaZvS_nQnP5fPzqL10=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8775_p_v13_ae.jpg",
     "local": "assets/cats-eye.jpg",
-    "credit": "Cat\u2019s Eye (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
+    "credit": "Cat’s Eye (1985) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
     "width": 180,
     "height": 240,
     "checked": "2026-10-10"
@@ -1205,7 +1205,7 @@
     "page": "https://www.rottentomatoes.com/m/1001138-april_fools_day",
     "image_source": "https://resizing.flixster.com/q7VMlm3WY9cYHoflvYUcAc9UNEQ=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9159_p_v8_ai.jpg",
     "local": "assets/april-fools-day.jpg",
-    "credit": "April Fool\u2019s Day (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
+    "credit": "April Fool’s Day (1986) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
     "width": 160,
     "height": 240,
     "checked": "2026-10-10"
@@ -1252,7 +1252,7 @@
     "page": "https://en.wikipedia.org/wiki/Puppet_Master_III:_Toulon%27s_Revenge",
     "image_source": "https://upload.wikimedia.org/wikipedia/en/2/24/Puppet_Master_III_DVD.jpg",
     "local": "assets/puppet-master-3-toulons-revenge.jpg",
-    "credit": "Puppet Master III: Toulon\u2019s Revenge (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
+    "credit": "Puppet Master III: Toulon’s Revenge (1991) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
     "width": 200,
     "height": 290,
     "checked": "2026-10-10"
@@ -1312,7 +1312,7 @@
     "page": "https://en.wikipedia.org/wiki/Jacob%27s_Ladder_(1990_film)",
     "image_source": "https://upload.wikimedia.org/wikipedia/en/7/70/Jacobsladderposter.jpg",
     "local": "assets/jacobs-ladder.jpg",
-    "credit": "Jacob\u2019s Ladder (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
+    "credit": "Jacob’s Ladder (1990) film poster. Copyright belongs to its respective rights holders; shown for editorial film identification. Source attribution is not a reuse license.",
     "width": 220,
     "height": 327,
     "checked": "2026-10-10"
@@ -1401,7 +1401,7 @@
     "slug": "midnight-pier-cliffs",
     "page": "Original Neon Coffin Video community background",
     "local": "assets/midnight-pier-cliffs.webp",
-    "credit": "Original AI-generated horror-comic illustration of Harrow Point\u2019s haunted Amusement Pier, rocky cliffs, and Widow\u2019s Rise Burial Ground on the hill, created for Neon Coffin Video."
+    "credit": "Original AI-generated horror-comic illustration of Harrow Point’s haunted Amusement Pier, rocky cliffs, and Widow’s Rise Burial Ground on the hill, created for Neon Coffin Video."
   },
   {
     "slug": "little-shop-of-horrors",
@@ -2328,5 +2328,11 @@
     "page": "Original Neon Coffin Video slasher collection background",
     "local": "assets/collections/slashers-background.webp",
     "credit": "Original AI-generated horror-comic illustration of a deserted coastal road in Harrow Point at night, made for Neon Coffin Video with Stable Diffusion XL 1.0 (CreativeML Open RAIL++-M) from a hand-built layout."
+  },
+  {
+    "slug": "slashers-background-v002",
+    "page": "Original Neon Coffin Video slasher collection background, version 002",
+    "local": "assets/collections/slashers-background-v002.webp",
+    "credit": "Original AI-generated horror-comic illustration of a masked slasher waiting beneath a streetlamp at a rainy street corner, created for Neon Coffin Video."
   }
 ]
