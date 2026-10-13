@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+<title id="title">HPTV 13 — The Pier Road</title>
+<desc id="desc">A weather-beaten Harrow Point road sign and a flickering pink and amber HPTV 13 neon sign beside the abandoned amusement pier.</desc>
+<style>
+@font-face{font-family:Bebas;src:url(../fonts/horror-0.ttf)}
+@font-face{font-family:Creepster;src:url(../fonts/horror-1.ttf)}
+</style>
+<defs>
+ <filter id="rust" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".45" numOctaves="2" seed="18"/><feColorMatrix values=".5 0 0 0 .1 .5 0 0 0 .08 .5 0 0 0 .03 0 0 0 .27 0"/><feComposite in2="SourceGraphic" operator="in"/><feBlend in="SourceGraphic" mode="multiply"/></filter>
+ <filter id="pinkGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="amberGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="signFace"><path d="M77 110 685 184 699 466 45 409Z"/></clipPath>
+</defs>
+<image href="hptv-pier-road-background-v001.webp" width="1672" height="941"/>
+<rect width="1672" height="941" fill="#000" opacity=".06"/>
+<!-- Precisely set lettering follows the sign's slight perspective; both pieces share one baseline. -->
+<g clip-path="url(#signFace)" transform="matrix(1 0 .12 1 0 0)" font-family="Bebas" fill="#34382f" opacity=".84" filter="url(#rust)">
+ <text x="142" y="280" font-size="118" letter-spacing="1">HPTV</text>
+ <path d="M535 195h82v87h-82z" fill="#73705e" opacity=".72"/>
+ <path d="M535 195h82v87h-82z" fill="none" stroke="#34382f" stroke-width="7"/>
+ <text x="576" y="280" text-anchor="middle" font-size="68" fill="#34382f">13</text>
+ <text x="142" y="322" font-family="monospace" font-size="15" letter-spacing="4">HARROW POINT / CHANNEL 13</text>
+</g>
+<!-- Station neon, centered within each tube frame. -->
+<style>
+@keyframes pinkTube{0%,17%,19%,22%,61%,63%,100%{opacity:1}18%,21%,62%{opacity:.72}}
+@keyframes amberTube{0%,37%,39%,42%,78%,80%,100%{opacity:1}38%,41%,79%{opacity:.68}}
+.pink-tube{animation:pinkTube 8.2s steps(1,end) infinite;transform-origin:1354px 526px}
+.amber-tube{animation:amberTube 9.1s steps(1,end) infinite;transform-origin:1518px 526px}
+@media(prefers-reduced-motion:reduce){.pink-tube,.amber-tube{animation:none}}
+</style>
+<g text-anchor="middle" font-family="Creepster">
+ <g class="pink-tube"><text x="1354" y="526" font-size="48" fill="#ff238f" opacity=".84" filter="url(#pinkGlow)">HPTV</text><text x="1354" y="526" font-size="48" fill="#ffd4e8" stroke="#fff3f8" stroke-width="1.2">HPTV</text></g>
+ <g class="amber-tube"><text x="1518" y="526" font-size="58" fill="#ffb51f" opacity=".9" filter="url(#amberGlow)">13</text><text x="1518" y="526" font-size="58" fill="#fff0a5" stroke="#fff9dc" stroke-width="1">13</text></g>
+</g>
+<g fill="none" stroke-linecap="round" opacity=".65">
+ <path d="M1314 487h12m82 67h7m39-71h6m83 74h7" stroke="#fff" stroke-width="2"/>
+ <path d="M1477 474h9m86 85h9" stroke="#ff47a6" stroke-width="2"/>
+</g>
+</svg>
