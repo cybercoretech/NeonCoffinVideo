@@ -22,10 +22,14 @@ assert.match(home,/OPEN THE HARROW POINT LEDGER/,'homepage has a prominent ledge
 const atlas=await readFile(new URL('harrow-point.html',root),'utf8');
 for(const canon of ['id="history"','id="landmarks"','id="timeline"','id="residents"','id="paper"','id="station"','hpFullRoster','Marlow Vane','The Blackbacks'])assert.ok(atlas.includes(canon),`dedicated ledger includes ${canon}`);
 assert.match(atlas,/harrow-point-town-hall-background-v001\.webp/,'ledger uses the town hall group photo');
+assert.match(atlas,/THE MONTHLY MIDNIGHT FILE/,'ledger top strip matches the main site issue header');
+const atlasCss=await readFile(new URL('harrow-point-atlas.css',root),'utf8');
+assert.match(atlasCss,/header-logo[^}]*height:auto!important/,'ledger logo retains the original aspect ratio');
+assert.match(source,/blackbacks\.webp/,'the Blackbacks use a full wraith portrait instead of the placeholder graphic');
 assert.match(home,/href="\/harrow-point"/,'home menu links to ledger');
 assert.match(source,/hp-character-portrait/,'popup includes an accessible portrait image');
 assert.match(styles,/width:min\(510px,calc\(100vw - 30px\)\)/,'character popup stays compact');
-for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-returns/the-last-ride-poster.jpg','assets/late-show/marlow-vane.webp','assets/late-show/blackbacks.svg','assets/late-show/hptv-13-station-mark.svg',...['silas-vale','edmond-vale','mortician','caretaker','mayor-harrow-point','margaret-harrow','isabelle-harrow','aurelian-harrow','vera-wren','captain-rook-bosun','bosun','constable-wainwright','october-stranger','ephraim-pike','ragged-howl','borrowed-face','last-footman'].map(name=>`assets/harrow-point/${name}.webp`)]){
+for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-returns/the-last-ride-poster.jpg','assets/late-show/marlow-vane.webp','assets/late-show/blackbacks.webp','assets/late-show/hptv-13-station-mark.svg',...['silas-vale','edmond-vale','mortician','caretaker','mayor-harrow-point','margaret-harrow','isabelle-harrow','aurelian-harrow','vera-wren','captain-rook-bosun','bosun','constable-wainwright','october-stranger','ephraim-pike','ragged-howl','borrowed-face','last-footman'].map(name=>`assets/harrow-point/${name}.webp`)]){
  await access(new URL(image,root));
  assert.ok((await stat(new URL(image,root))).size>(image.endsWith('.svg')?100:10_000),`portrait is present: ${image}`);
 }
