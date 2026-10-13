@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="title desc">
+ <title id="title">WHP-TV, HPTV Channel 13</title><desc id="desc">A vintage television station emblem with a studio monitor, broadcast rays, and Harrow Point call letters.</desc>
+ <defs><linearGradient id="screen" x2="0" y2="1"><stop stop-color="#17252a"/><stop offset="1" stop-color="#070b10"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+ <path d="M235 40 340 105 445 40" fill="none" stroke="#65e6ed" stroke-width="9"/>
+ <path d="M390 97 480 43m-242 54-90-54" fill="none" stroke="#ff47a6" stroke-width="4" stroke-dasharray="7 9"/>
+ <rect x="44" y="89" width="632" height="151" rx="8" fill="#ddd8c8"/>
+ <rect x="54" y="99" width="612" height="131" rx="4" fill="url(#screen)" stroke="#141919" stroke-width="4"/>
+ <path d="M76 116h568M76 220h568" stroke="#65e6ed" stroke-opacity=".28" stroke-width="2"/>
+ <path d="M88 130h24m-24 9h11" stroke="#ff47a6" stroke-width="5"/>
+ <text x="360" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="74" font-weight="900" letter-spacing="10" fill="#bbff57" filter="url(#glow)">HPTV 13</text>
+ <circle cx="623" cy="133" r="5" fill="#ff47a6"/><circle cx="623" cy="154" r="5" fill="#bbff57"/>
+ <text x="360" y="268" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="10" fill="#ff47a6">WHP-TV / HARROW POINT</text>
+</svg>

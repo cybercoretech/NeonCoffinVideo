@@ -15,6 +15,6 @@ const publicFiles = ['screening-room.html','harrow-point.html','harrow-point-atl
 for (const file of publicFiles) await cp(new URL(file, root), new URL(file, dist), {recursive: true});
 await mkdir(new URL('shared/', dist));
 await cp(new URL('shared/genre-footer.css', root), new URL('shared/genre-footer.css', dist));
-for (const file of ['harrow-point-stories.css','harrow-point-stories.js','harrow-point-characters.js','harrow-point-facts.js']) await cp(new URL('shared/'+file, root), new URL('shared/'+file, dist));
+for (const file of ['harrow-point-stories.css','harrow-point-stories.js','harrow-point-characters.js','harrow-point-facts.js','harrow-point-places.js']) await cp(new URL('shared/'+file, root), new URL('shared/'+file, dist));
 await build({entryPoints:[new URL('_worker.js',root).pathname], outfile:new URL('_worker.js',dist).pathname,bundle:true,format:'esm',platform:'browser',target:'es2022'});
 console.log('Built public website in dist/; private source, credentials, and local databases excluded.');

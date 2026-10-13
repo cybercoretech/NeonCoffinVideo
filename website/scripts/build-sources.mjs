@@ -12,7 +12,7 @@ Film posters, photographs, and film/trailer frames belong to their respective ri
 
 ## The Late Show
 
-The screening room uses the original NCV television cabinet, geometric rental-label SVGs, and original HPTV Channel 13 station identity in \`assets/late-show/\`. The HPTV station background, Marlow Vane portrait, and Blackbacks wraith portrait are original AI-generated Neon Coffin Video artwork; the HPTV 13 page has its own original decaying control-room background. the station mark is original SVG artwork. These are original fallback illustrations, not official film posters. The screening room displays the credited film posters listed below, including the restored Lifeforce theatrical poster. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
+The screening room uses the original NCV television cabinet, geometric rental-label SVGs, and original HPTV Channel 13 station identity in \`assets/late-show/\`. The HPTV station background, Marlow Vane portrait, and Blackbacks wraith portrait are original AI-generated Neon Coffin Video artwork; the HPTV 13 page has its own original decaying control-room background. the station mark is original SVG artwork. The WHP-TV station-identification logo is an original Neon Coffin Video vector graphic. These are original fallback illustrations, not official film posters. The screening room displays the credited film posters listed below, including the restored Lifeforce theatrical poster. [Late Show source notes](LATE-SHOW-SOURCES.md) document provider listings, verified official preview uploaders, player usage, and newsletter handling.
 
 ## Halloween Collection original artwork
 
