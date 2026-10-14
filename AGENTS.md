@@ -24,7 +24,7 @@ approved film details as the source of truth:
   Rook and Bosun appeared in the harbor in 1996. Rook is from Croatia's Adriatic
   coast and built his own ship as a young man before wandering port to port with
   Bosun. The harbor ledger dated 1821 already bears Rook's name.
-- The town's paper is **The Harrow Point Lantern**, a weekly Sunday edition
+- The town's paper is **The Harrow Point Undertow**, a weekly Sunday edition
   founded in 1821 and printed by Ephraim Pike. Its final Sunday issue each month
   includes a cryptic column called “In the Margins.”
 - The Mayor, Alastair Wainwright (the town's sole constable, carrying a baton),

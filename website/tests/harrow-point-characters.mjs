@@ -5,7 +5,7 @@ const source=await readFile(new URL('shared/harrow-point-characters.js',root),'u
 const styles=await readFile(new URL('shared/harrow-point-stories.css',root),'utf8');
 const ids=['manager','silas','edmond','mortician','caretaker','mayor','margaret','isabelle','aurelian','vera','captain','bosun','constable','stranger','ephraim','ragged','borrowed','footman','host','blackbacks'];
 for(const id of ids)assert.match(source,new RegExp(`^\\s+${id}:`, 'm'),`bio exists: ${id}`);
-for(const canon of ['THE DROWNED BELL GALE','The Harrow Point Lantern','October Town Festival','Vlad III Dracula','AGE 27','VOICE /'])assert.ok(source.includes(canon)||canon==='VOICE /',`character canon exists: ${canon}`);
+for(const canon of ['THE DROWNED BELL GALE','The Harrow Point Undertow','October Town Festival','Vlad III Dracula','AGE 27','VOICE /'])assert.ok(source.includes(canon)||canon==='VOICE /',`character canon exists: ${canon}`);
 const stories=await readFile(new URL('shared/harrow-point-stories.js',root),'utf8');
 for(const key of ['"town-history"','"lantern"','1821','On the town map','final Sunday of each month'])assert.ok(stories.includes(key),`town story canon exists: ${key}`);
 for(const page of ['index.html','community.html','late-returns.html']){
@@ -25,7 +25,10 @@ assert.doesNotMatch(atlas,/id="paper"|id="station"/,'newspaper and station secti
 assert.match(atlas,/harrow-point-town-hall-background-v001\.webp/,'town guide uses the town hall group photo');
 assert.match(atlas,/THE MONTHLY MIDNIGHT FILE/,'town guide top strip matches the main site issue header');
 const ledger=await readFile(new URL('harrow-point-ledger.html',root),'utf8');
-for(const canon of ['THE HARROW POINT','LANTERN','Ephraim Pike','In the Margins','lantern-paper-texture-v001.webp'])assert.ok(ledger.includes(canon),`newspaper page includes ${canon}`);
+for(const canon of ['The Harrow Point','Undertow','Ephraim Pike','In the Margins','undertow-harbor-bell-v001.webp','Mayor’s Address','id="notices"','id="margins"','id="pressman"','data-harrow-character="ephraim"'])assert.ok(ledger.includes(canon),`newspaper page includes ${canon}`);
+assert.doesNotMatch(ledger,/Lantern|LANTERN/,'the paper is The Harrow Point Undertow, not the Lantern');
+const ledgerCss=await readFile(new URL('harrow-point-ledger.css',root),'utf8');assert.match(ledgerCss,/ephraim-pike-press-background-v001\.webp/,'newspaper page uses the Ephraim Pike pressroom background');assert.match(ledgerCss,/UnifrakturMaguntia/,'newspaper masthead uses a bundled blackletter face');
+for(const asset of ['harrow-point/ephraim-pike-press-background-v001.webp','harrow-point/undertow-harbor-bell-v001.webp','harrow-point/undertow-pier-carousel-v001.webp','harrow-point/undertow-low-tide-ad-v001.webp','harrow-point/undertow-ncv-ad-v001.webp','fonts/unifraktur-maguntia.ttf','fonts/im-fell-english-roman.ttf'])await access(new URL('assets/'+asset,root));
 const station=await readFile(new URL('hptv-13.html',root),'utf8');
 for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-last-way-out-background-v004.webp','population 182','You’ve Always Been Here','hptv-control-floor'])assert.ok(station.includes(canon),`station page includes ${canon}`);
 assert.doesNotMatch(station,/hptv-art-overlay|road-sign-type|tube-pink/,'station lettering is part of the photographic artwork, not an HTML graphic overlay');await access(new URL('assets/late-show/hptv-last-way-out-background-v004.webp',root));
@@ -54,4 +57,4 @@ for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-ret
 }
 const build=await readFile(new URL('scripts/build.mjs',root),'utf8');assert.match(build,/harrow-point-characters\.js/,'production build copies the character data and roster script');assert.match(build,/harrow-point.html/,'production build publishes the town guide');assert.match(build,/harrow-point-ledger.html/,'production build publishes the newspaper page');assert.match(build,/hptv-13.html/,'production build publishes the station page');assert.match(build,/harrow-point-facts.js/,'production build publishes fact dialogs');
 assert.match(source,/window\.HARROW_POINT_CHARACTERS=characters/,'shared cast data is available to the full roster');
-console.log(`PASS: ${ids.length} Harrow Point bios and portraits exist; town, Lantern, and HPTV pages have distinct content and imagery.`);
+console.log(`PASS: ${ids.length} Harrow Point bios and portraits exist; town, Undertow, and HPTV pages have distinct content and imagery.`);
