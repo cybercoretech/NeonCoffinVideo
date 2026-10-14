@@ -13,7 +13,7 @@ assert.equal(destinations.length,15,'directory has one link for each top-level d
 assert.equal(new Set(destinations).size,destinations.length,'menu does not repeat destinations');
 assert.equal(destinations.filter(url=>url==='/late-returns').length,1,'Late Returns has one top-level menu link');
 assert.equal(destinations.filter(url=>url==='/harrow-point').length,1,'Harrow Point town guide has one top-level menu link');
-assert.equal(destinations.filter(url=>url==='/harrow-point-ledger').length,1,'Lantern archive has one top-level menu link');
+assert.equal(destinations.filter(url=>url==='/harrow-point-ledger').length,1,'Undertow archive has one top-level menu link');
 assert.equal(destinations.filter(url=>url==='/hptv-13').length,1,'HPTV archive has one top-level menu link');
 assert.match(html,/class="issue-motto">THE MONTHLY MIDNIGHT FILE/);
 assert.match(html,/id="editionIssue">001/);

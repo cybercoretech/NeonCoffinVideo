@@ -39,19 +39,19 @@
   "kicker": "FIRST APPEARANCE / 1821",
   "title": "THE TOWN THAT WASN’T THERE",
   "paragraphs": [
-   "The oldest surviving issue of The Harrow Point Lantern is dated 1821. So is the first town meeting, the first harbor ledger, and the first map. Each document describes a place already settled, already named, already keeping its own hours. No record says who founded it.",
+   "The oldest surviving issue of The Harrow Point Undertow is dated 1821. So is the first town meeting, the first harbor ledger, and the first map. Each document describes a place already settled, already named, already keeping its own hours. No record says who founded it.",
    "People do not move to Harrow Point. They arrive by the coast road, by the harbor, or on foot at dusk, and discover that a room has been made ready for them. The surrounding towns know the name. Their people take the long way around and do not discuss why.",
    "Every resident seems to have a place and a purpose. The Mayor calls the meetings. Captain Rook keeps the harbor. Ephraim Pike prints the Sunday paper. The Night Manager minds the store. Nobody remembers appointing them. Nobody remembers a time when they were not there.",
    "There are no local children or teenagers. The young people seen at the Amusement Pier are visitors, and some of them do not make it home. The one person the town openly calls young is a twenty-seven-year-old drifter who appeared at the old sawmill during the October Town Festival. He says he has no idea how he got there."
   ],
-  "rumor": "On the town map in the hall, the road ends at Vesper House. On the map in the Lantern office, it continues past the hill and comes back to town from the sea.",
+  "rumor": "On the town map in the hall, the road ends at Vesper House. On the map in the Undertow office, it continues past the hill and comes back to town from the sea.",
   "quote": "You can leave by the same road you came in on. If it lets you."
  },
  "lantern": {
   "kicker": "SUNDAY EDITION / EST. 1821",
-  "title": "THE HARROW POINT LANTERN",
+  "title": "THE HARROW POINT UNDERTOW",
   "paragraphs": [
-   "The Lantern is printed once a week, every Sunday, on Ephraim Pike’s old hand press. Its office is wedged between the harbor and the coast road. The press still uses movable type; Pike says the newer machines make too much noise for a Sunday morning.",
+   "The Undertow is printed once a week, every Sunday, on Ephraim Pike’s old hand press. Its office is wedged between the harbor and the coast road. The press still uses movable type; Pike says the newer machines make too much noise for a Sunday morning.",
    "The paper carries notices of town meetings, lost boats, found keys, and travelers last seen on the road. Missing-person notices are brief. Some names return in a later issue under “Weather.” Others are moved to the back page without explanation.",
    "On the final Sunday of each month, Pike prints “In the Margins,” a column of small corrections and stranger observations. The print is always lighter there, as if the type has been used too many times. The column’s first byline is dated 1821. It is signed with Pike’s name."
   ],

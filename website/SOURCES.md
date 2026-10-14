@@ -20,7 +20,7 @@ The Midnight Lounge portrait in `assets/night-clerk/past-due-portrait.webp` is a
 
 ## Harrow Point characters
 
-The town hall group photograph, Harrow Point Lantern newsprint texture, and character illustrations are original fictional NCV artwork. The town guide, newspaper archive, and HPTV station archive use distinct page backgrounds.
+The town hall group photograph, Harrow Point Undertow newsprint texture, and character illustrations are original fictional NCV artwork. The town guide, newspaper archive, and HPTV station archive use distinct page backgrounds.
 
 The Mortician, Burial Ground Caretaker, and Silas Vale portraits in `assets/harrow-point/` are original AI-generated character illustrations created for Neon Coffin Video. Silas’s portrait follows the approved young character design from the original short, `The Last Ride`. The Night Manager portrait is original NCV artwork.
 
@@ -1956,7 +1956,7 @@ The Mortician, Burial Ground Caretaker, and Silas Vale portraits in `assets/harr
 
 ## Fonts, effects, and service marks
 
-- Creepster, Bebas Neue, IBM Plex Sans, JetBrains Mono: locally bundled fonts; license files accompany the fonts in assets/fonts/.
+- Creepster, Bebas Neue, IBM Plex Sans, JetBrains Mono, UnifrakturMaguntia, IM FELL English: locally bundled fonts; license files accompany the fonts in assets/fonts/.
 - Sparticles 1.3.0 by Simey: https://github.com/simeydotme/sparticles (MPL-2.0; bundled code and license in assets/vendor/).
 - Tubi logo: https://corporate.tubitv.com/
 - Pluto TV logo: https://www.paramountpressexpress.com/pluto-tv/shows/pluto-tv/photos/

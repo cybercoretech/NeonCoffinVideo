@@ -1,2 +1,92 @@
-.hp-newspaper{--paper:#d0cabb;--ink:#151515;min-height:100vh;color:#242322;background:#181817}.hp-newspaper:before{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(#10101088,#101010bb),url('/assets/harrow-point/lantern-paper-texture-v001.webp') center/cover no-repeat;filter:grayscale(1)}.hp-newspaper .hp-site-header{background:#080b0eeF}.lantern-page,.pressman{width:min(1100px,92%);margin:34px auto 64px}.lantern-index{display:flex;gap:9px;flex-wrap:wrap;margin:0 0 18px}.lantern-index a{padding:8px 12px;color:#dedbd3;border:1px solid #aaa6a077;background:#131313d9;font:9px 'JetBrains Mono';text-transform:uppercase}.lantern-sheet{position:relative;padding:clamp(22px,5vw,58px);background:linear-gradient(90deg,#b3ad9c22,transparent 9%,#efeddfdf 20%,#d1cbbadb 100%),url('/assets/harrow-point/lantern-paper-texture-v001.webp') center/cover;color:#222;border:1px solid #aaa48f;box-shadow:0 0 55px #000d,8px 10px #0009;filter:grayscale(1)}.paper-rule{display:flex;justify-content:space-between;gap:10px;border-top:2px solid #292929;border-bottom:1px solid #373737;padding:7px 0;color:#333;font:9px 'JetBrains Mono';letter-spacing:1px}.lantern-kicker{margin:20px 0 6px;font:9px 'JetBrains Mono';letter-spacing:2px;text-transform:uppercase}.lantern-sheet h1{margin:5px 0 0;text-align:center;font:clamp(40px,8vw,92px)/.9 'Creepster',Georgia,serif;letter-spacing:1px;color:#161616;text-shadow:1px 1px #aaa}.lantern-sheet h1 em{font-size:.78em;font-style:normal;letter-spacing:5px}.lantern-motto{text-align:center;font:italic 15px Georgia,serif}.lantern-lead{display:grid;grid-template-columns:1.4fr .6fr;gap:30px;align-items:center;border-bottom:2px solid #333;padding:18px 0 28px}.lantern-lead h2,.lantern-columns h2{font:clamp(24px,4vw,42px)/.94 'Creepster',Georgia,serif;letter-spacing:.5px;margin:8px 0}.lantern-lead p,.lantern-columns p{font:15px/1.65 Georgia,serif}.lantern-lead figure{margin:0}.lantern-lead figure img{width:100%;max-height:240px;object-fit:cover;filter:grayscale(1) sepia(.18);border:1px solid #666}.lantern-lead figcaption{font:10px Georgia,serif;font-style:italic}.lantern-columns{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding-top:8px}.lantern-columns section+section{border-left:1px solid #666;padding-left:25px}.lantern-columns article{border-bottom:1px solid #79766e;padding:3px 0}.lantern-columns h3{margin:10px 0 3px;font:bold 17px Georgia,serif}.lantern-columns blockquote{margin:20px 0;padding:10px 15px;border-left:3px solid #333;font:italic 19px/1.5 Georgia,serif}.lantern-disclaimer{margin-top:26px;border-top:1px solid #333;padding-top:10px;font:9px 'JetBrains Mono';text-transform:uppercase;letter-spacing:1px}.pressman{display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;padding:20px;border:1px solid #aaa69a;background:#111d;color:#e0ded7}.pressman img{width:100%;border:2px solid #777;filter:grayscale(1)}.pressman h2{font:38px 'Creepster',Georgia,serif;margin:0}.pressman p:not(.lantern-kicker){font:14px/1.75 Georgia,serif}.pressman .lantern-kicker{color:#c4c0b4}@media(max-width:700px){.lantern-lead,.lantern-columns{grid-template-columns:1fr}.lantern-columns section+section{border-left:0;border-top:1px solid #666;padding:16px 0 0}.paper-rule{font-size:7px}.pressman{grid-template-columns:100px 1fr}}
-.hp-newspaper:before{background:linear-gradient(#17171788,#171717c4),url('/assets/harrow-point/lantern-paper-texture-v001.webp') center/cover no-repeat;filter:grayscale(1)}.lantern-sheet{background-color:#77766f;background-image:linear-gradient(135deg,rgba(72,72,69,.74),rgba(153,151,141,.58) 48%,rgba(91,90,85,.76)),url('/assets/harrow-point/lantern-paper-texture-v001.webp');background-blend-mode:multiply,normal;color:#181817;filter:none;box-shadow:0 0 55px #000d,8px 10px #0009}.lantern-sheet h1,.lantern-lead h2,.lantern-columns h2,.pressman h2{font-family:'Old English Text MT','UnifrakturMaguntia','Goudy Old Style',Georgia,serif;font-variant:small-caps;font-weight:900;text-shadow:1px 1px #b9b6ad,2px 2px #585751}.lantern-sheet h1{font-size:clamp(38px,7vw,80px);letter-spacing:1px}.lantern-sheet h1 em{font-size:.83em;letter-spacing:5px}.lantern-lead h2,.lantern-columns h2{font-size:clamp(24px,3.3vw,36px);line-height:1}.lantern-sheet h3{font-family:'Goudy Old Style',Georgia,serif;font-variant:small-caps}.lantern-sheet:before{content:'✦  THE HARROW POINT LANTERN  ✦';position:absolute;left:0;right:0;top:0;padding:8px;text-align:center;background:#20201f;color:#d0cec7;font:9px 'JetBrains Mono';letter-spacing:3px}.lantern-sheet{padding-top:72px}.lantern-sheet .paper-rule{border-color:#323230}.lantern-sheet .lantern-lead figure img{filter:grayscale(1) contrast(.9) brightness(.65)}.lantern-columns{column-gap:26px}.lantern-columns section{font-family:Georgia,serif}.pressman{position:relative;background:linear-gradient(110deg,#101010e8,#22221fe8),url('/assets/harrow-point/lantern-paper-texture-v001.webp') center/cover;border-color:#777}.pressman button{padding:9px 12px;border:1px solid #b9b6ad;background:#141413;color:#e0ded7;font:9px 'JetBrains Mono';text-transform:uppercase;cursor:pointer}.pressman button:hover{border-color:#eee;color:#fff}.lantern-sheet .lantern-lead figure img[src*=lantern-paper-texture]{object-fit:cover}
+@font-face{font-family:'UnifrakturMaguntia';src:url(/assets/fonts/unifraktur-maguntia.ttf) format('truetype');font-display:swap}
+@font-face{font-family:'IM Fell English';src:url(/assets/fonts/im-fell-english-roman.ttf) format('truetype');font-display:swap}
+@font-face{font-family:'IM Fell English';font-style:italic;src:url(/assets/fonts/im-fell-english-italic.ttf) format('truetype');font-display:swap}
+@font-face{font-family:'IM Fell English SC';src:url(/assets/fonts/im-fell-english-sc.ttf) format('truetype');font-display:swap}
+
+/* Page: the Undertow office at night, Ephraim Pike at the press */
+.hp-newspaper{--paper:#e2d8c3;--ink:#1c1813;--rule:#2a251e;min-height:100vh;color:var(--ink);background:#07090c}
+.hp-newspaper:before{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(90deg,#07090cf2 0%,#07090cb8 38%,#07090c66 70%,#07090c99 100%),linear-gradient(0deg,#07090c 0%,transparent 30%),url('/assets/harrow-point/ephraim-pike-press-background-v001.webp') 60% 15%/cover no-repeat}
+.hp-newspaper .hp-site-header{background:#080b0eef}
+.lantern-page,.pressman{width:min(1180px,94%);margin:34px auto 64px}
+.lantern-index{display:flex;gap:9px;flex-wrap:wrap;margin:0 0 18px}
+.lantern-index a{padding:8px 12px;color:#e8e0cf;border:1px solid #d9cdb244;background:#0b0e12d9;font:9px 'JetBrains Mono';text-transform:uppercase;letter-spacing:1px}
+.lantern-index a:hover{border-color:var(--pink);color:#fff}
+
+/* The sheet */
+.undertow-sheet{position:relative;padding:clamp(16px,3.4vw,40px);color:var(--ink);font-family:'IM Fell English',Georgia,serif;background-color:var(--paper);background-image:radial-gradient(ellipse at 50% 40%,transparent 60%,#6b5a3a40 100%),linear-gradient(90deg,transparent 49.7%,#8a7a5c26 50%,transparent 50.3%),linear-gradient(#e6dcc6cc,#ddd1b8cc),url('/assets/harrow-point/lantern-paper-texture-v001.webp');background-size:auto,auto,auto,cover;background-blend-mode:normal,normal,normal,multiply;box-shadow:0 0 0 1px #b9ab8b,0 30px 70px #000e,10px 12px 0 #0008;transform:rotate(-.25deg)}
+.undertow-sheet:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 92% 6%,#7a5b2a22 0 60px,transparent 61px),radial-gradient(circle at 6% 88%,#5c4a2e1c 0 90px,transparent 91px)}
+.undertow-sheet p{margin:0 0 .55em}
+
+/* Masthead */
+.undertow-masthead{display:grid;grid-template-columns:150px 1fr 150px;align-items:center;gap:14px}
+.undertow-masthead h1{margin:0;text-align:center;font:clamp(38px,7.4vw,92px)/.95 'UnifrakturMaguntia','Old English Text MT',serif;font-weight:400;color:var(--ink);text-shadow:0 0 1px #1c181399;letter-spacing:.5px}
+.undertow-the{display:block;font-size:.42em;letter-spacing:2px}
+.undertow-ear{display:flex;flex-direction:column;gap:2px;padding:7px 8px;border:1px solid var(--rule);outline:1px solid var(--rule);outline-offset:2px;text-align:center;font:11px/1.25 'IM Fell English',Georgia,serif}
+.undertow-ear b{font:13px 'IM Fell English SC',Georgia,serif;border-bottom:1px solid var(--rule);padding-bottom:3px;margin-bottom:2px}
+.undertow-dateline{display:flex;justify-content:space-between;gap:10px;margin-top:10px;padding:5px 2px;border-top:3px double var(--rule);border-bottom:3px double var(--rule);font:12px 'IM Fell English SC',Georgia,serif;letter-spacing:1px}
+.undertow-motto{text-align:center;margin:6px 0 0!important;padding-bottom:8px;border-bottom:2px solid var(--rule);font-size:13px}
+
+/* Front page grid */
+.undertow-front{display:grid;grid-template-columns:2.1fr 1fr;gap:0;border-bottom:3px double var(--rule)}
+.undertow-lead{padding:14px 18px 14px 0;border-right:1px solid var(--rule)}
+.undertow-sheet h2{margin:0 0 4px;font:400 clamp(26px,3.5vw,42px)/1 'IM Fell English SC',Georgia,serif;letter-spacing:.3px;text-align:center}
+.undertow-lead>h2{font-size:clamp(30px,4.3vw,52px)}
+.undertow-sheet h3{margin:6px 0 3px;font:400 19px/1.05 'IM Fell English SC',Georgia,serif;text-align:center}
+.undertow-deck{margin:2px auto 8px!important;max-width:44em;text-align:center;font-style:italic;font-size:14px;line-height:1.25;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.undertow-text{columns:2;column-gap:20px;column-rule:1px solid #2a251e88}
+.undertow-text p,.undertow-col p,.undertow-box p,.undertow-brief p{font-size:14.5px;line-height:1.42;text-align:justify;hyphens:auto}
+.undertow-dropcap>p:first-child:first-letter{float:left;font:400 58px/.82 'UnifrakturMaguntia',serif;padding:4px 6px 0 0}
+.undertow-cut{margin:4px 0 12px;border:1px solid var(--rule);padding:4px;background:#efe7d566}
+.undertow-cut img{width:100%;height:auto;display:block;filter:grayscale(1) sepia(.25) contrast(1.08);mix-blend-mode:multiply}
+.undertow-cut figcaption{margin-top:4px;font:italic 12px/1.3 'IM Fell English',Georgia,serif;text-align:center}
+.undertow-cut-small{max-width:100%}
+
+.undertow-side{padding:14px 0 14px 18px;display:flex;flex-direction:column;gap:12px}
+.undertow-box{padding:10px 12px;border:2px solid var(--rule);outline:1px solid var(--rule);outline-offset:3px}
+.undertow-box h2{font-size:26px}
+.undertow-byline{text-align:center!important;font-style:italic;font-size:12px!important}
+.undertow-sign{text-align:right!important;font-style:italic}
+.undertow-brief{border-top:1px solid var(--rule);padding-top:8px}
+
+/* Notices */
+.undertow-columns{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:3px double var(--rule)}
+.undertow-col{padding:12px 16px}
+.undertow-col+.undertow-col{border-left:1px solid var(--rule)}
+.undertow-col article{padding-bottom:6px;margin-bottom:6px;border-bottom:1px solid #2a251e99}
+.undertow-col article:last-child{border-bottom:0}
+.undertow-section{margin:0 0 2px!important;text-align:center!important;font:11px 'JetBrains Mono',monospace!important;letter-spacing:2px;text-transform:uppercase}
+.undertow-blank{border-bottom:1px solid var(--ink);margin:6px 10% 4px!important;height:1em}
+.undertow-margins{background:#d6caaf66}
+.undertow-margins blockquote{margin:10px 0;padding:8px 10px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:italic 17px/1.35 'IM Fell English',Georgia,serif;text-align:center}
+.undertow-margins p:not(.undertow-section):not(.undertow-deck){opacity:.82}
+
+/* Advertisements */
+.undertow-ads{display:grid;grid-template-columns:1fr 1fr 1.05fr;gap:12px;padding:14px 0 4px;align-items:stretch}.undertow-ad-stack{display:grid;gap:12px}
+.undertow-ad{display:flex;flex-direction:column;align-items:center;text-align:center;padding:10px;border:2px solid var(--rule);outline:1px solid var(--rule);outline-offset:-6px}
+.undertow-ad img{width:100%;height:auto;margin-bottom:6px;filter:grayscale(1) sepia(.25) contrast(1.1);mix-blend-mode:multiply}
+.undertow-ad h3{font:400 24px/1 'UnifrakturMaguntia',serif;margin:4px 0}
+.undertow-ad p{font-size:13px;line-height:1.3;margin:0 0 6px}
+.undertow-ad-art small{margin-top:auto}.undertow-ad small{padding-top:5px;border-top:1px solid var(--rule);width:100%;font:10px 'IM Fell English SC',Georgia,serif;letter-spacing:1.5px}
+.undertow-ad-type{justify-content:center;padding:12px 14px;background:repeating-linear-gradient(45deg,transparent 0 6px,#2a251e0d 6px 7px)}
+.undertow-ad-type h3{font:400 34px/1 'IM Fell English SC',Georgia,serif;border-top:3px double var(--rule);border-bottom:3px double var(--rule);padding:4px 6px;width:100%}
+.undertow-ad-type h3 span{font-family:'UnifrakturMaguntia',serif}
+.undertow-ad-kicker{font:italic 13px 'IM Fell English',Georgia,serif;margin:0 0 2px!important}
+.lantern-disclaimer{margin:14px 0 0;border-top:1px solid var(--rule);padding-top:8px;font:9px 'JetBrains Mono';text-transform:uppercase;letter-spacing:1px;text-align:center}
+
+/* The office: open band where the pressroom background shows */
+.undertow-office{min-height:min(58vh,560px);display:flex;flex-direction:column;justify-content:flex-end;max-width:520px;padding:40px 0 46px;color:#e8e0cf}
+.undertow-office h2{margin:0 0 10px;font:400 clamp(38px,5vw,64px)/1 'UnifrakturMaguntia',serif;color:#f1e8d4;text-shadow:0 2px 18px #000}
+.undertow-office p:not(.lantern-kicker){font:18px/1.6 'IM Fell English',Georgia,serif;text-shadow:0 1px 8px #000}
+
+/* The pressman */
+.pressman{position:relative;display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;padding:20px;border:1px solid #d9cdb244;background:linear-gradient(110deg,#0b0e12f0,#15120ee6);color:#e8e0cf}
+.pressman img{width:100%;border:2px solid #776b55;filter:grayscale(.6) sepia(.3)}
+.pressman h2{margin:0;font:400 44px 'UnifrakturMaguntia',serif;color:#efe6d2}
+.pressman p:not(.lantern-kicker){font:16px/1.7 'IM Fell English',Georgia,serif}
+.lantern-kicker{margin:0 0 6px;font:9px 'JetBrains Mono';letter-spacing:2px;text-transform:uppercase;color:var(--amber)}
+.pressman button{padding:9px 12px;border:1px solid #d9cdb2;background:#0b0e12;color:#e8e0cf;font:9px 'JetBrains Mono';text-transform:uppercase;cursor:pointer}
+.pressman button:hover{border-color:var(--pink);color:#fff}
+
+@media(max-width:980px){.undertow-ads{grid-template-columns:1fr 1fr}.undertow-ad-stack{grid-column:1/-1;grid-template-columns:repeat(3,1fr)}}
+@media(max-width:820px){.undertow-masthead{grid-template-columns:1fr}.undertow-ear{display:none}.undertow-front,.undertow-columns{grid-template-columns:1fr}.undertow-lead{padding-right:0;border-right:0}.undertow-side{padding-left:0;border-top:1px solid var(--rule)}.undertow-col+.undertow-col{border-left:0;border-top:1px solid var(--rule)}.undertow-col{padding:12px 0}.undertow-sheet{transform:none}}
+@media(max-width:600px){.undertow-text{columns:1}.undertow-ad-stack{grid-template-columns:1fr}.undertow-office{min-height:46vh}.undertow-dateline{flex-direction:column;align-items:center;gap:2px;font-size:11px}.pressman{grid-template-columns:100px 1fr}}
