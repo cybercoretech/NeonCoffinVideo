@@ -65,7 +65,7 @@ const survey=[...placesSrc.matchAll(/lot:'([IVX]+)'[\s\S]*?survey:\['(?:[^'\\]|\
 assert.deepEqual(survey.map(x=>x[0]),roman,'nine surveyed lots, I through IX');
 assert.equal(survey.map(x=>x[1].toUpperCase()).join(' '),'EVERYONE HERE ARRIVED BY THE SAME ROAD NOBODY LEFT','the marked survey words spell the hidden phrase in lot order');
 const townHtml=await readFile(new URL('harrow-point.html',root),'utf8');
-for(const key of ['video','harbor','mortuary','pier','graveyard','vesper','sawmill','inn','diner'])assert.equal((townHtml.match(new RegExp(`data-hp-place="${key}"`,'g'))||[]).length,2,`${key} has a map pin and a fixed-points card`);
+for(const key of ['video','harbor','mortuary','pier','graveyard','vesper','sawmill','inn','diner','mayorhouse'])assert.equal((townHtml.match(new RegExp(`data-hp-place="${key}"`,'g'))||[]).length,2,`${key} has a map pin and a fixed-points card`);
 assert.match(townHtml,/id="town-map"/,'the 1821 town plan is on the town page');
 for(const asset of ['harrow-point-1821-plan-v001.webp','neon-coffin-video-storefront.webp','wayfarers-rest.webp','graveyard-shift-diner.webp'])await access(new URL('assets/harrow-point/'+asset,root));
 console.log(`PASS: ${ids.length} Harrow Point bios and portraits exist; town, Undertow, and HPTV pages have distinct content and imagery.`);
