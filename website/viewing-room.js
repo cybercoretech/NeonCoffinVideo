@@ -10,6 +10,10 @@
  const ejectLine='“Changed your mind? Wicked smart. Most don’t. It’ll be there next time.”';
  const $=id=>document.getElementById(id);
  const line=$('vrLine'),play=$('vrPlay'),screen=$('vrScreen'),osd=$('vrOsd'),beta=document.querySelector('[data-beta]');
+
+ // Travelers who are returned from Harrow Point wake up on the sofa.
+ let back;try{back=Number(sessionStorage.getItem('ncv-returned'));sessionStorage.removeItem('ncv-returned')}catch{}
+ if(back&&Date.now()-back<60000){line.textContent='“Back already? You were gone longer than you think. Sit a minute. Don’t try to remember it, kid. Nobody evah can.”';screen.classList.add('is-loaded');osd.textContent='⏏ EJECTED';document.body.classList.add('vr-returned')}
  let n=0;
  document.querySelectorAll('.vr-vhs').forEach(tape=>tape.addEventListener('click',()=>{
   line.innerHTML='';const title=tape.dataset.title;

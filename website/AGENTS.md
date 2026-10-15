@@ -35,6 +35,12 @@
 Blank fields mean unspecified; they do not grant permission or override filled instructions.
 
 
+## Two sides of the site (user decision 2026-10-14) — never mix them
+
+- **The Video Store** is Neon Coffin Video in **Old Orchard Beach, Maine**: homepage, rental shelves, Lounge, Late Show, Late Returns, shop. It uses the store chrome (issue strip, NCV header, store menu, genre footer). Harrow Point town content does not appear on store pages; the store menu's highlighted first stop is **The Viewing Room** (`/viewing-room`).
+- **The Viewing Room** is the store's back room and the only portal: a dirty green sofa, a 1950s console TV hard-wired to a Betamax deck, and the only Betamax tape on a shelf of VHS. Playing it sets `sessionStorage['hp-arrival']` and lands on `/harrow-point`, where `shared/harrow-point-arrival.js` shows the arrival overlay. Travelers are not counted (population stays 182); most are eventually returned. The Night Manager knows, and encourages teens, who meet Silas Vale. His lines are drafts in a light Massachusetts voice; the user (who grew up in Montague, MA and West Brattleboro, VT) is the authority on dialect.
+- **Harrow Point** (`/harrow-point`, `/harrow-point-ledger`, `/hptv-13`) has its own chrome in `shared/harrow-point-chrome.css`: `.hp-strip`, `.hp-header` with the blackletter wordmark and town menu, and `.hp-footer`. No store logo, membership, search, store menu, store footer or `store-nav.js`. The only way back is **Be returned** (`[data-hp-return]` → `/viewing-room`, flagged by `shared/harrow-point-return.js` so the Night Manager greets returning Travelers). Tests enforce the separation.
+
 ## Harrow Point Ledger and HPTV (2026-10-13)
 
 - The dedicated resident and history archive is `/harrow-point`, titled **The Harrow Point Ledger**. Keep complete town lore and the cast roster on that page; homepage, Lounge, Late Returns, and main menus use direct links instead of injecting a wide profile grid. Character data is in `shared/harrow-point-characters.js`.

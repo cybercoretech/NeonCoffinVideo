@@ -1,0 +1,25 @@
+/* Harrow Point side chrome: its own strip, header, menu and footer. No store branding. */
+@font-face{font-family:'UnifrakturMaguntia';src:url(/assets/fonts/unifraktur-maguntia.ttf) format('truetype');font-display:swap}
+@font-face{font-family:'IM Fell English';src:url(/assets/fonts/im-fell-english-roman.ttf) format('truetype');font-display:swap}
+@font-face{font-family:'IM Fell English';font-style:italic;src:url(/assets/fonts/im-fell-english-italic.ttf) format('truetype');font-display:swap}
+@font-face{font-family:'IM Fell English SC';src:url(/assets/fonts/im-fell-english-sc.ttf) format('truetype');font-display:swap}
+.hp-strip{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:7px max(3%,14px);background:#0a0d10;border-bottom:1px solid #d9c9a322;font:10px 'JetBrains Mono',monospace;letter-spacing:2px;color:#a9b4b8;text-transform:uppercase}
+.hp-strip b{color:#e6dbc2;font-weight:400}
+.hp-header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:12px max(3%,14px);background:linear-gradient(#0b1015f2,#0b1015e6);border-bottom:1px solid #d9c9a344;backdrop-filter:blur(6px)}
+.hp-wordmark{display:flex;flex-direction:column;align-items:center;line-height:1;color:#efe6d2;text-decoration:none}
+.hp-wordmark strong{font:400 clamp(30px,3.6vw,44px)/1 'UnifrakturMaguntia',serif;color:#f1e8d4;text-shadow:0 0 18px #65e6ed22}
+.hp-wordmark small{font:clamp(9px,.9vw,11px) 'IM Fell English SC',Georgia,serif;letter-spacing:3px;color:#b8ad95}
+.hp-nav{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+.hp-nav a{padding:8px 12px;border:1px solid #d9c9a333;color:#e6dbc2;text-decoration:none;font:15px 'IM Fell English SC',Georgia,serif;letter-spacing:1px;background:#0e141acc}
+.hp-nav a:hover,.hp-nav a:focus-visible{border-color:#e6dbc2;color:#fff;background:#18222b}
+.hp-nav a[aria-current="page"]{border-color:#bbff5766;color:#d9f5b0}
+.hp-nav a.hp-return{border-color:#65e6ed66;color:#65e6ed;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+.hp-nav a.hp-return:hover,.hp-nav a.hp-return:focus-visible{background:#65e6ed;color:#071016}
+.hp-nav a:focus-visible{outline:3px solid #65e6ed;outline-offset:3px}
+.hp-footer{margin-top:60px;padding:34px max(4%,16px) 40px;border-top:1px solid #d9c9a333;background:#07090c;text-align:center;color:#a9a294}
+.hp-footer .hp-footer-sign{margin:0 0 6px;font:400 clamp(26px,3vw,38px) 'UnifrakturMaguntia',serif;color:#efe6d2}
+.hp-footer p:not(.hp-footer-sign){margin:4px 0;font:15px/1.6 'IM Fell English',Georgia,serif}
+.hp-footer-fine{font:italic 13px 'IM Fell English',Georgia,serif!important;color:#7f7a70}
+.hp-footer a{color:#65e6ed}
+@media(max-width:760px){.hp-header{position:static;justify-content:center}.hp-nav{justify-content:center}.hp-nav a{font-size:14px;padding:7px 9px}}
+.hp-eject{position:relative;display:inline-block;width:10px;height:9px;margin-right:7px;vertical-align:-1px;background:linear-gradient(currentColor,currentColor) bottom/100% 2px no-repeat}.hp-eject:before{content:"";position:absolute;left:0;top:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid currentColor}
