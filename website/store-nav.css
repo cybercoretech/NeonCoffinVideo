@@ -93,3 +93,8 @@
 .site-membership-button{display:inline-flex;align-items:center;gap:8px;text-decoration:none}
 .site-membership-button svg{width:20px;height:20px;flex-shrink:0;fill:none;stroke:var(--green,#bbff57);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 :is(.lounge-account-nav,.lr-account-nav,.ls-header-actions) .site-membership-button{border-color:var(--pink,#ff47a6)}
+/* The Viewing Room: the store's highlighted back-room entry */
+.primary-navigation a.menu-viewing-room{position:relative;border:1px solid #65e6ed88;background:linear-gradient(110deg,#06131a,#120b18);box-shadow:inset 0 0 22px #65e6ed1f,0 0 16px #ff47a622}
+.primary-navigation a.menu-viewing-room span{color:#65e6ed;text-shadow:0 0 10px #65e6ed88}
+.primary-navigation a.menu-viewing-room small{color:#ff9fd0}
+.primary-navigation a.menu-viewing-room:after{content:'STAFF PICK';position:absolute;top:6px;right:8px;font:8px 'JetBrains Mono',monospace;letter-spacing:1px;color:#bbff57}
