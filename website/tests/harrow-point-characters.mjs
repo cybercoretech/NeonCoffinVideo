@@ -8,17 +8,13 @@ for(const id of ids)assert.match(source,new RegExp(`^\\s+${id}:`, 'm'),`bio exis
 for(const canon of ['THE DROWNED BELL GALE','The Harrow Point Undertow','October Town Festival','Vlad III Dracula','AGE 27','VOICE /'])assert.ok(source.includes(canon)||canon==='VOICE /',`character canon exists: ${canon}`);
 const stories=await readFile(new URL('shared/harrow-point-stories.js',root),'utf8');
 for(const key of ['"town-history"','"lantern"','1821','On the town map','final Sunday of each month'])assert.ok(stories.includes(key),`town story canon exists: ${key}`);
-for(const page of ['index.html','community.html','late-returns.html']){
+for(const page of ['index.html','community.html','screening-room.html','late-returns.html']){
  const html=await readFile(new URL(page,root),'utf8');
- assert.ok(!html.includes('hp-character-directory'),`${page} no longer embeds a character grid`);
- assert.match(html,/href="\/harrow-point"/,`${page} links to the full Harrow Point Ledger`);
- assert.match(html,/harrow-point-stories\.js\?v=20261013b/,`${page} loads story popup behavior`);
- assert.match(html,/harrow-point-stories\.css\?v=20261013b/,`${page} loads popup styling`);
- assert.match(html,/data-town-story="town-history"/,`${page} links to town history`);
- assert.match(html,/data-town-story="lantern"/,`${page} links to the weekly paper`);
+ assert.match(html,/href="\/viewing-room"/,`${page} leads to the Viewing Room`);
+ assert.doesNotMatch(html,/Harrow Point|HPTV|data-town-story|data-harrow-character|harrow-point-stories\.(js|css)/,`${page} keeps town content off the store side`);
 }
 const home=await readFile(new URL('index.html',root),'utf8');
-assert.match(home,/OPEN THE HARROW POINT TOWN GUIDE/,'homepage has a prominent town guide link');
+assert.match(home,/The Viewing Room/i,'homepage highlights the portal');
 const atlas=await readFile(new URL('harrow-point.html',root),'utf8');
 for(const canon of ['id="history"','id="landmarks"','id="timeline"','id="residents"','id="archives"','hpFullRoster','data-exclude="ephraim,host,blackbacks"','data-hp-fact="record"','data-hp-fact="sunday"','data-hp-fact="arrivals"','data-hp-fact="place"','data-hp-place="pier"','data-hp-place="graveyard"','data-hp-place="mortuary"','data-hp-place="vesper"','data-hp-place="harbor"','data-hp-place="sawmill"'])assert.ok(atlas.includes(canon),`town guide includes ${canon}`);
 assert.doesNotMatch(atlas,/id="paper"|id="station"/,'newspaper and station sections live on their own pages');
@@ -29,7 +25,7 @@ for(const canon of ['The Harrow Point','Undertow','Ephraim Pike','In the Margins
 for(const canon of ['id="obituaries"','From the Morgue Files','Status: Attending','Status: Not returned','north wall','undertow-funeral-widows-rise-v001.webp'])assert.ok(ledger.includes(canon),`obituaries include ${canon}`);assert.ok((ledger.match(/class="undertow-obit[ "]/g)||[]).length>=8,'obituaries span the town history');await access(new URL('assets/harrow-point/undertow-funeral-widows-rise-v001.webp',root));
 assert.doesNotMatch(ledger,/Lantern|LANTERN/,'the paper is The Harrow Point Undertow, not the Lantern');
 const ledgerCss=await readFile(new URL('harrow-point-ledger.css',root),'utf8');assert.match(ledgerCss,/ephraim-pike-press-background-v001\.webp/,'newspaper page uses the Ephraim Pike pressroom background');assert.match(ledgerCss,/UnifrakturMaguntia/,'newspaper masthead uses a bundled blackletter face');
-for(const asset of ['harrow-point/ephraim-pike-press-background-v001.webp','harrow-point/undertow-harbor-bell-v001.webp','harrow-point/undertow-pier-carousel-v001.webp','harrow-point/undertow-low-tide-ad-v001.webp','harrow-point/undertow-ncv-ad-v001.webp','fonts/unifraktur-maguntia.ttf','fonts/im-fell-english-roman.ttf'])await access(new URL('assets/'+asset,root));
+for(const asset of ['harrow-point/ephraim-pike-press-background-v001.webp','harrow-point/undertow-harbor-bell-v001.webp','harrow-point/undertow-pier-carousel-v001.webp','harrow-point/undertow-low-tide-ad-v001.webp','fonts/unifraktur-maguntia.ttf','fonts/im-fell-english-roman.ttf'])await access(new URL('assets/'+asset,root));
 const station=await readFile(new URL('hptv-13.html',root),'utf8');
 for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-last-way-out-background-v006.webp','population 182','You’ve Always Been Here','hptv-control-floor'])assert.ok(station.includes(canon),`station page includes ${canon}`);
 assert.doesNotMatch(station,/hptv-art-overlay|road-sign-type|tube-pink/,'station lettering is part of the photographic artwork, not an HTML graphic overlay');await access(new URL('assets/late-show/hptv-last-way-out-background-v006.webp',root));
@@ -39,7 +35,6 @@ assert.doesNotMatch(await readFile(new URL('harrow-point-atlas.css',root),'utf8'
 const stationLogo=await readFile(new URL('assets/late-show/whp-tv-station-logo-v003.svg',root),'utf8');assert.match(stationLogo,/>HPTV<\/text>/,'station logo has a clear station wordmark');assert.match(stationLogo,/>13<\/text>/,'station logo has a clear channel number');assert.match(stationLogo,/transmitter-emblem-v001.png/,'station wordmark uses original coastal transmitter artwork');assert.doesNotMatch(stationLogo,/<rect\b/,'station mark is not lettering inside a box');await access(new URL('assets/late-show/hptv-transmitter-emblem-v001.png',root));
 assert.match(await readFile(new URL('hptv-13.css',root),'utf8'),/analog-tv-static\.svg/,'station monitor uses animated analog snow artwork');
 assert.match(await readFile(new URL('hptv-13.html',root),'utf8'),/blackbacks\.webp/,'wraiths briefly transmit through the no-signal monitor');
-const screening=await readFile(new URL('screening-room.html',root),'utf8');assert.match(screening,/whp-tv-station-logo-v003\.svg/,'screening-room station ident uses the custom logo');assert.match(screening,/data-harrow-character="host"/,'Marlow’s screening-room profile opens his biography');
 assert.match(station,/data-harrow-character="host"/,'Marlow’s HPTV profile opens his biography');assert.match(station,/data-harrow-character="blackbacks"/,'the Blackbacks HPTV profile opens their dossier');
 assert.match(await readFile(new URL('shared/harrow-point-characters.js',root),'utf8'),/hpCharacterChronicle/,'character dialogs include extended dossier details');
 assert.match(await readFile(new URL('harrow-point-ledger.html',root),'utf8'),/data-harrow-character="ephraim"/,'Ephraim Pike opens his full biography');
@@ -50,7 +45,7 @@ assert.match(atlas,/href="\/hptv-13"/,'town guide links to the station archive')
 const atlasCss=await readFile(new URL('harrow-point-atlas.css',root),'utf8');
 assert.match(atlasCss,/header-logo[^}]*height:auto!important/,'site logo retains the original aspect ratio');
 assert.match(source,/blackbacks\.webp/,'the Blackbacks use a full wraith portrait instead of the placeholder graphic');
-assert.match(home,/href="\/harrow-point"/,'home menu links to town guide');
+assert.doesNotMatch(home,/href="\/harrow-point/,'home reaches the town only through the Viewing Room');
 assert.match(source,/hp-character-portrait/,'popup includes an accessible portrait image');
 assert.match(styles,/width:min\(510px,calc\(100vw - 30px\)\)/,'character popup stays compact');
 for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-returns/the-last-ride-poster.jpg','assets/late-show/marlow-vane.webp','assets/late-show/blackbacks.webp','assets/late-show/hptv-13-station-mark.svg',...['silas-vale','edmond-vale','mortician','caretaker','mayor-harrow-point','margaret-harrow','isabelle-harrow','aurelian-harrow','vera-wren','captain-rook-bosun','bosun','constable-wainwright','october-stranger','ephraim-pike','ragged-howl','borrowed-face','last-footman','culvert-lamprey','dr-cornelius-abbot'].map(name=>`assets/harrow-point/${name}.webp`)]){
@@ -70,5 +65,5 @@ for(const year of ['1821','1951','1964','1979','1996']){assert.match(townHtml,ne
 for(const asset of ['mayors-house.webp','pier-fire-1979.webp'])await access(new URL('assets/harrow-point/'+asset,root));
 assert.doesNotMatch(placesSrc,/the-last-ride-poster/,'the pier file uses a portrait rather than the cropped poster');
 assert.match(townHtml,/id="town-map"/,'the 1821 town plan is on the town page');
-for(const asset of ['harrow-point-1821-plan-v001.webp','wayfarers-rest.webp','graveyard-shift-diner.webp'])await access(new URL('assets/harrow-point/'+asset,root));
+for(const asset of ['harrow-point-1821-plan-v001.webp','wayfarers-rest.webp','graveyard-shift-diner.webp','waking-room.webp'])await access(new URL('assets/harrow-point/'+asset,root));
 console.log(`PASS: ${ids.length} Harrow Point bios and portraits exist; town, Undertow, and HPTV pages have distinct content and imagery.`);

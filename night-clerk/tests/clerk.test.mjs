@@ -15,14 +15,15 @@ test('recommend respects decade and shelf',()=>{const result=commandReply('/reco
 test('double features are two distinct matching titles',()=>{const result=commandReply('/double-feature 1980s body',films);assert.equal(result.movies.length,2);assert.equal(new Set(result.movies.map(m=>m.id)).size,2)});
 test('unknown requests do not hallucinate answers',()=>{assert.throws(()=>commandReply('tell me anything',films),/Unknown command/);assert.throws(()=>commandReply('/recommend happy movies',films),/Use a decade/);assert.equal(commandReply('/find not on the shelf',films).movies.length,0)});
 test('help contains the approved addresses',()=>{const result=commandReply('/help support',films);assert.match(result.text,/help@neoncoffinvideo.site/);assert.match(result.text,/neondemon_74@neoncoffinvideo.site/)});
-test('town command shares the approved Harrow Point canon and links to the town board',()=>{
- const result=commandReply('/town',films);
- assert.match(result.text,/fictional coastal town in southern Maine, near Old Orchard Beach/);
- assert.match(result.text,/Massachusetts accent stuck/);
- for(const landmark of ['Amusement Pier','Widow’s Rise Burial Ground','Low Tide Mortuary'])assert.ok(result.text.includes(landmark),`Town guide is missing ${landmark}`);
- assert.match(result.text,/not real Old Orchard Beach/);
- assert.equal(result.links[0].url,'https://neoncoffinvideo.site/community#harrow-point');
- assert.match(commandReply('/help town',films).text,/fictional coastal town/);
+test('town commands keep visitors on the store side and lead to the Viewing Room',()=>{
+ for(const command of ['/town','/help town']){
+  const result=commandReply(command,films);
+  assert.match(result.text,/store is here in Old Orchard Beach, Maine/);
+  assert.match(result.text,/Massachusetts accent stuck/);
+  assert.match(result.text,/Viewing Room/);
+  assert.doesNotMatch(result.text,/Harrow Point|Amusement Pier|Mortuary/);
+  assert.equal(result.links[0].url,'https://neoncoffinvideo.site/viewing-room');
+ }
 });
 test('midnight follows Pacific daylight savings',()=>{assert.deepEqual(localClock(Date.parse('2026-10-10T07:00:00Z')),{date:'2026-10-10',hour:0});assert.deepEqual(localClock(Date.parse('2026-12-10T08:00:00Z')),{date:'2026-12-10',hour:0});assert.equal(localClock(Date.parse('2026-12-10T07:00:00Z')).hour,23)});
 test('prompts are deterministic, advance daily, and remain spoiler-light',()=>{assert.equal(promptFor('2026-10-10'),promptFor('2026-10-10'));assert.notEqual(promptFor('2026-10-10'),promptFor('2026-10-11'))});
