@@ -3,7 +3,7 @@ import {readFile, access, stat} from 'node:fs/promises';
 const root=new URL('../',import.meta.url);
 const source=await readFile(new URL('shared/harrow-point-characters.js',root),'utf8');
 const styles=await readFile(new URL('shared/harrow-point-stories.css',root),'utf8');
-const ids=['manager','silas','edmond','mortician','caretaker','mayor','margaret','isabelle','aurelian','vera','captain','bosun','constable','stranger','ephraim','ragged','borrowed','footman','host','blackbacks'];
+const ids=['manager','silas','edmond','mortician','caretaker','mayor','margaret','isabelle','aurelian','vera','captain','bosun','constable','stranger','ephraim','ragged','borrowed','footman','lamprey','host','blackbacks'];
 for(const id of ids)assert.match(source,new RegExp(`^\\s+${id}:`, 'm'),`bio exists: ${id}`);
 for(const canon of ['THE DROWNED BELL GALE','The Harrow Point Undertow','October Town Festival','Vlad III Dracula','AGE 27','VOICE /'])assert.ok(source.includes(canon)||canon==='VOICE /',`character canon exists: ${canon}`);
 const stories=await readFile(new URL('shared/harrow-point-stories.js',root),'utf8');
@@ -31,8 +31,8 @@ assert.doesNotMatch(ledger,/Lantern|LANTERN/,'the paper is The Harrow Point Unde
 const ledgerCss=await readFile(new URL('harrow-point-ledger.css',root),'utf8');assert.match(ledgerCss,/ephraim-pike-press-background-v001\.webp/,'newspaper page uses the Ephraim Pike pressroom background');assert.match(ledgerCss,/UnifrakturMaguntia/,'newspaper masthead uses a bundled blackletter face');
 for(const asset of ['harrow-point/ephraim-pike-press-background-v001.webp','harrow-point/undertow-harbor-bell-v001.webp','harrow-point/undertow-pier-carousel-v001.webp','harrow-point/undertow-low-tide-ad-v001.webp','harrow-point/undertow-ncv-ad-v001.webp','fonts/unifraktur-maguntia.ttf','fonts/im-fell-english-roman.ttf'])await access(new URL('assets/'+asset,root));
 const station=await readFile(new URL('hptv-13.html',root),'utf8');
-for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-last-way-out-background-v005.webp','population 182','You’ve Always Been Here','hptv-control-floor'])assert.ok(station.includes(canon),`station page includes ${canon}`);
-assert.doesNotMatch(station,/hptv-art-overlay|road-sign-type|tube-pink/,'station lettering is part of the photographic artwork, not an HTML graphic overlay');await access(new URL('assets/late-show/hptv-last-way-out-background-v005.webp',root));
+for(const canon of ['HPTV','WHP-TV','Marlow Vane','THE BLACKBACKS','hptv-last-way-out-background-v006.webp','population 182','You’ve Always Been Here','hptv-control-floor'])assert.ok(station.includes(canon),`station page includes ${canon}`);
+assert.doesNotMatch(station,/hptv-art-overlay|road-sign-type|tube-pink/,'station lettering is part of the photographic artwork, not an HTML graphic overlay');await access(new URL('assets/late-show/hptv-last-way-out-background-v006.webp',root));
 assert.match(await readFile(new URL('shared/harrow-point-places.js',root),'utf8'),/hp-place-dialog/,'landmark profiles use an illustrated detail dialog');
 assert.match(await readFile(new URL('harrow-point-atlas.css',root),'utf8'),/\.hp-place-dialog\{position:relative;display:none/,'closed landmark dialogs stay out of document flow to preserve scroll position');
 const stationLogo=await readFile(new URL('assets/late-show/whp-tv-station-logo-v003.svg',root),'utf8');assert.match(stationLogo,/>HPTV<\/text>/,'station logo has a clear station wordmark');assert.match(stationLogo,/>13<\/text>/,'station logo has a clear channel number');assert.match(stationLogo,/transmitter-emblem-v001.png/,'station wordmark uses original coastal transmitter artwork');assert.doesNotMatch(stationLogo,/<rect\b/,'station mark is not lettering inside a box');await access(new URL('assets/late-show/hptv-transmitter-emblem-v001.png',root));
@@ -52,7 +52,7 @@ assert.match(source,/blackbacks\.webp/,'the Blackbacks use a full wraith portrai
 assert.match(home,/href="\/harrow-point"/,'home menu links to town guide');
 assert.match(source,/hp-character-portrait/,'popup includes an accessible portrait image');
 assert.match(styles,/width:min\(510px,calc\(100vw - 30px\)\)/,'character popup stays compact');
-for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-returns/the-last-ride-poster.jpg','assets/late-show/marlow-vane.webp','assets/late-show/blackbacks.webp','assets/late-show/hptv-13-station-mark.svg',...['silas-vale','edmond-vale','mortician','caretaker','mayor-harrow-point','margaret-harrow','isabelle-harrow','aurelian-harrow','vera-wren','captain-rook-bosun','bosun','constable-wainwright','october-stranger','ephraim-pike','ragged-howl','borrowed-face','last-footman'].map(name=>`assets/harrow-point/${name}.webp`)]){
+for(const image of ['assets/night-clerk/past-due-portrait.webp','assets/late-returns/the-last-ride-poster.jpg','assets/late-show/marlow-vane.webp','assets/late-show/blackbacks.webp','assets/late-show/hptv-13-station-mark.svg',...['silas-vale','edmond-vale','mortician','caretaker','mayor-harrow-point','margaret-harrow','isabelle-harrow','aurelian-harrow','vera-wren','captain-rook-bosun','bosun','constable-wainwright','october-stranger','ephraim-pike','ragged-howl','borrowed-face','last-footman','culvert-lamprey'].map(name=>`assets/harrow-point/${name}.webp`)]){
  await access(new URL(image,root));
  assert.ok((await stat(new URL(image,root))).size>(image.endsWith('.svg')?100:10_000),`portrait is present: ${image}`);
 }
