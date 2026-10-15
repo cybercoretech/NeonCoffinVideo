@@ -23,7 +23,7 @@ const atlas=await readFile(new URL('harrow-point.html',root),'utf8');
 for(const canon of ['id="history"','id="landmarks"','id="timeline"','id="residents"','id="archives"','hpFullRoster','data-exclude="ephraim,host,blackbacks"','data-hp-fact="record"','data-hp-fact="sunday"','data-hp-fact="arrivals"','data-hp-fact="place"','data-hp-place="pier"','data-hp-place="graveyard"','data-hp-place="mortuary"','data-hp-place="vesper"','data-hp-place="harbor"','data-hp-place="sawmill"'])assert.ok(atlas.includes(canon),`town guide includes ${canon}`);
 assert.doesNotMatch(atlas,/id="paper"|id="station"/,'newspaper and station sections live on their own pages');
 assert.match(atlas,/harrow-point-town-hall-background-v001\.webp/,'town guide uses the town hall group photo');
-assert.match(atlas,/THE MONTHLY MIDNIGHT FILE/,'town guide top strip matches the main site issue header');
+for(const page of ['harrow-point.html','harrow-point-ledger.html','hptv-13.html']){const town=await readFile(new URL(page,root),'utf8');assert.match(town,/class="hp-strip"/,`${page} has the Harrow Point strip`);assert.match(town,/class="hp-header"/,`${page} has the Harrow Point header`);assert.match(town,/class="hp-return" href="\/viewing-room"/,`${page} has the way back to the Viewing Room`);for(const store of ['primary-navigation','site-membership-button','class="issue-strip"','genre-footer','store-nav.js','neon-coffin-video-logo.webp'])assert.ok(!town.includes(store),`${page} keeps the store out (${store})`);}
 const ledger=await readFile(new URL('harrow-point-ledger.html',root),'utf8');
 for(const canon of ['The Harrow Point','Undertow','Ephraim Pike','In the Margins','undertow-harbor-bell-v001.webp','Mayor’s Address','id="notices"','id="margins"','id="pressman"','data-harrow-character="ephraim"'])assert.ok(ledger.includes(canon),`newspaper page includes ${canon}`);
 for(const canon of ['id="obituaries"','From the Morgue Files','Status: Attending','Status: Not returned','north wall','undertow-funeral-widows-rise-v001.webp'])assert.ok(ledger.includes(canon),`obituaries include ${canon}`);assert.ok((ledger.match(/class="undertow-obit[ "]/g)||[]).length>=8,'obituaries span the town history');await access(new URL('assets/harrow-point/undertow-funeral-widows-rise-v001.webp',root));
@@ -44,7 +44,7 @@ assert.match(station,/data-harrow-character="host"/,'Marlow’s HPTV profile ope
 assert.match(await readFile(new URL('shared/harrow-point-characters.js',root),'utf8'),/hpCharacterChronicle/,'character dialogs include extended dossier details');
 assert.match(await readFile(new URL('harrow-point-ledger.html',root),'utf8'),/data-harrow-character="ephraim"/,'Ephraim Pike opens his full biography');
 assert.match(await readFile(new URL('late-show.css',root),'utf8'),/\.hptv-station[^}]*background:linear-gradient/,'station artwork is reserved for the HPTV page');
-for(const page of ['harrow-point.html','harrow-point-ledger.html','hptv-13.html'])assert.match(await readFile(new URL(page,root),'utf8'),/store-nav.js/);
+for(const page of ['harrow-point.html','harrow-point-ledger.html','hptv-13.html'])assert.match(await readFile(new URL(page,root),'utf8'),/harrow-point-return\.js/,'town pages load the way back to the Viewing Room');
 assert.match(atlas,/href="\/harrow-point-ledger"/,'town guide links to the newspaper archive');
 assert.match(atlas,/href="\/hptv-13"/,'town guide links to the station archive');
 const atlasCss=await readFile(new URL('harrow-point-atlas.css',root),'utf8');

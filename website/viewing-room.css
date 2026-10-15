@@ -58,3 +58,4 @@
 @keyframes vr-white{0%,70%{background:#000}100%{background:#e9eef0}}
 @media(prefers-reduced-motion:reduce){.vr-static,.vr-beta,.vr-tracking,.vr-osd-big{animation:none!important}.vr-transition.is-on{animation:none;background:#111}.vr-transition .vr-static{opacity:.6}}
 @media(max-width:700px){.vr-counter{grid-template-columns:90px 1fr;padding:16px}.vr-tape{width:40px;height:180px}.vr-beta{width:36px;height:140px}}
+.vr-returned .vr-room{animation:vr-wake 2.4s ease-out}@keyframes vr-wake{0%{filter:brightness(2.4) blur(3px)}100%{filter:none}}@media(prefers-reduced-motion:reduce){.vr-returned .vr-room{animation:none}}
