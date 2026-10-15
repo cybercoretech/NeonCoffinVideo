@@ -22,6 +22,8 @@ test('retrieval keeps follow-up anchor and prioritizes the latest decade and she
   assert.equal(picked[0].id,'near-dark');assert.equal(picked[1].id,'candyman');assert(!picked.some(m=>m.id==='the-thing'));
   const messages=modelMessages(chatInput({message:'Tell me more',history:[{role:'user',content:'Near Dark'}]}),picked);
   assert.equal(messages[0].role,'system');assert.match(messages[0].content,/PUBLIC SHELF DATA/);assert.match(messages[0].content,/Harrow Point, Maine/);assert.match(messages[0].content,/not claims about real Old Orchard Beach/);assert.match(messages[0].content,/rickety hand-painted signs/);assert.equal(messages.at(-1).content,'Tell me more');
+  for(const canon of ['video store in Old Orchard Beach','You live in Old Orchard Beach, not Harrow Point','The Waking Room','population of 182','The Late Film','The Late Show belongs to the video store'])assert.ok(messages[0].content.includes(canon),canon);
+  assert.doesNotMatch(messages[0].content,/video store in Harrow Point|is the Night Manager.s home/);
 });
 test('model cards can only use retrieved film IDs and server-built links',()=>{
   const result=aiReply({response:'```json\n'+JSON.stringify({text:'Try Candyman.',filmIds:['candyman','https://evil.example','candyman','missing']})+'\n```'},films,'https://neoncoffinvideo.site');

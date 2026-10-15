@@ -98,3 +98,16 @@
 .primary-navigation a.menu-viewing-room span{color:#65e6ed;text-shadow:0 0 10px #65e6ed88}
 .primary-navigation a.menu-viewing-room small{color:#ff9fd0}
 .primary-navigation a.menu-viewing-room:after{content:'STAFF PICK';position:absolute;top:6px;right:8px;font:8px 'JetBrains Mono',monospace;letter-spacing:1px;color:#bbff57}
+/* Homepage teaser for the Viewing Room */
+.vr-teaser{margin-top:46px;margin-bottom:46px}
+.vr-teaser-link{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:stretch;border:2px solid #65e6ed66;background:#06090d;color:inherit;text-decoration:none;box-shadow:9px 9px #000,0 0 40px #65e6ed14;overflow:hidden}
+.vr-teaser-link img{width:100%;height:100%;object-fit:cover;min-height:260px;transition:transform .4s}
+.vr-teaser-link:hover img,.vr-teaser-link:focus-visible img{transform:scale(1.03)}
+.vr-teaser-copy{display:flex;flex-direction:column;justify-content:center;gap:12px;padding:clamp(20px,3vw,40px)}
+.vr-teaser-copy strong{font:400 clamp(40px,5vw,66px)/.92 'Bebas Neue',sans-serif;color:#f1e8f2}
+.vr-teaser-copy strong em{font-style:normal;color:var(--pink);text-shadow:0 0 22px #ff47a655}
+.vr-teaser-copy>span:not(.eyebrow){font:15px/1.7 'IBM Plex Sans',sans-serif;color:#c9c0cf}
+.vr-teaser-copy b{align-self:flex-start;padding:10px 16px;border:2px solid var(--cyan);color:var(--cyan);font:700 12px 'JetBrains Mono',monospace;letter-spacing:2px;text-transform:uppercase}
+.vr-teaser-link:hover b,.vr-teaser-link:focus-visible b{background:var(--cyan);color:#06131a}
+.vr-teaser-link:focus-visible{outline:3px solid var(--cyan);outline-offset:4px}
+@media(max-width:760px){.vr-teaser-link{grid-template-columns:1fr}.vr-teaser-link img{min-height:200px}}

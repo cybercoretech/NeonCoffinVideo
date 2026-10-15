@@ -3,13 +3,13 @@
 These instructions apply to this repository. The related animation workspace is
 `/home/raven/Animations/NCV_Animations/`; see its `AGENTS.md` for the film and voice production.
 
-The user plans to update the NCV website to carry the fictional town atmosphere
-created for the Night Manager and the short film. Before editing, inspect this
-repository's existing Night Clerk implementation and site design. Treat the
-approved film details as the source of truth:
+Before editing, inspect the existing Night Clerk implementation and site design.
+The 2026-10-14 site split supersedes the earlier store-in-Harrow-Point setting.
+Keep the video store and town as separate experiences; the Viewing Room connects them.
+Treat the approved details below and `website/AGENTS.md` as the source of truth:
 
-- The Night Manager grew up near Boston, Massachusetts, and now lives in the
-  fictional Harrow Point, Maine, near Old Orchard Beach. He retains his natural
+- The Night Manager grew up near Boston, Massachusetts, and now lives in
+  Old Orchard Beach, Maine, where Neon Coffin Video is located. He retains his natural
   Massachusetts accent, worn low rasp, and faint squeak at phrase endings.
 - Harrow Point has the Amusement Pier, Widow's Rise Burial Ground (the old
   cemetery on the hill), and Low Tide Mortuary.
@@ -55,43 +55,50 @@ The Midnight Lounge and "After Hours"). Its first tape is the short
 YouTube Shorts to bring viewers here, with `NEONCOFFINVIDEO.SITE` on screen.
 Finished videos and build notes are in `/home/raven/Animations/NCV_Animations/`.
 
-## Harrow Point and the Night Manager (decided 2026-10-10)
+## The store, Harrow Point, and the Night Manager (updated 2026-10-14)
 
-- Neon Coffin Video itself is in Harrow Point. The footer, homepage welcome article,
-  Late Returns page, Late Show page, 404 page and Lounge carry the town and its three
-  landmarks with short atmospheric lines only. The landmarks' histories stay open for
-  the films.
-- The host is **the Night Manager** everywhere visitors see him: the chat window, Lounge
-  bot, crew bio and homepage. Internal identifiers (`night-clerk` files, `nightClerk`
-  ids, `bot:night-clerk`, the Worker name) keep their old names on purpose.
-- Each landmark sign on the homepage and Lounge town boards and the Late Returns Harrow Point
-  section opens a story dialog (any `data-town-story="pier|widows-rise|low-tide"` button). The
-  story text lives only in `shared/harrow-point-stories.js`, which builds the dialogs; board and
-  dialog styles are in `shared/harrow-point-stories.css`, in the site palette (ink, paper, pink,
-  cyan, green). Late Returns has the Lounge-style header (membership, sign out, green menu) via
-  `late-returns-account.js`. Story canon written 2026-10-11, all fiction: the pier opened
-  Memorial Day 1951 and burned Labor Day night 1979 (ballroom fire; the carousel organ
-  was never found); Widow's Rise has a north-wall row of cut, dated, empty stones and a
-  lantern seen when boats are overdue; Low Tide Mortuary is a sea captain's house run by
-  one family for four generations, with a tidal sea door in the cellar. Keep films and the
-  chat bot consistent with these.
-- The Harrow Point story dialogs also include `town-history` and `lantern`. The homepage,
-  Midnight Lounge, and Late Returns link to the town history and the weekly Sunday paper.
-  Faces After Dark profile copy and portraits live in `shared/harrow-point-characters.js`;
-  profile CSS shares `shared/harrow-point-stories.css`. Keep all lore clearly fictional.
-- Lounge moderation labels say "moderators", so the AI host never appears to moderate.
-- The bot account's live rename needs `migrations/0011-night-manager.sql` applied to
-  the `neon-coffin-community` D1 database when deploying.
+- Neon Coffin Video and the Night Manager are in **Old Orchard Beach, Maine**.
+  Homepage, Lounge, Late Show, Late Returns, rental shelves, and shop use the store
+  chrome. Do not place town boards, town navigation, or HPTV on store pages.
+- **The Viewing Room** (`/viewing-room`) is the only portal: a dirty green sofa,
+  a 1950s console TV hard-wired to a Betamax deck, and one Betamax tape among VHS.
+  Playing it brings Travelers to **The Waking Room**, Lot I on Founders’ Row in
+  Harrow Point. They have no memory of the journey. Travelers do not count toward
+  the population of 182; most are eventually returned to the store's Viewing Room.
+  The Night Manager knows what happens and encourages curious visitors, including
+  teens in the fiction who encounter Silas Vale. The Lounge remains adults-only.
+- Harrow Point, the Undertow, and HPTV have their own town chrome. **Be returned**
+  is the way back to the Viewing Room. Town profiles and landmark dialogs stay on
+  the town side. The Night Manager is not a resident, though his face appears in
+  the 1821 Town Hall portrait. Keep the reason mysterious.
+- HPTV Channel 13 / WHP-TV airs **The Late Film**, hosted by Marlow Vane.
+  **The Late Show** is the video store's separate programme.
+- The host is **the Night Manager** in visitor-facing copy. Internal `night-clerk`
+  names, IDs, Worker name, and `bot:night-clerk` remain unchanged.
+- Town story text lives in `website/shared/harrow-point-stories.js`; character
+  profiles in `harrow-point-characters.js`; place and timeline records in
+  `harrow-point-places.js`. Preserve the nine survey words and their lot order.
+- Landmark canon remains fictional: the pier opened Memorial Day 1951 and burned
+  Labor Day night 1979; its carousel organ was never found. Widow's Rise has a
+  north-wall row of cut, dated, empty stones and a lantern seen when boats are
+  overdue. Low Tide Mortuary is a sea captain's house run by one family for four
+  generations, with a tidal sea door in the cellar. Keep mysteries suggestive.
+- The bot stays on store topics unless asked about town lore; `/town` and
+  `/help town` lead to the Viewing Room. Lounge moderation labels say
+  "moderators", so the AI host never appears to moderate.
+- Pages and the Night Manager Worker deploy separately. Prepare changes on a
+  branch and open a PR for the user to merge. Ask before each deployment.
 
 ## Site-wide consistency (checked 2026-10-11)
 
-- Every page opens with the shared `.issue-strip` (pink/green marker, motto left, boxed
+- Every store page opens with the shared `.issue-strip` (pink/green marker, motto left, boxed
   `NCV / <SECTION> /// …` right), then the header.
 - Section pages (Lounge, Late Show, Late Returns) show their name under the logo in small
   green mono type (`.brand-page-label` / the Lounge and Late Returns `small`).
 - A page's top hero label starts with the glowing green dot: an empty `<span></span>` as
   the label's first child (`.eyebrow` or `.lr-kicker`; styled once in `store-nav.css`).
-- Every menu shows Help Desk, Theme Packs, then the full rental directory in the
+- Every store menu highlights The Viewing Room, then shows Help Desk, Theme Packs,
+  and the full rental directory in the
   homepage's order. Page-only extras go between those: House Rules (Lounge), the Late
   Show's own section links (Late Show).
 - Index, Lounge, Late Show and Late Returns all get the generated `genre-footer`
