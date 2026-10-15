@@ -53,3 +53,7 @@
 .hp-plan-label.area{color:#16210f;text-shadow:0 0 3px #f0e2bd,0 0 7px #f0e2bd}
 .hp-plan-label.note{color:#6e140b;text-shadow:0 0 2px #f0e2bd,0 0 5px #f0e2bd}
 .hp-plan-pin-unnumbered b{border-color:#1d3a52;color:#1d3a52;font-size:15px}
+.hp-ledger-timeline article[data-hp-place]{display:flex;flex-direction:column;cursor:pointer;transition:background .15s,transform .15s}
+.hp-ledger-timeline article[data-hp-place]:hover,.hp-ledger-timeline article[data-hp-place]:focus-visible{background:#121c25;transform:translateY(-2px)}
+.hp-ledger-timeline article[data-hp-place]:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+.hp-timeline-open{margin-top:auto;padding-top:8px;font:9px 'JetBrains Mono';letter-spacing:1.2px;color:#65e6ed}
