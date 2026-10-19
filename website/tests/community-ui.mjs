@@ -15,6 +15,9 @@ for(const id of ['the-mutilator','hardware','zombi-2','chud','near-dark']){
 assert.match(html,/id="featureCatalogLink"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
 assert.match(html,/id="featureArtLink"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
 assert.match(html,/community\.js\?v=[a-z0-9-]+/);
+assert.match(html,/automated-regulars\.js\?v=[a-z0-9-]+/);
+for(const name of ['The Pale Archivist','Moth on the Lens','The Last Customer','Bellwether 13','Dead Channel'])assert(html.includes(name),`The automated regular roster includes ${name}`);
+assert.match(html,/maximum of one may post a clearly labeled reply each night/);
 assert.match(html,/community\.css\?v=[a-z0-9]+/);
 assert.match(html,/Old Orchard Beach, Maine/);assert.doesNotMatch(html,/Harrow Point|data-town-story/);
 const clerk=readFileSync(new URL('../night-clerk-ui.js',import.meta.url),'utf8');assert.equal((clerk.match(/data-clerk-command="\/town"/g)||[]).length,1);assert.match(clerk,/Viewing Room/);assert.doesNotMatch(clerk,/Harrow Point|#harrow-point/);

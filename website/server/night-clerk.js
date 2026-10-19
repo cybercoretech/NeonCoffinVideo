@@ -1,3 +1,4 @@
+import {regulars} from '../../night-clerk/src/regulars.js';
 const encoder=new TextEncoder();
 export const BOT_ID='b1111111-1111-4111-8111-111111111111';
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -41,13 +42,32 @@ export async function nightClerk(request,env) {
     const bytes=Uint8Array.from(signature.match(/../g),v=>parseInt(v,16));
     if(!await crypto.subtle.verify('HMAC',key,bytes,encoder.encode(timestamp+'\n'+body)))return json({error:'Bot signature rejected.'},401);
     let payload;try{payload=JSON.parse(body)}catch{invalid('Invalid JSON.')}
-    if(!payload||!['prompt','announcement'].includes(payload.kind)||payload.key!==`night-clerk:${payload.kind}:${payload.key?.slice(-10)}`||!/^night-clerk:(prompt|announcement):\d{4}-\d{2}-\d{2}$/.test(payload.key))invalid('Invalid bot delivery key.');
-    if(typeof payload.title!=='string'||payload.title.trim().length<5||payload.title.length>120||typeof payload.body!=='string'||payload.body.trim().length<10||payload.body.length>5000)invalid('Invalid bot post.');
+    if(!payload||!['prompt','announcement','reply'].includes(payload.kind)||!new RegExp(`^night-clerk:${payload.kind}:\\d{4}-\\d{2}-\\d{2}$`).test(payload.key||''))invalid('Invalid bot delivery key.');
+    if(typeof payload.body!=='string'||payload.body.trim().length<10||payload.body.length>5000)invalid('Invalid bot post.');
+    if(payload.kind==='reply'){
+      if(typeof payload.topic!=='string'||payload.topic.length>80||!regulars.some(persona=>persona.id===payload.personaId))invalid('Invalid automated reply.');
+    }else if(typeof payload.title!=='string'||payload.title.trim().length<5||payload.title.length>120)invalid('Invalid bot post.');
     const db=env.COMMUNITY_DB;if(!db)invalid('Community storage unavailable.',503);
+    if(payload.kind==='reply'){
+      const already=await db.prepare('SELECT post FROM bot_replies WHERE key=?').bind(payload.key).first();
+      if(already)return json({id:payload.topic,postId:already.post,duplicate:true});
+      const target=await db.prepare('SELECT t.locked,m.is_bot FROM topics t JOIN members m ON m.id=t.author WHERE t.id=?').bind(payload.topic).first();
+      if(!target)invalid('Discussion not found.',404);
+      if(target.locked)invalid('Discussion is locked.',403);
+      if(target.is_bot)invalid('Automated regulars only reply to human-started discussions.',403);
+      const persona=regulars.find(row=>row.id===payload.personaId),post=crypto.randomUUID(),now=Math.floor(Date.now()/1000);
+      try{await db.batch([
+        db.prepare('INSERT INTO members(id,google_sub,handle,display_name,bio,avatar_data,created,age_confirmed_at,is_bot,show_online) VALUES(?,?,?,?,?,?,?,?,1,0) ON CONFLICT(id) DO NOTHING').bind(persona.id,persona.googleSub,persona.handle,persona.displayName,persona.bio,persona.avatar,now,now),
+        db.prepare('INSERT INTO posts(id,topic,author,body,spoiler,created) VALUES(?,?,?,?,0,?)').bind(post,payload.topic,persona.id,payload.body.trim(),now),
+        db.prepare('INSERT INTO bot_replies(key,topic,author,post,created) VALUES(?,?,?,?,?)').bind(payload.key,payload.topic,persona.id,post,now)
+      ])}catch(error){const delivered=await db.prepare('SELECT post FROM bot_replies WHERE key=?').bind(payload.key).first();if(delivered)return json({id:payload.topic,postId:delivered.post,duplicate:true});throw error}
+      return json({id:payload.topic,postId:post,duplicate:false},201);
+    }
     const already=await db.prepare('SELECT topic FROM bot_deliveries WHERE key=?').bind(payload.key).first();
     if(already)return json({id:already.topic,duplicate:true});
-    // The signed publisher can write only as this service identity, in two rooms.
-    // There is no credential for member sessions, moderation, edits, or deletion.
+    // The signed publisher can create only daily house posts or post one
+    // scheduled reply as an allowlisted, visibly automated regular.
+    // It has no credential for member sessions, moderation, edits, or deletion.
     const now=Math.floor(Date.now()/1000),topic=crypto.randomUUID();
     try{await db.batch([
       db.prepare('INSERT INTO members(id,google_sub,handle,display_name,bio,avatar_data,created,age_confirmed_at,is_bot,show_online) VALUES(?,?,?,?,?,?,?,?,1,0) ON CONFLICT(id) DO NOTHING').bind(BOT_ID,'bot:night-clerk','NightManager','The Night Manager','Automated Neon Coffin Video house host. Catalog picks, nightly questions, and help at the counter.','preset:radioactive-skull',now,now),

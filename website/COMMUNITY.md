@@ -55,8 +55,11 @@ The bot source is in `night-clerk/` in the active website folder and archived as
 API, schedule, and private CLI controls. The separate Worker has its own D1
 database and does not bind community storage. The site's
 `/api/community/bot/publish` endpoint verifies a five-minute HMAC signature,
-allows only the Night Clerk identity and prompt/announcement rooms, and deduplicates
-delivery keys atomically. Schema additions are in `0010-night-clerk.sql`.
+allows the Night Manager's daily prompt/catalog posts and allowlisted automated
+regulars' scheduled replies to unlocked human-started threads, and deduplicates
+delivery keys atomically. Automated accounts and posts carry visible bot labels
+and are excluded from human member counts. Schema additions are in
+`0010-night-clerk.sql` through `0012-automated-regulars.sql`.
 
 The browser uses the same-origin `/api/community/bot/command` proxy and sends only
 the entered command. The bot reads `night-clerk-catalog.json`, generated from all

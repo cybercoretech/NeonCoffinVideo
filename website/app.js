@@ -46,7 +46,7 @@ function renderShelf(){$('#savedFilms').innerHTML=saved.size?[...saved].map(id=>
 const pairArt=p=>`<div class="program-art">${p.films.map(id=>`<img src="${art(film(id))}" alt="${escapeHTML(film(id).title)} poster" loading="lazy">`).join('')}</div>`;
 $('#featuredPosters').innerHTML=programs[0].films.map(id=>`<button data-film="${id}" aria-label="Open ${escapeHTML(film(id).title)}"><img src="${art(film(id))}" alt="${escapeHTML(film(id).title)} theatrical poster"></button>`).join('');
 $('#programGrid').innerHTML=programs.map((p,i)=>`<article class="program-card ${p.id==='trioxin'?'trioxin':''}">${pairArt(p)}<div class="program-copy"><span>PROGRAM / 0${i+1} · ${p.tag}</span><h3>${p.title}</h3><p>${p.note}</p><button class="text-button" data-program="${p.id}">Open the double bill ↗</button></div></article>`).join('');
-$('#calendarProgram').innerHTML=programs.map(p=>`<option value="${p.id}">${p.title}</option>`).join('');renderFilms();renderShelf();
+$('#calendarProgram').innerHTML=programs.map(p=>`<option value="${p.id}">${p.title}</option>`).join('');renderFilms();renderShelf();const requestedTape=new URLSearchParams(location.search).get('tape');if(requestedTape&&film(requestedTape)){$('#movieSearch').value=film(requestedTape).title;catalogueOpen=true;renderFilms()}
 const shapes={tape:'<rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="11" r="2.5"/><circle cx="16" cy="11" r="2.5"/><path d="M7 17l2-3h6l2 3M8 11h8"/>',ticket:'<path d="M3 6h18v4a2 2 0 000 4v4H3v-4a2 2 0 000-4V6zM8 6v12M16 6v12"/>',projector:'<circle cx="7" cy="6" r="3"/><circle cx="15" cy="6" r="3"/><rect x="3" y="10" width="15" height="9" rx="1"/><path d="M18 12l4-2v9l-4-2M6 22v-3M15 22v-3M7 14h7"/>',clock:'<circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 3"/>',moon:'<path d="M20 15A9 9 0 019 3a9 9 0 1011 12zM18 3v4M16 5h4"/>',search:'<circle cx="10" cy="10" r="6"/><path d="M15 15l6 6"/>',dice:'<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r=".8"/><circle cx="16" cy="8" r=".8"/><circle cx="12" cy="12" r=".8"/><circle cx="8" cy="16" r=".8"/><circle cx="16" cy="16" r=".8"/>',popcorn:'<path d="M5 9l2 13h10l2-13H5zM9 9l1 13M15 9l-1 13M5 9a3 3 0 012-5 3 3 0 015-2 3 3 0 015 2 3 3 0 012 5"/>'};
 $$('[data-icon]').forEach(el=>el.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true">${shapes[el.dataset.icon]||shapes.tape}</svg>`);
 function openDialog(id){$$('dialog[open]').forEach(d=>d.close());$(id).showModal()}
@@ -85,7 +85,7 @@ $('#trioxinFilms').innerHTML=trioxinFilmIds.map((id,i)=>{const f=film(id);return
 function syncSaveButtons(){document.querySelectorAll('.trioxin-tape [data-save]').forEach(b=>{const yes=saved.has(b.dataset.save);b.textContent=yes?'On my shelf ✓':'Save to my shelf +';b.setAttribute('aria-pressed',String(yes))})}
 syncSaveButtons();
 
-import('./stats-counter.js').then(({startStatsCounter}) => startStatsCounter({filmCount: films.length}));
+import('./stats-counter.js?v=20261019c').then(({startStatsCounter}) => startStatsCounter({filmCount: films.length, films: films.map(f => ({...f, poster: art(f)})), aisles: cryptAisles.slice(1)}));
 
 if(location.hash === "#artwork-credits") $("#creditsButton").click();
 

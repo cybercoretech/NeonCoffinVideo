@@ -1,5 +1,6 @@
 import {identity,normalizeCatalog,commandReply,localClock,promptFor} from './clerk.js';
 import {AI_MODEL,limits,chatInput,chatReply,clientKey} from './chat.js';
+import {regulars,regularReply} from './regulars.js';
 const enc=new TextEncoder();
 const fail=(message,status=400)=>{throw Object.assign(new Error(message),{status})};
 const response=(value,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -40,7 +41,10 @@ export async function deliverPending(env) {
   for(const job of pending.results){
     if((await env.BOT_DB.prepare('SELECT paused FROM settings WHERE id=1').first())?.paused)break;
     const result=await publish(env,JSON.parse(job.payload));
-    await env.BOT_DB.prepare('UPDATE jobs SET delivered=?,topic=? WHERE id=?').bind(Math.floor(Date.now()/1000),result.id,job.id).run();delivered.push({key:job.id,topic:result.id});
+    const payload=JSON.parse(job.payload),deliveredAt=Math.floor(Date.now()/1000);
+    await env.BOT_DB.prepare('UPDATE jobs SET delivered=?,topic=? WHERE id=?').bind(deliveredAt,result.id,job.id).run();
+    if(payload.kind==='reply')await env.BOT_DB.prepare('INSERT OR IGNORE INTO regular_replies(topic,reply_key,created) VALUES(?,?,?)').bind(payload.topic,job.id,deliveredAt).run();
+    delivered.push({key:job.id,topic:result.id});
   }
   return delivered;
 }
@@ -66,8 +70,28 @@ export async function runNightly(env,time=Date.now(),{force=false}={}) {
   }
   // Persist the baseline only after the announcement is in the durable outbox.
   await env.BOT_DB.prepare('INSERT INTO catalog_state(id,seen,checked) VALUES(1,?,?) ON CONFLICT(id) DO UPDATE SET seen=excluded.seen,checked=excluded.checked').bind(JSON.stringify(ids),now).run();
+  await queueRegularReply(env,clock,now);
   const delivered=await deliverPending(env);
   return {date:clock.date,delivered};
+}
+async function queueRegularReply(env,clock,now) {
+  const key='night-clerk:reply:'+clock.date;
+  if(await env.BOT_DB.prepare('SELECT 1 AS yes FROM jobs WHERE id=?').bind(key).first())return;
+  const response=await fetch(originFor(env)+'/api/community/topics?offset=0',{signal:AbortSignal.timeout(10000)});
+  if(!response.ok)throw new Error('Lounge discussions unavailable');
+  const data=await response.json(),topics=Array.isArray(data.topics)?data.topics:[];
+  const cutoff=now-14*86400;
+  let candidate=null;
+  for(const topic of topics){
+    if(!topic||typeof topic.id!=='string'||topic.isBot||topic.locked||Number(topic.created)<cutoff||Number(topic.created)>now)continue;
+    if(await env.BOT_DB.prepare('SELECT 1 AS yes FROM regular_replies WHERE topic=?').bind(topic.id).first())continue;
+    candidate=topic;break;
+  }
+  if(!candidate)return;
+  const index=Math.floor(Date.parse(clock.date+'T00:00:00Z')/86400000)%regulars.length;
+  const persona=regulars[index];
+  const payload={key,kind:'reply',topic:candidate.id,personaId:persona.id,body:regularReply(persona,candidate.title)};
+  await env.BOT_DB.prepare('INSERT OR IGNORE INTO jobs(id,kind,payload,created) VALUES(?,?,?,?)').bind(key,'reply',JSON.stringify(payload),now).run();
 }
 export default {
   async fetch(request,env) {

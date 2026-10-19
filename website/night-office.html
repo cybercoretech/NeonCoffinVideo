@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#0b1015">
+  <title>Night Office / Neon Coffin Video</title>
+  <link rel="stylesheet" href="fonts.css?v=20261018a">
+  <link rel="stylesheet" href="night-office.css?v=20261018a">
+</head>
+<body>
+  <main class="office-shell">
+    <header class="office-head">
+      <a class="office-mark" href="/" aria-label="Neon Coffin Video home">NCV<span> / PRIVATE SITE OFFICE</span></a>
+      <a href="/community">Return to the Lounge ↗</a>
+    </header>
+    <section id="gate" class="office-gate" aria-live="polite">
+      <p class="eyebrow">OWNER ACCESS / GOOGLE MEMBERSHIP</p>
+      <h1>THE NIGHT OFFICE</h1>
+      <p id="gateMessage">Checking the membership ledger…</p>
+      <a id="signIn" class="button" href="/community#profile" hidden>Sign in with the owner account</a>
+    </section>
+    <div id="dashboard" hidden>
+      <div class="office-title"><div><p class="eyebrow">OWNER ACCESS / PRIVATE CONTROL ROOM</p><h1>THE NIGHT OFFICE</h1></div><span id="ownerName"></span></div>
+      <p id="status" class="status" role="status"></p>
+      <section class="metric-grid" id="metrics" aria-label="Site overview"></section>
+      <section class="panel traffic-panel">
+        <div class="section-heading"><div><p class="eyebrow">LAST 30 TRACKED DAYS</p><h2>Homepage Counter Report</h2></div><small id="trafficNote"></small></div>
+        <div id="trafficChart" class="traffic-chart" role="img" aria-label="Daily homepage loads, last 30 tracked days"></div>
+      </section>
+      <section class="panel">
+        <div class="section-heading"><div><p class="eyebrow">PUBLISH AS THE OWNER</p><h2>Put a notice on the counter</h2></div></div>
+        <p class="helper">Creates a clearly owner-authored discussion in The Counter on the Midnight Lounge.</p>
+        <form id="announcementForm">
+          <label>Headline<input name="title" minlength="5" maxlength="120" required placeholder="A new tape has arrived…"></label>
+          <label>Notice<textarea name="body" minlength="10" maxlength="5000" rows="5" required></textarea></label>
+          <button class="button" type="submit">Post to The Counter ↗</button>
+        </form>
+      </section>
+      <section class="panel">
+        <div class="section-heading"><div><p class="eyebrow">REVIEW &amp; RESPOND</p><h2>Reported posts <span id="reportCount" class="count"></span></h2></div></div>
+        <div id="reports" class="record-list"></div>
+      </section>
+      <section class="panel">
+        <div class="section-heading"><div><p class="eyebrow">DISCUSSION CONTROLS</p><h2>Recent discussions</h2></div></div>
+        <div id="topics" class="record-list"></div>
+      </section>
+      <section class="panel">
+        <div class="section-heading"><div><p class="eyebrow">RESTORE IF A POST WAS HIDDEN BY MISTAKE</p><h2>Hidden posts</h2></div></div>
+        <div id="hiddenPosts" class="record-list"></div>
+      </section>
+      <p class="office-foot">The catalogue, artwork, and page layout are still maintained as site updates. This office manages Lounge content and moderation.</p>
+    </div>
+    <noscript>The Night Office requires JavaScript to verify owner access.</noscript>
+  </main>
+  <script src="night-office.js?v=20261018a" defer></script>
+</body>
+</html>
