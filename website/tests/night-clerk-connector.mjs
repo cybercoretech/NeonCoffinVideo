@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {community} from '../server/community.js';
 import {previewDatabase} from '../preview-store.mjs';
+import {regulars} from '../../night-clerk/src/regulars.js';
 const db=previewDatabase(':memory:'),secret='test-signing-key-not-real',origin='https://neoncoffinvideo.site',env={COMMUNITY_DB:db,SITE_ORIGIN:origin,NIGHT_CLERK_SHARED_SECRET:secret};
 const payload={key:'night-clerk:prompt:2026-10-10',kind:'prompt',title:'Which horror sequel earns another spin?',body:'The automated house host wants your take. Keep spoilers marked.'};
 async function request(value=payload,{key=secret,time=Math.floor(Date.now()/1000),unsigned=false}={}){
@@ -17,6 +18,18 @@ try{
  const topics=await (await community(new Request(origin+'/api/community/topics'),env)).json();assert.equal(topics.topics[0].isBot,1);
  const stats=await (await community(new Request(origin+'/api/community/stats'),env)).json();assert.equal(stats.members,0);assert.equal(stats.discussions,1);assert.equal(stats.posts,1);
  assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM sessions').first()).n,0);
+ const humanId='human-regular-test',humanTopic='human-topic-regular-test',humanNow=Math.floor(Date.now()/1000);
+ await db.prepare('INSERT INTO members(id,google_sub,handle,created,age_confirmed_at,is_bot) VALUES(?,?,?,?,?,0)').bind(humanId,'google:test-regular','FilmFan',humanNow,humanNow).run();
+ await db.prepare('INSERT INTO topics(id,author,category,title,created) VALUES(?,?,?,?,?)').bind(humanTopic,humanId,'movie-talk','Practical creature effects that still work',humanNow).run();
+ const regular=regulars[0],regularPayload={key:'night-clerk:reply:2026-10-11',kind:'reply',topic:humanTopic,personaId:regular.id,body:'“Practical creature effects that still work” deserves a place under glass.'};
+ assert.equal((await community(await request({...regularPayload,personaId:'not-allowlisted'}),env)).status,400);
+ assert.equal((await community(await request({...regularPayload,topic:delivered.id}),env)).status,403);
+ res=await community(await request(regularPayload),env);assert.equal(res.status,201);const firstReply=await res.json();
+ res=await community(await request(regularPayload),env);assert.equal(res.status,200);assert.equal((await res.json()).postId,firstReply.postId);
+ const regularThread=await (await community(new Request(origin+'/api/community/thread?id='+humanTopic),env)).json();assert.equal(regularThread.posts[0].role,'BOT / AUTOMATED REGULAR');assert.equal(regularThread.posts[0].isBot,true);
+ const regularProfile=await (await community(new Request(origin+'/api/community/profile?id='+regular.id),env)).json();assert.equal(regularProfile.member.role,'BOT / AUTOMATED REGULAR');assert.match(regularProfile.member.bio,/automated/);
+ assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM members WHERE is_bot=1').first()).n,2);
+ const updatedStats=await (await community(new Request(origin+'/api/community/stats'),env)).json();assert.equal(updatedStats.members,1);assert.equal(updatedStats.posts,2);
  const original=globalThis.fetch;
  try{
   globalThis.fetch=async(url,options)=>{
@@ -34,5 +47,5 @@ try{
   const foreign=new Request(origin+'/api/community/bot/chat',{method:'POST',headers:{Origin:'https://evil.example','Content-Type':'application/json'},body:'{}'});
   assert.equal((await community(foreign,{...env,NIGHT_CLERK_URL:'https://clerk.example'})).status,403);
  }finally{globalThis.fetch=original}
- console.log('PASS: signed bot delivery and chat proxy, client signature, no forwarded session, stale/forged/anonymous rejection, limited post kinds, idempotent delivery, bot badges, no login sessions, bot excluded from member counts.');
+ console.log('PASS: signed bot delivery and chat proxy, client signature, no forwarded session, stale/forged/anonymous rejection, human-thread-only automated replies, allowlisted identities, idempotent delivery, bot badges and bios, no login sessions, bots excluded from member counts.');
 }finally{db.close()}

@@ -106,6 +106,14 @@ and retries while commands remain available. Manual runs reuse the same daily
 keys. The connector's atomic transaction prevents duplicate threads even if a
 response is lost or two runs overlap.
 
+Five fictional regulars rotate through scheduled replies: The Pale Archivist,
+Moth on the Lens, The Last Customer, Bellwether 13, and Dead Channel. At most
+one replies per night, only to a recent, unlocked discussion started by a
+human, and each thread receives at most one regular reply. Bot-started threads,
+locked threads, and threads older than fourteen days are skipped. Their Lounge
+profiles and posts are explicitly labeled **BOT / AUTOMATED REGULAR**; they are
+excluded from human member counts. The characters never claim to be people.
+
 Posts use the `NightClerk` service identity, visibly labeled **BOT / HOUSE HOST**.
 It has no login session, Google identity, password, or moderation authority.
 It is excluded from human membership and online roster counts. Rewind and

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import worker,{runNightly} from '../src/worker.js';
-function database(){const db=new DatabaseSync(':memory:');for(const name of ['0001-bot-state.sql','0002-ai-usage.sql'])db.exec(readFileSync(new URL('../migrations/'+name,import.meta.url),'utf8'));return {raw:db,prepare(sql){let args=[];return {bind(...values){args=values;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){return db.prepare(sql).run(...args)}}}}}
+function database(){const db=new DatabaseSync(':memory:');for(const name of ['0001-bot-state.sql','0002-ai-usage.sql','0003-automated-regulars.sql'])db.exec(readFileSync(new URL('../migrations/'+name,import.meta.url),'utf8'));return {raw:db,prepare(sql){let args=[];return {bind(...values){args=values;return this},async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){return db.prepare(sql).run(...args)}}}}}
 const films=[{id:'the-thing',title:'The Thing',year:1982,category:'body'},{id:'the-fly',title:'The Fly',year:1986,category:'body'}];
 const env={SITE_ORIGIN:'https://neoncoffinvideo.site',TIME_ZONE:'America/Los_Angeles',PUBLISH_HOUR:'0',ADMIN_TOKEN:'test-admin-token-not-a-real-secret',LOUNGE_SIGNING_SECRET:'test-signing-key-not-a-real-secret'};
 const request=(path,body,token)=>new Request('https://clerk.example'+path,{method:body?'POST':'GET',headers:{...(body?{'Content-Type':'application/json'}:{}),...(token?{Authorization:'Bearer '+token}:{})},...(body?{body:JSON.stringify(body)}:{})});
@@ -12,11 +12,30 @@ test('commands reject foreign origins, excessive input, and rate-limit hits',asy
 test('pause requires the private admin token and is durable',async()=>{const db=database(),configured={...env,BOT_DB:db};assert.equal((await worker.fetch(request('/admin/pause',{paused:true},env.ADMIN_TOKEN),configured)).status,200);assert.equal(db.raw.prepare('SELECT paused FROM settings').get().paused,1);const result=await runNightly(configured,Date.parse('2026-10-10T07:00:00Z'));assert.equal(result.paused,true);db.raw.close()});
 test('nightly deliveries deduplicate and survive an upstream failure',async()=>{
   const db=database(),configured={...env,BOT_DB:db},original=globalThis.fetch,deliveries=[];let fail=false;
-  globalThis.fetch=async(url,options)=>{if(String(url).endsWith('/night-clerk-catalog.json'))return Response.json(films);if(fail)throw new Error('Temporary failure');const payload=JSON.parse(options.body);assert.match(options.headers['X-NCV-Bot-Signature'],/^[a-f0-9]{64}$/);deliveries.push(payload.key);return Response.json({id:'thread-'+payload.key})};
+  globalThis.fetch=async(url,options)=>{if(String(url).endsWith('/night-clerk-catalog.json'))return Response.json(films);if(String(url).includes('/api/community/topics'))return Response.json({topics:[]});if(fail)throw new Error('Temporary failure');const payload=JSON.parse(options.body);assert.match(options.headers['X-NCV-Bot-Signature'],/^[a-f0-9]{64}$/);deliveries.push(payload.key);return Response.json({id:'thread-'+payload.key})};
   try{const time=Date.parse('2026-10-10T07:00:00Z');assert.equal((await runNightly(configured,time)).delivered.length,1);assert.equal((await runNightly(configured,time)).delivered.length,0);assert.equal(deliveries.length,1);assert.equal((await runNightly(configured,time+3600000)).skipped,true);fail=true;await assert.rejects(()=>runNightly(configured,time+86400000),/Temporary failure/);assert.equal(db.raw.prepare('SELECT COUNT(*) AS n FROM jobs WHERE delivered IS NULL').get().n,1);fail=false;await runNightly(configured,time+86400000);assert.equal(deliveries.length,2)}finally{globalThis.fetch=original;db.raw.close()}
 });
 test('catalog baseline avoids old-title announcements and later additions get one digest',async()=>{
   const db=database(),configured={...env,BOT_DB:db},original=globalThis.fetch,posts=[];let current=[...films];
-  globalThis.fetch=async(url,options)=>{if(String(url).endsWith('/night-clerk-catalog.json'))return Response.json(current);const payload=JSON.parse(options.body);posts.push(payload);return Response.json({id:'thread-'+posts.length})};
+  globalThis.fetch=async(url,options)=>{if(String(url).endsWith('/night-clerk-catalog.json'))return Response.json(current);if(String(url).includes('/api/community/topics'))return Response.json({topics:[]});const payload=JSON.parse(options.body);posts.push(payload);return Response.json({id:'thread-'+posts.length})};
   try{const time=Date.parse('2026-10-10T07:00:00Z');await runNightly(configured,time);assert.equal(posts.length,1);assert.equal(posts[0].kind,'prompt');current.push({id:'near-dark',title:'Near Dark',year:1987,category:'supernatural'});await runNightly(configured,time+86400000);assert.equal(posts.length,3);const digest=posts.find(p=>p.kind==='announcement');assert.match(digest.body,/Near Dark \(1987\)/);assert(!digest.body.includes('The Thing'));await runNightly(configured,time+86400000);assert.equal(posts.length,3)}finally{globalThis.fetch=original;db.raw.close()}
+});
+test('one clearly identified regular replies per day to a recent unlocked human-started discussion',async()=>{
+  const db=database(),configured={...env,BOT_DB:db},original=globalThis.fetch,posts=[];
+  const time=Date.parse('2026-10-10T07:00:00Z');
+  globalThis.fetch=async(url,options)=>{
+    if(String(url).endsWith('/night-clerk-catalog.json'))return Response.json(films);
+    if(String(url).includes('/api/community/topics'))return Response.json({topics:[
+      {id:'human-thread',title:'Which practical creature effect still holds up?',created:Math.floor(time/1000)-3600,isBot:0,locked:0},
+      {id:'bot-thread',title:'Night Manager prompt',created:Math.floor(time/1000)-1200,isBot:1,locked:0},
+      {id:'locked-thread',title:'Old locked thread',created:Math.floor(time/1000)-600,isBot:0,locked:1}
+    ]});
+    const payload=JSON.parse(options.body);posts.push(payload);return Response.json({id:payload.topic||'thread-'+payload.key,postId:'post-'+posts.length});
+  };
+  try{
+    await runNightly(configured,time);assert.equal(posts.length,2);
+    const reply=posts.find(post=>post.kind==='reply');assert.equal(reply.topic,'human-thread');assert.match(reply.key,/^night-clerk:reply:/);assert.match(reply.body,/practical creature effect/);assert.match(reply.personaId,/^d[1-5]/);
+    await runNightly(configured,time);assert.equal(posts.length,2);
+    await runNightly(configured,time+86400000);assert.equal(posts.filter(post=>post.kind==='reply').length,1);
+  }finally{globalThis.fetch=original;db.raw.close()}
 });

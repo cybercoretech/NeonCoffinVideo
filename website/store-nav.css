@@ -111,3 +111,12 @@
 .vr-teaser-link:hover b,.vr-teaser-link:focus-visible b{background:var(--cyan);color:#06131a}
 .vr-teaser-link:focus-visible{outline:3px solid var(--cyan);outline-offset:4px}
 @media(max-width:760px){.vr-teaser-link{grid-template-columns:1fr}.vr-teaser-link img{min-height:200px}}
+
+/* Neon Coffin Video's store menu. Harrow Point uses its separate town chrome. */
+:is(.header,.lounge-header) .primary-navigation{border-color:#ff47a67a;background:radial-gradient(ellipse at 8% 0%,#ff47a61b,transparent 42%),radial-gradient(ellipse at 100% 100%,#65e6ed14,transparent 42%),#080b10;box-shadow:0 20px 60px #000c,0 0 20px #ff47a625,0 0 34px #65e6ed12}
+.menu-heading{border-bottom-color:#ff47a654;text-shadow:0 0 10px #bbff5740}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button){border-color:#65e6ed24;background:linear-gradient(125deg,#65e6ed08,#ff47a605 65%,#bbff5707)}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button):nth-of-type(3n+1){border-left-color:#ff47a66b}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button):nth-of-type(3n+2){border-left-color:#65e6ed6b}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button):nth-of-type(3n){border-left-color:#bbff576b}
+:is(.header,.lounge-header) .primary-navigation>:is(a,button):hover,:is(.header,.lounge-header) .primary-navigation>:is(a,button):focus-visible{border-color:#bbff57;background:linear-gradient(110deg,#bbff5717,#ff47a60c);box-shadow:0 0 14px #bbff571b}
