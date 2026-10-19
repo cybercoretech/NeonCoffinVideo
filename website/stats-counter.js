@@ -9,6 +9,28 @@ const statDetails = {
 
 const utcDate = date => date.toISOString().slice(0, 10);
 const number = value => new Intl.NumberFormat().format(value);
+const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
+
+function curatedShelfMarkup(films, aisles) {
+  if (!films.length) return '<p class="curated-empty">The tape records are unavailable. Try opening the shelves directly.</p>';
+  const decades = new Map();
+  const genres = new Map();
+  for (const film of films) {
+    if (Number.isInteger(film.year)) {
+      const decade = `${Math.floor(film.year / 10) * 10}s`;
+      decades.set(decade, (decades.get(decade) || 0) + 1);
+    }
+    if (film.category) genres.set(film.category, (genres.get(film.category) || 0) + 1);
+  }
+  const decadeRows = [...decades].sort(([a], [b]) => a.localeCompare(b)).map(([decade, count]) => `<div class="curated-breakdown-row"><span>${decade}</span><i><b style="width:${Math.round(count / films.length * 100)}%"></b></i><strong>${number(count)}</strong></div>`).join('');
+  const genreNames = Object.fromEntries(aisles.map(aisle => [aisle.id, aisle.title]));
+  const genreRows = [...genres].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 6).map(([genre, count]) => `<div class="curated-breakdown-row"><span>${escapeHTML(genreNames[genre] || genre)}</span><i><b style="width:${Math.round(count / films.length * 100)}%"></b></i><strong>${number(count)}</strong></div>`).join('');
+  const day = Math.floor(Date.now() / 86400000);
+  const pick = films[((day % films.length) + films.length) % films.length];
+  const poster = pick.poster || `assets/${pick.id}.${pick.art || 'jpg'}`;
+  const pickLink = `/?tape=${encodeURIComponent(pick.id)}#shelves`;
+  return `<div class="curated-rental-card"><div><span>NEON COFFIN VIDEO / RENTAL RECORD</span><strong>${number(films.length)} TAPES IN THE VAULT</strong></div><small>NO MEMBERSHIP · NO LATE FEES · RETURN WHEN THE SUN COMES UP</small></div><div class="curated-breakdowns"><section><h3>THE RACK BY DECADE</h3>${decadeRows}</section><section><h3>THE RACK BY GENRE</h3>${genreRows}</section></div><article class="curated-staff-pick"><img src="/${escapeHTML(poster.replace(/^\//, ''))}" alt="${escapeHTML(pick.title)} poster" loading="lazy"><div><p class="eyebrow">TODAY’S ROTATING STAFF PICK</p><h3>${escapeHTML(pick.title)}</h3><p class="curated-staff-meta">${escapeHTML(pick.year)} · ${escapeHTML(genreNames[pick.category] || pick.category || 'CURATED RENTAL')}</p><p>${escapeHTML(pick.note || 'A hand-picked title from the rental rack. The Night Manager recommends keeping the lights on.')}</p><a href="${pickLink}">PULL THIS TAPE FROM THE RACK ↗</a></div></article>`;
+}
 
 function viewsHistoryMarkup(daily, trackingStarted) {
   const today = new Date();
@@ -49,7 +71,7 @@ function viewsHistoryMarkup(daily, trackingStarted) {
 }
 
 // A page load records one anonymous view. Refreshes only read existing totals.
-export function startStatsCounter({filmCount, root = document, request = fetch, interval = 60000} = {}) {
+export function startStatsCounter({filmCount, films = [], aisles = [], root = document, request = fetch, interval = 60000} = {}) {
   const note = root.querySelector('#statsNote');
   if (!note) return;
   const format = new Intl.NumberFormat();
@@ -69,6 +91,7 @@ export function startStatsCounter({filmCount, root = document, request = fetch, 
     const history = root.querySelector('#viewsHistory');
     const summary = root.querySelector('#viewsSummary');
     const heatmap = root.querySelector('#viewsHeatmap');
+    const curatedDetail = root.querySelector('#curatedDetail');
     root.querySelectorAll('[data-stat-info]').forEach(trigger => {
       trigger.addEventListener('click', () => {
         const key = trigger.dataset.statInfo;
@@ -89,6 +112,10 @@ export function startStatsCounter({filmCount, root = document, request = fetch, 
           root.querySelector('#viewsMonths').innerHTML = chart.months;
           history.hidden = false;
         } else history.hidden = true;
+        if (key === 'films') {
+          curatedDetail.innerHTML = curatedShelfMarkup(films, aisles);
+          curatedDetail.hidden = false;
+        } else curatedDetail.hidden = true;
         detailDialog.showModal();
       });
     });

@@ -14,7 +14,8 @@ const fields = {
   history: {hidden:true},
   summary: {innerHTML:''},
   heatmap: {innerHTML:''},
-  months: {innerHTML:''}
+  months: {innerHTML:''},
+  curated: {hidden:true,innerHTML:''}
 };
 const dialog = {
   opened:false,
@@ -40,6 +41,7 @@ const root = {
     if(selector==='#viewsSummary') return fields.summary;
     if(selector==='#viewsHeatmap') return fields.heatmap;
     if(selector==='#viewsMonths') return fields.months;
+    if(selector==='#curatedDetail') return fields.curated;
     if(selector==='[data-stat-close]') return closeButton;
     const match=selector.match(/data-stat="(\w+)"/);
     return match ? elements[match[1]] : null;
@@ -53,7 +55,8 @@ const stamp=offset=>{const d=new Date(today);d.setUTCDate(d.getUTCDate()+offset)
 let totals={views:314,members:2,discussions:15,posts:15,reviews:0,viewsByDay:[{day:stamp(-3),views:4},{day:stamp(-1),views:7},{day:stamp(0),views:2}],trackingStarted:stamp(-3)}, fail=false;
 const methods=[];
 const request=async(url,opts)=>{methods.push(opts.method);return Response.json(fail?{}:totals,{status:fail?503:200})};
-const counter=startStatsCounter({filmCount:287,root,request});
+const curatedFilms=[{id:'creature-feature',title:'Creature Feature',year:1985,category:'creatures',poster:'assets/creature-feature.jpg',note:'A practical-effects nightmare.'},{id:'haunted-house',title:'Haunted House',year:1989,category:'supernatural',poster:'assets/haunted-house.jpg',note:'A <script> should be escaped.'},{id:'night-signal',title:'Night Signal',year:1991,category:'scifi',poster:'assets/night-signal.jpg',note:'A broadcast from the wrong planet.'}];
+const counter=startStatsCounter({filmCount:287,films:curatedFilms,aisles:[{id:'creatures',title:'Creature features'},{id:'supernatural',title:'Haunted tapes'},{id:'scifi',title:'Sci-fi nightmares'}],root,request});
 try {
   await counter.ready;
   assert.deepEqual(Object.values(elements).map(e=>e.textContent),['314','287','2','15','15','0']);
@@ -81,8 +84,17 @@ try {
   triggers.films.clickHandler();
   assert.equal(fields.link.href,'/#shelves');
   assert.equal(fields.link.textContent,'Browse the Rental Shelves ↗');
+  assert.equal(fields.curated.hidden,false);
+  assert.match(fields.curated.innerHTML,/THE RACK BY DECADE/);
+  assert.match(fields.curated.innerHTML,/THE RACK BY GENRE/);
+  assert.match(fields.curated.innerHTML,/NEON COFFIN VIDEO \/ RENTAL RECORD/);
+  assert.match(fields.curated.innerHTML,/TODAY’S ROTATING STAFF PICK/);
+  assert.match(fields.curated.innerHTML,/src="\/assets\/(creature-feature|haunted-house|night-signal)\.jpg"/);
+  assert.match(fields.curated.innerHTML,/\?tape=(creature-feature|haunted-house|night-signal)#shelves/);
+  assert.doesNotMatch(fields.curated.innerHTML,/<script>/);
   triggers.views.clickHandler();
   assert.equal(fields.link.hidden,true);
+  assert.equal(fields.curated.hidden,true);
   closeButton.clickHandler();
   assert.equal(dialog.opened,false);
   totals.views=315; totals.posts=16; await counter.refresh(); assert.equal(elements.views.textContent,'315'); assert.equal(elements.posts.textContent,'16');
@@ -94,6 +106,7 @@ try {
   assert.match(html,/aria-haspopup="dialog"/);
   assert.match(html,/id="viewsHeatmap"/);
   assert.match(await readFile(new URL('stats-counter.js',rootURL),'utf8'),/Browse the Rental Shelves/);
+  assert.match(await readFile(new URL('app.js',rootURL),'utf8'),/new URLSearchParams\(location\.search\)\.get\('tape'\)/);
   assert.deepEqual(methods,['POST','GET','GET','GET','GET']);
   console.log('PASS: live totals, one anonymous homepage-view write, refresh and error behavior, and accessible detail popovers for all six stats.');
 } finally { counter.stop(); }
