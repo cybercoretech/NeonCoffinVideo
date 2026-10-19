@@ -85,7 +85,7 @@ $('#trioxinFilms').innerHTML=trioxinFilmIds.map((id,i)=>{const f=film(id);return
 function syncSaveButtons(){document.querySelectorAll('.trioxin-tape [data-save]').forEach(b=>{const yes=saved.has(b.dataset.save);b.textContent=yes?'On my shelf ✓':'Save to my shelf +';b.setAttribute('aria-pressed',String(yes))})}
 syncSaveButtons();
 
-import('./stats-counter.js').then(({startStatsCounter}) => startStatsCounter({filmCount: films.length}));
+import('./stats-counter.js?v=20261019a').then(({startStatsCounter}) => startStatsCounter({filmCount: films.length}));
 
 if(location.hash === "#artwork-credits") $("#creditsButton").click();
 
