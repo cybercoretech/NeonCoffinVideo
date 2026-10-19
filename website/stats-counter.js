@@ -1,5 +1,6 @@
 const statDetails = {
   views: {title: 'PAGE VIEWS', body: 'Counts homepage loads when this page records its anonymous counter request. Reloads count again. This is cumulative since tracking began, not a count of unique people. The counter stores only daily totals; it does not store visitor IDs, IP addresses, referrers, or campaign sources. Automated browsers that run the page scripts may also count.'},
+  active: {title: 'ON SITE NOW', body: 'An estimate of browser tabs that checked in during the last 90 seconds. It refreshes every 30 seconds and includes any page with site analytics enabled. Tabs are anonymous temporary sessions, not verified people; opening multiple tabs can count more than once. The site stores a random token hash and the current page for up to 90 seconds, with no IP address or visitor profile.', link: '/', linkLabel: 'Return to the Video Store ↗'},
   films: {title: 'CURATED TAPES', body: 'The number of titles in the curated rental catalog loaded on this page. It describes the catalog, not rentals, customers, or visits.', link: '/#shelves', linkLabel: 'Browse the Rental Shelves ↗'},
   members: {title: 'NIGHT CREATURES', body: 'Registered human community accounts. The automated Night Clerk account is excluded. This includes inactive accounts and does not mean those people are visiting now.', link: '/community.html', linkLabel: 'Visit the Midnight Lounge ↗'},
   discussions: {title: 'DISCUSSIONS', body: 'The number of topics opened in the Midnight Lounge. Replies add to Visible Posts, not to this count.', link: '/community.html', linkLabel: 'Open the discussions ↗'},
@@ -138,22 +139,25 @@ export function startStatsCounter({filmCount, films = [], aisles = [], root = do
       if (!response.ok) throw new Error('Counter unavailable');
       const stats = await response.json();
       if (!keys.every(key => Number.isSafeInteger(stats[key]) && stats[key] >= 0)) throw new Error('Invalid totals');
+      if (!Number.isSafeInteger(stats.siteActive) || stats.siteActive < 0) throw new Error('Invalid active count');
       if (stats.viewsByDay !== undefined && (!Array.isArray(stats.viewsByDay) || !stats.viewsByDay.every(row => /^\d{4}-\d{2}-\d{2}$/.test(row.day) && Number.isSafeInteger(row.views) && row.views >= 0))) throw new Error('Invalid view history');
       if (stats.trackingStarted !== undefined && stats.trackingStarted !== null && !/^\d{4}-\d{2}-\d{2}$/.test(stats.trackingStarted)) throw new Error('Invalid tracking start');
       if (stats.viewsByDay) dailyViews = stats.viewsByDay;
       if (stats.trackingStarted !== undefined) trackingStarted = stats.trackingStarted;
       keys.forEach(key => render(key, stats[key]));
-      note.textContent = 'DATABASE COUNTS REFRESH EVERY 60 SECONDS / ONE ANONYMOUS VIEW PER HOMEPAGE LOAD / NO VISITOR PROFILE';
+      render('active', stats.siteActive);
+      note.textContent = 'COUNTS REFRESH EVERY 30 SECONDS / ON SITE NOW = RECENT ANONYMOUS CHECK-INS / NO VISITOR PROFILE';
       note.dataset.state = 'ready';
     } catch {
       keys.forEach(key => render(key, null));
+      render('active', null);
       note.textContent = 'COUNTER TEMPORARILY UNAVAILABLE / RETRYING AUTOMATICALLY';
       note.dataset.state = 'unavailable';
     } finally { pending = false; }
   }
   const ready = refresh(true);
   const onVisible = () => { if (!root.hidden) refresh(); };
-  const timer = setInterval(onVisible, interval);
+  const timer = setInterval(onVisible, Math.min(interval, 30000));
   root.addEventListener('visibilitychange', onVisible);
   return {ready, refresh: () => refresh(), stop() { clearInterval(timer); root.removeEventListener('visibilitychange', onVisible); }};
 }
