@@ -92,6 +92,16 @@ export async function community(request,env){
   return reply({count:Number(active.count),members:online.results.map(m=>({handle:m.display_name||m.handle,role:env.ADMIN_GOOGLE_SUB&&m.google_sub===env.ADMIN_GOOGLE_SUB?'Administrator':'Member'})),windowSeconds:90});
  }
  if(path==='/api/community/reports'&&request.method==='GET'){if(!admin)fail('Moderator access required.',403);const reports=await db.prepare('SELECT r.id,r.reason,r.post,r.created,p.topic,p.body,m.handle FROM reports r JOIN posts p ON p.id=r.post JOIN members m ON m.id=r.author ORDER BY r.created DESC LIMIT 50').all();return reply({reports:reports.results})}
+ if(path==='/api/community/admin'&&request.method==='GET'){
+  if(!admin)fail('Administrator access required.',403);
+  const [overview,reports,topics,hiddenPosts]=await Promise.all([
+   stats(db),
+   db.prepare('SELECT r.id,r.reason,r.post,r.created,p.topic,p.body,m.handle FROM reports r JOIN posts p ON p.id=r.post JOIN members m ON m.id=r.author ORDER BY r.created DESC LIMIT 50').all(),
+   db.prepare('SELECT t.id,t.title,t.category,t.created,t.locked,m.handle,(SELECT COUNT(*) FROM posts p WHERE p.topic=t.id AND p.hidden=0) AS replies FROM topics t JOIN members m ON m.id=t.author ORDER BY t.created DESC LIMIT 40').all(),
+   db.prepare('SELECT p.id,p.topic,p.body,p.created,t.title,m.handle FROM posts p JOIN topics t ON t.id=p.topic JOIN members m ON m.id=p.author WHERE p.hidden=1 ORDER BY p.created DESC LIMIT 40').all()
+  ]);
+  return reply({overview,reports:reports.results,topics:topics.results,hiddenPosts:hiddenPosts.results});
+ }
  if(path==='/api/community/me'&&request.method==='GET')return reply({member:me?publicMember(me,{owner:true,admin}):null,admin,ready,ageConfirmed:!!me?.age_confirmed_at});
  if(me&&!me.age_confirmed_at&&path!=='/api/community/age-attest'&&path!=='/api/auth/logout')fail('Confirm that you are 18 or older to use your membership.',403);
  if(path==='/api/community/topics'&&request.method==='GET'){const cat=u.searchParams.get('category')||'',q=(u.searchParams.get('q')||'').slice(0,80);const offset=Math.min(Number(u.searchParams.get('offset'))||0,10000);if(offset<0)fail('Invalid page.');const data=await db.prepare('SELECT t.*,m.handle,COALESCE(NULLIF(m.display_name,\'\'),m.handle) AS displayName,m.is_bot AS isBot,(SELECT count(*) FROM posts p WHERE p.topic=t.id AND p.hidden=0) AS replies FROM topics t JOIN members m ON m.id=t.author WHERE (?=\'\' OR category=?) AND title LIKE ? ORDER BY created DESC LIMIT 21 OFFSET ?').bind(cat,cat,'%'+q+'%',offset).all();return reply({topics:data.results.slice(0,20),more:data.results.length>20})}
@@ -115,6 +125,8 @@ export async function community(request,env){
  if(path==='/api/community/shelf'){if(!Array.isArray(body.movies)||body.movies.length>300||body.movies.some(x=>typeof x!=='string'||!/^[-a-z0-9]{1,100}$/.test(x)))fail('Invalid shelf.');const unique=[...new Set(body.movies)];await db.batch([db.prepare('DELETE FROM shelves WHERE member=?').bind(me.id),...unique.map(movie=>db.prepare('INSERT INTO shelves VALUES(?,?)').bind(me.id,movie))]);return reply({ok:true})}
  if(path==='/api/community/report'){const post=await db.prepare('SELECT id FROM posts WHERE id=?').bind(body.post).first();if(!post)fail('Post not found.',404);await db.prepare('INSERT INTO reports VALUES(?,?,?,?,?)').bind(crypto.randomUUID(),me.id,body.post,text(body.reason,5,500),now()).run();return reply({ok:true})}
  if(path==='/api/community/moderate'){if(!admin)fail('Moderator access required.',403);await db.prepare('UPDATE posts SET hidden=? WHERE id=?').bind(body.hidden?1:0,body.post).run();return reply({ok:true})}
+ if(path==='/api/community/admin/topic-lock'){if(!admin)fail('Administrator access required.',403);if(typeof body.locked!=='boolean')fail('Choose whether to lock this discussion.');const topic=text(body.topic,1,80);if(!await db.prepare('SELECT id FROM topics WHERE id=?').bind(topic).first())fail('Discussion not found.',404);await db.prepare('UPDATE topics SET locked=? WHERE id=?').bind(body.locked?1:0,topic).run();return reply({ok:true,locked:body.locked})}
+ if(path==='/api/community/admin/report-dismiss'){if(!admin)fail('Administrator access required.',403);const report=text(body.report,1,80);if(!await db.prepare('SELECT id FROM reports WHERE id=?').bind(report).first())fail('Report not found.',404);await db.prepare('DELETE FROM reports WHERE id=?').bind(report).run();return reply({ok:true})}
  fail('Not found.',404);
  }catch(error){if(path==='/api/community/profile'&&String(error?.message||'').includes('UNIQUE constraint failed: members.handle'))return reply({error:'That handle is already in use. Choose another one.'},409);if(path.startsWith('/api/auth/email/')&&!error.status)console.error('Email membership request failed:',error?.message||error);return reply({error:error.status?error.message:'The lounge could not complete that request. Please try again.'},error.status||503)}
 }
