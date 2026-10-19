@@ -24,12 +24,27 @@
     <div id="dashboard" hidden>
       <div class="office-title"><div><p class="eyebrow">OWNER ACCESS / PRIVATE CONTROL ROOM</p><h1>THE NIGHT OFFICE</h1></div><span id="ownerName"></span></div>
       <p id="status" class="status" role="status"></p>
-      <section class="metric-grid" id="metrics" aria-label="Site overview"></section>
-      <section class="panel traffic-panel">
+      <section class="metric-grid" id="metrics" aria-label="Site overview" data-owner-only></section>
+      <section class="panel traffic-panel" data-owner-only>
         <div class="section-heading"><div><p class="eyebrow">LAST 30 TRACKED DAYS</p><h2>Homepage Counter Report</h2></div><small id="trafficNote"></small></div>
         <div id="trafficChart" class="traffic-chart" role="img" aria-label="Daily homepage loads, last 30 tracked days"></div>
       </section>
-      <section class="panel">
+      <section class="panel" data-owner-only>
+        <div class="section-heading"><div><p class="eyebrow">LAST 30 TRACKED DAYS / AGGREGATE ONLY</p><h2>Site traffic &amp; referrals</h2></div><small>No visitor profiles, IPs, or full referrers are stored.</small></div>
+        <div id="pageTraffic" class="record-list"></div>
+      </section>
+      <section class="panel" data-owner-only>
+        <div class="section-heading"><div><p class="eyebrow">CHANNEL / SEARCH / CAMPAIGN DESK</p><h2>Google &amp; YouTube tools</h2></div></div>
+        <div class="record-actions">
+          <a class="button" href="https://search.google.com/search-console?resource_id=sc-domain%3Aneoncoffinvideo.site" target="_blank" rel="noopener">Google Search Console ↗</a>
+          <a class="button" href="https://analytics.google.com/" target="_blank" rel="noopener">Google Analytics ↗</a>
+          <a class="button" href="https://studio.youtube.com/" target="_blank" rel="noopener">YouTube Studio ↗</a>
+          <a class="button" href="https://www.youtube.com/@neoncoffinvideo" target="_blank" rel="noopener">YouTube channel ↗</a>
+          <a class="button" href="https://neoncoffinvideo.site/late-returns" target="_blank" rel="noopener">Late Returns / Shorts source ↗</a>
+        </div>
+        <p class="helper">Search Console, Analytics, and YouTube Studio require your own signed-in Google account and setup. Use campaign links with <code>utm_source=youtube</code> to see YouTube referrals here.</p>
+      </section>
+      <section class="panel" data-owner-only>
         <div class="section-heading"><div><p class="eyebrow">PUBLISH AS THE OWNER</p><h2>Put a notice on the counter</h2></div></div>
         <p class="helper">Creates a clearly owner-authored discussion in The Counter on the Midnight Lounge.</p>
         <form id="announcementForm">
@@ -42,13 +57,17 @@
         <div class="section-heading"><div><p class="eyebrow">REVIEW &amp; RESPOND</p><h2>Reported posts <span id="reportCount" class="count"></span></h2></div></div>
         <div id="reports" class="record-list"></div>
       </section>
-      <section class="panel">
+      <section class="panel" data-owner-only>
         <div class="section-heading"><div><p class="eyebrow">DISCUSSION CONTROLS</p><h2>Recent discussions</h2></div></div>
         <div id="topics" class="record-list"></div>
       </section>
       <section class="panel">
         <div class="section-heading"><div><p class="eyebrow">RESTORE IF A POST WAS HIDDEN BY MISTAKE</p><h2>Hidden posts</h2></div></div>
         <div id="hiddenPosts" class="record-list"></div>
+      </section>
+      <section class="panel" data-owner-only>
+        <div class="section-heading"><div><p class="eyebrow">OWNER ONLY / ACCOUNT CONTROLS</p><h2>Members &amp; moderation roles</h2></div><small>Account suspensions revoke all active sessions.</small></div>
+        <div id="members" class="record-list"></div>
       </section>
       <p class="office-foot">The catalogue, artwork, and page layout are still maintained as site updates. This office manages Lounge content and moderation.</p>
     </div>
