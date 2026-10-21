@@ -15,7 +15,7 @@ Decorative motion follows Theme Packs → Atmospheric effects, the storefront At
 
 ## Research and adaptation
 
-[DiagPrint](https://cybercore-tech.github.io/diagprint/) was inspected directly, including its [effects script](https://cybercore-tech.github.io/diagprint/assets/js/fx.js?v=7) and [stylesheet](https://cybercore-tech.github.io/diagprint/assets/css/site.css?v=7). Its progress indicator, restrained neon frame, and pointer-highlight concepts were adapted into the existing Neon Coffin design. The additional poster shimmer fits the site's video-store identity.
+[DiagPrint](https://cybercoretech.github.io/diagprint/) was inspected directly, including its [effects script](https://cybercoretech.github.io/diagprint/assets/js/fx.js?v=7) and [stylesheet](https://cybercoretech.github.io/diagprint/assets/css/site.css?v=7). Its progress indicator, restrained neon frame, and pointer-highlight concepts were adapted into the existing Neon Coffin design. The additional poster shimmer fits the site's video-store identity.
 
 Implementation references: [MDN conic gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient), [Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), and [animation performance](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Animation_performance_and_frame_rate). Automatic full-screen flicker, confetti, and the DiagPrint neural mesh were not added.
 
